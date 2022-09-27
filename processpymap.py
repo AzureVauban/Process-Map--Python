@@ -58,7 +58,7 @@ class Node(NodeB):
         else:
             self.parent = None
         Node.instances += 1
-
+        self.findendpoint()
     def inputnumerics(self):  # todo rework this method
         """input the numeric data for the node"""
         A = eval(input(
@@ -76,14 +76,17 @@ class Node(NodeB):
                     '\x1B[37m do you need to create \x1B[34m' + str(self.parent.ingredient) + '\x1B[37m:'))
             self.amountneededpercraft = C
 
-    def searchforendpoints(self):
-        """search for endpoint nodes"""
+    def findendpoint(self):
+        """looks for endpoint nodes to start the math method from
+        """
         if len(self.children) > 0:
-            for childNode in self.children:
-                childNode.searchforendpoints()
+            for child in self.children.items():
+                if isinstance(child[1],Node):
+                    child[1].findendpoint()
+                else:
+                    raise TypeError
         else:
             arithmetic(self)
-
 
 def arithmetic(cur: Node) -> int:
     """arithmetic method for figuring out the amount resulted of an item
@@ -140,6 +143,8 @@ def populate(cur: Node):
     print('What ingredients do you need to create', cur.ingredient, end=':\n')
     while True:
         myinput = input('')
+        myinput = myinput.strip()
+        #! input checking
         duplicated : bool = False
         if len(inputqueue) > 0:
             for word in inputqueue.items():
