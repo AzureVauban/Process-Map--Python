@@ -1,6 +1,10 @@
 """rework this fit current development progress on V2
 - This is a reworked version of the Process Map (Python) V1, use as base for future versions
 """
+import math
+import sys
+
+
 class primary:
     """class for storing simple data about an item such as its name and how much is needed to create its parent
     """
@@ -82,19 +86,19 @@ class secondary(primary):
 
 
 def arithmetic(cur: secondary): #todo update code to be new math method
-    """ 
-    A = amount on hand
-    B = amount made per craft
-    C = amount needed
-    D = amount on hand for new node (D^P = E^C + A^P)
-    E = amount resulted
-    Equation for when B = 1: D = A/(B*C)
-    Equation for when B > 1: = D^P = D^C * B^P + A^P (C,child & P,parent) 
     #? expected amount on Silicon Board is 1328
-    if (cur.parentNode is not None):
-        arithmetic(cur.parentNode)
-    cur.amountresulted = D
-
+    tempnum : int = sys.maxsize #minimum amount resulted from queue
+    if len(cur.amountresultedqueue) > 0:
+        for number in cur.amountresultedqueue.items():
+            if number[1] < tempnum:
+                tempnum = number[1]
+    else:
+        tempnum = 0
+    cur.amountresulted = round(math.floor(cur.amountmadepercraft/cur.amountneededpercraft)*cur.amountonhand)
+    cur.amountresulted += round(math.floor(cur.amountmadepercraft/cur.amountneededpercraft)*tempnum)
+    if isinstance(cur.parent) and cur.parent is not None:
+        cur.parent.amountresultedqueue.update({cur.ingredient:cur.amountresulted})
+        arithmetic(cur.parent)
 
 def populate(currentNode=Node):
     """populate each node with subnodes"""
