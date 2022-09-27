@@ -20,7 +20,7 @@ class NodeB:
         """_summary_
 
         Args:
-            I (str, optional): name of the item. Defaults to ''.
+            name (str, optional): name of the item. Defaults to ''.
             red (int, optional): amount of the item you have on hand. Defaults to 0.
             blue (int, optional): amount of the parent item you create each time you craft it.
             Defaults to 1.
@@ -47,6 +47,17 @@ class Node(NodeB):
     instancekey: int = 0
 
     def __init__(self, name: str = '', par=None, red: int = 0, blue: int = 1, yellow: int = 1) -> None:
+        """_summary_
+
+        Args:
+            name (str, optional): name of the item. Defaults to ''.
+            pare (class, optional): parent instance of declared Node. Defaults to None
+            red (int, optional): amount of the item you have on hand. Defaults to 0.
+            blue (int, optional): amount of the parent item you create each time you craft it.
+            Defaults to 1.
+            yellow (int, optional): amount of item needed to craft the parent item one time.
+            Defaults to 1.
+        """
         super().__init__(name, red, blue, yellow)
         self.instancekey = Node.instances
         self.children = {}
@@ -54,18 +65,35 @@ class Node(NodeB):
         if self.parent is not None:
             self.parent.children.update({self.instancekey: self})
         Node.instances += 1
-        self.inputnumerics()
+        if __name__ == '__main__':
+            #! this line is added so that it doesn't mess up the Node instance unit testing
+            self.__inputnumerics()
 
-
-    def inputnumerics(self):
+    def __inputnumerics(self):
         """prompt input of the numeric data for the instance from the user"""
-        print('How much',self.ingredient,'do you have on hand: ')
-        self.amountonhand = self.__promptint()
+        while True:
+            print('How much', self.ingredient, 'do you have on hand: ')
+            self.amountonhand = self.__promptint()
+            if self.amountonhand < 0:
+                print('That number is not valid')
+            else:
+                break
         if self.parent is not None:
-            print('How much',self.ingredient,'do you need to craft ',self.parent.ingredient,'one time: ')
-            self.amountneeded = self.__promptint()
-            print('How much ',self.parent,'do you create each time you craft it: ')
-            self.amountmadepercraft = self.__promptint()
+            while True:
+                print('How much', self.ingredient, 'do you need to craft ',self.parent.ingredient, '1 time: ')
+                self.amountneeded = self.__promptint()
+                if self.amountneeded < 1:
+                    print('That number is not valid')
+                else:
+                    break
+            while True:
+                print('How much ', self.parent.ingredient,'do you create each time you craft it: ')
+                self.amountmadepercraft = self.__promptint()
+                if self.amountmadepercraft < 1:
+                    print('That number is not valid')
+                else:
+                    break
+
     def __promptint(self) -> int:
         """prompt the user to input a returnable integer
 
@@ -73,7 +101,7 @@ class Node(NodeB):
             int: an interger that is used to set the amountneeded, amount on hand, and
             the amount made per craft for a Node instance
         """
-        mynum : int = 0
+        mynum: int = 0
         while True:
             temp = input('')
             if not temp.isdigit():
@@ -82,6 +110,8 @@ class Node(NodeB):
                 mynum = int(temp)
                 break
         return mynum
+
+
 def recursivearithmetic(cur: Node) -> int:
     """figure out the amount resulted of the augment Node instance,
     math function used: D = (B/C)A + (B/C)(min(Dqueue))
@@ -109,6 +139,7 @@ def recursivearithmetic(cur: Node) -> int:
         recursivearithmetic(cur.parent)
     return cur.amountresulted
 
+
 def searchforendpoint(cur: Node):
     """looks for endpoint nodes to start the math method from
     """
@@ -117,7 +148,6 @@ def searchforendpoint(cur: Node):
             searchforendpoint(child[1])
     else:
         recursivearithmetic(cur)
-
 
 
 def populate(cur: Node):
@@ -162,12 +192,13 @@ def populate(cur: Node):
             print('Invalid input, we are trying to make that item!')
         elif myinput == cur.ingredient:
             print('You cannot type that in')
-        else:
+        elif len(myinput) == 0:
             break
+        else:
+            inputqueue.update({len(inputqueue):myinput})
     # create new child instances
     for newnodename in inputqueue.items():
         newchild: Node = Node(newnodename[1], cur)
-        newchild.inputnumerics()
     # continue method runtime
     for child in cur.children.items():
         if isinstance(child[1], Node):
@@ -186,7 +217,6 @@ if __name__ == '__main__':
         else:
             break
     head = Node(itemname, None)
-    head.inputnumerics()
     populate(head)
     searchforendpoint(head)
     print('# resulted of', head.ingredient, end=str(head.amountresulted)+'\n')
