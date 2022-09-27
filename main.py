@@ -188,4 +188,5 @@ if __name__ == '__main__':
     head = Node(itemname, None)
     head.inputnumerics()
     populate(head)
+    searchforendpoint(head)
     print('# resulted of', head.ingredient, end=str(head.amountresulted)+'\n')
