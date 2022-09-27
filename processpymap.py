@@ -1,38 +1,26 @@
-"""rework this fit current development progress on V2
-"""
-class primary:
-    ingredient :str = ''
-    amountonhand :int = 0
-    amountneededpercraft :int = 0
-    amountmadepercraft :int = 0
-    amountresulted :int = 0
-    amountresultedqueue :dict = {}  # use this to test the math function
-    def __init__(self,I :str = '',red : int = 0, blue: int = 0, yellow : int = 0) -> None:
-    #def __init__(self, I='', P=None, on_hand=0, made_per_craft=0, needed_per_craft=0):
-        self.amountonhand = red
-        self.amountmadepercraft = blue
-        self.amountneededpercraft = yellow
-        self.amountresultedqueue: dict = {}
+class Node:
+    ingredient = ''
+    amountonhand = 0
+    amountneededpercraft = 0
+    amountmadepercraft = 0
+    amountresulted = 0
+    amountresultedqueue = []  # use this to test the math function
+    parentNode = None
+    childrenNodes = []
+
+    def __init__(self, I='', P=None, on_hand=0, made_per_craft=0, needed_per_craft=0):
+        """Default Node Constructor"""
         self.ingredient = I
+        self.parentNode = P
+        if (self.parentNode != None):
+            self.parentNode.childrenNodes.append(self)
         self.amountresulted = 0
-class secondary(primary):
-    parent = None
-    children :dict = {}
-    generation : int = 0
-    instances : int = 0
-    instancekey : int = 0
-    def __init__(self, I: str = '',P = None, red: int = 0, blue: int = 0, yellow: int = 0) -> None:
-        super().__init__(I, red, blue, yellow)
-        self.instancekey = secondary.instances
-        self.children = {}
-        self.ingredient = I
-        if P is not None and isinstance(P,secondary):
-            self.parent = P
-            self.parent.children.update({self.instancekey:self})
-        else:
-            self.parent = None
-        secondary.instances += 1
-    def inputnumerics(self): #todo rework this method
+        self.amountneededpercraft = needed_per_craft
+        self.amountmadepercraft = made_per_craft
+        self.amountonhand = on_hand
+        self.childrenNodes = []
+        self.amountresultedqueue = []
+    def inputnumerics(self):
         """input the numeric data for the node"""
         A = eval(input('How much \x1B[33m' +  str(self.ingredient) + '\x1B[37m do you have on hand: '))
         B = 0
@@ -42,24 +30,24 @@ class secondary(primary):
         C = 1
         self.amountonhand = A
         self.amountmadepercraft = B
-        if self.parent != None:
-            C = int(input('How much \x1B[33m' + str(self.ingredient) + '\x1B[37m do you need to create \x1B[34m' + str(self.parent.ingredient) +'\x1B[37m:'))
+        if self.parentNode != None:
+            C = int(input('How much \x1B[33m' + str(self.ingredient) + '\x1B[37m do you need to create \x1B[34m' + str(self.parentNode.ingredient) +'\x1B[37m:'))
             self.amountneededpercraft = C
     def traceback(self, output=False):
         """output trail"""
         if output == True:
             print('TRAIL: ', end='')
-        if self.parent != None:
+        if self.parentNode != None:
             print(self.ingredient, '-> ', end='')
         else:
             print('\x1B[35m', self.ingredient, '\x1B[37m')
 
-        if self.parent != None:
-            self.parent.traceback()
+        if self.parentNode != None:
+            self.parentNode.traceback()
     def searchforendpoints(self):
         """search for endpoint nodes"""
-        if len(self.children) > 0:
-            for childNode in self.children:
+        if len(self.childrenNodes) > 0:
+            for childNode in self.childrenNodes:
                 childNode.searchforendpoints()
         else:
             recursivearithmetic(self)
@@ -117,7 +105,7 @@ def recursivearithmetic(currentNode=Node):
         D = currentNode.amountonhand//(currentNode.amountneededpercraft *
                                        currentNode.amountneededpercraft)
     """recursive function call """
-    if (currentNode.parentNode is not None):
+    if (currentNode.parentNode != None):
         recursivearithmetic(currentNode.parentNode)
     currentNode.amountresulted = D
 
@@ -144,12 +132,12 @@ def populate(currentNode=Node):
             populate(newNode)
 
 
-if __name__ == '__main__':
-    print('\x1B[32mbeginning process\x1B[37m')
-    itemname = input('What is the name of the item you want to create: ')
-    head = Node(itemname, None)
-    head.inputnumerics()
-    populate(head)
-    print('The amount of',head.ingredient,'possible for you to create with all these values is: \x1B[32m',head.returnresultedamount())
-    """terminating process"""
-    print('\x1B[31mterminating process\x1B[37m')
+"""beginning process"""
+print('\x1B[32mbeginning process\x1B[37m')
+itemname = input('What is the name of the item you want to create: ')
+head = Node(itemname, None)
+head.inputnumerics()
+populate(head)
+print('The amount of',head.ingredient,'possible for you to create with all these values is: \x1B[32m',head.returnresultedamount())
+"""terminating process"""
+print('\x1B[31mterminating process\x1B[37m')
