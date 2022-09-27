@@ -47,7 +47,7 @@ class Node(NodeB):
     instancekey: int = 0
 
     def __init__(self, name: str = '', par=None, red: int = 0, blue: int = 1, yellow: int = 1) -> None:
-        """_summary_
+        """default constructor for Node instance, stores identifying features of an item's information
 
         Args:
             name (str, optional): name of the item. Defaults to ''.
@@ -63,7 +63,10 @@ class Node(NodeB):
         self.children = {}
         self.parent = par
         if self.parent is not None:
+            self.generation = self.parent.generation + 1
             self.parent.children.update({self.instancekey: self})
+        else:
+            self.generation = 0
         Node.instances += 1
         if __name__ == '__main__':
             #! this line is added so that it doesn't mess up the Node instance unit testing
