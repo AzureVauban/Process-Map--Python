@@ -120,7 +120,6 @@ def searchforendpoint(cur: Node):
 
 
 
-
 def populate(cur: Node):
     """creates new child instances during script runtime
 
