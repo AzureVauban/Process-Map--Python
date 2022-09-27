@@ -91,45 +91,6 @@ def arithmetic(cur: secondary): #todo update code to be new math method
     Equation for when B = 1: D = A/(B*C)
     Equation for when B > 1: = D^P = D^C * B^P + A^P (C,child & P,parent) 
     #? expected amount on Silicon Board is 1328
-    """
-    D = 0
-    if cur.parentNode == None and len(cur.childrenNodes) > 0:
-        """Node Type: Head"""
-        """solve for D"""
-        if len(cur.amountresultedqueue) == 1:
-            D += cur.amountresultedqueue[0]
-        else:
-            D += min(cur.amountresultedqueue)
-        D += cur.amountonhand
-        cur.amountresulted = D
-
-    elif cur.parentNode != None and len(cur.childrenNodes) > 0:
-        """Node Type: Body"""
-        """solve for D"""
-        if len(cur.amountresultedqueue) == 1:
-            D += cur.amountresultedqueue[0]
-        else:
-            D += min(cur.amountresultedqueue)
-        D += cur.amountonhand
-        """peform math function"""
-        if (cur.amountmadepercraft > 1):
-            cur.parentNode.amountresultedqueue.append(
-                (D*cur.parentNode.amountmadepercraft)+cur.amountonhand)
-        else:
-            cur.parentNode.amountresultedqueue.append(
-                D//(cur.amountmadepercraft * cur.amountneededpercraft))
-
-    elif cur.parentNode != None and len(cur.childrenNodes) == 0:
-        """Node Type: Endpoint"""
-        """find the amount resulted and input it into a queue of children amount resulted for the direct parent"""
-        cur.amountresulted = cur.amountonhand // (
-            cur.amountmadepercraft * cur.amountneededpercraft)
-        cur.parentNode.amountresultedqueue.append(
-            cur.amountresulted)
-    else:
-        D = cur.amountonhand//(cur.amountneededpercraft *
-                                       cur.amountneededpercraft)
-    """recursive function call """
     if (cur.parentNode is not None):
         arithmetic(cur.parentNode)
     cur.amountresulted = D
