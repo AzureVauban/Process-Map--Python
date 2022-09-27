@@ -213,6 +213,9 @@ def populate(cur: Node):
 
 
 if __name__ == '__main__':
+    # todo add code to prompt the user which mode they want, A or B
+    # Mode A : How much of item A can I make
+    # Mode B: How much of Item B,C,D (endpoint instances), would I need to make X amount of item A
     # prompt user to type in the name of the item they want to create
     while True:
         itemname = input('What is the name of the item you want to create: ')
