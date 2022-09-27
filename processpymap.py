@@ -166,6 +166,7 @@ def populate(cur: Node):
             raise TypeError
 
 if __name__ == '__main__':
+    # prompt user to type in the name of the item they want to create
     while True:
         itemname = input('What is the name of the item you want to create: ')
         itemname = itemname.strip()
