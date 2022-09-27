@@ -54,20 +54,26 @@ class Node(NodeB):
         if self.parent is not None:
             self.parent.children.update({self.instancekey: self})
         Node.instances += 1
-
-    def inputnumerics(self):  # todo rework this method
-        """input the numeric data for the node"""
-        print('fixme dingus!')
-    def __promptint() -> int:
+        self.inputnumerics()
+    def inputnumerics(self):
+        """prompt input of the numeric data for the instance from the user"""
+        print('How much',self.ingredient,'do you have on hand: ')
+        self.amountonhand = self.__promptint()
+        if self.parent is not None:
+            print('How much',self.ingredient,'do you need to craft ',self.parent.ingredient,'one time: ')
+            self.amountneeded = self.__promptint()
+            print('How much ',self.parent,'do you create each time you craft it: ')
+            self.amountmadepercraft = self.__promptint()
+    def __promptint(self) -> int:
         mynum : int = 0
         while True:
-            temp = int(input(''))
+            temp = input('')
             if not temp.isdigit():
                 print('you can only type in a postive interger')
             else:
-                mynum = temp
+                mynum = int(temp)
                 break
-
+        return mynum
 def recursivearithmetic(cur: Node) -> int:
     """figure out the amount resulted of the augment Node instance,
     math function used: D = (B/C)A + (B/C)(min(Dqueue))
