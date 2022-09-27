@@ -42,14 +42,14 @@ class secondary(primary):
         C = 1
         self.amountonhand = A
         self.amountmadepercraft = B
-        if self.parent != None:
+        if self.parent is not None:
             C = int(input('How much \x1B[33m' + str(self.ingredient) + '\x1B[37m do you need to create \x1B[34m' + str(self.parent.ingredient) +'\x1B[37m:'))
             self.amountneededpercraft = C
     def traceback(self, output=False):
         """output trail"""
         if output == True:
             print('TRAIL: ', end='')
-        if self.parent != None:
+        if self.parent is not None:
             print(self.ingredient, '-> ', end='')
         else:
             print('\x1B[35m', self.ingredient, '\x1B[37m')
