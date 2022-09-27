@@ -14,7 +14,7 @@ class NodeB:
     amountneededpercraft: int = 0
     amountmadepercraft: int = 0
     amountresulted: int = 0
-    amountresultedqueue: dict = {}  # use this to test the math function
+    queueamountresulted: dict = {}  # use this to test the math function
 
     def __init__(self, name: str = '', red: int = 0, blue: int = 1, yellow: int = 1) -> None:
         """_summary_
@@ -30,7 +30,7 @@ class NodeB:
         self.amountonhand = red
         self.amountmadepercraft = blue
         self.amountneededpercraft = yellow
-        self.amountresultedqueue = {}
+        self.queueamountresulted = {}
         self.ingredient = name
         self.amountresulted = 0
 
@@ -72,31 +72,34 @@ class Node(NodeB):
                     '\x1B[37m do you need to create \x1B[34m' + str(self.parent.ingredient) + '\x1B[37m:'))
             self.amountneededpercraft = C
 
-def arithmetic(cur: Node) -> int:
-    """arithmetic method for figuring out the amount resulted of an item
-
-    Args:
-        cur (Node): instance
+def recursivearithmetic(current: Node) -> int:
+    """figure out the amount resulted of the augment Node instance,
+    math function used: D = (B/C)A + (B/C)(min(Dqueue))
+    - if there is no values in the queue it will default to 0
+    Returns:
+        int: returns the amount resulted of augment Node instance
     """
-    # ? expected amount on Silicon Board is 1328
-    tempnum: int = sys.maxsize  # minimum amount resulted from queue
-    if len(cur.amountresultedqueue) > 0:
-        for number in cur.amountresultedqueue.items():
-            if number[1] < tempnum:
-                tempnum = number[1]
+    # check and set minimum if queue is not empty
+    tentativeinterger: int = sys.maxsize
+    if len(current.queueamountresulted) == 0:
+        tentativeinterger = 0
     else:
-        tempnum = 0
-    # main math method
-    cur.amountresulted = round(math.floor(
-        cur.amountmadepercraft/cur.amountneededpercraft)*cur.amountonhand)
-    cur.amountresulted += round(math.floor(cur.amountmadepercraft /
-                                cur.amountneededpercraft)*tempnum)
-    # pass along data to parent instance
-    if isinstance(cur.parent) and cur.parent is not None:
-        cur.parent.amountresultedqueue.update(
-            {cur.ingredient: cur.amountresulted})
-        arithmetic(cur.parent)
-    return cur.amountresulted
+        for myinterger in current.queueamountresulted.items():
+            if myinterger[1] < tentativeinterger:
+                tentativeinterger = myinterger[1]
+    # tenative arithmetic code
+    # red = (current.amountmadepercraft / current.amountneeded)
+    # black = (red*current.amountonhand) + (red*tentativeinterger)
+    # black = round(math.floor(black))
+    # current.amountresulted = black
+    current.amountresulted = round(math.floor(((current.amountmadepercraft / current.amountneeded) *
+                                               current.amountonhand) + ((current.amountmadepercraft / current.amountneeded)*tentativeinterger)))  # pylint:disable=C0301
+    # recursively call the method
+    if current.parent is not None:
+        current.parent.queueamountresulted.update(
+            {current.ingredient: current.amountresulted})
+        recursivearithmetic(current.parent)
+    return current.amountresulted
 
 def searchforendpoint(cur: Node):
     """looks for endpoint nodes to start the math method from
@@ -105,7 +108,7 @@ def searchforendpoint(cur: Node):
         for child in cur.children.items():
             searchforendpoint(child[1])
     else:
-        arithmetic(cur)
+        recursivearithmetic(cur)
 
 
 
