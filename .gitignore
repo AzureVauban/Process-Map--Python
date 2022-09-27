@@ -3,3 +3,5 @@ __pycache__/solution.cpython-310.pyc
 .vscode/settings.json
 __pycache__/myunittests.cpython-310.pyc
 __pycache__/test.cpython-310.pyc
+unittests/__pycache__/test.cpython-310.pyc
+__pycache__/main.cpython-310.pyc
