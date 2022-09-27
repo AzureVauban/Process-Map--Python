@@ -28,6 +28,10 @@ class primary:
         self.ingredient = name
         self.amountresulted = 0
 class secondary(primary):
+    """stores identifiable features of an item, such as the parent and children instances
+    Args:
+        primary (_type_): parent class of item
+    """
     parent = None
     children :dict = {}
     generation : int = 0
