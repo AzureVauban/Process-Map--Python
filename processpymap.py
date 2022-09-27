@@ -101,8 +101,17 @@ def arithmetic(cur: Node) -> int:
 def populate(cur: Node):
     """populate each node with subnodes"""
     inputqueue :dict = {}
+    #output ingredient trail
     if cur.parentNode is not None:
-        pass
+        temp : Node = cur
+        while temp.parent is not None:
+            print('TRAIL: ',end='')
+            if temp.parent is not None:
+                print(temp.ingredient,end='-> ')
+            else:
+                print(temp.ingredient)
+            temp = temp.parent
+        del temp
     print('What ingredients do you need to create',cur.ingredient,end=':\n')
     while True:
         i = input('')
