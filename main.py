@@ -30,7 +30,7 @@ class NodeB:
         self.amountonhand = red
         self.amountmadepercraft = blue
         self.amountneededpercraft = yellow
-        self.amountresultedqueue: dict = {}
+        self.amountresultedqueue = {}
         self.ingredient = name
         self.amountresulted = 0
 
@@ -46,13 +46,12 @@ class Node(NodeB):
     instances: int = 0
     instancekey: int = 0
 
-    def __init__(self, name: str = '', par=None, red: int = 0, blue: int = 0, yellow: int = 0) -> None:
+    def __init__(self, name: str = '', par=None, red: int = 0, blue: int = 1, yellow: int = 1) -> None:
         super().__init__(name, red, blue, yellow)
         self.instancekey = Node.instances
         self.children = {}
-        self.ingredient = name
         self.parent = par
-        if par is not None and isinstance(par, Node):
+        if self.parent is not None:
             self.parent.children.update({self.instancekey: self})
         Node.instances += 1
 

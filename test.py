@@ -2,7 +2,7 @@
 """
 import unittest
 
-from solution import Node, searchforendpoint
+from main import Node, searchforendpoint
 
 # test tree - Focusing Array
 focusingarray: Node = Node('Focusing Array', None, 1, 1, 1)
