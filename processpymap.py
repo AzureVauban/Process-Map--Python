@@ -116,10 +116,12 @@ def populate(cur: Node):
     """creates new child instances during script runtime
 
     Args:
-        cur (Node): 
+        cur (Node): parent instance, creates children instances for this node
 
     Raises:
-        TypeError: _description_
+        TypeError: this method continues recursively, if the child is not an instance
+        of the same class as the augment, this is unintended behavior and will raise an error
+        to catch it
     """
     inputqueue: dict = {}
     checkstring: str = cur.ingredient
