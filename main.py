@@ -80,14 +80,16 @@ class Node(NodeB):
                 break
         if self.parent is not None:
             while True:
-                print('How much', self.ingredient, 'do you need to craft ',self.parent.ingredient, '1 time: ')
+                print('How much', self.ingredient, 'do you need to craft ',
+                      self.parent.ingredient, '1 time: ')
                 self.amountneeded = self.__promptint()
                 if self.amountneeded < 1:
                     print('That number is not valid')
                 else:
                     break
             while True:
-                print('How much ', self.parent.ingredient,'do you create each time you craft it: ')
+                print('How much ', self.parent.ingredient,
+                      'do you create each time you craft it: ')
                 self.amountmadepercraft = self.__promptint()
                 if self.amountmadepercraft < 1:
                     print('That number is not valid')
@@ -195,10 +197,10 @@ def populate(cur: Node):
         elif len(myinput) == 0:
             break
         else:
-            inputqueue.update({len(inputqueue):myinput})
+            inputqueue.update({len(inputqueue): myinput})
     # create new child instances
     for newnodename in inputqueue.items():
-        newchild: Node = Node(newnodename[1], cur)
+        newchild: Node = Node(newnodename[1], cur)  # pylint:disable=W0612
     # continue method runtime
     for child in cur.children.items():
         if isinstance(child[1], Node):
