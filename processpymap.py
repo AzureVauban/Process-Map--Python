@@ -1,6 +1,7 @@
 """rework this fit current development progress on V2
 - This is a reworked version of the Process Map (Python) V1, use as base for future versions
 """
+from lib2to3.pytree import type_repr
 import math
 import sys
 
@@ -111,7 +112,15 @@ def arithmetic(cur: Node) -> int:
     return cur.amountresulted
 
 
-def populate(cur: Node):  # todo update doctstring for this method
+def populate(cur: Node):
+    """creates new child instances during script runtime
+
+    Args:
+        cur (Node): 
+
+    Raises:
+        TypeError: _description_
+    """
     inputqueue: dict = {}
     checkstring: str = cur.ingredient
     # output ingredient trail
@@ -125,26 +134,34 @@ def populate(cur: Node):  # todo update doctstring for this method
                 print(temp.ingredient)
             temp = temp.parent
         checkstring = temp.ingredient
-        del temp
-    # prompt user to input ingredients
+    # prompt user to input ingredienta
     print('What ingredients do you need to create', cur.ingredient, end=':\n')
     while True:
         myinput = input('')
-        if myinput == cur.ingredient:
-            print('You cannot type that in')
+        duplicated : bool = False
+        if len(inputqueue) > 0:
+            for word in inputqueue.items():
+                duplicated = word[1] == checkstring
+                if duplicated:
+                    break
+        if duplicated:
+            print('You already typed that in')
         elif myinput == checkstring:
             print('Invalid input, we are trying to make that item!')
+        elif myinput == cur.ingredient:
+            print('You cannot type that in')
         else:
             break
-    if len(inputqueue) > 0:
-        for nodeName in inputqueue:
-            temp = Node(nodeName, cur)
-            temp.inputnumerics()
-    if len(cur.childrenNodes) > 0:
-        """recursive function call"""
-        for newNode in cur.childrenNodes:
-            populate(newNode)
-
+    # create new child instances
+    for newnodename in inputqueue.items():
+        newchild : Node = Node(newnodename[1],cur)
+        newchild.inputnumerics()
+    # continue method runtime
+    for child in cur.children.items():
+        if isinstance(child[1],Node):
+            populate(child[1])
+        else:
+            raise TypeError
 
 if __name__ == '__main__':
     itemname = input('What is the name of the item you want to create: ')
