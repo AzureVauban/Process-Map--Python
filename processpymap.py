@@ -2,19 +2,30 @@
 - This is a reworked version of the Process Map (Python) V1, use as base for future versions
 """
 class primary:
+    """class for storing simple data about an item such as its name and how much is needed to create its parent
+    """
     ingredient :str = ''
     amountonhand :int = 0
     amountneededpercraft :int = 0
     amountmadepercraft :int = 0
     amountresulted :int = 0
     amountresultedqueue :dict = {}  # use this to test the math function
-    def __init__(self,I :str = '',red : int = 0, blue: int = 0, yellow : int = 0) -> None:
-    #def __init__(self, I='', P=None, on_hand=0, made_per_craft=0, needed_per_craft=0):
+    def __init__(self,name :str = '',red : int = 0, blue: int = 1, yellow : int = 1) -> None:
+        """_summary_
+
+        Args:
+            I (str, optional): name of the item. Defaults to ''.
+            red (int, optional): amount of the item you have on hand. Defaults to 0.
+            blue (int, optional): amount of the parent item you create each time you craft it.
+            Defaults to 1.
+            yellow (int, optional): amount of item needed to craft the parent item one time.
+            Defaults to 1.
+        """
         self.amountonhand = red
         self.amountmadepercraft = blue
         self.amountneededpercraft = yellow
         self.amountresultedqueue: dict = {}
-        self.ingredient = I
+        self.ingredient = name
         self.amountresulted = 0
 class secondary(primary):
     parent = None
@@ -22,13 +33,13 @@ class secondary(primary):
     generation : int = 0
     instances : int = 0
     instancekey : int = 0
-    def __init__(self, I: str = '',P = None, red: int = 0, blue: int = 0, yellow: int = 0) -> None:
-        super().__init__(I, red, blue, yellow)
+    def __init__(self, name: str = '',par = None, red: int = 0, blue: int = 0, yellow: int = 0) -> None:
+        super().__init__(name, red, blue, yellow)
         self.instancekey = secondary.instances
         self.children = {}
-        self.ingredient = I
-        if P is not None and isinstance(P,secondary):
-            self.parent = P
+        self.ingredient = name
+        if par is not None and isinstance(par,secondary):
+            self.parent = par
             self.parent.children.update({self.instancekey:self})
         else:
             self.parent = None
