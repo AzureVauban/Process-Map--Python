@@ -51,12 +51,11 @@ class Node(NodeB):
         self.instancekey = Node.instances
         self.children = {}
         self.ingredient = name
+        self.parent = par
         if par is not None and isinstance(par, Node):
-            self.parent = par
             self.parent.children.update({self.instancekey: self})
-        else:
-            self.parent = None
         Node.instances += 1
+
     def inputnumerics(self):  # todo rework this method
         """input the numeric data for the node"""
         A = eval(input(
@@ -73,18 +72,6 @@ class Node(NodeB):
             C = int(input('How much \x1B[33m' + str(self.ingredient) +
                     '\x1B[37m do you need to create \x1B[34m' + str(self.parent.ingredient) + '\x1B[37m:'))
             self.amountneededpercraft = C
-
-def searchforendpoint(cur : Node):
-    """looks for endpoint nodes to start the math method from
-    """
-    if len(cur.children) > 0:
-        for child in cur.children.items():
-            if isinstance(child[1],Node):
-                child[1].searchforendpoint()
-            else:
-                raise TypeError
-    else:
-        arithmetic(cur)
 
 def arithmetic(cur: Node) -> int:
     """arithmetic method for figuring out the amount resulted of an item
@@ -111,6 +98,17 @@ def arithmetic(cur: Node) -> int:
             {cur.ingredient: cur.amountresulted})
         arithmetic(cur.parent)
     return cur.amountresulted
+
+def searchforendpoint(cur: Node):
+    """looks for endpoint nodes to start the math method from
+    """
+    if len(cur.children) > 0:
+        for child in cur.children.items():
+            searchforendpoint(child[1])
+    else:
+        arithmetic(cur)
+
+
 
 
 def populate(cur: Node):
@@ -143,7 +141,7 @@ def populate(cur: Node):
         myinput = input('')
         myinput = myinput.strip()
         #! input checking
-        duplicated : bool = False
+        duplicated: bool = False
         if len(inputqueue) > 0:
             for word in inputqueue.items():
                 duplicated = word[1] == checkstring
@@ -159,14 +157,15 @@ def populate(cur: Node):
             break
     # create new child instances
     for newnodename in inputqueue.items():
-        newchild : Node = Node(newnodename[1],cur)
+        newchild: Node = Node(newnodename[1], cur)
         newchild.inputnumerics()
     # continue method runtime
     for child in cur.children.items():
-        if isinstance(child[1],Node):
+        if isinstance(child[1], Node):
             populate(child[1])
         else:
             raise TypeError
+
 
 if __name__ == '__main__':
     # prompt user to type in the name of the item they want to create
@@ -178,6 +177,6 @@ if __name__ == '__main__':
         else:
             break
     head = Node(itemname, None)
-    head.inputnumerics()
-    populate(head)
-    print('# resulted of',head.ingredient,end=str(head.amountresulted)+'\n')
+    # head.inputnumerics()
+    # populate(head)
+    print('# resulted of', head.ingredient, end=str(head.amountresulted)+'\n')

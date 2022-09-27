@@ -32,8 +32,14 @@ copperore: Node = Node('Copper Ore', copperbar, 2, 1, 2)
 searchforendpoint(focusingarray)
 
 
-class mytests(unittest.TestCase):
-    def testfocusingarray(self):
-        """sample unit test
+class tests(unittest.TestCase):
+    """_summary_
+
+    Args:
+        unittest (_type_): _description_
+    """
+    def test1(self):
+        """_summary_
         """
-        self.assertEqual(focusingarray.amountresulted, 48)
+        self.assertTrue(focusingarray, not None)
+        
