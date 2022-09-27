@@ -55,6 +55,8 @@ class Node(NodeB):
             self.parent.children.update({self.instancekey: self})
         Node.instances += 1
         self.inputnumerics()
+
+
     def inputnumerics(self):
         """prompt input of the numeric data for the instance from the user"""
         print('How much',self.ingredient,'do you have on hand: ')
@@ -65,6 +67,12 @@ class Node(NodeB):
             print('How much ',self.parent,'do you create each time you craft it: ')
             self.amountmadepercraft = self.__promptint()
     def __promptint(self) -> int:
+        """prompt the user to input a returnable integer
+
+        Returns:
+            int: an interger that is used to set the amountneeded, amount on hand, and
+            the amount made per craft for a Node instance
+        """
         mynum : int = 0
         while True:
             temp = input('')
