@@ -222,3 +222,4 @@ if __name__ == '__main__':
     populate(head)
     searchforendpoint(head)
     print('# resulted of', head.ingredient, end=str(head.amountresulted)+'\n')
+    # prompt the user if they want to figure out the amount resulted of another item
