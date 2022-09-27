@@ -99,8 +99,9 @@ def arithmetic(cur: Node) -> int:
     return cur.amountresulted
 
 def populate(cur: Node):
-    """populate each node with subnodes"""
+    
     inputqueue :dict = {}
+    checkstring : str = cur.ingredient
     #output ingredient trail
     if cur.parentNode is not None:
         temp : Node = cur
@@ -111,12 +112,16 @@ def populate(cur: Node):
             else:
                 print(temp.ingredient)
             temp = temp.parent
+        checkstring = temp.ingredient
         del temp
+    # prompt user to input ingredients
     print('What ingredients do you need to create',cur.ingredient,end=':\n')
     while True:
-        i = input('')
-        if (len(i) > 0):
-            inputqueue.append(i)
+        myinput = input('')
+        if myinput == cur.ingredient:
+            print('You cannot type that in')
+        elif myinput == checkstring:
+            print('Invalid input, we are trying to make that item!')
         else:
             break
     if len(inputqueue) > 0:
