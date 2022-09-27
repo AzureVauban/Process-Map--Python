@@ -63,14 +63,14 @@ class secondary(primary):
             self.amountneededpercraft = C
     def traceback(self, output: bool =False):
         """output trail"""
-        if output == True:
+        if output is True:
             print('TRAIL: ', end='')
         if self.parent is not None:
             print(self.ingredient, '-> ', end='')
         else:
             print('\x1B[35m', self.ingredient, '\x1B[37m')
 
-        if self.parent != None:
+        if self.parent is not None:
             self.parent.traceback()
     def searchforendpoints(self):
         """search for endpoint nodes"""
@@ -79,12 +79,9 @@ class secondary(primary):
                 childNode.searchforendpoints()
         else:
             arithmetic(self)
-    def returnresultedamount(self):
-        self.searchforendpoints()
-        return self.amountresulted
 
 
-def arithmetic(cur: secondary):
+def arithmetic(cur: secondary): #todo update code to be new math method
     """ 
     A = amount on hand
     B = amount made per craft
