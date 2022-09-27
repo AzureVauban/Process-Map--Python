@@ -102,8 +102,8 @@ def populate(cur: Node):
     """populate each node with subnodes"""
     inputqueue :dict = {}
     if cur.parentNode is not None:
-       
-    print('What ingredients do you need to create',cur.ingredient,': ')
+        pass
+    print('What ingredients do you need to create',cur.ingredient,end=':\n')
     while True:
         i = input('')
         if (len(i) > 0):
