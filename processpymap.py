@@ -166,9 +166,14 @@ def populate(cur: Node):
             raise TypeError
 
 if __name__ == '__main__':
-    itemname = input('What is the name of the item you want to create: ')
+    while True:
+        itemname = input('What is the name of the item you want to create: ')
+        itemname = itemname.strip()
+        if len(itemname) == 0:
+            print('You must type something in')
+        else:
+            break
     head = Node(itemname, None)
     head.inputnumerics()
     populate(head)
-    print('The amount of', head.ingredient,
-          'possible for you to create with all these values is: \x1B[32m', head.returnresultedamount())
+    print('# resulted of',head.ingredient,end=str(head.amountresulted)+'\n')
