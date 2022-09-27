@@ -86,7 +86,12 @@ class Node(NodeB):
             arithmetic(self)
 
 
-def arithmetic(cur: Node):
+def arithmetic(cur: Node) -> int:
+    """arithmetic method for figuring out the amount resulted of an item
+
+    Args:
+        cur (Node): instance
+    """
     #? expected amount on Silicon Board is 1328
     tempnum : int = sys.maxsize #minimum amount resulted from queue
     if len(cur.amountresultedqueue) > 0:
@@ -100,11 +105,12 @@ def arithmetic(cur: Node):
     if isinstance(cur.parent) and cur.parent is not None:
         cur.parent.amountresultedqueue.update({cur.ingredient:cur.amountresulted})
         arithmetic(cur.parent)
+    return cur.amountresulted
 
 def populate(cur: Node):
     """populate each node with subnodes"""
     inputqueue = []
-    if cur.parentNode != None:
+    if cur.parentNode is not None:
         cur.traceback(True)
     print('What ingredients do you need to create',cur.ingredient,': ')
     while True:
