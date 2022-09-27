@@ -5,8 +5,9 @@ import math
 import sys
 
 
-class primary:
-    """class for storing simple data about an item such as its name and how much is needed to create its parent
+class NodeB:
+    """class for storing simple data about an item such as its name and how much is needed to create
+    its parent
     """
     ingredient :str = ''
     amountonhand :int = 0
@@ -31,7 +32,7 @@ class primary:
         self.amountresultedqueue: dict = {}
         self.ingredient = name
         self.amountresulted = 0
-class secondary(primary):
+class Node(NodeB):
     """stores identifiable features of an item, such as the parent and children instances
     Args:
         primary (_type_): parent class of item
@@ -43,15 +44,15 @@ class secondary(primary):
     instancekey : int = 0
     def __init__(self, name: str = '',par = None, red: int = 0, blue: int = 0, yellow: int = 0) -> None:
         super().__init__(name, red, blue, yellow)
-        self.instancekey = secondary.instances
+        self.instancekey = Node.instances
         self.children = {}
         self.ingredient = name
-        if par is not None and isinstance(par,secondary):
+        if par is not None and isinstance(par,Node):
             self.parent = par
             self.parent.children.update({self.instancekey:self})
         else:
             self.parent = None
-        secondary.instances += 1
+        Node.instances += 1
     def inputnumerics(self): #todo rework this method
         """input the numeric data for the node"""
         A = eval(input('How much \x1B[33m' +  str(self.ingredient) + '\x1B[37m do you have on hand: '))
@@ -85,7 +86,7 @@ class secondary(primary):
             arithmetic(self)
 
 
-def arithmetic(cur: secondary): #todo update code to be new math method
+def arithmetic(cur: Node):
     #? expected amount on Silicon Board is 1328
     tempnum : int = sys.maxsize #minimum amount resulted from queue
     if len(cur.amountresultedqueue) > 0:
@@ -100,12 +101,12 @@ def arithmetic(cur: secondary): #todo update code to be new math method
         cur.parent.amountresultedqueue.update({cur.ingredient:cur.amountresulted})
         arithmetic(cur.parent)
 
-def populate(currentNode=Node):
+def populate(cur: Node):
     """populate each node with subnodes"""
     inputqueue = []
-    if currentNode.parentNode != None:
-        currentNode.traceback(True)
-    print('What ingredients do you need to create',currentNode.ingredient,': ')
+    if cur.parentNode != None:
+        cur.traceback(True)
+    print('What ingredients do you need to create',cur.ingredient,': ')
     while True:
         i = input('')
         if (len(i) > 0):
@@ -114,20 +115,17 @@ def populate(currentNode=Node):
             break
     if len(inputqueue) > 0:
         for nodeName in inputqueue:
-            temp = Node(nodeName,currentNode)
+            temp = Node(nodeName,cur)
             temp.inputnumerics()
-    if len(currentNode.childrenNodes) > 0:
+    if len(cur.childrenNodes) > 0:
         """recursive function call"""
-        for newNode in currentNode.childrenNodes:
+        for newNode in cur.childrenNodes:
             populate(newNode)
 
 
 if __name__ == '__main__':
-    print('\x1B[32mbeginning process\x1B[37m')
     itemname = input('What is the name of the item you want to create: ')
     head = Node(itemname, None)
     head.inputnumerics()
     populate(head)
     print('The amount of',head.ingredient,'possible for you to create with all these values is: \x1B[32m',head.returnresultedamount())
-    """terminating process"""
-    print('\x1B[31mterminating process\x1B[37m')
