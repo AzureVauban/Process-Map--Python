@@ -1,4 +1,5 @@
 """rework this fit current development progress on V2
+- This is a reworked version of the Process Map (Python) V1, use as base for future versions
 """
 class primary:
     ingredient :str = ''
@@ -45,7 +46,7 @@ class secondary(primary):
         if self.parent is not None:
             C = int(input('How much \x1B[33m' + str(self.ingredient) + '\x1B[37m do you need to create \x1B[34m' + str(self.parent.ingredient) +'\x1B[37m:'))
             self.amountneededpercraft = C
-    def traceback(self, output=False):
+    def traceback(self, output: bool =False):
         """output trail"""
         if output == True:
             print('TRAIL: ', end='')
@@ -62,13 +63,13 @@ class secondary(primary):
             for childNode in self.children:
                 childNode.searchforendpoints()
         else:
-            recursivearithmetic(self)
+            arithmetic(self)
     def returnresultedamount(self):
         self.searchforendpoints()
         return self.amountresulted
 
 
-def recursivearithmetic(currentNode=Node):
+def arithmetic(cur: secondary):
     """ 
     A = amount on hand
     B = amount made per craft
@@ -80,46 +81,46 @@ def recursivearithmetic(currentNode=Node):
     #? expected amount on Silicon Board is 1328
     """
     D = 0
-    if currentNode.parentNode == None and len(currentNode.childrenNodes) > 0:
+    if cur.parentNode == None and len(cur.childrenNodes) > 0:
         """Node Type: Head"""
         """solve for D"""
-        if len(currentNode.amountresultedqueue) == 1:
-            D += currentNode.amountresultedqueue[0]
+        if len(cur.amountresultedqueue) == 1:
+            D += cur.amountresultedqueue[0]
         else:
-            D += min(currentNode.amountresultedqueue)
-        D += currentNode.amountonhand
-        currentNode.amountresulted = D
+            D += min(cur.amountresultedqueue)
+        D += cur.amountonhand
+        cur.amountresulted = D
 
-    elif currentNode.parentNode != None and len(currentNode.childrenNodes) > 0:
+    elif cur.parentNode != None and len(cur.childrenNodes) > 0:
         """Node Type: Body"""
         """solve for D"""
-        if len(currentNode.amountresultedqueue) == 1:
-            D += currentNode.amountresultedqueue[0]
+        if len(cur.amountresultedqueue) == 1:
+            D += cur.amountresultedqueue[0]
         else:
-            D += min(currentNode.amountresultedqueue)
-        D += currentNode.amountonhand
+            D += min(cur.amountresultedqueue)
+        D += cur.amountonhand
         """peform math function"""
-        if (currentNode.amountmadepercraft > 1):
-            currentNode.parentNode.amountresultedqueue.append(
-                (D*currentNode.parentNode.amountmadepercraft)+currentNode.amountonhand)
+        if (cur.amountmadepercraft > 1):
+            cur.parentNode.amountresultedqueue.append(
+                (D*cur.parentNode.amountmadepercraft)+cur.amountonhand)
         else:
-            currentNode.parentNode.amountresultedqueue.append(
-                D//(currentNode.amountmadepercraft * currentNode.amountneededpercraft))
+            cur.parentNode.amountresultedqueue.append(
+                D//(cur.amountmadepercraft * cur.amountneededpercraft))
 
-    elif currentNode.parentNode != None and len(currentNode.childrenNodes) == 0:
+    elif cur.parentNode != None and len(cur.childrenNodes) == 0:
         """Node Type: Endpoint"""
         """find the amount resulted and input it into a queue of children amount resulted for the direct parent"""
-        currentNode.amountresulted = currentNode.amountonhand // (
-            currentNode.amountmadepercraft * currentNode.amountneededpercraft)
-        currentNode.parentNode.amountresultedqueue.append(
-            currentNode.amountresulted)
+        cur.amountresulted = cur.amountonhand // (
+            cur.amountmadepercraft * cur.amountneededpercraft)
+        cur.parentNode.amountresultedqueue.append(
+            cur.amountresulted)
     else:
-        D = currentNode.amountonhand//(currentNode.amountneededpercraft *
-                                       currentNode.amountneededpercraft)
+        D = cur.amountonhand//(cur.amountneededpercraft *
+                                       cur.amountneededpercraft)
     """recursive function call """
-    if (currentNode.parentNode is not None):
-        recursivearithmetic(currentNode.parentNode)
-    currentNode.amountresulted = D
+    if (cur.parentNode is not None):
+        arithmetic(cur.parentNode)
+    cur.amountresulted = D
 
 
 def populate(currentNode=Node):
