@@ -98,8 +98,7 @@ def arithmetic(cur: Node) -> int:
         arithmetic(cur.parent)
     return cur.amountresulted
 
-def populate(cur: Node):
-    
+def populate(cur: Node): #todo update doctstring for this method
     inputqueue :dict = {}
     checkstring : str = cur.ingredient
     #output ingredient trail
