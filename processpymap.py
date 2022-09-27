@@ -66,17 +66,6 @@ class Node(NodeB):
         if self.parent is not None:
             C = int(input('How much \x1B[33m' + str(self.ingredient) + '\x1B[37m do you need to create \x1B[34m' + str(self.parent.ingredient) +'\x1B[37m:'))
             self.amountneededpercraft = C
-    def traceback(self, output: bool =False):
-        """output trail"""
-        if output is True:
-            print('TRAIL: ', end='')
-        if self.parent is not None:
-            print(self.ingredient, '-> ', end='')
-        else:
-            print('\x1B[35m', self.ingredient, '\x1B[37m')
-
-        if self.parent is not None:
-            self.parent.traceback()
     def searchforendpoints(self):
         """search for endpoint nodes"""
         if len(self.children) > 0:
@@ -100,8 +89,10 @@ def arithmetic(cur: Node) -> int:
                 tempnum = number[1]
     else:
         tempnum = 0
+    # main math method
     cur.amountresulted = round(math.floor(cur.amountmadepercraft/cur.amountneededpercraft)*cur.amountonhand)
     cur.amountresulted += round(math.floor(cur.amountmadepercraft/cur.amountneededpercraft)*tempnum)
+    # pass along data to parent instance
     if isinstance(cur.parent) and cur.parent is not None:
         cur.parent.amountresultedqueue.update({cur.ingredient:cur.amountresulted})
         arithmetic(cur.parent)
@@ -109,9 +100,9 @@ def arithmetic(cur: Node) -> int:
 
 def populate(cur: Node):
     """populate each node with subnodes"""
-    inputqueue = []
+    inputqueue :dict = {}
     if cur.parentNode is not None:
-        cur.traceback(True)
+       
     print('What ingredients do you need to create',cur.ingredient,': ')
     while True:
         i = input('')
