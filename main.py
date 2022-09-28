@@ -128,9 +128,9 @@ class Node(NodeB):
         """look for endpoints connected to the tree at this node
         """
         if len(self.children) > 0:
-            for child in self.children.items():
-                if isinstance(child[1],Node):
-                    child[1].findlocalendpoints()
+            for childinstance in self.children.items():
+                if isinstance(childinstance[1],Node):
+                    childinstance[1].findlocalendpoints()
         else:
             Node.endpoints.update({self.instancekey:self})
         return Node.endpoints
