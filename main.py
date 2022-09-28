@@ -47,7 +47,8 @@ class Node(NodeB):
     instancekey: int = 0
 
     def __init__(self, name: str = '', par=None, red: int = 0, blue: int = 1, yellow: int = 1) -> None:
-        """default constructor for Node instance, stores identifying features of an item's information
+        """default constructor for Node instance, stores identifying features of an item's
+        information
 
         Args:
             name (str, optional): name of the item. Defaults to ''.
