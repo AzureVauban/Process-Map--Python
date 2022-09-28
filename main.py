@@ -78,7 +78,7 @@ class Node(NodeB):
 
     def __inputnumerics(self):
         """prompt input of the numeric data for the instance from the user"""
-        while True:
+        while True and programmodetype != 0: #! tentative, might have to update based on whichever mode:
             print('How much', self.ingredient, 'do you have on hand: ')
             self.amountonhand = self.__promptint()
             if self.amountonhand < 0:
@@ -120,7 +120,7 @@ class Node(NodeB):
                 break
         return mynum
 
-    def findlocalendpoints(self):
+    def findlocalendpoints(self) -> dict:
         """look for endpoints connected to the tree at this node
         """
         if len(self.children) > 0:
@@ -129,7 +129,7 @@ class Node(NodeB):
                     child[1].findlocalendpoints()
         else:
             Node.endpoints.update({self.instancekey:self})
-            
+        return Node.endpoints
 def recursivearithmetic(cur: Node) -> int:
     """figure out the amount resulted of the augment Node instance,
     math function used: D = (B/C)A + (B/C)(min(Dqueue))
@@ -157,7 +157,7 @@ def recursivearithmetic(cur: Node) -> int:
         recursivearithmetic(cur.parent)
     return cur.amountresulted
 
-def reversearithmetic(cur : Node) -> int:
+def reversearithmetic(cur : Node,headtype : bool = False) -> int:
     """figure out how much of the endpoint nodes you need to get the desired amount of
     the head most item
 
@@ -167,7 +167,23 @@ def reversearithmetic(cur : Node) -> int:
     Returns:
         int: _description_
     """
-    pass
+    #set cur to head node
+    temp : Node = cur
+    while temp.parent is not None and not headtype:
+        temp = temp.parent
+        headtype = True
+    #set and utilize the searching method to find the endpoints of the head node
+    endpoints: dict = cur.findlocalendpoints()
+    #? increase the amount on hand of each endpoint item until amount resulted of the head node is
+    #? the same as the desired amount, which is the amount resulted just in Mode B
+    for endpoint in endpoints.items():
+        if isinstance(endpoint,Node):
+            endpoint.amountonhand += 1
+        if endpoint[1] is not None and isinstance(endpoint[1].parent,Node):
+            recursivearithmetic(endpoint[1])
+        else:
+            raise TypeError('endpoint parent is not an instance of',Node)
+    return temp.amountresulted
 def searchforendpoint(cur: Node):
     """looks for endpoint nodes to start the math method from
     """
@@ -258,10 +274,26 @@ if __name__ == '__main__':
         if usermode != 0 or usermode != 1:
             print('That input is not valid')
         else:
+            programmodetype = usermode
             break
     head = Node(itemname, None)
     populate(head)
-    searchforendpoint(head)
-    print('# resulted of', head.ingredient, '',
-          end=str(head.amountresulted)+'\n')
+    if programmodetype == 0: #?normal program mode
+        searchforendpoint(head)
+        print('# resulted of', head.ingredient, '',end=str(head.amountresulted)+'\n')
+    else: #? current developing program mode
+        desirednumber : int = 0
+        print('How much',head.ingredient,'do you want to create:')
+        desirednumber = int(input(''))
+        populate(head)
+        # todo print amount needed of endpoint items, format input smiliarily to a list
+        while desirednumber <= reversearithmetic(head,False):
+            reversearithmetic(head,False)
+        #output resulted numbers for endpoints
+        print('Needed amounts of your basemost ingredients to get',desirednumber,'x',head.ingredient,':')
+        for child in head.findlocalendpoints().items():
+            if isinstance(child[1],Node):
+                print(child[1].ingredient,':',child[1].amountonhand,'x')
+            else:
+                raise TypeError('child Node is not an instance of',Node)
     # prompt the user if they want to figure out the amount resulted of another item
