@@ -171,13 +171,14 @@ def populate(cur: Node):
     # output ingredient trail
     if cur.parent is not None:
         temp: Node = cur
-        while temp.parent is not None:
-            print('TRAIL: ', end='')
+        print('TRAIL: ',end='')
+        while True:
             if temp.parent is not None:
-                print(temp.ingredient, end='-> ')
+                print(temp.ingredient,'-> ',end='')
+                temp = temp.parent
             else:
                 print(temp.ingredient)
-            temp = temp.parent
+                break
         checkstring = temp.ingredient
     # prompt user to input ingredienta
     print('What ingredients do you need to create', cur.ingredient, end=':\n')
@@ -227,5 +228,5 @@ if __name__ == '__main__':
     head = Node(itemname, None)
     populate(head)
     searchforendpoint(head)
-    print('# resulted of', head.ingredient, end=str(head.amountresulted)+'\n')
+    print('# resulted of', head.ingredient,'', end=str(head.amountresulted)+'\n')
     # prompt the user if they want to figure out the amount resulted of another item
