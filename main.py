@@ -299,5 +299,5 @@ if __name__ == '__main__':
             if isinstance(child[1],Node):
                 print(child[1].ingredient,':',child[1].amountonhand,'x')
             else:
-                raise TypeError('child Node is not an instance of',Node)
+                raise TypeError('child is not an instance of',Node)
     # prompt the user if they want to figure out the amount resulted of another item
