@@ -191,8 +191,8 @@ def searchforendpoint(cur: Node):
     """looks for endpoint nodes to start the math method from
     """
     if len(cur.children) > 0:
-        for child in cur.children.items():
-            searchforendpoint(child[1])
+        for childinstance in cur.children.items():
+            searchforendpoint(childinstance[1])
     elif len(cur.children) == 0 and programmodetype == 1:
         pass
     else: #default mode (mode A)
