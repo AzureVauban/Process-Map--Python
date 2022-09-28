@@ -14,7 +14,7 @@ class NodeB:
     amountneeded: int = 0
     amountmadepercraft: int = 0
     amountresulted: int = 0
-    queueamountresulted: dict = {}  # use this to test the math function
+    queueamountresulted: dict = {}
 
     def __init__(self, name: str = '', red: int = 0, blue: int = 1, yellow: int = 1) -> None:
         """_summary_
@@ -154,7 +154,6 @@ def searchforendpoint(cur: Node):
             searchforendpoint(child[1])
     else:
         recursivearithmetic(cur)
-
 
 def populate(cur: Node):
     """creates new child instances during script runtime
