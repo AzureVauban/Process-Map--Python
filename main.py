@@ -4,6 +4,8 @@
 import math
 import sys
 
+programmodetype: int = 0
+
 
 class NodeB:
     """class for storing simple data about an item such as its name and how much is needed to create
@@ -155,6 +157,7 @@ def searchforendpoint(cur: Node):
     else:
         recursivearithmetic(cur)
 
+
 def populate(cur: Node):
     """creates new child instances during script runtime
 
@@ -171,10 +174,10 @@ def populate(cur: Node):
     # output ingredient trail
     if cur.parent is not None:
         temp: Node = cur
-        print('TRAIL: ',end='')
+        print('TRAIL: ', end='')
         while True:
             if temp.parent is not None:
-                print(temp.ingredient,'-> ',end='')
+                print(temp.ingredient, '-> ', end='')
                 temp = temp.parent
             else:
                 print(temp.ingredient)
@@ -214,8 +217,6 @@ def populate(cur: Node):
 
 
 if __name__ == '__main__':
-    # todo add code to prompt the user which mode they want, A or B
-    # Mode A : How much of item A can I make
     # Mode B: How much of Item B,C,D (endpoint instances), would I need to make X amount of item A
     # prompt user to type in the name of the item they want to create
     while True:
@@ -225,8 +226,24 @@ if __name__ == '__main__':
             print('You must type something in')
         else:
             break
+    # prompt user mode
+    while True:
+        print('Which mode do you want to use:')
+        print('Mode A - You are trying to figure out how much', itemname,
+              'you can make with the current supply of materials (Type in 0)')
+        print('Mode B - You are trying to figure out how much base materials you need to create a certain amount of',
+              itemname, '(Type in 1)')
+        usermode = int(input(''))
+        if usermode != 0 or usermode != 1:
+            print('That input is not valid')
+        else:
+            break
     head = Node(itemname, None)
     populate(head)
-    searchforendpoint(head)
-    print('# resulted of', head.ingredient,'', end=str(head.amountresulted)+'\n')
+    if usermode == 1:
+        pass
+    else:
+        searchforendpoint(head)
+    print('# resulted of', head.ingredient, '',
+          end=str(head.amountresulted)+'\n')
     # prompt the user if they want to figure out the amount resulted of another item
