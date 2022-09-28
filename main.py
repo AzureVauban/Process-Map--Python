@@ -47,7 +47,7 @@ class Node(NodeB):
     generation: int = 0
     instances: int = 0
     instancekey: int = 0
-
+    endpoints : dict = {} #only to be use with recursive reverse arithmetic method
     def __init__(self, name: str = '', par=None, red: int = 0, blue: int = 1, yellow: int = 1) -> None:
         """default constructor for Node instance, stores identifying features of an item's
         information
@@ -62,6 +62,7 @@ class Node(NodeB):
             Defaults to 1.
         """
         super().__init__(name, red, blue, yellow)
+        self.endpoints = {}
         self.instancekey = Node.instances
         self.children = {}
         self.parent = par
@@ -119,7 +120,16 @@ class Node(NodeB):
                 break
         return mynum
 
-
+    def findlocalendpoints(self):
+        """look for endpoints connected to the tree at this node
+        """
+        if len(self.children) > 0:
+            for child in self.children.items():
+                if isinstance(child[1],Node):
+                    child[1].findlocalendpoints()
+        else:
+            Node.endpoints.update({self.instancekey:self})
+            
 def recursivearithmetic(cur: Node) -> int:
     """figure out the amount resulted of the augment Node instance,
     math function used: D = (B/C)A + (B/C)(min(Dqueue))
@@ -147,7 +157,17 @@ def recursivearithmetic(cur: Node) -> int:
         recursivearithmetic(cur.parent)
     return cur.amountresulted
 
+def reversearithmetic(cur : Node) -> int:
+    """figure out how much of the endpoint nodes you need to get the desired amount of
+    the head most item
 
+    Args:
+        cur (Node): _description_
+
+    Returns:
+        int: _description_
+    """
+    pass
 def searchforendpoint(cur: Node):
     """looks for endpoint nodes to start the math method from
     """
@@ -227,7 +247,7 @@ if __name__ == '__main__':
             print('You must type something in')
         else:
             break
-    # prompt user mode
+    # prompt user wich mode they want to run the program in
     while True:
         print('Which mode do you want to use:')
         print('Mode A - You are trying to figure out how much', itemname,
