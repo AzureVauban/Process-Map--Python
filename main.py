@@ -250,11 +250,11 @@ def populate(cur: Node):
     for newnodename in inputqueue.items():
         newchild: Node = Node(newnodename[1], cur)  # pylint:disable=W0612
     # continue method runtime
-    for child in cur.children.items():
-        if isinstance(child[1], Node):
-            populate(child[1])
+    for childinstance in cur.children.items():
+        if isinstance(childinstance[1], Node):
+            populate(childinstance[1])
         else:
-            raise TypeError
+            raise TypeError('child is not an instance of',Node)
 
 if __name__ == '__main__':
     # Mode B: How much of Item B,C,D (endpoint instances), would I need to make X amount of item A
@@ -289,11 +289,11 @@ if __name__ == '__main__':
         print('How much',head.ingredient,'do you want to create:')
         desirednumber = int(input(''))
         populate(head)
-        # todo print amount needed of endpoint items, format input smiliarily to a list
         while desirednumber <= reversearithmetic(head,False):
             reversearithmetic(head,False)
         #output resulted numbers for endpoints
         print('Needed amounts of your basemost ingredients to get',desirednumber,'x',head.ingredient,':')
+        # print amount needed of endpoint items, format input smiliarily to a list
         for child in head.findlocalendpoints().items():
             if isinstance(child[1],Node):
                 print(child[1].ingredient,':',child[1].amountonhand,'x')
