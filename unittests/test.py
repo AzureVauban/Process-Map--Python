@@ -41,4 +41,15 @@ class mytest(unittest.TestCase):
         """test to see if the amount resulted of focusing array is 48
         """
         cls.assertTrue(cls.focusingarray.amountresulted,48)
-        
+class mymodebtests(unittest.TestCase):
+    """unit testing class for Mode B, which is trying to figure out what should be the amount on
+       hand of the endpoint items to get a desired amount of the headmost item crafted
+
+    Args:
+        unittest (class): Unit Testing Module/Class
+    """ #todo - create and configure a unit test another process tree this class of tests
+    @classmethod
+    def testresulted(cls):
+        """test out the amount on hand of the endpoint item
+        """
+        pass
