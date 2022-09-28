@@ -81,7 +81,8 @@ class Node(NodeB):
 
     def __inputnumerics(self):
         """prompt input of the numeric data for the instance from the user"""
-        while True and programmodetype != 0: #! tentative, might have to update based on whichever mode:
+        while True and programmodetype != 0:
+            #! ^^^ tentative, might have to update based on whichever mode:
             print('How much', self.ingredient, 'do you have on hand: ')
             self.amountonhand = self.__promptint()
             if self.amountonhand < 0:
