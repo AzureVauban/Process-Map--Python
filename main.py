@@ -154,7 +154,9 @@ def searchforendpoint(cur: Node):
     if len(cur.children) > 0:
         for child in cur.children.items():
             searchforendpoint(child[1])
-    else:
+    elif len(cur.children) == 0 and programmodetype == 1:
+        pass
+    else: #default mode (mode A)
         recursivearithmetic(cur)
 
 
@@ -215,7 +217,6 @@ def populate(cur: Node):
         else:
             raise TypeError
 
-
 if __name__ == '__main__':
     # Mode B: How much of Item B,C,D (endpoint instances), would I need to make X amount of item A
     # prompt user to type in the name of the item they want to create
@@ -240,10 +241,7 @@ if __name__ == '__main__':
             break
     head = Node(itemname, None)
     populate(head)
-    if usermode == 1:
-        pass
-    else:
-        searchforendpoint(head)
+    searchforendpoint(head)
     print('# resulted of', head.ingredient, '',
           end=str(head.amountresulted)+'\n')
     # prompt the user if they want to figure out the amount resulted of another item
