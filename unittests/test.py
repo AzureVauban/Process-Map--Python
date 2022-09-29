@@ -2,7 +2,8 @@
 """
 import unittest
 
-from main import Node, findlocalendpoints, reversearithmetic, searchforendpoint
+from main import (Node, findlocalendpoints,  # pylint:disable=E0611
+                  reversearithmetic, searchforendpoint)
 
 
 class MODEAtesting(unittest.TestCase):
