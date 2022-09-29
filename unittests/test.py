@@ -2,14 +2,14 @@
 """
 import unittest
 
-from main import Node, searchforendpoint
-
+from main import PROGRAMMODETYPE, Node, searchforendpoint
+from main import reversearithmetic
 
 class mytest(unittest.TestCase):
-    """_summary_
+    """Unit Testing
 
     Args:
-        unittest (_type_): _description_
+        unittest (_type_): test case 
     """
     focusingarray       : Node = Node('Focusing Array', None, 1, 1, 1)
     advancedalloy       : Node = Node('Advanced Alloy', focusingarray, 8, 1, 2)
@@ -54,8 +54,15 @@ class mymodebtests(unittest.TestCase):
         """
         pass
 class tentativetest(unittest.TestCase):
-    blockofemerald : Node = Node('Block of Emerald',None,0,1,1)
-    emerald : Node = Node('Emerald',)
-    searchforendpoint(emeraldblock)
+    blockofgold : Node = Node('Block of Gold',None,0,1,1)
+    goldingot : Node = Node('Gold Ingot',blockofgold,0,1,9)
+    goldore : Node = Node('Gold Ore',goldingot,9*100,1,1)
+    PROGRAMMODETYPE = 1
+    blockofgold.findlocalendpoints()
     def test(self):
-        self.assertEqual(self.emeraldblock.amountresulted,113)
+        self.assertEqual(reversearithmetic(self.blockofgold,100),100)
+    def test2(self):
+        cur : Node = self.goldore
+        while cur.parent is not None:
+            cur = cur.parent
+        self.assertTrue(cur,self.blockofgold)

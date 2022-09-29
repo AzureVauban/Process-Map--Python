@@ -120,14 +120,14 @@ class Node(NodeB):
     def findlocalendpoints(self) -> dict:
         """look for endpoints connected to the tree at this node
         """
-        Node.endpoints.clear()
+        endpointinstances : dict = {}
         if len(self.children) > 0:
             for childinstance in self.children.items():
                 if isinstance(childinstance[1], Node):
                     childinstance[1].findlocalendpoints()
         else:
-            Node.endpoints.update({self.instancekey: self})
-        return Node.endpoints
+            endpointinstances.update({self.instancekey: self})
+        return endpointinstances
 
 def promptint() -> int:
     """prompt the user to input a returnable integer
@@ -177,30 +177,14 @@ def recursivearithmetic(cur: Node) -> int:
     return cur.amountresulted
 
 
-def reversearithmetic(cur: Node,desirednum : int) -> int:
+def reversearithmetic(cur: Node,desirednum : int = 0) -> int:
     """figure out how much of the endpoint nodes you need to get the desired amount of
     the head most item
     """
-    #todo edit/fix method docstring, 
-    #todo always results in 0 - potential cause is the amount resulted queue buffer not being reset when 
-    #     head.amountresulted comparison is made, check/debug that code
-    # set cur to head node
+    #set current node to head node
     while cur.parent is not None:
         cur = cur.parent
-    # set and utilize the searching method to find the endpoints of the head node
-    endpoints: dict = cur.findlocalendpoints()
-    # ? increase the amount on hand of each endpoint item until amount resulted of the head node is
-    # ? the same as the desired amount, which is the amount resulted just in Mode B
-    while recursivearithmetic(cur) <= desirednum:
-        for endpoint in endpoints.items():
-            if isinstance(endpoint, Node):
-                endpoint[1].amountonhand += 1
-            if isinstance(endpoint[1].parent, Node):
-                recursivearithmetic(endpoint[1])
-            elif cur.amountresulted >= desirednum:
-                break
-            else:
-                raise TypeError('endpoint parent is not an instance of', Node)
+    
     return cur.amountresulted
 
 
