@@ -54,12 +54,8 @@ class mymodebtests(unittest.TestCase):
         """
         pass
 class tentativetest(unittest.TestCase):
-    emeraldblock : Node = Node('Block of Emerald',None,0,9,1)
-    emerald : Node = Node('Emerald',emeraldblock,0,1,9)
-    stick : Node = Node('Wooden Stick',emerald,447,1,31)
-    sprucewoodplanks : Node = Node('Spruce Wood Planks',stick,4,4,2)
-    basesupply : int = (7*(512))+(321)
-    sprucewood : Node = Node('Spruce Wood',sprucewoodplanks,basesupply,4,1)
+    blockofemerald : Node = Node('Block of Emerald',None,0,1,1)
+    emerald : Node = Node('Emerald',)
     searchforendpoint(emeraldblock)
     def test(self):
         self.assertEqual(self.emeraldblock.amountresulted,113)

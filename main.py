@@ -137,7 +137,7 @@ class Node(NodeB):
     def findlocalendpoints(self) -> dict:
         """look for endpoints connected to the tree at this node
         """
-        self.queueamountresulted.clear()
+        Node.endpoints.clear()
         if len(self.children) > 0:
             for childinstance in self.children.items():
                 if isinstance(childinstance[1], Node):
@@ -169,8 +169,7 @@ def recursivearithmetic(cur: Node) -> int:
     cur.amountresulted = black
     # recursively call the method
     if cur.parent is not None:
-        cur.parent.queueamountresulted.update(
-            {cur.ingredient: cur.amountresulted})
+        cur.parent.queueamountresulted.update({cur.ingredient: cur.amountresulted})
         recursivearithmetic(cur.parent)
     elif cur.parent is None and programmodetype == 1:
         #todo clear out entire tree resulted queue
