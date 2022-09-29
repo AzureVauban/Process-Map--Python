@@ -275,7 +275,7 @@ if __name__ == '__main__':
         print('Mode B - You are trying to figure out how much base materials you need to create a certain amount of',
               itemname, '(Type in 1)')
         usermode = int(input(''))
-        if usermode != 0 or usermode != 1:
+        if usermode != 0 and usermode != 1:
             print('That input is not valid')
         else:
             programmodetype = usermode
