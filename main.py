@@ -122,7 +122,18 @@ class Node(NodeB):
                 mynum = int(temp)
                 break
         return mynum
-
+    def clearentirequeue(self):
+        """clears out the entire amount resulted queue, utilized in Mode B
+        """
+        if len(self.children) > 0:
+            for child in self.children.items():
+                if isinstance(child[1],Node):
+                    child[1].queueamountresulted.clear()
+                    child[1].clearentirequeue()            
+                else:
+                    raise TypeError('Child is not an instance of',Node)
+        
+            
     def findlocalendpoints(self) -> dict:
         """look for endpoints connected to the tree at this node
         """
@@ -160,6 +171,8 @@ def recursivearithmetic(cur: Node) -> int:
         cur.parent.queueamountresulted.update(
             {cur.ingredient: cur.amountresulted})
         recursivearithmetic(cur.parent)
+    elif cur.parent is None and programmodetype == 1:
+        #todo clear out entire tree resulted queue
     return cur.amountresulted
 
 
@@ -177,7 +190,7 @@ def reversearithmetic(cur: Node,desirednum : int) -> int:
     endpoints: dict = cur.findlocalendpoints()
     # ? increase the amount on hand of each endpoint item until amount resulted of the head node is
     # ? the same as the desired amount, which is the amount resulted just in Mode B
-    while cur.amountresulted <= desirednum:
+    while recursivearithmetic(cur) <= desirednum:
         for endpoint in endpoints.items():
             if isinstance(endpoint, Node):
                 endpoint[1].amountonhand += 1
