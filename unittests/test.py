@@ -2,10 +2,10 @@
 """
 import unittest
 
-from main import PROGRAMMODETYPE, Node, searchforendpoint
+from main import PROGRAMMODETYPE, Node, findlocalendpoints, searchforendpoint
 from main import reversearithmetic
 
-class mytest(unittest.TestCase):
+class MODEAtesting(unittest.TestCase):
     """Unit Testing
 
     Args:
@@ -41,28 +41,36 @@ class mytest(unittest.TestCase):
         """test to see if the amount resulted of focusing array is 48
         """
         cls.assertTrue(cls.focusingarray.amountresulted,48)
-class mymodebtests(unittest.TestCase):
+class MODEBtesting(unittest.TestCase):
     """unit testing class for Mode B, which is trying to figure out what should be the amount on
        hand of the endpoint items to get a desired amount of the headmost item crafted
 
     Args:
         unittest (class): Unit Testing Module/Class
-    """ #todo - create and configure a unit test another process tree this class of tests
-    @classmethod
-    def testresulted(cls):
-        """test out the amount on hand of the endpoint item
-        """
-        pass
-class tentativetest(unittest.TestCase):
+    """
     blockofgold : Node = Node('Block of Gold',None,0,1,1)
     goldingot : Node = Node('Gold Ingot',blockofgold,0,1,9)
-    goldore : Node = Node('Gold Ore',goldingot,9*100,1,1)
+    goldore : Node = Node('Gold Ore',goldingot,0,1,1)
     PROGRAMMODETYPE = 1
-    blockofgold.findlocalendpoints()
+    #blockofgold.findlocalendpoints()
     def test(self):
+        """test reverse arithmetic method
+        """
         self.assertEqual(reversearithmetic(self.blockofgold,100),100)
-    def test2(self):
+    def test_tentative1(self):
+        """test simple upward traversal
+        """
         cur : Node = self.goldore
         while cur.parent is not None:
             cur = cur.parent
         self.assertTrue(cur,self.blockofgold)
+    def test_tentative2(self):
+        """check to see if the endpoints of this mock ingredient tree are correctly found
+        """
+        cur : Node = self.goldore
+        while cur.parent is not None:
+            cur = cur.parent
+        reddict : dict = findlocalendpoints(cur)
+        bluedict : dict = {}
+        bluedict.update({self.goldore.instancekey:self.goldore})
+        self.assertEqual(reddict,bluedict)

@@ -116,18 +116,19 @@ class Node(NodeB):
                     childnode[1].clearentirequeue()            
                 else:
                     raise TypeError('Child is not an instance of',Node)
-        
-    def findlocalendpoints(self) -> dict:
-        """look for endpoints connected to the tree at this node
-        """
-        endpointinstances : dict = {}
-        if len(self.children) > 0:
-            for childinstance in self.children.items():
-                if isinstance(childinstance[1], Node):
-                    childinstance[1].findlocalendpoints()
-        else:
-            endpointinstances.update({self.instancekey: self})
-        return endpointinstances
+    
+def findlocalendpoints(cur : Node) -> dict:
+    """look for endpoints connected to the tree at this node
+    """
+    findlocalendpoints.endpointinstances : dict = {}
+    #? unit testing passed, needed to be a static/class type variable
+    if len(cur.children) > 0:
+        for childinstance in cur.children.items():
+            if isinstance(childinstance[1], Node):
+                findlocalendpoints(childinstance[1])
+    else:
+        findlocalendpoints.endpointinstances.update({cur.instancekey: cur})
+    return findlocalendpoints.endpointinstances
 
 def promptint() -> int:
     """prompt the user to input a returnable integer
@@ -145,7 +146,7 @@ def promptint() -> int:
             mynum = int(temp)
             break
     return mynum
-            
+
 
 def recursivearithmetic(cur: Node) -> int:
     """figure out the amount resulted of the augment Node instance,
@@ -177,15 +178,26 @@ def recursivearithmetic(cur: Node) -> int:
     return cur.amountresulted
 
 
-def reversearithmetic(cur: Node,desirednum : int = 0) -> int:
+def reversearithmetic(cur: Node,desiredamount : int = 0) -> int: #todo redo the docstring
     """figure out how much of the endpoint nodes you need to get the desired amount of
     the head most item
     """
-    #set current node to head node
-    while cur.parent is not None:
-        cur = cur.parent
-    
-    return cur.amountresulted
+    #get temp and set it to the head Node of the argument instance
+    temp : Node = cur
+    while temp.parent is not None:
+        temp = temp.parent
+    endpointsoftree : dict = findlocalendpoints(temp)
+    # check to see if each item is the approrpiate type
+    for endpoint in endpointsoftree.items():
+        if not isinstance(endpoint[1],Node):
+            raise TypeError('Endpoint is not an instance of',Node)
+    # while amount resulted is not equal to greater than the desired amount,
+    # iterate through each Node in the dictionary and add its amount on hand by 1
+    while temp.amountresulted != desiredamount: #! UNIT TEST THIS WITH OTHER TREES, SEE IF != IS BETTER THAN >=
+        for endpoint in endpointsoftree.items():
+            endpoint[1].amountonhand += 1
+            recursivearithmetic(endpoint[1])
+    return temp.amountresulted
 
 
 def searchforendpoint(cur: Node):
@@ -195,7 +207,7 @@ def searchforendpoint(cur: Node):
         for childinstance in cur.children.items():
             searchforendpoint(childinstance[1])
     elif len(cur.children) == 0 and PROGRAMMODETYPE == 1:
-        pass
+        reversearithmetic(cur)
     else:  # default mode (mode A)
         recursivearithmetic(cur)
 
