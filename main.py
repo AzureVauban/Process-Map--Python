@@ -84,7 +84,7 @@ class Node(NodeB):
         """prompt input of the numeric data for the instance from the user"""
         while True and programmodetype == 0:
             #! ^^^ tentative, might have to update based on whichever mode:
-            print('How much', self.ingredient, 'do you have on hand: ')
+            print('How much',self.ingredient,'do you have on hand: ')
             self.amountonhand = self.__promptint()
             if self.amountonhand < 0:
                 print('That number is not valid')
@@ -92,16 +92,14 @@ class Node(NodeB):
                 break
         if self.parent is not None:
             while True:
-                print('How much', self.ingredient, 'do you need to craft ',
-                      self.parent.ingredient, '1 time: ')
+                print('How much',self.ingredient,'do you need to craft ',self.parent.ingredient, '1 time: ')
                 self.amountneeded = self.__promptint()
                 if self.amountneeded < 1:
                     print('That number is not valid')
                 else:
                     break
             while True:
-                print('How much ', self.parent.ingredient,
-                      'do you create each time you craft it: ')
+                print('How much',self.parent.ingredient, 'do you create each time you craft it: ')
                 self.amountmadepercraft = self.__promptint()
                 if self.amountmadepercraft < 1:
                     print('That number is not valid')
