@@ -163,33 +163,31 @@ def recursivearithmetic(cur: Node) -> int:
     return cur.amountresulted
 
 
-def reversearithmetic(cur: Node, headtype: bool = False) -> int:
+def reversearithmetic(cur: Node,desirednum : int) -> int:
     """figure out how much of the endpoint nodes you need to get the desired amount of
     the head most item
-
-    Args:
-        cur (Node): _description_
-
-    Returns:
-        int: _description_
     """
+    #todo edit/fix method docstring, 
+    #todo always results in 0 - potential cause is the amount resulted queue buffer not being reset when 
+    #     head.amountresulted comparison is made, check/debug that code
     # set cur to head node
-    temp: Node = cur
-    while temp.parent is not None and not headtype:
-        temp = temp.parent
-        headtype = True
+    while cur.parent is not None:
+        cur = cur.parent
     # set and utilize the searching method to find the endpoints of the head node
     endpoints: dict = cur.findlocalendpoints()
     # ? increase the amount on hand of each endpoint item until amount resulted of the head node is
     # ? the same as the desired amount, which is the amount resulted just in Mode B
-    for endpoint in endpoints.items():
-        if isinstance(endpoint, Node):
-            endpoint.amountonhand += 1
-        if endpoint[1] is not None and isinstance(endpoint[1].parent, Node):
-            recursivearithmetic(endpoint[1])
-        else:
-            raise TypeError('endpoint parent is not an instance of', Node)
-    return temp.amountresulted
+    while cur.amountresulted <= desirednum:
+        for endpoint in endpoints.items():
+            if isinstance(endpoint, Node):
+                endpoint.amountonhand += 1
+            if endpoint[1] is not None and isinstance(endpoint[1].parent, Node):
+                recursivearithmetic(endpoint[1])
+            elif cur.amountresulted >= desirednum:
+                break
+            else:
+                raise TypeError('endpoint parent is not an instance of', Node)
+    return cur.amountresulted
 
 
 def searchforendpoint(cur: Node):
@@ -270,6 +268,8 @@ if __name__ == '__main__':
         print('Mode A - You are trying to figure out how much of your desired item you can make with the current supply of materials (Type in A)')
         print('Mode B - You are trying to figure out how much base materials you need to create a certain amount of your desired item, (Type in B)')
         usermode = (input(''))
+        usermode = usermode.strip()
+        #todo add comparison through uppercase
         if usermode != 'A' and usermode != 'B':
             print('That input is not valid')
         elif usermode == 'B':
@@ -296,10 +296,11 @@ if __name__ == '__main__':
         desirednumber: int = 0
         print('How much', head.ingredient, 'do you want to create:')
         desirednumber = int(input(''))
+        #todo add input validatin for desired number
         populate(head)
         #todo rework reverse arithmetic method
-        while desirednumber <= head.amountresulted:
-            reversearithmetic(head, False)
+        while desirednumber >= head.amountresulted:
+            reversearithmetic(head, desirednumber)
         # output resulted numbers for endpoints
         print('Needed amounts of your basemost ingredients to get',
               desirednumber, 'x', head.ingredient, ':')
