@@ -7,7 +7,7 @@ B,C,D...
 import math
 import sys
 
-programmodetype: int = 0
+PROGRAMMODETYPE: int = 0 #1 is A, 2 is B
 
 
 class NodeB:
@@ -82,7 +82,7 @@ class Node(NodeB):
 
     def __inputnumerics(self):
         """prompt input of the numeric data for the instance from the user"""
-        while True and programmodetype == 0:
+        while True and PROGRAMMODETYPE == 0:
             #! ^^^ tentative, might have to update based on whichever mode:
             print('How much',self.ingredient,'do you have on hand: ')
             self.amountonhand = promptint()
@@ -171,7 +171,7 @@ def recursivearithmetic(cur: Node) -> int:
     if cur.parent is not None:
         cur.parent.queueamountresulted.update({cur.ingredient: cur.amountresulted})
         recursivearithmetic(cur.parent)
-    elif cur.parent is None and programmodetype == 1:
+    elif cur.parent is None and PROGRAMMODETYPE == 1:
         #todo clear out entire tree resulted queue
         cur.clearentirequeue()
     return cur.amountresulted
@@ -210,7 +210,7 @@ def searchforendpoint(cur: Node):
     if len(cur.children) > 0:
         for childinstance in cur.children.items():
             searchforendpoint(childinstance[1])
-    elif len(cur.children) == 0 and programmodetype == 1:
+    elif len(cur.children) == 0 and PROGRAMMODETYPE == 1:
         pass
     else:  # default mode (mode A)
         recursivearithmetic(cur)
@@ -287,10 +287,10 @@ if __name__ == '__main__':
         if usermode != 'A' and usermode != 'B':
             print('That input is not valid')
         elif usermode == 'B':
-            programmodetype = 1
+            PROGRAMMODETYPE = 1
             break
         else:
-            programmodetype = 0
+            PROGRAMMODETYPE = 0
             break
     # prompt user to type in the name of the item they want to create
     while True:
@@ -301,7 +301,7 @@ if __name__ == '__main__':
         else:
             break
     head = Node(itemname, None)
-    if programmodetype == 0:  # ? normal program mode
+    if PROGRAMMODETYPE == 0:  # ? normal program mode
         populate(head)
         searchforendpoint(head)
         print('# resulted of', head.ingredient, '',
@@ -309,7 +309,6 @@ if __name__ == '__main__':
     else:  # ? current developing program mode
         print('How much', head.ingredient, 'do you want to create:')
         desirednumber : int = promptint()
-        #todo add input validatin for desired number
         populate(head)
         #todo rework reverse arithmetic method
         reversearithmetic(head, desirednumber)
