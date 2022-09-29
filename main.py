@@ -113,10 +113,9 @@ class Node(NodeB):
             for childnode in self.children.items():
                 if isinstance(childnode[1],Node):
                     childnode[1].queueamountresulted.clear()
-                    childnode[1].clearentirequeue()            
+                    childnode[1].clearentirequeue()
                 else:
                     raise TypeError('Child is not an instance of',Node)
-    
 def findlocalendpoints(cur : Node) -> dict:
     """look for endpoints connected to the tree at this node
     """
