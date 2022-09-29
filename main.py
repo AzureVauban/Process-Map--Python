@@ -85,7 +85,7 @@ class Node(NodeB):
         while True and programmodetype == 0:
             #! ^^^ tentative, might have to update based on whichever mode:
             print('How much',self.ingredient,'do you have on hand: ')
-            self.amountonhand = self.__promptint()
+            self.amountonhand = promptint()
             if self.amountonhand < 0:
                 print('That number is not valid')
             else:
@@ -93,46 +93,46 @@ class Node(NodeB):
         if self.parent is not None:
             while True:
                 print('How much',self.ingredient,'do you need to craft',self.parent.ingredient,'1 time: ')
-                self.amountneeded = self.__promptint()
+                self.amountneeded = promptint()
                 if self.amountneeded < 1:
                     print('That number is not valid')
                 else:
                     break
             while True:
                 print('How much',self.parent.ingredient,'do you create each time you craft it: ')
-                self.amountmadepercraft = self.__promptint()
+                self.amountmadepercraft = promptint()
                 if self.amountmadepercraft < 1:
                     print('That number is not valid')
                 else:
                     break
 
-    def __promptint(self) -> int:
-        """prompt the user to input a returnable integer
-
-        Returns:
-            int: an interger that is used to set the amountneeded, amount on hand, and
-            the amount made per craft for a Node instance
-        """
-        mynum: int = 0
-        while True:
-            temp = input('')
-            if not temp.isdigit():
-                print('you can only type in a postive interger')
-            else:
-                mynum = int(temp)
-                break
-        return mynum
     def clearentirequeue(self):
         """clears out the entire amount resulted queue, utilized in Mode B
         """
         if len(self.children) > 0:
-            for child in self.children.items():
-                if isinstance(child[1],Node):
-                    child[1].queueamountresulted.clear()
-                    child[1].clearentirequeue()            
+            for childnode in self.children.items():
+                if isinstance(childnode[1],Node):
+                    childnode[1].queueamountresulted.clear()
+                    childnode[1].clearentirequeue()            
                 else:
                     raise TypeError('Child is not an instance of',Node)
         
+def promptint() -> int:
+    """prompt the user to input a returnable integer
+
+    Returns:
+        int: an interger that is used to set the amountneeded, amount on hand, and
+        the amount made per craft for a Node instance
+    """
+    mynum: int = 0
+    while True:
+        temp = input('')
+        if not temp.isdigit():
+            print('you can only type in a postive interger')
+        else:
+            mynum = int(temp)
+            break
+    return mynum
             
     def findlocalendpoints(self) -> dict:
         """look for endpoints connected to the tree at this node
