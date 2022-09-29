@@ -92,14 +92,14 @@ class Node(NodeB):
                 break
         if self.parent is not None:
             while True:
-                print('How much',self.ingredient,'do you need to craft ',self.parent.ingredient, '1 time: ')
+                print('How much',self.ingredient,'do you need to craft',self.parent.ingredient,'1 time: ')
                 self.amountneeded = self.__promptint()
                 if self.amountneeded < 1:
                     print('That number is not valid')
                 else:
                     break
             while True:
-                print('How much',self.parent.ingredient, 'do you create each time you craft it: ')
+                print('How much',self.parent.ingredient,'do you create each time you craft it: ')
                 self.amountmadepercraft = self.__promptint()
                 if self.amountmadepercraft < 1:
                     print('That number is not valid')
@@ -287,8 +287,8 @@ if __name__ == '__main__':
         else:
             break
     head = Node(itemname, None)
-    populate(head)
     if programmodetype == 0:  # ? normal program mode
+        populate(head)
         searchforendpoint(head)
         print('# resulted of', head.ingredient, '',
               end=str(head.amountresulted)+'\n')
@@ -297,6 +297,7 @@ if __name__ == '__main__':
         print('How much', head.ingredient, 'do you want to create:')
         desirednumber = int(input(''))
         populate(head)
+        #todo set head.amountresulted = desirednumber
         while desirednumber <= reversearithmetic(head, False):
             reversearithmetic(head, False)
         # output resulted numbers for endpoints
@@ -309,3 +310,4 @@ if __name__ == '__main__':
             else:
                 raise TypeError('child is not an instance of', Node)
     # prompt the user if they want to figure out the amount resulted of another item
+    print('terminating process')
