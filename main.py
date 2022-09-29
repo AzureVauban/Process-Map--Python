@@ -180,8 +180,8 @@ def reversearithmetic(cur: Node,desirednum : int) -> int:
     while cur.amountresulted <= desirednum:
         for endpoint in endpoints.items():
             if isinstance(endpoint, Node):
-                endpoint.amountonhand += 1
-            if endpoint[1] is not None and isinstance(endpoint[1].parent, Node):
+                endpoint[1].amountonhand += 1
+            if isinstance(endpoint[1].parent, Node):
                 recursivearithmetic(endpoint[1])
             elif cur.amountresulted >= desirednum:
                 break
@@ -299,8 +299,7 @@ if __name__ == '__main__':
         #todo add input validatin for desired number
         populate(head)
         #todo rework reverse arithmetic method
-        while desirednumber >= head.amountresulted:
-            reversearithmetic(head, desirednumber)
+        reversearithmetic(head, desirednumber)
         # output resulted numbers for endpoints
         print('Needed amounts of your basemost ingredients to get',
               desirednumber, 'x', head.ingredient, ':')
