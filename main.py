@@ -193,7 +193,8 @@ def reversearithmetic(cur: Node,desiredamount : int = 0) -> int: #todo redo the 
             raise TypeError('Endpoint is not an instance of',Node)
     # while amount resulted is not equal to greater than the desired amount,
     # iterate through each Node in the dictionary and add its amount on hand by 1
-    while temp.amountresulted != desiredamount: #! UNIT TEST THIS WITH OTHER TREES, SEE IF != IS BETTER THAN >=
+    while temp.amountresulted != desiredamount:
+        #! ^^^ UNIT TEST THIS WITH OTHER TREES, SEE IF != IS BETTER THAN >=
         for endpoint in endpointsoftree.items():
             endpoint[1].amountonhand += 1
             recursivearithmetic(endpoint[1])
