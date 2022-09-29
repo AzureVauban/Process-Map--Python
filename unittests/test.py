@@ -10,7 +10,7 @@ class MODEAtesting(unittest.TestCase):
     """Unit Testing
 
     Args:
-        unittest (_type_): test case 
+        unittest (_type_): test case
     """
     focusingarray       : Node = Node('Focusing Array', None, 1, 1, 1)
     advancedalloy       : Node = Node('Advanced Alloy', focusingarray, 8, 1, 2)
