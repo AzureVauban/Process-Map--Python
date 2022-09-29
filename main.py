@@ -117,6 +117,18 @@ class Node(NodeB):
                 else:
                     raise TypeError('Child is not an instance of',Node)
         
+    def findlocalendpoints(self) -> dict:
+        """look for endpoints connected to the tree at this node
+        """
+        Node.endpoints.clear()
+        if len(self.children) > 0:
+            for childinstance in self.children.items():
+                if isinstance(childinstance[1], Node):
+                    childinstance[1].findlocalendpoints()
+        else:
+            Node.endpoints.update({self.instancekey: self})
+        return Node.endpoints
+
 def promptint() -> int:
     """prompt the user to input a returnable integer
 
@@ -134,18 +146,6 @@ def promptint() -> int:
             break
     return mynum
             
-    def findlocalendpoints(self) -> dict:
-        """look for endpoints connected to the tree at this node
-        """
-        Node.endpoints.clear()
-        if len(self.children) > 0:
-            for childinstance in self.children.items():
-                if isinstance(childinstance[1], Node):
-                    childinstance[1].findlocalendpoints()
-        else:
-            Node.endpoints.update({self.instancekey: self})
-        return Node.endpoints
-
 
 def recursivearithmetic(cur: Node) -> int:
     """figure out the amount resulted of the augment Node instance,
