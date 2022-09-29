@@ -49,11 +49,11 @@ class MODEBtesting(unittest.TestCase): #todo configure unit testing for MODE B w
     Args:
         unittest (class): Unit Testing Module/Class
     """
-    blockofgold : Node = Node('Block of Gold',None,0,1,1)
-    goldingot : Node = Node('Gold Ingot',blockofgold,0,1,9)
-    goldore : Node = Node('Gold Ore',goldingot,0,1,1)
+    blockofgold   : Node = Node('Block of Gold',None,0,1,1)
+    goldingot     : Node = Node('Gold Ingot',blockofgold,0,1,9)
+    goldore       : Node = Node('Gold Ore',goldingot,0,1,1)
     #! PROGRAMMODETYPE = 1 (unsure of why this is not needed, comment out for now)
-    def test(self):
+    def reversearithmetictest(self):
         """test reverse arithmetic method
         """
         self.assertEqual(reversearithmetic(self.blockofgold,100),100)
