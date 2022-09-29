@@ -74,3 +74,13 @@ class MODEBtesting(unittest.TestCase): #todo configure unit testing for MODE B w
         bluedict : dict = {}
         bluedict.update({self.goldore.instancekey:self.goldore})
         self.assertEqual(reddict,bluedict)
+class MODEBtesting2(unittest.TestCase):
+    """unit testing the recursive arithmetic method under Mode B's runtime condition
+
+    Args:
+        unittest (class): unit testing
+    """
+    def test(self):
+        """simple tenative test
+        """
+        self.assertIsNot(9+10,21)
