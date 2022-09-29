@@ -2,8 +2,9 @@
 """
 import unittest
 
-from main import PROGRAMMODETYPE, Node, findlocalendpoints, searchforendpoint
-from main import reversearithmetic
+from main import (PROGRAMMODETYPE, Node, findlocalendpoints, reversearithmetic,
+                  searchforendpoint)
+
 
 class MODEAtesting(unittest.TestCase):
     """Unit Testing
