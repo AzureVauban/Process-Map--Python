@@ -80,7 +80,5 @@ class MODEBtesting2(unittest.TestCase):
     Args:
         unittest (class): unit testing
     """
-    def test(self):
-        """simple tenative test
-        """
-        self.assertIsNot(9+10,21)
+    A : Node = Node('A',None,0,1,1)
+    B : Node = Node('B',A,0,1,1)

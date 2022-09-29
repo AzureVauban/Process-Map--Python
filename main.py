@@ -7,7 +7,7 @@ B,C,D...
 import math
 import sys
 
-PROGRAMMODETYPE: int = 0 #1 is A, 2 is B
+PROGRAMMODETYPE: int = 0  # 1 is A, 2 is B
 
 
 class NodeB:
@@ -52,7 +52,7 @@ class Node(NodeB):
     instancekey: int = 0
     endpoints: dict = {}  # only to be use with recursive reverse arithmetic method
 
-    def __init__(self, name: str = '', par=None, red: int = 0, blue: int = 1, yellow: int = 1) -> None:
+    def __init__(self, name: str = '', par=None, red: int = 0, blue: int = 1, yellow: int = 1) -> None:  # pylint:disable=C0301
         """default constructor for Node instance, stores identifying features of an item's
         information
 
@@ -84,7 +84,7 @@ class Node(NodeB):
         """prompt input of the numeric data for the instance from the user"""
         while True and PROGRAMMODETYPE == 0:
             #! ^^^ tentative, might have to update based on whichever mode:
-            print('How much',self.ingredient,'do you have on hand: ')
+            print('How much', self.ingredient, 'do you have on hand: ')
             self.amountonhand = promptint()
             if self.amountonhand < 0:
                 print('That number is not valid')
@@ -92,14 +92,16 @@ class Node(NodeB):
                 break
         if self.parent is not None:
             while True:
-                print('How much',self.ingredient,'do you need to craft',self.parent.ingredient,'1 time: ')
+                print('How much', self.ingredient, 'do you need to craft',
+                      self.parent.ingredient, '1 time: ')
                 self.amountneeded = promptint()
                 if self.amountneeded < 1:
                     print('That number is not valid')
                 else:
                     break
             while True:
-                print('How much',self.parent.ingredient,'do you create each time you craft it: ')
+                print('How much', self.parent.ingredient,
+                      'do you create each time you craft it: ')
                 self.amountmadepercraft = promptint()
                 if self.amountmadepercraft < 1:
                     print('That number is not valid')
@@ -111,16 +113,18 @@ class Node(NodeB):
         """
         if len(self.children) > 0:
             for childnode in self.children.items():
-                if isinstance(childnode[1],Node):
+                if isinstance(childnode[1], Node):
                     childnode[1].queueamountresulted.clear()
                     childnode[1].clearentirequeue()
                 else:
-                    raise TypeError('Child is not an instance of',Node)
-def findlocalendpoints(cur : Node) -> dict:
+                    raise TypeError('Child is not an instance of', Node)
+
+
+def findlocalendpoints(cur: Node) -> dict:
     """look for endpoints connected to the tree at this node
     """
-    findlocalendpoints.endpointinstances : dict = {}
-    #? unit testing passed, needed to be a static/class type variable
+    findlocalendpoints.endpointinstances: dict = {}
+    # ? unit testing passed, needed to be a static/class type variable
     if len(cur.children) > 0:
         for childinstance in cur.children.items():
             if isinstance(childinstance[1], Node):
@@ -128,6 +132,7 @@ def findlocalendpoints(cur : Node) -> dict:
     else:
         findlocalendpoints.endpointinstances.update({cur.instancekey: cur})
     return findlocalendpoints.endpointinstances
+
 
 def promptint() -> int:
     """prompt the user to input a returnable integer
@@ -169,27 +174,27 @@ def recursivearithmetic(cur: Node) -> int:
     cur.amountresulted = black
     # recursively call the method
     if cur.parent is not None:
-        cur.parent.queueamountresulted.update({cur.ingredient: cur.amountresulted})
+        cur.parent.queueamountresulted.update(
+            {cur.ingredient: cur.amountresulted})
         recursivearithmetic(cur.parent)
     elif cur.parent is None and PROGRAMMODETYPE == 1:
-        #todo clear out entire tree resulted queue
         cur.clearentirequeue()
     return cur.amountresulted
 
 
-def reversearithmetic(cur: Node,desiredamount : int = 0) -> int: #todo redo the docstring
-    """figure out how much of the endpoint nodes you need to get the desired amount of
-    the head most item
+def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
+    """recursive arithmetic method that figures out how much of the endpoint items you
+    need to get a desired amount of the head item
     """
-    #get temp and set it to the head Node of the argument instance
-    temp : Node = cur
+    # create temp instance and set it to the head Node of the argument instance
+    temp: Node = cur
     while temp.parent is not None:
         temp = temp.parent
-    endpointsoftree : dict = findlocalendpoints(temp)
+    endpointsoftree: dict = findlocalendpoints(temp)
     # check to see if each item is the approrpiate type
     for endpoint in endpointsoftree.items():
-        if not isinstance(endpoint[1],Node):
-            raise TypeError('Endpoint is not an instance of',Node)
+        if not isinstance(endpoint[1], Node):
+            raise TypeError('Endpoint is not an instance of', Node)
     # while amount resulted is not equal to greater than the desired amount,
     # iterate through each Node in the dictionary and add its amount on hand by 1
     while temp.amountresulted != desiredamount:
@@ -275,13 +280,13 @@ if __name__ == '__main__':
     # prompt user which mode they want to run the program in
     while True:
         print('Which mode do you want to use:')
-        print('Mode A - You are trying to figure out how much of your desired item you can make with the current supply of materials (Type in A)')
-        print('Mode B - You are trying to figure out how much base materials you need to create a certain amount of your desired item, (Type in B)')
+        print('Mode A - You are trying to figure out how much of your desired item you can make with the current supply of materials (Type in A)') # pylint:disable=C0301
+        print('Mode B - You are trying to figure out how much base materials you need to create a certain amount of your desired item, (Type in B)') # pylint:disable=C0301
         usermode = (input(''))
         usermode = usermode.strip()
-        #todo add comparison through uppercase
+        usermode = usermode.upper()
         if usermode != 'A' and usermode != 'B':
-            print('That input is not valid')
+            print("That input is not valid, please type in 'A' or 'B'")
         elif usermode == 'B':
             PROGRAMMODETYPE = 1
             break
@@ -304,9 +309,8 @@ if __name__ == '__main__':
               end=str(head.amountresulted)+'\n')
     else:  # ? current developing program mode
         print('How much', head.ingredient, 'do you want to create:')
-        desirednumber : int = promptint()
+        desirednumber: int = promptint()
         populate(head)
-        #todo rework reverse arithmetic method
         reversearithmetic(head, desirednumber)
         # output resulted numbers for endpoints
         print('Needed amounts of your basemost ingredients to get',
