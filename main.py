@@ -297,8 +297,8 @@ if __name__ == '__main__':
         print('How much', head.ingredient, 'do you want to create:')
         desirednumber = int(input(''))
         populate(head)
-        #todo set head.amountresulted = desirednumber
-        while desirednumber <= reversearithmetic(head, False):
+        #todo rework reverse arithmetic method
+        while desirednumber <= head.amountresulted:
             reversearithmetic(head, False)
         # output resulted numbers for endpoints
         print('Needed amounts of your basemost ingredients to get',
