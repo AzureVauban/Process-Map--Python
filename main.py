@@ -307,9 +307,8 @@ if __name__ == '__main__':
         print('# resulted of', head.ingredient, '',
               end=str(head.amountresulted)+'\n')
     else:  # ? current developing program mode
-        desirednumber: int = 0
         print('How much', head.ingredient, 'do you want to create:')
-        desirednumber = int(input(''))
+        desirednumber : int = promptint()
         #todo add input validatin for desired number
         populate(head)
         #todo rework reverse arithmetic method
