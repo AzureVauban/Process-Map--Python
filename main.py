@@ -266,21 +266,11 @@ def populate(cur: Node):
 
 if __name__ == '__main__':
     # Mode B: How much of Item B,C,D (endpoint instances), would I need to make X amount of item A
-    # prompt user to type in the name of the item they want to create
-    while True:
-        itemname = input('What is the name of the item you want to create: ')
-        itemname = itemname.strip()
-        if len(itemname) == 0:
-            print('You must type something in')
-        else:
-            break
-    # prompt user wich mode they want to run the program in
+    # prompt user which mode they want to run the program in
     while True:
         print('Which mode do you want to use:')
-        print('Mode A - You are trying to figure out how much', itemname,
-              'you can make with the current supply of materials (Type in A)')
-        print('Mode B - You are trying to figure out how much base materials you need to create a certain amount of',
-              itemname, '(Type in B)')
+        print('Mode A - You are trying to figure out how much of your desired item you can make with the current supply of materials (Type in A)')
+        print('Mode B - You are trying to figure out how much base materials you need to create a certain amount of your desired item, (Type in B)')
         usermode = (input(''))
         if usermode != 'A' and usermode != 'B':
             print('That input is not valid')
@@ -289,6 +279,14 @@ if __name__ == '__main__':
             break
         else:
             programmodetype = 0
+            break
+    # prompt user to type in the name of the item they want to create
+    while True:
+        itemname = input('What is the name of the item you want to create: ')
+        itemname = itemname.strip()
+        if len(itemname) == 0:
+            print('You must type something in')
+        else:
             break
     head = Node(itemname, None)
     populate(head)
