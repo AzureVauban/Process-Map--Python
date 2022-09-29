@@ -2,8 +2,7 @@
 """
 import unittest
 
-from main import (PROGRAMMODETYPE, Node, findlocalendpoints, reversearithmetic,
-                  searchforendpoint)
+from main import Node, findlocalendpoints, reversearithmetic, searchforendpoint
 
 
 class MODEAtesting(unittest.TestCase):
@@ -52,8 +51,7 @@ class MODEBtesting(unittest.TestCase):
     blockofgold : Node = Node('Block of Gold',None,0,1,1)
     goldingot : Node = Node('Gold Ingot',blockofgold,0,1,9)
     goldore : Node = Node('Gold Ore',goldingot,0,1,1)
-    PROGRAMMODETYPE = 1
-    #blockofgold.findlocalendpoints()
+    #! PROGRAMMODETYPE = 1 (unsure of why this is not needed, comment out for now)
     def test(self):
         """test reverse arithmetic method
         """
