@@ -112,5 +112,5 @@ class MODEBtesting2(unittest.TestCase):
     def testreversearithmetic(self):
         """reverse arithmetic testing with many endpoints
         """
-        testvalue = random.randint(1,100)                                                                                                                                                                                                                                                                                                                                                                                                                                                         
-        self.assertGreaterEqual(reversearithmetic(self.amethyst,testvalue),testvalue)
+        testvalue = random.randint(1, 100)
+        self.assertGreaterEqual(reversearithmetic(self.amethyst, testvalue), testvalue)
