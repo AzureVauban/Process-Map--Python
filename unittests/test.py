@@ -143,9 +143,15 @@ class MODEBtesting3(unittest.TestCase):
         bluedict.update({self.goldingot.instancekey:self.goldingot})
         bluedict.update({self.netheritescrap.instancekey:self.netheritescrap})
         self.assertEqual(reddict,bluedict)
+    def subtest1(self):
+        """amount on hand of netherite scrap should be 2304
+        """
+        self.assertEqual(self.netheritescrap.amountonhand,2304)
+    def subtest2(self):
+        """amount on hand of gold ingot shoukd be 2304
+        """
+        self.assertEqual(self.goldingot.amountonhand,2304)
     def testreversearithmetic(self):
         """reverse arithmetic testing with many endpoints
         """
-        self.assertGreaterEqual(reversearithmetic(self.blockofnetherite, 64), 64)
-        self.assertEqual(self.netheritescrap.amountonhand,2304)
-        self.assertEqual(self.goldingot.amountonhand,2304)
+        self.assertGreaterEqual(reversearithmetic(self.netheritescrap,64),64)

@@ -43,7 +43,7 @@ class NodeB:
 class Node(NodeB):
     """stores identifiable features of an item, such as the parent and children instances
     Args:
-        primary (_type_): parent class of item
+        NobeB (class): parent class of item
     """
     parent = None
     children: dict = {}
@@ -83,6 +83,7 @@ class Node(NodeB):
 
     def __inputnumerics(self):
         """prompt input of the numeric data for the instance from the user"""
+        #prompt amount on hand
         while True and PROGRAMMODETYPE == 0:
             print('How much', self.ingredient, 'do you have on hand: ')
             self.amountonhand = promptint()
@@ -90,15 +91,9 @@ class Node(NodeB):
                 print('That number is not valid')
             else:
                 break
+            #prompt amount needed
         if self.parent is not None:
-            while True:
-                print('How much', self.ingredient, 'do you need to craft',
-                      self.parent.ingredient, '1 time: ')
-                self.amountneeded = promptint()
-                if self.amountneeded < 1:
-                    print('That number is not valid')
-                else:
-                    break
+            # prompt amount made per craft
             while True and self.askmadepercraftquestion:
                 print('How much', self.parent.ingredient,
                       'do you create each time you craft it: ')
@@ -107,6 +102,14 @@ class Node(NodeB):
                     print('That number is not valid')
                 else:
                     self.askmadepercraftquestion = False
+                    break
+            while True:
+                print('How much', self.ingredient, 'do you need to craft',
+                      self.parent.ingredient, '1 time: ')
+                self.amountneeded = promptint()
+                if self.amountneeded < 1:
+                    print('That number is not valid')
+                else:
                     break
     def clearamountresulted(self):
         """clear amount resulted for all subnodes below this instance
@@ -177,6 +180,8 @@ def recursivearithmetic(cur: Node) -> int:
         cur.parent.queueamountresulted.update(
             {cur.ingredient: cur.amountresulted})
         recursivearithmetic(cur.parent)
+    #else:
+    #    cur.clearamountresulted()
     return cur.amountresulted
 
 
@@ -195,16 +200,20 @@ def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
             raise TypeError('Endpoint is not an instance of', Node)
     # while amount resulted is less than the desired amount,
     # iterate through each Node in the dictionary and add its amount on hand by 1
-    while temp.amountresulted < desiredamount:
+    while temp.amountresulted < desiredamount: #todo comment - reverse arithmetic runtime bug
+        #! debug this section/interaction with section, block of netherite mock tree should
+        #! resulted in 2304 for both endpoints, unit test passes but during real world
+        #! runtime infinite loop occurs, the amount on hand of the iterated endpoint
+        #! infinitely increases, main suspect for bug is this for-loop below these comment lines
         for endpoint in endpointsoftree.items():
+            if temp.amountresulted > desiredamount:
+                break
             endpoint[1].amountonhand += 1
-            recursivearithmetic(endpoint[1])
+            baz :int = recursivearithmetic(endpoint[1])
             if temp.amountresulted >= desiredamount:
                 break
             # recursively clear the amount resulted queue once the recursive arithmetic
             # reaches the head instance
-    if cur.parent is None:
-        cur.clearamountresulted()
     return temp.amountresulted
 
 
@@ -341,6 +350,7 @@ if __name__ == '__main__':
                 print("That input is not valid, please type in 'Y' or 'N'")
             elif len(userinput) > 1:
                 print('Your input is too long, please only type in one character')
-            elif userinput == 'N':
+            elif userinput == 'N' or userinput == 'Y':
                 break
+        head.clearamountresulted()
     print('terminating process')
