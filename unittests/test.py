@@ -53,6 +53,7 @@ class MODEBtesting(unittest.TestCase):
     purple  : Node = Node('Purple',None,0,random.randint(1,100),1)
     green   : Node = Node('Green',purple,0,random.randint(1,100),1)
     orange  : Node = Node('Orange',green,0,random.randint(1,100),1)
+    #endpoint should only be orange
     #! PROGRAMMODETYPE = 1 (unsure of why this is not needed, comment out for now)
     def testreversearithmetic(self):
         """test reverse arithmetic method
@@ -87,6 +88,7 @@ class MODEBtesting2(unittest.TestCase):
     B : Node = Node('B',A,0,random.randint(1,100),1)
     C : Node = Node('C',A,0,random.randint(1,100),1)
     D : Node = Node('D',B,0,random.randint(1,100),1)
+    #endpoints are C and D
     def testhead(self):
         """test simple upward traversal
         """
