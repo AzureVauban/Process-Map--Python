@@ -195,7 +195,6 @@ def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
     return temp.amountresulted
 
 
-
 def populate(cur: Node):
     """creates new child instances during script runtime
 
@@ -253,7 +252,15 @@ def populate(cur: Node):
         else:
             raise TypeError('child is not an instance of', Node)
 
-
+def tentativetest(tentativevariable = None):
+    if not isinstance(tentativevariable,dict):
+        raise TypeError('Augment must be of type',dict)
+    print('The amount of base materials needed to make',temp.amountonhand,'of',temp.ingredient)
+    for tentativetemp in tentativevariable.items():
+        if not isinstance(tentativetemp[1],Node):
+            raise TypeError('child is not an instance of', Node)
+        else:
+            print(tentativetemp[1].ingredient,':',tentativetemp[1].amountonhand)
 if __name__ == '__main__':
     # Mode B: How much of Item B,C,D (endpoint instances), would I need to make X amount of item A
     # prompt user which mode they want to run the program in
@@ -296,10 +303,15 @@ if __name__ == '__main__':
         print('Needed amounts of your basemost ingredients to get',
               desirednumber, 'x', head.ingredient, ':')
         # print amount needed of endpoint items, format input smiliarily to a list
-        for child in head.findlocalendpoints().items():
+        mango : dict = findlocalendpoints(head,{})
+        """
+        for child in head.findlocalendpoints(head,{}).items():
             if isinstance(child[1], Node):
                 print(child[1].ingredient, ':', child[1].amountonhand, 'x')
             else:
                 raise TypeError('child is not an instance of', Node)
+        """
+        print('RESULTS:')
+        tentativetest(mango)
     # prompt the user if they want to figure out the amount resulted of another item
     print('terminating process')
