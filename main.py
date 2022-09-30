@@ -254,13 +254,12 @@ def populate(cur: Node):
 
 def tentativetest(tentativevariable = None):
     if not isinstance(tentativevariable,dict):
-        raise TypeError('Augment must be of type',dict)
-    print('The amount of base materials needed to make',temp.amountonhand,'of',temp.ingredient)
+        raise TypeError('parameter must be an instance of',dict)
+    #print('The amount of base materials needed to make',temp.amountonhand,'of',temp.ingredient)
     for tentativetemp in tentativevariable.items():
         if not isinstance(tentativetemp[1],Node):
             raise TypeError('child is not an instance of', Node)
-        else:
-            print(tentativetemp[1].ingredient,':',tentativetemp[1].amountonhand)
+        print(tentativetemp[1].ingredient,':',tentativetemp[1].amountonhand)
 if __name__ == '__main__':
     # Mode B: How much of Item B,C,D (endpoint instances), would I need to make X amount of item A
     # prompt user which mode they want to run the program in
