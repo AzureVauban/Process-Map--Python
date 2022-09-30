@@ -7,6 +7,7 @@ B,C,D...
 import math
 import sys
 
+
 PROGRAMMODETYPE: int = 0
 
 
@@ -50,9 +51,8 @@ class Node(NodeB):
     generation: int = 0
     instances: int = 0
     instancekey: int = 0
-    endpoints: dict = {}  # only to be use with recursive reverse arithmetic method
-
-    def __init__(self, name: str = '', par=None, red: int = 0, blue: int = 1, yellow: int = 1) -> None:  # pylint:disable=C0301
+    askmadepercraftquestion : bool = False
+    def __init__(self, name: str = '', par=None, red: int = 0, blue: int = 1, yellow: int = 1,green : bool = False) -> None:  # pylint:disable=C0301
         """default constructor for Node instance, stores identifying features of an item's
         information
 
@@ -66,7 +66,6 @@ class Node(NodeB):
             Defaults to 1.
         """
         super().__init__(name, red, blue, yellow)
-        self.endpoints = {}
         self.instancekey = Node.instances
         self.children = {}
         self.parent = par
@@ -75,9 +74,9 @@ class Node(NodeB):
             self.parent.children.update({self.instancekey: self})
         else:
             self.generation = 0
+        self.askmadepercraftquestion = green #! was default by false
         Node.instances += 1
         if __name__ == '__main__':
-            #! this line is added so that it doesn't mess up the Node instance unit testing
             self.__inputnumerics()
 
     def __inputnumerics(self):
@@ -99,15 +98,18 @@ class Node(NodeB):
                     print('That number is not valid')
                 else:
                     break
-            while True:
+            while True and self.askmadepercraftquestion:
+                #todo   add code to check if the siblings have the same number,
+                #todo   if not set the rest of the sibilings amountmadepercraft to be the
+                #todo   same and dont ask this question again for this set of nodes
                 print('How much', self.parent.ingredient,
                       'do you create each time you craft it: ')
                 self.amountmadepercraft = promptint()
                 if self.amountmadepercraft < 1:
                     print('That number is not valid')
                 else:
+                    self.askmadepercraftquestion = False
                     break
-endpointinstances : dict = {}
 def findlocalendpoints(cur: Node,testdict : dict) -> dict:
     """look for endpoints connected to the tree at this node
         after this method is finished running, please clear its utilized dictionaryy
@@ -122,7 +124,6 @@ def findlocalendpoints(cur: Node,testdict : dict) -> dict:
     else:
         testdict.update({cur.instancekey: cur})
     returndict : dict = testdict
-    #endpointinstances.clear()
     return returndict
 
 
@@ -241,8 +242,10 @@ def populate(cur: Node):
         else:
             inputqueue.update({len(inputqueue): myinput})
     # create new child instances
+    tempbool : bool = True
     for newnodename in inputqueue.items():
-        newchild: Node = Node(newnodename[1], cur)  # pylint:disable=W0612
+        newchild: Node = Node(newnodename[1], cur,0,0,0,tempbool)  # pylint:disable=W0612
+        tempbool = False
     # continue method runtime
     for childinstance in cur.children.items():
         if isinstance(childinstance[1], Node):

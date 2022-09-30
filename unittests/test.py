@@ -37,7 +37,6 @@ class MODEAtesting(unittest.TestCase):
     copperwire          : Node = Node('Copper Wire', siliconboard, 492, 9, 1)
     copperbar           : Node = Node('Copper Bar', copperwire, 1000, 1, 1)
     copperore           : Node = Node('Copper Ore', copperbar, 2, 1, 2)
-    #searchforendpoint(focusingarray)
     tentativedict = findlocalendpoints(advancedalloy,{})
     def test1(self):
         """test to see if the amount resulted of focusing array is 48
