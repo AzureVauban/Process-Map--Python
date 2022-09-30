@@ -7,8 +7,6 @@ B,C,D...
 import math
 import sys
 
-from prompt_toolkit import prompt
-
 PROGRAMMODETYPE: int = 0
 
 
@@ -52,8 +50,9 @@ class Node(NodeB):
     generation: int = 0
     instances: int = 0
     instancekey: int = 0
-    askmadepercraftquestion : bool = False
-    def __init__(self, name: str = '', par=None, red: int = 0, blue: int = 1, yellow: int = 1,green : bool = False) -> None:  # pylint:disable=C0301
+    askmadepercraftquestion: bool = False
+
+    def __init__(self, name: str = '', par=None, red: int = 0, blue: int = 1, yellow: int = 1, green: bool = False) -> None:  # pylint:disable=C0301
         """default constructor for Node instance, stores identifying features of an item's
         information
 
@@ -109,20 +108,29 @@ class Node(NodeB):
                 else:
                     self.askmadepercraftquestion = False
                     break
-def findlocalendpoints(cur: Node,testdict : dict) -> dict:
+    def clearamountresulted(self):
+        """clear amount resulted for all subnodes below this instance
+        """
+        self.queueamountresulted.clear()
+        if len(self.children) > 0:
+            for childinstance in self.children.items():
+                if not isinstance(childinstance[1],Node):
+                    raise TypeError('Child is not an instance of',Node)
+                childinstance[1].clearamountresulted()
+def findlocalendpoints(cur: Node, testdict: dict) -> dict:
     """look for endpoints connected to the tree at this node
         after this method is finished running, please clear its utilized dictionaryy
     """
     if testdict is None:
-        testdict :dict = {}
+        testdict: dict = {}
     # ! unit testing failing
     if len(cur.children) > 0:
         for childinstance in cur.children.items():
             if isinstance(childinstance[1], Node):
-                findlocalendpoints(childinstance[1],testdict)
+                findlocalendpoints(childinstance[1], testdict)
     else:
         testdict.update({cur.instancekey: cur})
-    returndict : dict = testdict
+    returndict: dict = testdict
     return returndict
 
 
@@ -166,7 +174,8 @@ def recursivearithmetic(cur: Node) -> int:
     cur.amountresulted = black
     # recursively call the method
     if cur.parent is not None:
-        cur.parent.queueamountresulted.update({cur.ingredient: cur.amountresulted})
+        cur.parent.queueamountresulted.update(
+            {cur.ingredient: cur.amountresulted})
         recursivearithmetic(cur.parent)
     return cur.amountresulted
 
@@ -179,7 +188,7 @@ def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
     temp: Node = cur
     while temp.parent is not None:
         temp = temp.parent
-    endpointsoftree: dict = findlocalendpoints(temp,{})
+    endpointsoftree: dict = findlocalendpoints(temp, {})
     # check to see if each item is the approrpiate type
     for endpoint in endpointsoftree.items():
         if not isinstance(endpoint[1], Node):
@@ -192,6 +201,10 @@ def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
             recursivearithmetic(endpoint[1])
             if temp.amountresulted >= desiredamount:
                 break
+            # recursively clear the amount resulted queue once the recursive arithmetic
+            # reaches the head instance
+    if cur.parent is None:
+        cur.clearamountresulted()
     return temp.amountresulted
 
 
@@ -243,9 +256,9 @@ def populate(cur: Node):
         else:
             inputqueue.update({len(inputqueue): myinput})
     # create new child instances
-    tempbool : bool = True
+    tempbool: bool = True
     for newnodename in inputqueue.items():
-        newchild: Node = Node(newnodename[1], cur,0,0,0,tempbool)  # pylint:disable=W0612
+        newchild: Node = Node(newnodename[1], cur, 0, 0, 0, tempbool)  # pylint:disable=W0612
         tempbool = False
     # continue method runtime
     for childinstance in cur.children.items():
@@ -253,16 +266,20 @@ def populate(cur: Node):
             populate(childinstance[1])
         else:
             raise TypeError('child is not an instance of', Node)
+
+
 def printprompt():
     """prints out introduction
     """
     print('Which mode do you want to use:')
-    print('Mode A - You are trying to figure out how much of your desired item you can make with the current supply of materials (Type in A)') # pylint:disable=C0301
-    print('Mode B - You are trying to figure out how much base materials you need to create a certain amount of your desired item, (Type in B)') # pylint:disable=C0301
-    print("Type in 'H' if you need a reminder of the prompt")
+    print('Mode A - You are trying to figure out how much of your desired item you can make with the current supply of materials (Type in A)')  # pylint:disable=C0301
+    print('Mode B - You are trying to figure out how much base materials you need to create a certain amount of your desired item, (Type in B)')  # pylint:disable=C0301
+    print("Type in 'H' if you need a reminder of the prompt\n")
+
+
 if __name__ == '__main__':
     print('Welcome to Process Map (Python) v1.1!\n')
-    while True: #main runtime loop
+    while True:  # main runtime loop
         # Mode B: How much of Item B,C,D (endpoint instances), would I need to make X amount of
         # item A
         # prompt user which mode they want to run the program in
@@ -285,7 +302,8 @@ if __name__ == '__main__':
                 break
         # prompt user to type in the name of the item they want to create
         while True:
-            itemname = input('What is the name of the item you want to create: ')
+            itemname = input(
+                'What is the name of the item you want to create: ')
             itemname = itemname.strip()
             if len(itemname) == 0:
                 print('You must type something in')
@@ -294,25 +312,27 @@ if __name__ == '__main__':
         head = Node(itemname, None)
         if PROGRAMMODETYPE == 0:  # ? normal program mode
             populate(head)
-            for child in findlocalendpoints(head,{}).items():
+            for child in findlocalendpoints(head, {}).items():
                 recursivearithmetic(child[1])
             print('# resulted of', head.ingredient, '',
-                end=str(head.amountresulted)+'\n')
+                  end=str(head.amountresulted)+'\n')
         else:  # ? Mode B
             print('How much', head.ingredient, 'do you want to create:')
             desirednumber: int = promptint()
             populate(head)
             reversearithmetic(head, desirednumber)
             # output resulted numbers for endpoints
-            print('To get',str(str(desirednumber)+'x'), head.ingredient,'you need the following:')
+            print('To get', str(str(desirednumber)+'x'),
+                  head.ingredient, 'you need the following:')
             # print amount needed of endpoint items
-            mango : dict = findlocalendpoints(head,{})
-            for itemnode in findlocalendpoints(head,{}).items():
-                if not isinstance(itemnode[1],Node):
+            mango: dict = findlocalendpoints(head, {})
+            for itemnode in findlocalendpoints(head, {}).items():
+                if not isinstance(itemnode[1], Node):
                     raise TypeError('child is not an instance of', Node)
-                print(itemnode[1].ingredient,':',itemnode[1].amountonhand,end='x\n')
+                print(itemnode[1].ingredient, ':',
+                      itemnode[1].amountonhand, end='x\n')
         # prompt the user to see if they want to input another tree
-        print("Do you want to run the program again with another item tree? (Y/N)\ntype in 'H'")
+        print("\nDo you want to run the program again with another item tree? (Y/N) type in 'H' if you need to be reminded of the prompt")
         while True:
             userinput = (input(''))
             userinput = userinput.strip()
@@ -321,6 +341,6 @@ if __name__ == '__main__':
                 print("That input is not valid, please type in 'Y' or 'N'")
             elif len(userinput) > 1:
                 print('Your input is too long, please only type in one character')
-            else:
+            elif userinput == 'N':
                 break
     print('terminating process')

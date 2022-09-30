@@ -113,3 +113,39 @@ class MODEBtesting2(unittest.TestCase):
         """
         testvalue = random.randint(1, 100)
         self.assertGreaterEqual(reversearithmetic(self.amethyst, testvalue), testvalue)
+class MODEBtesting3(unittest.TestCase):
+    """unit testing the recursive arithmetic method under Mode B's runtime condition
+
+    Args:
+        unittest (class): unit testing
+    """
+    blockofnetherite: Node = Node('block of netherite',None,0,1,1)
+    netherite : Node = Node('netherite ingot',blockofnetherite,0,1,9)
+    goldingot : Node = Node('gold ingot',netherite,0,1,4)
+    netheritescrap : Node = Node('netherite scrap',netherite,0,1,4)
+    #endpoints are gold ingot and netherite scrap
+    def testhead(self):
+        """test simple upward traversal
+        """
+        cur : Node = self.netheritescrap
+        while cur.parent is not None:
+            cur = cur.parent
+        self.assertTrue(cur,self.blockofnetherite)
+    def testendpoints(self):
+        """check to see if the endpoints of this mock ingredient tree are correctly found
+        """
+        cur : Node = self.netheritescrap
+        while cur.parent is not None:
+            cur = cur.parent
+        reddict : dict = findlocalendpoints(cur,{})
+        bluedict : dict = {}
+        # manually input endpoints into the dictionary
+        bluedict.update({self.goldingot.instancekey:self.goldingot})
+        bluedict.update({self.netheritescrap.instancekey:self.netheritescrap})
+        self.assertEqual(reddict,bluedict)
+    def testreversearithmetic(self):
+        """reverse arithmetic testing with many endpoints
+        """
+        self.assertGreaterEqual(reversearithmetic(self.blockofnetherite, 64), 64)
+        self.assertEqual(self.netheritescrap.amountonhand,2304)
+        self.assertEqual(self.goldingot.amountonhand,2304)
