@@ -290,7 +290,7 @@ if __name__ == '__main__':
         reversearithmetic(head, desirednumber)
         # output resulted numbers for endpoints
         print('To get',str(str(desirednumber)+'x'), head.ingredient,'you need the following:')
-        # print amount needed of endpoint items, format input smiliarily to a list
+        # print amount needed of endpoint items
         mango : dict = findlocalendpoints(head,{})
         for itemnode in findlocalendpoints(head,{}).items():
             if not isinstance(itemnode[1],Node):
