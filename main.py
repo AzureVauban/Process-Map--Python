@@ -287,7 +287,7 @@ if __name__ == '__main__':
             recursivearithmetic(child[1])
         print('# resulted of', head.ingredient, '',
               end=str(head.amountresulted)+'\n')
-    else:  # ? current developing program mode
+    else:  # ? Mode B
         print('How much', head.ingredient, 'do you want to create:')
         desirednumber: int = promptint()
         populate(head)
@@ -301,7 +301,5 @@ if __name__ == '__main__':
                 print(child[1].ingredient, ':', child[1].amountonhand, 'x')
             else:
                 raise TypeError('child is not an instance of', Node)
-        #clear this dict,unable to do so in its utilized method
-        #endpointinstances.clear()  # !tentative code
     # prompt the user if they want to figure out the amount resulted of another item
     print('terminating process')
