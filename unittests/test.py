@@ -43,7 +43,7 @@ class MODEAtesting(unittest.TestCase):
         """test to see if the amount resulted of focusing array is 48
         """
         cls.assertTrue(cls.focusingarray.amountresulted,48)
-class MODEBtesting(unittest.TestCase): #todo configure unit testing for MODE B with a multi-endpoint ingredient tree
+class MODEBtesting(unittest.TestCase):
     """unit testing class for Mode B, which is trying to figure out what should be the amount on
        hand of the endpoint items to get a desired amount of the headmost item crafted
 
