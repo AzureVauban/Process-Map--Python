@@ -1,9 +1,9 @@
-"""unit testing code
+"""unit testing code, test out Mode A and Mode B for the script
 """
 import random
 import unittest
 
-from main import (Node, findlocalendpoints,  # pylint:disable=E0611
+from main import (Node, findlocalendpoints,  # pylint:disable=E0401
                   reversearithmetic, searchforendpoint)
 
 
