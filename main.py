@@ -7,7 +7,6 @@ B,C,D...
 import math
 import sys
 
-
 PROGRAMMODETYPE: int = 0
 
 
@@ -64,6 +63,8 @@ class Node(NodeB):
             Defaults to 1.
             yellow (int, optional): amount of item needed to craft the parent item one time.
             Defaults to 1.
+            green (bool,optional): boolean variable, checks if one of the Node's sibiling
+            instances was prompted to input the amount made per craft (blue)
         """
         super().__init__(name, red, blue, yellow)
         self.instancekey = Node.instances
@@ -74,7 +75,7 @@ class Node(NodeB):
             self.parent.children.update({self.instancekey: self})
         else:
             self.generation = 0
-        self.askmadepercraftquestion = green #! was default by false
+        self.askmadepercraftquestion = green
         Node.instances += 1
         if __name__ == '__main__':
             self.__inputnumerics()
@@ -82,7 +83,6 @@ class Node(NodeB):
     def __inputnumerics(self):
         """prompt input of the numeric data for the instance from the user"""
         while True and PROGRAMMODETYPE == 0:
-            #! ^^^ tentative, might have to update based on whichever mode:
             print('How much', self.ingredient, 'do you have on hand: ')
             self.amountonhand = promptint()
             if self.amountonhand < 0:
