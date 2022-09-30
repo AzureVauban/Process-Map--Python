@@ -3,7 +3,7 @@
 import random
 import unittest
 
-from main import (Node, findlocalendpoints,  # pylint:disable=E0401
+from main import (Node, findlocalendpoints, recursivearithmetic,  # pylint:disable=E0401
                   reversearithmetic, searchforendpoint)
 
 
@@ -37,11 +37,14 @@ class MODEAtesting(unittest.TestCase):
     copperwire          : Node = Node('Copper Wire', siliconboard, 492, 9, 1)
     copperbar           : Node = Node('Copper Bar', copperwire, 1000, 1, 1)
     copperore           : Node = Node('Copper Ore', copperbar, 2, 1, 2)
-    searchforendpoint(focusingarray)
+    #searchforendpoint(focusingarray)
+    tentativedict = findlocalendpoints(advancedalloy,{})
     @classmethod
     def test1(cls):
         """test to see if the amount resulted of focusing array is 48
         """
+        for node in cls.tentativedict.items():
+            recursivearithmetic(node[1])
         cls.assertTrue(cls.focusingarray.amountresulted,48)
 class MODEBtesting(unittest.TestCase):
     """unit testing class for Mode B, which is trying to figure out what should be the amount on
@@ -53,8 +56,7 @@ class MODEBtesting(unittest.TestCase):
     purple  : Node = Node('Purple',None,0,random.randint(1,100),1)
     green   : Node = Node('Green',purple,0,random.randint(1,100),1)
     orange  : Node = Node('Orange',green,0,random.randint(1,100),1)
-    #endpoint should only be orange
-    #! PROGRAMMODETYPE = 1 (unsure of why this is not needed, comment out for now)
+    #orange should be the only endpoint present in the endpoint search method
     def testreversearithmetic(self):
         """test reverse arithmetic method
         """
@@ -88,7 +90,7 @@ class MODEBtesting2(unittest.TestCase):
     benitoite : Node = Node('Benitoite',amethyst,0,random.randint(1,100),1)
     carnelian : Node = Node('Carnelian',amethyst,0,random.randint(1,100),1)
     dioptase : Node = Node('Dioptase',benitoite,0,random.randint(1,100),1)
-    #endpoints are C and D
+    #endpoints are carnelian and dioptase
     def testhead(self):
         """test simple upward traversal
         """

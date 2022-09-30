@@ -107,33 +107,6 @@ class Node(NodeB):
                     print('That number is not valid')
                 else:
                     break
-
-    def clearentirequeue(self):
-        """clears out the entire amount resulted queue, utilized in Mode B
-        """
-        if len(self.children) > 0:
-            for childnode in self.children.items():
-                if isinstance(childnode[1], Node):
-                    childnode[1].queueamountresulted.clear()
-                    childnode[1].clearentirequeue()
-                else:
-                    raise TypeError('Child is not an instance of', Node)
-                
-    def tentative_findlocalendpoints(self) -> dict:
-        returndict : dict = {}
-        temp = self
-        while temp.parent is not None:
-            temp = temp.parent
-        Node.endpoints.clear()
-        if len(temp.children) > 0:
-            for childinstance in temp.children.items():
-                if isinstance(childinstance[1], Node) and len(childinstance[1].children) > 0:
-                    childinstance[1].tentative_findlocalendpoints()
-                else:
-                    returndict.update({temp.instancekey: temp})
-        temp.endpoints = returndict
-        return temp.endpoints
-
 endpointinstances : dict = {}
 def findlocalendpoints(cur: Node,testdict : dict) -> dict:
     """look for endpoints connected to the tree at this node
@@ -193,11 +166,8 @@ def recursivearithmetic(cur: Node) -> int:
     cur.amountresulted = black
     # recursively call the method
     if cur.parent is not None:
-        cur.parent.queueamountresulted.update(
-            {cur.ingredient: cur.amountresulted})
+        cur.parent.queueamountresulted.update({cur.ingredient: cur.amountresulted})
         recursivearithmetic(cur.parent)
-    elif cur.parent is None and PROGRAMMODETYPE == 1:
-        cur.clearentirequeue()
     return cur.amountresulted
 
 
