@@ -50,30 +50,31 @@ class MODEBtesting(unittest.TestCase): #todo configure unit testing for MODE B w
     Args:
         unittest (class): Unit Testing Module/Class
     """
-    blockofgold   : Node = Node('Block of Gold',None,0,1,1)
-    goldingot     : Node = Node('Gold Ingot',blockofgold,0,1,9)
-    goldore       : Node = Node('Gold Ore',goldingot,0,1,1)
+    purple  : Node = Node('Purple',None,0,random.randint(1,100),1)
+    green   : Node = Node('Green',purple,0,random.randint(1,100),1)
+    orange  : Node = Node('Orange',green,0,random.randint(1,100),1)
     #! PROGRAMMODETYPE = 1 (unsure of why this is not needed, comment out for now)
-    def reversearithmetictest(self):
+    def testreversearithmetic(self):
         """test reverse arithmetic method
         """
-        self.assertEqual(reversearithmetic(self.blockofgold,100),100)
+        tempassertint : int = random.randint(1,100)
+        self.assertEqual(reversearithmetic(self.purple,tempassertint),tempassertint)
     def testhead(self):
         """test simple upward traversal
         """
-        cur : Node = self.goldore
+        cur : Node = self.orange
         while cur.parent is not None:
             cur = cur.parent
-        self.assertTrue(cur,self.blockofgold)
+        self.assertTrue(cur,self.purple)
     def testendpoints(self):
         """check to see if the endpoints of this mock ingredient tree are correctly found
         """
-        cur : Node = self.goldore
+        cur : Node = self.orange
         while cur.parent is not None:
             cur = cur.parent
         reddict : dict = findlocalendpoints(cur)
         bluedict : dict = {}
-        bluedict.update({self.goldore.instancekey:self.goldore})
+        bluedict.update({self.orange.instancekey:self.orange})
         self.assertEqual(reddict,bluedict)
 class MODEBtesting2(unittest.TestCase):
     """unit testing the recursive arithmetic method under Mode B's runtime condition

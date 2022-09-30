@@ -120,7 +120,7 @@ class Node(NodeB):
                     raise TypeError('Child is not an instance of', Node)
 
 
-endpointinstances: dict = {}
+endpointinstances : dict = {}
 def findlocalendpoints(cur: Node) -> dict:
     """look for endpoints connected to the tree at this node
     """
@@ -132,6 +132,7 @@ def findlocalendpoints(cur: Node) -> dict:
     else:
         endpointinstances.update({cur.instancekey: cur})
     returndict : dict = endpointinstances
+    endpointinstances.clear()
     return returndict
 
 
@@ -323,6 +324,6 @@ if __name__ == '__main__':
             else:
                 raise TypeError('child is not an instance of', Node)
         #clear this dict,unable to do so in its utilized method
-        endpointinstances.clear()
+        #endpointinstances.clear()  # !tentative code
     # prompt the user if they want to figure out the amount resulted of another item
     print('terminating process')
