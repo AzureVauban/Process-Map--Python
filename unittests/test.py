@@ -72,7 +72,8 @@ class MODEBtesting(unittest.TestCase): #todo configure unit testing for MODE B w
         cur : Node = self.orange
         while cur.parent is not None:
             cur = cur.parent
-        reddict : dict = findlocalendpoints(cur)
+        #reddict : dict = findlocalendpoints(cur)
+        reddict : dict = cur.tentative_findlocalendpoints()
         bluedict : dict = {}
         bluedict.update({self.orange.instancekey:self.orange})
         self.assertEqual(reddict,bluedict)

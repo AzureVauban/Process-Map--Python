@@ -118,13 +118,27 @@ class Node(NodeB):
                     childnode[1].clearentirequeue()
                 else:
                     raise TypeError('Child is not an instance of', Node)
-
+                
+    def tentative_findlocalendpoints(self) -> dict:
+        returndict : dict = {}
+        temp = self
+        while temp.parent is not None:
+            temp = temp.parent
+        if len(temp.children) > 0:
+            for childinstance in temp.children.items():
+                if isinstance(childinstance[1], Node) and len(childinstance[1]) > 0:
+                    childinstance[1].tentative_findlocalendpoints()
+                else:
+                    returndict.update({temp.instancekey: temp})
+            temp.endpoints.clear()
+        temp.endpoints = returndict
+        return temp.endpoints
 
 endpointinstances : dict = {}
 def findlocalendpoints(cur: Node) -> dict:
     """look for endpoints connected to the tree at this node
     """
-    # ? unit testing passed, needed to be a static/class type variable
+    # ! unit testing failing
     if len(cur.children) > 0:
         for childinstance in cur.children.items():
             if isinstance(childinstance[1], Node):
