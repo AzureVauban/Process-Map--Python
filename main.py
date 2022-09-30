@@ -135,8 +135,9 @@ class Node(NodeB):
         return temp.endpoints
 
 endpointinstances : dict = {}
-def findlocalendpoints(cur: Node) -> dict:
+def findlocalendpoints(cur: Node,testdict : dict = None) -> dict:
     """look for endpoints connected to the tree at this node
+        after this method is finished running, please clear its utilized dictionaryy
     """
     # ! unit testing failing
     if len(cur.children) > 0:
@@ -146,7 +147,7 @@ def findlocalendpoints(cur: Node) -> dict:
     else:
         endpointinstances.update({cur.instancekey: cur})
     returndict : dict = endpointinstances
-    endpointinstances.clear()
+    #endpointinstances.clear()
     return returndict
 
 

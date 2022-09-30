@@ -50,9 +50,9 @@ class MODEBtesting(unittest.TestCase): #todo configure unit testing for MODE B w
     Args:
         unittest (class): Unit Testing Module/Class
     """
-    purple  : Node = Node('Purple',None,0,random.randint(1,50),1)
-    green   : Node = Node('Green',purple,0,random.randint(1,50),1)
-    orange  : Node = Node('Orange',green,0,random.randint(1,50),1)
+    purple  : Node = Node('Purple',None,0,10,1)
+    green   : Node = Node('Green',purple,0,10,1)
+    orange  : Node = Node('Orange',green,0,10,1)
     #! PROGRAMMODETYPE = 1 (unsure of why this is not needed, comment out for now)
     def testreversearithmetic(self):
         """test reverse arithmetic method
