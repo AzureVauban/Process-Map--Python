@@ -135,18 +135,20 @@ class Node(NodeB):
         return temp.endpoints
 
 endpointinstances : dict = {}
-def findlocalendpoints(cur: Node,testdict : dict = None) -> dict:
+def findlocalendpoints(cur: Node,testdict : dict) -> dict:
     """look for endpoints connected to the tree at this node
         after this method is finished running, please clear its utilized dictionaryy
     """
+    if testdict is None:
+        testdict :dict = {}
     # ! unit testing failing
     if len(cur.children) > 0:
         for childinstance in cur.children.items():
             if isinstance(childinstance[1], Node):
-                findlocalendpoints(childinstance[1])
+                findlocalendpoints(childinstance[1],testdict)
     else:
-        endpointinstances.update({cur.instancekey: cur})
-    returndict : dict = endpointinstances
+        testdict.update({cur.instancekey: cur})
+    returndict : dict = testdict
     #endpointinstances.clear()
     return returndict
 
@@ -207,7 +209,8 @@ def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
     temp: Node = cur
     while temp.parent is not None:
         temp = temp.parent
-    endpointsoftree: dict = findlocalendpoints(temp)
+    tempdict : dict = {}
+    endpointsoftree: dict = findlocalendpoints(temp,tempdict)
     # check to see if each item is the approrpiate type
     for endpoint in endpointsoftree.items():
         if not isinstance(endpoint[1], Node):

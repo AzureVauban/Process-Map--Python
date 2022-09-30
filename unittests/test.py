@@ -72,7 +72,8 @@ class MODEBtesting(unittest.TestCase): #todo configure unit testing for MODE B w
         cur : Node = self.orange
         while cur.parent is not None:
             cur = cur.parent
-        reddict : dict = findlocalendpoints(cur)
+        temp : dict = {}
+        reddict : dict = findlocalendpoints(cur,temp)
         #reddict : dict = cur.tentative_findlocalendpoints()
         bluedict : dict = {}
         bluedict.update({self.orange.instancekey:self.orange})
@@ -83,10 +84,10 @@ class MODEBtesting2(unittest.TestCase):
     Args:
         unittest (class): unit testing
     """
-    A : Node = Node('A',None,random.randint(1,50),1,1)
-    B : Node = Node('B',A,0,random.randint(1,50),1)
-    C : Node = Node('C',A,0,random.randint(1,25),1)
-    D : Node = Node('D',B,0,random.randint(1,75),1)
+    A : Node = Node('A',None,random.randint(1,100),1,1)
+    B : Node = Node('B',A,0,random.randint(1,100),1)
+    C : Node = Node('C',A,0,random.randint(1,100),1)
+    D : Node = Node('D',B,0,random.randint(1,100),1)
     def testhead(self):
         """test simple upward traversal
         """
@@ -100,7 +101,8 @@ class MODEBtesting2(unittest.TestCase):
         cur : Node = self.D
         while cur.parent is not None:
             cur = cur.parent
-        reddict : dict = findlocalendpoints(cur)
+        temp : dict = {}
+        reddict : dict = findlocalendpoints(cur,temp)
         bluedict : dict = {}
         # manually input endpoints into the dictionary
         bluedict.update({self.B.instancekey:self.B})
