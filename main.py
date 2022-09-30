@@ -124,13 +124,13 @@ class Node(NodeB):
         temp = self
         while temp.parent is not None:
             temp = temp.parent
+        Node.endpoints.clear()
         if len(temp.children) > 0:
             for childinstance in temp.children.items():
-                if isinstance(childinstance[1], Node) and len(childinstance[1]) > 0:
+                if isinstance(childinstance[1], Node) and len(childinstance[1].children) > 0:
                     childinstance[1].tentative_findlocalendpoints()
                 else:
                     returndict.update({temp.instancekey: temp})
-            temp.endpoints.clear()
         temp.endpoints = returndict
         return temp.endpoints
 
