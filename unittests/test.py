@@ -72,8 +72,7 @@ class MODEBtesting(unittest.TestCase):
         cur : Node = self.orange
         while cur.parent is not None:
             cur = cur.parent
-        temp : dict = {}
-        reddict : dict = findlocalendpoints(cur,temp)
+        reddict : dict = findlocalendpoints(cur,{})
         #reddict : dict = cur.tentative_findlocalendpoints()
         bluedict : dict = {}
         bluedict.update({self.orange.instancekey:self.orange})
@@ -101,11 +100,9 @@ class MODEBtesting2(unittest.TestCase):
         cur : Node = self.D
         while cur.parent is not None:
             cur = cur.parent
-        temp : dict = {}
-        reddict : dict = findlocalendpoints(cur,temp)
+        reddict : dict = findlocalendpoints(cur,{})
         bluedict : dict = {}
         # manually input endpoints into the dictionary
-        bluedict.update({self.B.instancekey:self.B})
         bluedict.update({self.C.instancekey:self.C})
         bluedict.update({self.D.instancekey:self.D})
         self.assertEqual(reddict,bluedict)
