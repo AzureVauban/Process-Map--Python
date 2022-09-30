@@ -1,7 +1,7 @@
 """unit testing code
 """
 import unittest
-
+import random
 from main import (Node, findlocalendpoints,  # pylint:disable=E0611
                   reversearithmetic, searchforendpoint)
 
@@ -57,14 +57,14 @@ class MODEBtesting(unittest.TestCase): #todo configure unit testing for MODE B w
         """test reverse arithmetic method
         """
         self.assertEqual(reversearithmetic(self.blockofgold,100),100)
-    def test_tentative1(self):
+    def testhead(self):
         """test simple upward traversal
         """
         cur : Node = self.goldore
         while cur.parent is not None:
             cur = cur.parent
         self.assertTrue(cur,self.blockofgold)
-    def test_tentative2(self):
+    def testendpoints(self):
         """check to see if the endpoints of this mock ingredient tree are correctly found
         """
         cur : Node = self.goldore
@@ -81,4 +81,31 @@ class MODEBtesting2(unittest.TestCase):
         unittest (class): unit testing
     """
     A : Node = Node('A',None,0,1,1)
-    B : Node = Node('B',A,0,1,1)
+    B : Node = Node('B',A,0,random.randint(1,100),1)
+    C : Node = Node('C',A,0,random.randint(1,100),1)
+    D : Node = Node('D',A,0,random.randint(1,100),1)
+    def testhead(self):
+        """test simple upward traversal
+        """
+        cur : Node = self.D
+        while cur.parent is not None:
+            cur = cur.parent
+        self.assertTrue(cur,self.A)
+    def testendpoints(self):
+        """check to see if the endpoints of this mock ingredient tree are correctly found
+        """
+        cur : Node = self.D
+        while cur.parent is not None:
+            cur = cur.parent
+        reddict : dict = findlocalendpoints(cur)
+        bluedict : dict = {}
+        # manually input endpoints into the dictionary
+        bluedict.update({self.B.instancekey:self.B})
+        bluedict.update({self.C.instancekey:self.C})
+        bluedict.update({self.D.instancekey:self.D})
+        self.assertEqual(reddict,bluedict)
+    def testreversearithmetic(self):
+        """reverse arithmetic testing with many endpoints
+        """
+        testvalue = random.randint(1,100)                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+        self.assertEqual(reversearithmetic(self.A,testvalue),testvalue)

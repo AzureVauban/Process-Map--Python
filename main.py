@@ -120,18 +120,19 @@ class Node(NodeB):
                     raise TypeError('Child is not an instance of', Node)
 
 
+endpointinstances: dict = {}
 def findlocalendpoints(cur: Node) -> dict:
     """look for endpoints connected to the tree at this node
     """
-    findlocalendpoints.endpointinstances: dict = {}
     # ? unit testing passed, needed to be a static/class type variable
     if len(cur.children) > 0:
         for childinstance in cur.children.items():
             if isinstance(childinstance[1], Node):
                 findlocalendpoints(childinstance[1])
     else:
-        findlocalendpoints.endpointinstances.update({cur.instancekey: cur})
-    return findlocalendpoints.endpointinstances
+        endpointinstances.update({cur.instancekey: cur})
+    returndict : dict = endpointinstances
+    return returndict
 
 
 def promptint() -> int:
@@ -321,5 +322,7 @@ if __name__ == '__main__':
                 print(child[1].ingredient, ':', child[1].amountonhand, 'x')
             else:
                 raise TypeError('child is not an instance of', Node)
+        #clear this dict,unable to do so in its utilized method
+        endpointinstances.clear()
     # prompt the user if they want to figure out the amount resulted of another item
     print('terminating process')
