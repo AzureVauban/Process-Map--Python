@@ -251,49 +251,60 @@ def populate(cur: Node):
             raise TypeError('child is not an instance of', Node)
 
 if __name__ == '__main__':
-    # Mode B: How much of Item B,C,D (endpoint instances), would I need to make X amount of item A
-    # prompt user which mode they want to run the program in
-    while True:
-        print('Which mode do you want to use:')
-        print('Mode A - You are trying to figure out how much of your desired item you can make with the current supply of materials (Type in A)') # pylint:disable=C0301
-        print('Mode B - You are trying to figure out how much base materials you need to create a certain amount of your desired item, (Type in B)') # pylint:disable=C0301
-        usermode = (input(''))
-        usermode = usermode.strip()
-        usermode = usermode.upper()
-        if usermode != 'A' and usermode != 'B':
-            print("That input is not valid, please type in 'A' or 'B'")
-        elif usermode == 'B':
-            PROGRAMMODETYPE = 1
-            break
-        else:
-            PROGRAMMODETYPE = 0
-            break
-    # prompt user to type in the name of the item they want to create
-    while True:
-        itemname = input('What is the name of the item you want to create: ')
-        itemname = itemname.strip()
-        if len(itemname) == 0:
-            print('You must type something in')
-        else:
-            break
-    head = Node(itemname, None)
-    if PROGRAMMODETYPE == 0:  # ? normal program mode
-        populate(head)
-        for child in findlocalendpoints(head,{}).items():
-            recursivearithmetic(child[1])
-        print('# resulted of', head.ingredient, '',
-              end=str(head.amountresulted)+'\n')
-    else:  # ? Mode B
-        print('How much', head.ingredient, 'do you want to create:')
-        desirednumber: int = promptint()
-        populate(head)
-        reversearithmetic(head, desirednumber)
-        # output resulted numbers for endpoints
-        print('To get',str(str(desirednumber)+'x'), head.ingredient,'you need the following:')
-        # print amount needed of endpoint items
-        mango : dict = findlocalendpoints(head,{})
-        for itemnode in findlocalendpoints(head,{}).items():
-            if not isinstance(itemnode[1],Node):
-                raise TypeError('child is not an instance of', Node)
-            print(itemnode[1].ingredient,':',itemnode[1].amountonhand,end='x\n')
+    while True: #main runtime loop
+        # Mode B: How much of Item B,C,D (endpoint instances), would I need to make X amount of item A
+        # prompt user which mode they want to run the program in
+        while True:
+            print('Which mode do you want to use:')
+            print('Mode A - You are trying to figure out how much of your desired item you can make with the current supply of materials (Type in A)') # pylint:disable=C0301
+            print('Mode B - You are trying to figure out how much base materials you need to create a certain amount of your desired item, (Type in B)') # pylint:disable=C0301
+            usermode = (input(''))
+            usermode = usermode.strip()
+            usermode = usermode.upper()
+            if usermode != 'A' and usermode != 'B':
+                print("That input is not valid, please type in 'A' or 'B'")
+            elif usermode == 'B':
+                PROGRAMMODETYPE = 1
+                break
+            else:
+                PROGRAMMODETYPE = 0
+                break
+        # prompt user to type in the name of the item they want to create
+        while True:
+            itemname = input('What is the name of the item you want to create: ')
+            itemname = itemname.strip()
+            if len(itemname) == 0:
+                print('You must type something in')
+            else:
+                break
+        head = Node(itemname, None)
+        if PROGRAMMODETYPE == 0:  # ? normal program mode
+            populate(head)
+            for child in findlocalendpoints(head,{}).items():
+                recursivearithmetic(child[1])
+            print('# resulted of', head.ingredient, '',
+                end=str(head.amountresulted)+'\n')
+        else:  # ? Mode B
+            print('How much', head.ingredient, 'do you want to create:')
+            desirednumber: int = promptint()
+            populate(head)
+            reversearithmetic(head, desirednumber)
+            # output resulted numbers for endpoints
+            print('To get',str(str(desirednumber)+'x'), head.ingredient,'you need the following:')
+            # print amount needed of endpoint items
+            mango : dict = findlocalendpoints(head,{})
+            for itemnode in findlocalendpoints(head,{}).items():
+                if not isinstance(itemnode[1],Node):
+                    raise TypeError('child is not an instance of', Node)
+                print(itemnode[1].ingredient,':',itemnode[1].amountonhand,end='x\n')
+        # prompt the user to see if they want to input another tree
+        print('Do you want to run the program again with another item tree? (Y/N')
+        while True:
+            usermode = (input(''))
+            usermode = usermode.strip()
+            usermode = usermode.upper()
+            if usermode != 'Y' and usermode != 'N':
+                print("That input is not valid, please type in 'Y' or 'N'")
+            else:
+                break
     print('terminating process')
