@@ -205,6 +205,9 @@ def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
         #! resulted in 2304 for both endpoints, unit test passes but during real world
         #! runtime infinite loop occurs, the amount on hand of the iterated endpoint
         #! infinitely increases, main suspect for bug is this for-loop below these comment lines
+        #! another possibility is the input method for these nodes, since all unit tests pass
+        #! completely possible solution, change method to loop until EACH individual item can give
+        #! the amount resulted
         for endpoint in endpointsoftree.items():
             if temp.amountresulted > desiredamount:
                 break
