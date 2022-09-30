@@ -179,16 +179,14 @@ def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
     temp: Node = cur
     while temp.parent is not None:
         temp = temp.parent
-    tempdict : dict = {}
-    endpointsoftree: dict = findlocalendpoints(temp,tempdict)
+    endpointsoftree: dict = findlocalendpoints(temp,{})
     # check to see if each item is the approrpiate type
     for endpoint in endpointsoftree.items():
         if not isinstance(endpoint[1], Node):
             raise TypeError('Endpoint is not an instance of', Node)
-    # while amount resulted is not equal to greater than the desired amount,
+    # while amount resulted is less than the desired amount,
     # iterate through each Node in the dictionary and add its amount on hand by 1
     while temp.amountresulted < desiredamount:
-        #! ^^^ UNIT TEST THIS WITH OTHER TREES, SEE IF != IS BETTER THAN >=
         for endpoint in endpointsoftree.items():
             endpoint[1].amountonhand += 1
             recursivearithmetic(endpoint[1])
@@ -291,8 +289,7 @@ if __name__ == '__main__':
         populate(head)
         reversearithmetic(head, desirednumber)
         # output resulted numbers for endpoints
-        print('Needed amounts of your basemost ingredients to get',
-              desirednumber, 'x', head.ingredient,end=':\n')
+        print('To get',str(str(desirednumber)+'x'), head.ingredient,'you need the following:')
         # print amount needed of endpoint items, format input smiliarily to a list
         mango : dict = findlocalendpoints(head,{})
         for itemnode in findlocalendpoints(head,{}).items():
