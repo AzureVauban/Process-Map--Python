@@ -3,8 +3,8 @@
 import random
 import unittest
 
-from main import (Node, findlocalendpoints, recursivearithmetic,  # pylint:disable=E0401
-                  reversearithmetic, searchforendpoint)
+from main import (Node, findlocalendpoints, recursivearithmetic,
+                  reversearithmetic)
 
 
 class MODEAtesting(unittest.TestCase):
@@ -39,13 +39,12 @@ class MODEAtesting(unittest.TestCase):
     copperore           : Node = Node('Copper Ore', copperbar, 2, 1, 2)
     #searchforendpoint(focusingarray)
     tentativedict = findlocalendpoints(advancedalloy,{})
-    @classmethod
-    def test1(cls):
+    def test1(self):
         """test to see if the amount resulted of focusing array is 48
         """
-        for node in cls.tentativedict.items():
+        for node in self.tentativedict.items():
             recursivearithmetic(node[1])
-        cls.assertTrue(cls.focusingarray.amountresulted,48)
+        self.assertEqual(self.focusingarray.amountresulted,48)
 class MODEBtesting(unittest.TestCase):
     """unit testing class for Mode B, which is trying to figure out what should be the amount on
        hand of the endpoint items to get a desired amount of the headmost item crafted

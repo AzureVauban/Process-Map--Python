@@ -195,17 +195,6 @@ def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
     return temp.amountresulted
 
 
-def searchforendpoint(cur: Node):
-    """looks for endpoint nodes to start the math method from
-    """
-    if len(cur.children) > 0:
-        for childinstance in cur.children.items():
-            searchforendpoint(childinstance[1])
-    elif len(cur.children) == 0 and PROGRAMMODETYPE == 1:
-        reversearithmetic(cur)
-    else:  # default mode (mode A)
-        recursivearithmetic(cur)
-
 
 def populate(cur: Node):
     """creates new child instances during script runtime
@@ -294,7 +283,8 @@ if __name__ == '__main__':
     head = Node(itemname, None)
     if PROGRAMMODETYPE == 0:  # ? normal program mode
         populate(head)
-        searchforendpoint(head)
+        for child in findlocalendpoints(head,{}).items():
+            recursivearithmetic(child[1])
         print('# resulted of', head.ingredient, '',
               end=str(head.amountresulted)+'\n')
     else:  # ? current developing program mode
