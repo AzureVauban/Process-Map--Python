@@ -7,7 +7,7 @@ B,C,D...
 import math
 import sys
 
-PROGRAMMODETYPE: int = 0  # 1 is A, 2 is B
+PROGRAMMODETYPE: int = 0
 
 
 class NodeB:
