@@ -84,32 +84,32 @@ class MODEBtesting2(unittest.TestCase):
     Args:
         unittest (class): unit testing
     """
-    A : Node = Node('A',None,random.randint(1,100),1,1)
-    B : Node = Node('B',A,0,random.randint(1,100),1)
-    C : Node = Node('C',A,0,random.randint(1,100),1)
-    D : Node = Node('D',B,0,random.randint(1,100),1)
+    amethyst: Node = Node('Amethyst',None,random.randint(1,100),1,1)
+    benitoite : Node = Node('Benitoite',amethyst,0,random.randint(1,100),1)
+    carnelian : Node = Node('Carnelian',amethyst,0,random.randint(1,100),1)
+    dioptase : Node = Node('Dioptase',benitoite,0,random.randint(1,100),1)
     #endpoints are C and D
     def testhead(self):
         """test simple upward traversal
         """
-        cur : Node = self.D
+        cur : Node = self.dioptase
         while cur.parent is not None:
             cur = cur.parent
-        self.assertTrue(cur,self.A)
+        self.assertTrue(cur,self.amethyst)
     def testendpoints(self):
         """check to see if the endpoints of this mock ingredient tree are correctly found
         """
-        cur : Node = self.D
+        cur : Node = self.dioptase
         while cur.parent is not None:
             cur = cur.parent
         reddict : dict = findlocalendpoints(cur,{})
         bluedict : dict = {}
         # manually input endpoints into the dictionary
-        bluedict.update({self.C.instancekey:self.C})
-        bluedict.update({self.D.instancekey:self.D})
+        bluedict.update({self.carnelian.instancekey:self.carnelian})
+        bluedict.update({self.dioptase.instancekey:self.dioptase})
         self.assertEqual(reddict,bluedict)
     def testreversearithmetic(self):
         """reverse arithmetic testing with many endpoints
         """
         testvalue = random.randint(1,100)                                                                                                                                                                                                                                                                                                                                                                                                                                                         
-        self.assertGreaterEqual(reversearithmetic(self.A,testvalue),testvalue)
+        self.assertGreaterEqual(reversearithmetic(self.amethyst,testvalue),testvalue)
