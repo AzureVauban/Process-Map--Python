@@ -1,7 +1,8 @@
 """unit testing code
 """
-import unittest
 import random
+import unittest
+
 from main import (Node, findlocalendpoints,  # pylint:disable=E0611
                   reversearithmetic, searchforendpoint)
 
@@ -83,7 +84,7 @@ class MODEBtesting2(unittest.TestCase):
     A : Node = Node('A',None,0,1,1)
     B : Node = Node('B',A,0,random.randint(1,100),1)
     C : Node = Node('C',A,0,random.randint(1,100),1)
-    D : Node = Node('D',A,0,random.randint(1,100),1)
+    D : Node = Node('D',B,0,random.randint(1,100),1)
     def testhead(self):
         """test simple upward traversal
         """
@@ -107,5 +108,5 @@ class MODEBtesting2(unittest.TestCase):
     def testreversearithmetic(self):
         """reverse arithmetic testing with many endpoints
         """
-        testvalue = random.randint(1,100)                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
-        self.assertEqual(reversearithmetic(self.A,testvalue),testvalue)
+        testvalue = random.randint(1,100)                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+        self.assertGreaterEqual(reversearithmetic(self.A,testvalue),testvalue)
