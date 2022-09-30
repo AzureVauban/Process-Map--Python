@@ -99,9 +99,6 @@ class Node(NodeB):
                 else:
                     break
             while True and self.askmadepercraftquestion:
-                #todo   add code to check if the siblings have the same number,
-                #todo   if not set the rest of the sibilings amountmadepercraft to be the
-                #todo   same and dont ask this question again for this set of nodes
                 print('How much', self.parent.ingredient,
                       'do you create each time you craft it: ')
                 self.amountmadepercraft = promptint()
