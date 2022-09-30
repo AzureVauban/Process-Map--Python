@@ -7,6 +7,8 @@ B,C,D...
 import math
 import sys
 
+from prompt_toolkit import prompt
+
 PROGRAMMODETYPE: int = 0
 
 
@@ -188,6 +190,8 @@ def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
         for endpoint in endpointsoftree.items():
             endpoint[1].amountonhand += 1
             recursivearithmetic(endpoint[1])
+            if temp.amountresulted >= desiredamount:
+                break
     return temp.amountresulted
 
 
@@ -249,23 +253,33 @@ def populate(cur: Node):
             populate(childinstance[1])
         else:
             raise TypeError('child is not an instance of', Node)
-
+def printprompt():
+    """prints out introduction
+    """
+    print('Which mode do you want to use:')
+    print('Mode A - You are trying to figure out how much of your desired item you can make with the current supply of materials (Type in A)') # pylint:disable=C0301
+    print('Mode B - You are trying to figure out how much base materials you need to create a certain amount of your desired item, (Type in B)') # pylint:disable=C0301
+    print("Type in 'H' if you need a reminder of the prompt")
 if __name__ == '__main__':
+    print('Welcome to Process Map (Python) v1.1!\n')
     while True: #main runtime loop
-        # Mode B: How much of Item B,C,D (endpoint instances), would I need to make X amount of item A
+        # Mode B: How much of Item B,C,D (endpoint instances), would I need to make X amount of
+        # item A
         # prompt user which mode they want to run the program in
+        printprompt()
         while True:
-            print('Which mode do you want to use:')
-            print('Mode A - You are trying to figure out how much of your desired item you can make with the current supply of materials (Type in A)') # pylint:disable=C0301
-            print('Mode B - You are trying to figure out how much base materials you need to create a certain amount of your desired item, (Type in B)') # pylint:disable=C0301
-            usermode = (input(''))
-            usermode = usermode.strip()
-            usermode = usermode.upper()
-            if usermode != 'A' and usermode != 'B':
+            userinput = (input(''))
+            userinput = userinput.strip()
+            userinput = userinput.upper()
+            if userinput not in ('A', 'B', 'H'):
                 print("That input is not valid, please type in 'A' or 'B'")
-            elif usermode == 'B':
+            elif len(userinput) > 1:
+                print('Your input is too long, please only type in one character')
+            elif userinput == 'B':
                 PROGRAMMODETYPE = 1
                 break
+            elif userinput == 'H':
+                printprompt()
             else:
                 PROGRAMMODETYPE = 0
                 break
@@ -298,13 +312,15 @@ if __name__ == '__main__':
                     raise TypeError('child is not an instance of', Node)
                 print(itemnode[1].ingredient,':',itemnode[1].amountonhand,end='x\n')
         # prompt the user to see if they want to input another tree
-        print('Do you want to run the program again with another item tree? (Y/N')
+        print("Do you want to run the program again with another item tree? (Y/N)\ntype in 'H'")
         while True:
-            usermode = (input(''))
-            usermode = usermode.strip()
-            usermode = usermode.upper()
-            if usermode != 'Y' and usermode != 'N':
+            userinput = (input(''))
+            userinput = userinput.strip()
+            userinput = userinput.upper()
+            if userinput not in ('Y', 'N', 'H'):
                 print("That input is not valid, please type in 'Y' or 'N'")
+            elif len(userinput) > 1:
+                print('Your input is too long, please only type in one character')
             else:
                 break
     print('terminating process')
