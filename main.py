@@ -159,7 +159,7 @@ def promptint() -> int:
 def recursivearithmetic(cur: Node) -> int:
     """figure out the amount resulted of the augment Node instance,
     math function used: D = (B/C)A + (B/C)(min(Dqueue))
-    - if there is no values in the queue it will default to 0
+    - If there is no values in the queue it will default to 0
     Returns:
         int: returns the amount resulted of augment Node instance
     """
@@ -171,7 +171,6 @@ def recursivearithmetic(cur: Node) -> int:
         for myinterger in cur.queueamountresulted.items():
             if myinterger[1] < tentativeinterger:
                 tentativeinterger = myinterger[1]
-    # tenative arithmetic code
     red = (cur.amountmadepercraft / cur.amountneeded)
     blue = (red*cur.amountonhand) + (red*tentativeinterger)
     blue = round(math.floor(blue))
@@ -181,8 +180,6 @@ def recursivearithmetic(cur: Node) -> int:
         cur.parent.queueamountresulted.update(
             {cur.ingredient: cur.amountresulted})
         recursivearithmetic(cur.parent)
-    #else:
-    #    cur.clearamountresulted()
     return cur.amountresulted
 
 
@@ -198,6 +195,9 @@ def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
         int: the desired amount resulted of cur
     """
     if len(cur.children) > 0:
+        #! while the desired amount is not equal to the amount
+        #! resulted of the current node, increase the current amount
+        #! on hand by 1
         pass
     else:
         pass
