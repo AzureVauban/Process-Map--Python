@@ -8,7 +8,7 @@ import math
 import sys
 import time
 
-PROGRAMMODETYPE: int = 0 #? this variable keeps track of what mode the progam is in
+PROGRAMMODETYPE: int = 0  # ? this variable keeps track of what mode the progam is in
 
 
 class NodeB:
@@ -84,7 +84,7 @@ class Node(NodeB):
 
     def __inputnumerics(self):
         """prompt input of the numeric data for the instance from the user"""
-        #prompt amount on hand
+        # prompt amount on hand
         while True and PROGRAMMODETYPE == 0:
             print('How much', self.ingredient, 'do you have on hand: ')
             self.amountonhand = promptint()
@@ -92,7 +92,7 @@ class Node(NodeB):
                 print('That number is not valid')
             else:
                 break
-            #prompt amount needed
+            # prompt amount needed
         if self.parent is not None:
             # prompt amount made per craft
             while True and self.askmadepercraftquestion:
@@ -112,15 +112,18 @@ class Node(NodeB):
                     print('That number is not valid')
                 else:
                     break
+
     def clearamountresulted(self):
         """clear amount resulted for all subnodes below this instance
         """
         self.queueamountresulted.clear()
         if len(self.children) > 0:
             for childinstance in self.children.items():
-                if not isinstance(childinstance[1],Node):
-                    raise TypeError('Child is not an instance of',Node)
+                if not isinstance(childinstance[1], Node):
+                    raise TypeError('Child is not an instance of', Node)
                 childinstance[1].clearamountresulted()
+
+
 def findlocalendpoints(cur: Node, testdict: dict) -> dict:
     """look for endpoints connected to the tree at this node
         after this method is finished running, please clear its utilized dictionaryy
@@ -147,11 +150,11 @@ def promptint() -> int:
     """
     mynum: int = 0
     while True:
-        temp = input('')
-        if not temp.isdigit():
+        myinput = input('')
+        if not myinput.isdigit():
             print('you can only type in a postive interger')
         else:
-            mynum = int(temp)
+            mynum = int(myinput)
             break
     return mynum
 
@@ -194,18 +197,18 @@ def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
     Returns:
         int: the desired amount resulted of cur
     """
-    if not isinstance(cur,Node):
-        raise TypeError('parameter is not an instance of',Node)
+    if not isinstance(cur, Node):
+        raise TypeError('parameter is not an instance of', Node)
     while desiredamount > cur.amountresulted:
-        cur.amountonhand +=1
+        cur.amountonhand += 1
         red = (cur.amountmadepercraft / cur.amountneeded)
         blue = round(math.floor(red*cur.amountonhand))
         cur.amountresulted = blue
     if len(cur.children) > 0:
         for subnode in cur.children.items():
-            if not isinstance(subnode[1],Node):
+            if not isinstance(subnode[1], Node):
                 raise TypeError('tentative description')
-            reversearithmetic(subnode[1],cur.amountonhand)
+            reversearithmetic(subnode[1], cur.amountonhand)
     return cur.amountresulted
 
 
@@ -224,16 +227,16 @@ def populate(cur: Node):
     checkstring: str = cur.ingredient
     # output ingredient trail
     if cur.parent is not None:
-        temp: Node = cur
+        tempinstance: Node = cur
         print('TRAIL: ', end='')
         while True:
-            if temp.parent is not None:
-                print(temp.ingredient, '-> ', end='')
-                temp = temp.parent
+            if tempinstance.parent is not None:
+                print(tempinstance.ingredient, '-> ', end='')
+                tempinstance = tempinstance.parent
             else:
-                print(temp.ingredient)
+                print(tempinstance.ingredient)
                 break
-        checkstring = temp.ingredient
+        checkstring = tempinstance.ingredient
     # prompt user to input ingredients
     print('What ingredients do you need to create', cur.ingredient, end=':\n')
     while True:
@@ -259,7 +262,8 @@ def populate(cur: Node):
     # create new child instances
     tempbool: bool = True
     for newnodename in inputqueue.items():
-        newchild: Node = Node(newnodename[1], cur, 0, 1, 1, tempbool)  # pylint:disable=W0612
+        newchild: Node = Node(  # pylint:disable=W0612
+            newnodename[1], cur, 0, 1, 1, tempbool)  # pylint:disable=W0612
         tempbool = False
     # continue method runtime
     for childinstance in cur.children.items():
@@ -285,7 +289,7 @@ if __name__ == '__main__':
         # item A
         # prompt user which mode they want to run the program in
         printprompt()
-        while True: #! removed userinput == 'Y' because True was able to work again
+        while True:  # ! removed userinput == 'Y' because True was able to work again
             userinput = (input(''))
             userinput = userinput.strip()
             userinput = userinput.upper()
@@ -322,46 +326,30 @@ if __name__ == '__main__':
             desirednumber: int = promptint()
             populate(head)
             reversearithmetic(head, desirednumber)
-            #output the results
-            #todo format this output, it should output the totals!
-            #To get 9999x Solar Array you need the following:
-            #Tungsten Ore : 399960x #! append this output to the end:   (second generation (from head) item)
-            #Silver Ore : 399960x
-            #Sand : 24997500x
-            #Sand : 999900x
-            #Copper Ore : 4444x
-            #Copper Ore : 22220x
-            #Titanium Ore : 119988x
-            #Gold Ore : 199980x
-            #Coal : 399960x
-            #Pixels : 3999600x
-            #Sulphur : 79992x
-            #Hydrogen : 79992x
-            #Water : 159984x
-            #Sand : 999900x
-            #Copper Ore : 4444x
-            #Gold Ore : 79992x
+            # output the results
             print('To get', str(str(desirednumber)+'x'),
                   head.ingredient, 'you need the following:')
             results: dict = findlocalendpoints(head, {})
-            #iterate through the dictionary and output the amounts on hand
+            # iterate through the dictionary and output the amounts on hand
             for itemnode in results.items():
                 if not isinstance(itemnode[1], Node):
                     raise TypeError('child is not an instance of', Node)
                 # only do this if there 2 or more children for the head node,
                 # get the second to last node
                 if len(head.children) > 1:
-                    temp : Node = itemnode[1]
+                    temp: Node = itemnode[1]
                     while temp.parent.parent is not None:
                         temp = temp.parent
-                    tempstr : str = temp.ingredient
-                    print(itemnode[1].ingredient, ':',itemnode[1].amountonhand, end='x')
-                    print(' ->',tempstr)
+                    tempstr: str = temp.ingredient
+                    print(itemnode[1].ingredient, ':',
+                          itemnode[1].amountonhand, end='x')
+                    print(' ->', tempstr)
                 else:
                     print(itemnode[1].ingredient, ':',
-                        itemnode[1].amountonhand, end='x\n')
+                          itemnode[1].amountonhand, end='x\n')
         # prompt the user to see if they want to input another tree
-        print("\nDo you want to run the program again with another item tree? (Y/N) type in 'H' if you need to be reminded of the prompt")
+        print("\nDo you want to run the program again with another item tree?\
+            (Y/N) type in 'H' if you need to be reminded of the prompt")
         while True:
             userinput = (input(''))
             userinput = userinput.strip()
@@ -375,10 +363,10 @@ if __name__ == '__main__':
         head.clearamountresulted()
         if userinput == 'N':
             break
-    #terminate the program
+    # terminate the program
     print('terminating process in 10 seconds')
-    #close program in 10 seconds
+    # close program in 10 seconds
     i = 10
     while i > 0:
         time.sleep(1)
-        i-=1
+        i -= 1
