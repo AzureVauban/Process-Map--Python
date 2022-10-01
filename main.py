@@ -163,7 +163,7 @@ def recursivearithmetic(cur: Node) -> int:
     Returns:
         int: returns the amount resulted of augment Node instance
     """
-    # check and set minimum if queue is not empty
+    # check and set minimum resulted if queue is not empty
     tentativeinterger: int = sys.maxsize
     if len(cur.queueamountresulted) == 0:
         tentativeinterger = 0
