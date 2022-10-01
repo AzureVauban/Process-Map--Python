@@ -209,12 +209,10 @@ def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
         #! completely possible solution, change method to loop until EACH individual item can give
         #! the amount resulted
         for endpoint in endpointsoftree.items():
+            tempbaz :int = recursivearithmetic(endpoint[1])
             if temp.amountresulted > desiredamount:
                 break
             endpoint[1].amountonhand += 1
-            baz :int = recursivearithmetic(endpoint[1])
-            if temp.amountresulted >= desiredamount:
-                break
             # recursively clear the amount resulted queue once the recursive arithmetic
             # reaches the head instance
     return temp.amountresulted
@@ -245,7 +243,7 @@ def populate(cur: Node):
                 print(temp.ingredient)
                 break
         checkstring = temp.ingredient
-    # prompt user to input ingredienta
+    # prompt user to input ingredients
     print('What ingredients do you need to create', cur.ingredient, end=':\n')
     while True:
         myinput = input('')
