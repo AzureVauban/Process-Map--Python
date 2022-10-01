@@ -358,8 +358,7 @@ if __name__ == '__main__':
                     print(itemnode[1].ingredient, ':',
                           itemnode[1].amountonhand, end='x\n')
         # prompt the user to see if they want to input another tree
-        print("\nDo you want to run the program again with another item tree?\
-            (Y/N) type in 'H' if you need to be reminded of the prompt")
+        print("\nDo you want to run the program again with another item tree? (Y/N)\ntype in 'H' if you need to be reminded of the prompt")
         while True:
             userinput = (input(''))
             userinput = userinput.strip()
