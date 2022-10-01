@@ -197,7 +197,9 @@ def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
     Returns:
         int: the desired amount resulted of cur
     """
-    for child in cur.children.items():
+    if len(cur.children) > 0:
+        pass
+    else:
         pass
     #todo finish this method
     return cur.amountresulted
