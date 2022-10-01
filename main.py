@@ -1,4 +1,5 @@
-"""rework this fit current development progress on V2
+"""
+rework this fit current development progress on V2
 - This is a reworked version of the Process Map (Python) V1, use as base for future versions
 - Mode A : The user figures out how much of item A can they make given the their supply of item
 B,C,D...
@@ -8,11 +9,12 @@ import math
 import sys
 import time
 
-PROGRAMMODETYPE: int = 0  # ? this variable keeps track of what mode the progam is in
+PROGRAMMODETYPE: int = 0
 
 
 class NodeB:
-    """class for storing simple data about an item such as its name and how much is needed to create
+    """
+    class for storing simple data about an item such as its name and how much is needed to create
     its parent
     """
     ingredient: str = ''
@@ -23,8 +25,7 @@ class NodeB:
     queueamountresulted: dict = {}
 
     def __init__(self, name: str = '', red: int = 0, blue: int = 1, yellow: int = 1) -> None:
-        """_summary_
-
+        """
         Args:
             name (str, optional): name of the item. Defaults to ''.
             red (int, optional): amount of the item you have on hand. Defaults to 0.
@@ -42,7 +43,8 @@ class NodeB:
 
 
 class Node(NodeB):
-    """stores identifiable features of an item, such as the parent and children instances
+    """
+    stores identifiable features of an item, such as the parent and children instances
     Args:
         NobeB (class): parent class of item
     """
@@ -54,7 +56,8 @@ class Node(NodeB):
     askmadepercraftquestion: bool = False
 
     def __init__(self, name: str = '', par=None, red: int = 0, blue: int = 1, yellow: int = 1, green: bool = False) -> None:  # pylint:disable=C0301
-        """default constructor for Node instance, stores identifying features of an item's
+        """
+        default constructor for Node instance, stores identifying features of an item's
         information
 
         Args:
@@ -83,7 +86,9 @@ class Node(NodeB):
             self.__inputnumerics()
 
     def __inputnumerics(self):
-        """prompt input of the numeric data for the instance from the user"""
+        """
+        prompt input of the numeric data for the instance from the user
+        """
         # prompt amount on hand
         while True and PROGRAMMODETYPE == 0:
             print('How much', self.ingredient, 'do you have on hand: ')
@@ -114,7 +119,8 @@ class Node(NodeB):
                     break
 
     def clearamountresulted(self):
-        """clear amount resulted for all subnodes below this instance
+        """
+        clear amount resulted for all subnodes below this instance
         """
         self.queueamountresulted.clear()
         if len(self.children) > 0:
@@ -125,8 +131,9 @@ class Node(NodeB):
 
 
 def findlocalendpoints(cur: Node, testdict: dict) -> dict:
-    """look for endpoints connected to the tree at this node
-        after this method is finished running, please clear its utilized dictionaryy
+    """
+    look for endpoints connected to the tree at this node
+    after this method is finished running, please clear its utilized dictionaryy
     """
     if testdict is None:
         testdict: dict = {}
@@ -142,7 +149,8 @@ def findlocalendpoints(cur: Node, testdict: dict) -> dict:
 
 
 def promptint() -> int:
-    """prompt the user to input a returnable integer
+    """
+    prompt the user to input a returnable integer
 
     Returns:
         int: an interger that is used to set the amountneeded, amount on hand, and
@@ -160,7 +168,8 @@ def promptint() -> int:
 
 
 def recursivearithmetic(cur: Node) -> int:
-    """figure out the amount resulted of the augment Node instance,
+    """
+    figure out the amount resulted of the augment Node instance,
     math function used: D = (B/C)A + (B/C)(min(Dqueue))
     - If there is no values in the queue it will default to 0
     Returns:
@@ -187,7 +196,8 @@ def recursivearithmetic(cur: Node) -> int:
 
 
 def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
-    """recursive arithmetic method for mode B
+    """
+    recursive arithmetic method for mode B
 
     Args:
         cur (Node): instance of Node
@@ -213,7 +223,8 @@ def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
 
 
 def populate(cur: Node):
-    """creates new child instances during script runtime
+    """
+    creates new child instances during script runtime
 
     Args:
         cur (Node): parent instance, creates children instances for this node
@@ -274,7 +285,8 @@ def populate(cur: Node):
 
 
 def printprompt():
-    """prints out introduction to program, prompts the user which Mode they want to utilize
+    """
+    prints out introduction to program, prompts the user which Mode they want to utilize
     """
     print('Which mode do you want to use:')
     print('Mode A - You are trying to figure out how much of your desired item you can make with the current supply of materials (Type in A)')  # pylint:disable=C0301
@@ -284,9 +296,7 @@ def printprompt():
 
 if __name__ == '__main__':
     print('Welcome to Process Map (Python) v1.1!\n')
-    while True:  # main runtime loop
-        # Mode B: How much of Item B,C,D (endpoint instances), would I need to make X amount of
-        # item A
+    while True:
         # prompt user which mode they want to run the program in
         printprompt()
         while True:  # ! removed userinput == 'Y' because True was able to work again
