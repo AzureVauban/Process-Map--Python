@@ -6,6 +6,7 @@ B,C,D...
 """
 import math
 import sys
+import time
 
 PROGRAMMODETYPE: int = 0
 
@@ -358,4 +359,9 @@ if __name__ == '__main__':
             elif userinput == 'N' or userinput == 'Y':
                 break
         head.clearamountresulted()
-    print('terminating process')
+    print('terminating process in 10 seconds')
+    #close program in 10 seconds
+    i = 10
+    while i > 0:
+        time.sleep(1)
+        i-=1
