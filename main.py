@@ -173,9 +173,9 @@ def recursivearithmetic(cur: Node) -> int:
                 tentativeinterger = myinterger[1]
     # tenative arithmetic code
     red = (cur.amountmadepercraft / cur.amountneeded)
-    black = (red*cur.amountonhand) + (red*tentativeinterger)
-    black = round(math.floor(black))
-    cur.amountresulted = black
+    blue = (red*cur.amountonhand) + (red*tentativeinterger)
+    blue = round(math.floor(blue))
+    cur.amountresulted = blue
     # recursively call the method
     if cur.parent is not None:
         cur.parent.queueamountresulted.update(
@@ -187,7 +187,19 @@ def recursivearithmetic(cur: Node) -> int:
 
 
 def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
-    #todo - rework the method, traverse downward
+    """recursive arithmetic method for mode B
+
+    Args:
+        cur (Node): instance of Node
+        desiredamount (int, optional): the desired amount resulted of cur.
+        Defaults to 0.
+
+    Returns:
+        int: the desired amount resulted of cur
+    """
+    for child in cur.children.items():
+        pass
+    #todo finish this method
     return cur.amountresulted
 
 
