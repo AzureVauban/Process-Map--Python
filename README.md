@@ -10,14 +10,14 @@ In this new verison of the Process Map, the arithmetic method has been reworked.
 
 ### Created New Arithmetic Method and New Program Mode
 
-tentative description
+Mode B is another mode the user has the option of utilizing in the program. The purpose of Mode B is to figure out how much of the base materials you will need to get a particular about of an item you want. In normal situations this one can consider these base materials to be raw ingredients of manufactured items. How amount needed is determined is through multiplying the quotient of the amount of the parent made per craft and the amount needed to create the parent once, by the amount on hand currently. If these product is less than the desired amount, it will look again and increase the amount on hand until so.
 
 ### Finally used Unit Testing for parts of the code
 
-tentative description
+To improve the quality of the arithmetic methods utilized in the solution, Unit Tests using the Unit Test framework were used. To make this work both of the recursive methods had to be modified to return an interger, which is the amount resulted for Mode A's method and the amount on hand for Mode B's method.
 
 ## Planned Features of Process Map (Python v2.0)
 
 ### Being able to search and copy Nodes you already typed in
 
-tentative description
+In this current iteration of the Process Map, the user must type in one ingredient one by one at a time. There are many ingredient trees in which the end user will input the same ingredient more than once. Process Map v2.0 will improve upon this by giving the user the option to copy and paste a node they already typed out.
