@@ -266,7 +266,7 @@ def populate(cur: Node):
 
 
 def printprompt():
-    """prints out introduction
+    """prints out introduction to program, prompts the user which Mode they want to utilize
     """
     print('Which mode do you want to use:')
     print('Mode A - You are trying to figure out how much of your desired item you can make with the current supply of materials (Type in A)')  # pylint:disable=C0301
