@@ -146,12 +146,12 @@ class MODEBtesting3(unittest.TestCase):
     def testsub1(self):
         """amount on hand of netherite scrap should be 2304
         """
-        self.assertEqual(self.netheritescrap.amountonhand,2304)
+        self.assertEqual(reversearithmetic(self.netheritescrap,2304),2304)
     def testsub2(self):
         """amount on hand of gold ingot should be 2304
         """
-        self.assertEqual(self.goldingot.amountonhand,2304)
+        self.assertEqual(reversearithmetic(self.goldingot,2304),2304)
     def testreversearithmetic(self):
         """reverse arithmetic testing with many endpoints
         """
-        self.assertGreaterEqual(reversearithmetic(self.netheritescrap,64),64)
+        self.assertEqual(reversearithmetic(self.netheritescrap,64),64)

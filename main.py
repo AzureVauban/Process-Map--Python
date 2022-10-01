@@ -8,7 +8,7 @@ import math
 import sys
 import time
 
-PROGRAMMODETYPE: int = 0
+PROGRAMMODETYPE: int = 0 #? this variable keeps track of what mode the progam is in
 
 
 class NodeB:
@@ -194,14 +194,18 @@ def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
     Returns:
         int: the desired amount resulted of cur
     """
+    if not isinstance(cur,Node):
+        raise TypeError('parameter is not an instance of',Node)
+    while desiredamount > cur.amountresulted:
+        cur.amountonhand +=1
+        red = (cur.amountmadepercraft / cur.amountneeded)
+        blue = round(math.floor(red*cur.amountonhand))
+        cur.amountresulted = blue
     if len(cur.children) > 0:
-        #! while the desired amount is not equal to the amount
-        #! resulted of the current node, increase the current amount
-        #! on hand by 1
-        pass
-    else:
-        pass
-    #todo finish this method
+        for subnode in cur.children.items():
+            if not isinstance(subnode[1],Node):
+                raise TypeError('tentative description')
+            reversearithmetic(subnode[1],cur.amountonhand)
     return cur.amountresulted
 
 
@@ -281,7 +285,7 @@ if __name__ == '__main__':
         # item A
         # prompt user which mode they want to run the program in
         printprompt()
-        while True:
+        while True: #! removed userinput == 'Y' because True was able to work again
             userinput = (input(''))
             userinput = userinput.strip()
             userinput = userinput.upper()
@@ -318,16 +322,44 @@ if __name__ == '__main__':
             desirednumber: int = promptint()
             populate(head)
             reversearithmetic(head, desirednumber)
-            # output resulted numbers for endpoints
+            #output the results
+            #todo format this output, it should output the totals!
+            #To get 9999x Solar Array you need the following:
+            #Tungsten Ore : 399960x #! append this output to the end:   (second generation (from head) item)
+            #Silver Ore : 399960x
+            #Sand : 24997500x
+            #Sand : 999900x
+            #Copper Ore : 4444x
+            #Copper Ore : 22220x
+            #Titanium Ore : 119988x
+            #Gold Ore : 199980x
+            #Coal : 399960x
+            #Pixels : 3999600x
+            #Sulphur : 79992x
+            #Hydrogen : 79992x
+            #Water : 159984x
+            #Sand : 999900x
+            #Copper Ore : 4444x
+            #Gold Ore : 79992x
             print('To get', str(str(desirednumber)+'x'),
                   head.ingredient, 'you need the following:')
-            # print amount needed of endpoint items
-            mango: dict = findlocalendpoints(head, {})
-            for itemnode in findlocalendpoints(head, {}).items():
+            results: dict = findlocalendpoints(head, {})
+            #iterate through the dictionary and output the amounts on hand
+            for itemnode in results.items():
                 if not isinstance(itemnode[1], Node):
                     raise TypeError('child is not an instance of', Node)
-                print(itemnode[1].ingredient, ':',
-                      itemnode[1].amountonhand, end='x\n')
+                # only do this if there 2 or more children for the head node,
+                # get the second to last node
+                if len(head.children) > 1:
+                    temp : Node = itemnode[1]
+                    while temp.parent.parent is not None:
+                        temp = temp.parent
+                    tempstr : str = temp.ingredient
+                    print(itemnode[1].ingredient, ':',itemnode[1].amountonhand, end='x')
+                    print(' ->',tempstr)
+                else:
+                    print(itemnode[1].ingredient, ':',
+                        itemnode[1].amountonhand, end='x\n')
         # prompt the user to see if they want to input another tree
         print("\nDo you want to run the program again with another item tree? (Y/N) type in 'H' if you need to be reminded of the prompt")
         while True:
@@ -341,6 +373,9 @@ if __name__ == '__main__':
             elif userinput == 'N' or userinput == 'Y':
                 break
         head.clearamountresulted()
+        if userinput == 'N':
+            break
+    #terminate the program
     print('terminating process in 10 seconds')
     #close program in 10 seconds
     i = 10
