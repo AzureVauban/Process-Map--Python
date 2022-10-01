@@ -209,12 +209,16 @@ def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
         #! completely possible solution, change method to loop until EACH individual item can give
         #! the amount resulted
         for endpoint in endpointsoftree.items():
-            tempbaz :int = recursivearithmetic(endpoint[1])
+#!            tempbaz :int = recursivearithmetic(endpoint[1])
+            recursivearithmetic(endpoint[1])
+            #print(tempbaz)
             if temp.amountresulted > desiredamount:
                 break
             endpoint[1].amountonhand += 1
             # recursively clear the amount resulted queue once the recursive arithmetic
             # reaches the head instance
+    for endpoint in endpointsoftree.items():
+        endpoint[1].amountonhand -= 1
     return temp.amountresulted
 
 
@@ -268,7 +272,7 @@ def populate(cur: Node):
     # create new child instances
     tempbool: bool = True
     for newnodename in inputqueue.items():
-        newchild: Node = Node(newnodename[1], cur, 0, 0, 0, tempbool)  # pylint:disable=W0612
+        newchild: Node = Node(newnodename[1], cur, 0, 1, 1, tempbool)  # pylint:disable=W0612
         tempbool = False
     # continue method runtime
     for childinstance in cur.children.items():
