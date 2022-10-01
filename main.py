@@ -187,40 +187,8 @@ def recursivearithmetic(cur: Node) -> int:
 
 
 def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
-    """recursive arithmetic method that figures out how much of the endpoint items you
-    need to get a desired amount of the head item
-    """
-    # create temp instance and set it to the head Node of the argument instance
-    temp: Node = cur
-    while temp.parent is not None:
-        temp = temp.parent
-    endpointsoftree: dict = findlocalendpoints(temp, {})
-    # check to see if each item is the approrpiate type
-    for endpoint in endpointsoftree.items():
-        if not isinstance(endpoint[1], Node):
-            raise TypeError('Endpoint is not an instance of', Node)
-    # while amount resulted is less than the desired amount,
-    # iterate through each Node in the dictionary and add its amount on hand by 1
-    while temp.amountresulted < desiredamount: #todo comment - reverse arithmetic runtime bug
-        #! debug this section/interaction with section, block of netherite mock tree should
-        #! resulted in 2304 for both endpoints, unit test passes but during real world
-        #! runtime infinite loop occurs, the amount on hand of the iterated endpoint
-        #! infinitely increases, main suspect for bug is this for-loop below these comment lines
-        #! another possibility is the input method for these nodes, since all unit tests pass
-        #! completely possible solution, change method to loop until EACH individual item can give
-        #! the amount resulted
-        for endpoint in endpointsoftree.items():
-#!            tempbaz :int = recursivearithmetic(endpoint[1])
-            recursivearithmetic(endpoint[1])
-            #print(tempbaz)
-            if temp.amountresulted > desiredamount:
-                break
-            endpoint[1].amountonhand += 1
-            # recursively clear the amount resulted queue once the recursive arithmetic
-            # reaches the head instance
-    for endpoint in endpointsoftree.items():
-        endpoint[1].amountonhand -= 1
-    return temp.amountresulted
+    #todo - rework the method, traverse downward
+    return cur.amountresulted
 
 
 def populate(cur: Node):
