@@ -217,7 +217,7 @@ def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
     if len(cur.children) > 0:
         for subnode in cur.children.items():
             if not isinstance(subnode[1], Node):
-                raise TypeError('tentative description')
+                raise TypeError('child is not an instance of', Node)
             reversearithmetic(subnode[1], cur.amountonhand)
     return cur.amountresulted
 
