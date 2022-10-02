@@ -375,7 +375,7 @@ if __name__ == '__main__':
     # terminate the program
     print('terminating process in 10 seconds')
     # close program in 10 seconds
-    nani = 10
-    while nani > 0:
+    NANI = 10
+    while NANI > 0:
         time.sleep(1)
-        nani -= 1
+        NANI -= 1
