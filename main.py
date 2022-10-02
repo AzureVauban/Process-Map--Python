@@ -124,10 +124,10 @@ class Node(NodeB):
         """
         self.queueamountresulted.clear()
         if len(self.children) > 0:
-            for childinstance in self.children.items():
-                if not isinstance(childinstance[1], Node):
+            for child in self.children.items():
+                if not isinstance(child[1], Node):
                     raise TypeError('Child is not an instance of', Node)
-                childinstance[1].clearamountresulted()
+                child[1].clearamountresulted()
 
 
 def findlocalendpoints(cur: Node, testdict: dict) -> dict:
@@ -139,9 +139,9 @@ def findlocalendpoints(cur: Node, testdict: dict) -> dict:
         testdict: dict = {}
     # ! unit testing failing
     if len(cur.children) > 0:
-        for childinstance in cur.children.items():
-            if isinstance(childinstance[1], Node):
-                findlocalendpoints(childinstance[1], testdict)
+        for child in cur.children.items():
+            if isinstance(child[1], Node):
+                findlocalendpoints(child[1], testdict)
     else:
         testdict.update({cur.instancekey: cur})
     returndict: dict = testdict
@@ -277,9 +277,9 @@ def populate(cur: Node):
             newnodename[1], cur, 0, 1, 1, tempbool)  # pylint:disable=W0612
         tempbool = False
     # continue method runtime
-    for childinstance in cur.children.items():
-        if isinstance(childinstance[1], Node):
-            populate(childinstance[1])
+    for child in cur.children.items():
+        if isinstance(child[1], Node):
+            populate(child[1])
         else:
             raise TypeError('child is not an instance of', Node)
 
@@ -327,8 +327,8 @@ if __name__ == '__main__':
         head = Node(itemname, None)
         if PROGRAMMODETYPE == 0:  # ? normal program mode
             populate(head)
-            for child in findlocalendpoints(head, {}).items():
-                recursivearithmetic(child[1])
+            for subnode in findlocalendpoints(head, {}).items():
+                recursivearithmetic(subnode[1])
             print('# resulted of', head.ingredient, '',
                   end=str(head.amountresulted)+'\n')
         else:  # ? Mode B
@@ -375,7 +375,7 @@ if __name__ == '__main__':
     # terminate the program
     print('terminating process in 10 seconds')
     # close program in 10 seconds
-    i = 10
-    while i > 0:
+    nani = 10
+    while nani > 0:
         time.sleep(1)
-        i -= 1
+        nani -= 1
