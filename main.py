@@ -1,4 +1,5 @@
 """
+FIXME - Arithmetic Method in Mode B - Inefficient - ISSUE 11
 rework this fit current development progress on V2
 - This is a reworked version of the Process Map (Python) V1, use as base for future versions
 - Mode A : The user figures out how much of item A can they make given the their supply of item
