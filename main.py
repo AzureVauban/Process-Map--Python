@@ -214,14 +214,14 @@ def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
     # arithmethic method will result in it not be the same number(greater than orginial quantity)]
     # add a boolean to check if a traceback traversal should occur
     red: int = round(cur.amountresulted *
-                       ((cur.amountmadepercraft/cur.amountneeded)**-1))
+                     ((cur.amountmadepercraft/cur.amountneeded)**-1))
     green: int = round(math.ceil(cur.amountresulted *
-                         ((cur.amountmadepercraft/cur.amountneeded)**-1)))
+                                 ((cur.amountmadepercraft/cur.amountneeded)**-1)))
     # ? in theory, red should be the same as multiplying the amount resulted
     # ? by the amount made per craft unit test this theory ?
     # have a bool comparision to see if this number is greater than red, green is ceiling rounded
+    cur.amountonhand = max(green, red)
     traceback: bool = green > red
-    cur.amountonhand = max(green,red)
     cur.amountresulted = cur.amountonhand
     if traceback:
         # create a temp node
