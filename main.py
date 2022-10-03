@@ -211,7 +211,7 @@ def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
         raise TypeError('parameter is not an instance of', Node)
     while desiredamount > cur.amountresulted:
         cur.amountonhand += 1
-        red = (cur.amountmadepercraft / cur.amountneeded)
+        red = (cur.amountmadepercraft / cur.amountneeded)**-1
         blue = round(math.floor(red*cur.amountonhand))
         cur.amountresulted = blue
     if len(cur.children) > 0:
