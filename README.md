@@ -21,5 +21,3 @@ To improve the quality of the arithmetic methods utilized in the solution, Unit 
 ### Being able to search and copy Nodes you already typed in
 
 In this current iteration of the Process Map, the user must type in one ingredient one by one at a time. There are many ingredient trees in which the end user will input the same ingredient more than once. Process Map v2.0 will improve upon this by giving the user the option to copy and paste a node they already typed out.
-
-Being able to edit or change what you typed before continuing to the next set of inputs
