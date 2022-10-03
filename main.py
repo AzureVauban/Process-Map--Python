@@ -214,20 +214,26 @@ def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
     #? example in which its true, desired amount of silicon (Frackin Universe) is 18
     if not isinstance(cur, Node):
         raise TypeError('parameter is not an instance of', Node)
-    green = round(((cur.amountmadepercraft / cur.amountneeded)**-1)*cur.amountonhand)
-    orange = round(math.ceil(((cur.amountmadepercraft / cur.amountneeded)**-1)*cur.amountonhand))
+    cur.amountresulted = desiredamount
+    green = round(((cur.amountmadepercraft / cur.amountneeded)**-1)*cur.amountresulted)
+    orange = round(math.ceil((cur.amountonhand / cur.amountneeded)))
     # the new amount on hand value with the default method is green
-    reminder : bool = green < orange
+    reminder : bool = green > orange
     if reminder:
-        cur.amountresulted = green
+        cur.amountonhand = green
+        temp : Node = cur
+        while temp.parent is not None:
+            temp.amountonhand += 1
+            temp = temp.parent
     else:
-        cur.amountresulted = orange
+        cur.amountonhand = orange
+    cur.amountresulted = cur.amountonhand
     if len(cur.children) > 0:
         for childnode in cur.children.items():
             if not isinstance(childnode[1], Node):
                 raise TypeError('child is not an instance of', Node)
             reversearithmetic(childnode[1], cur.amountonhand)
-    return cur.amountresulted
+    return cur.amountonhand
 
 
 def populate(cur: Node):
@@ -355,13 +361,13 @@ if __name__ == '__main__':
                 # only do this if there 2 or more children for the head node,
                 # get the second to last node
                 if len(head.children) > 1:
-                    temp: Node = itemnode[1]
-                    while temp.parent.parent is not None:
-                        temp = temp.parent
-                    tempstr: str = temp.ingredient
+                    tempnode: Node = itemnode[1]
+                    while tempnode.parent.parent is not None:
+                        tempnode = tempnode.parent
+                    temporarystring: str = tempnode.ingredient
                     print(itemnode[1].ingredient, ':',
                           itemnode[1].amountonhand, end='x')
-                    print(' ->', tempstr)
+                    print(' ->', temporarystring)
                 else:
                     print(itemnode[1].ingredient, ':',
                           itemnode[1].amountonhand, end='x\n')
