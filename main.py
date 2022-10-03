@@ -232,7 +232,7 @@ def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
             # ? the amount resulted will need to be increased by a single increment
             # ? of the amount made per craft, also caculate for reminder
             black = black.parent
-            black.amountonhand += 1
+            black.amountonhand += (1*black.amountmadepercraft)
     cur.amountresulted = cur.amountonhand
     if len(cur.children) > 0:
         for childnode in cur.children.items():
