@@ -208,18 +208,20 @@ def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
     Returns:
         int: the desired amount resulted of cur
     """
-    reminder : bool = False
     #? the boolean is determined to be true if the desired amount
     #? is less than the rounded ceiling quotient of the desired amount
     #? and the amount made per craft with the amount made per craft
     #? example in which its true, desired amount of silicon (Frackin Universe) is 18
     if not isinstance(cur, Node):
         raise TypeError('parameter is not an instance of', Node)
-    while desiredamount > cur.amountresulted:
-        cur.amountonhand += 1
-        red = (cur.amountmadepercraft / cur.amountneeded)**-1
-        green = round(math.floor(red*cur.amountonhand))
+    green = round(((cur.amountmadepercraft / cur.amountneeded)**-1)*cur.amountonhand)
+    orange = round(math.ceil(((cur.amountmadepercraft / cur.amountneeded)**-1)*cur.amountonhand))
+    # the new amount on hand value with the default method is green
+    reminder : bool = green < orange
+    if reminder:
         cur.amountresulted = green
+    else:
+        cur.amountresulted = orange
     if len(cur.children) > 0:
         for childnode in cur.children.items():
             if not isinstance(childnode[1], Node):
