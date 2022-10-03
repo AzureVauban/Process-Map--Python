@@ -1,5 +1,5 @@
 """
-- This is a reworked version of the Process Map (Python) V1, use as base for future versions
+- This is a reworked version of the Process Map (Python) V1, use as base for forking future versions
 - Mode A : The user figures out how much of item A can they make given the their supply of item
 B,C,D...
 - Mode B: The user figures out how much of item B,C,D... they need to get their desired amount of A
