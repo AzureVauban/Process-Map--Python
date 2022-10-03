@@ -206,7 +206,7 @@ def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
         Defaults to 0.
 
     Returns:
-        int: the desired amount resulted of cur
+        int: the amount on hand of item needed to get the desired amount
     """
     # ? the boolean is determined to be true if the desired amount
     # ? is less than the rounded ceiling quotient of the desired amount
