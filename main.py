@@ -215,10 +215,10 @@ def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
         blue = round(math.floor(red*cur.amountonhand))
         cur.amountresulted = blue
     if len(cur.children) > 0:
-        for subnode in cur.children.items():
-            if not isinstance(subnode[1], Node):
+        for childnode in cur.children.items():
+            if not isinstance(childnode[1], Node):
                 raise TypeError('child is not an instance of', Node)
-            reversearithmetic(subnode[1], cur.amountonhand)
+            reversearithmetic(childnode[1], cur.amountonhand)
     return cur.amountresulted
 
 
@@ -358,7 +358,8 @@ if __name__ == '__main__':
                     print(itemnode[1].ingredient, ':',
                           itemnode[1].amountonhand, end='x\n')
         # prompt the user to see if they want to input another tree
-        print("\nDo you want to run the program again with another item tree? (Y/N)\ntype in 'H' if you need to be reminded of the prompt")
+        print("\nDo you want to run the program again with another item tree? (Y/N)")
+        print("type in 'H' if you need to be reminded of the prompt")
         while True:
             userinput = (input(''))
             userinput = userinput.strip()
