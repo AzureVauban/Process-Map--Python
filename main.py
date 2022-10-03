@@ -196,37 +196,20 @@ def recursivearithmetic(cur: Node) -> int:
 
 
 def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
-    """
-    recursive arithmetic method for mode B
-
-    Args:
-        cur (Node): instance of Node
-        desiredamount (int, optional): the desired amount resulted of cur.
-        Defaults to 0.
-
-    Returns:
-        int: the amount on hand of item needed to get the desired amount
-    """
-    # ? the boolean is determined to be true if the desired amount
-    # ? is less than the rounded ceiling quotient of the desired amount
-    # ? and the amount made per craft with the amount made per craft
-    # ? example in which its true, desired amount of silicon (Frackin Universe) is 18
-    if not isinstance(cur, Node):
-        raise TypeError('parameter is not an instance of', Node)
     cur.amountresulted = desiredamount
-    green = round(((cur.amountmadepercraft / cur.amountneeded)**-1)
-                  * cur.amountresulted)
-    orange = round(math.ceil((cur.amountonhand / cur.amountneeded)))
-    # the new amount on hand value with the default method is green
-    reminder: bool = green > orange
-    if reminder:
-        cur.amountonhand = green
-        temp: Node = cur
-        while temp.parent is not None:
-            temp.amountonhand += 1
-            temp = temp.parent
-    else:
-        cur.amountonhand = orange
+    # solve for the amount on hand
+    cur.amountonhand = round(math.ceil(cur.amountresulted * ((cur.amountmadepercraft/cur.amountneeded)**-1)))
+    # sometimes the method will round up, the resulting number when used in the recursive
+    # arithmethic method will result in it not be the same number(greater than orginial quantity)]
+    # add a boolean to check if a traceback traversal should occur
+    red : float = 0.00
+    green : float = 0.00 #have a bool comparision to see if this number is greater than red
+    traceback : bool = green > red
+    if traceback:
+        # create a temp node
+        # traverse upward through the structure and add each amount on hand by
+        # how much is resulted when you craft that item one time
+        pass
     cur.amountresulted = cur.amountonhand
     if len(cur.children) > 0:
         for childnode in cur.children.items():
