@@ -233,6 +233,7 @@ def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
             # ? of the amount made per craft, also caculate for reminder
             black = black.parent
             black.amountonhand += 1
+    #continue method recursively
     if len(cur.children) > 0:
         for childnode in cur.children.items():
             if not isinstance(childnode[1], Node):
