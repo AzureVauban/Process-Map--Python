@@ -5,9 +5,9 @@ FIXME - Arithmetic Method in Mode B - Inefficient - ISSUE 11
 B,C,D...
 - Mode B: The user figures out how much of item B,C,D... they need to get their desired amount of A
 """
-import math
-import sys
-import time
+import math  # used for floor and ceiling rounding floats into intergers
+import sys  # used for recursive arithmethic method
+import time  # used only in process termination
 
 PROGRAMMODETYPE: int = 0
 
@@ -196,20 +196,43 @@ def recursivearithmetic(cur: Node) -> int:
 
 
 def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
+    """tentative description, change later
+
+    Args:
+        cur (Node): stores information about an item and its crafting connections
+        desiredamount (int, optional): the amount of parent you want to create. Defaults to 0.
+
+    Raises:
+        TypeError: not an instance of Node class
+
+    Returns:
+        int: the amount of item on hand (in supply) needed to get your desired amount
+    """
     cur.amountresulted = desiredamount
     # solve for the amount on hand
-    cur.amountonhand = round(math.ceil(cur.amountresulted * ((cur.amountmadepercraft/cur.amountneeded)**-1)))
+    cur.amountonhand = round(math.ceil(
+        cur.amountresulted * ((cur.amountmadepercraft/cur.amountneeded)**-1)))
     # sometimes the method will round up, the resulting number when used in the recursive
     # arithmethic method will result in it not be the same number(greater than orginial quantity)]
     # add a boolean to check if a traceback traversal should occur
-    red : float = 0.00
-    green : float = 0.00 #have a bool comparision to see if this number is greater than red
-    traceback : bool = green > red
+    red: float = round(cur.amountresulted *
+                       ((cur.amountmadepercraft/cur.amountneeded)**-1))
+    green: float = round(math.ceil(cur.amountresulted *
+                         ((cur.amountmadepercraft/cur.amountneeded)**-1)))
+    # ? in theory, red should be the same as multiplying the amount resulted
+    # ? by the amount made per craft unit test this theory ?
+    # have a bool comparision to see if this number is greater than red, green is ceiling rounded
+    traceback: bool = green > red
     if traceback:
         # create a temp node
         # traverse upward through the structure and add each amount on hand by
         # how much is resulted when you craft that item one time
-        pass
+        black: Node = cur
+        while black.parent is not None:
+            # ? the amount resulted will need to be increased by a single increment
+            # ? of the amount made per craft, also caculate for reminder
+            black = black.parent
+            black.amountonhand += 1
     cur.amountresulted = cur.amountonhand
     if len(cur.children) > 0:
         for childnode in cur.children.items():
