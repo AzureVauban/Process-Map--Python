@@ -6,23 +6,6 @@ import unittest
 from main import (Node, findlocalendpoints, recursivearithmetic,
                   reversearithmetic)
 
-#To get 9999x Solar Array you need the following:
-#Tungsten Ore : 399960x #! append this output to the end:   (second generation (from head) item)
-#Silver Ore : 399960x
-#Sand : 24997500x
-#Sand : 999900x
-#Copper Ore : 4444x
-#Copper Ore : 22220x
-#Titanium Ore : 119988x
-#Gold Ore : 199980x
-#Coal : 399960x
-#Pixels : 3999600x
-#Sulphur : 79992x
-#Hydrogen : 79992x
-#Water : 159984x
-#Sand : 999900x
-#Copper Ore : 4444x
-#Gold Ore : 79992x
 
 class MODEAtesting(unittest.TestCase):
     """Unit Testing
