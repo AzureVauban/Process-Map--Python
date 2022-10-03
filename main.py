@@ -210,19 +210,19 @@ def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
     """
     cur.amountresulted = desiredamount
     # solve for the amount on hand
-    cur.amountonhand = round(math.ceil(
-        cur.amountresulted * ((cur.amountmadepercraft/cur.amountneeded)**-1)))
     # sometimes the method will round up, the resulting number when used in the recursive
     # arithmethic method will result in it not be the same number(greater than orginial quantity)]
     # add a boolean to check if a traceback traversal should occur
-    red: float = round(cur.amountresulted *
+    red: int = round(cur.amountresulted *
                        ((cur.amountmadepercraft/cur.amountneeded)**-1))
-    green: float = round(math.ceil(cur.amountresulted *
+    green: int = round(math.ceil(cur.amountresulted *
                          ((cur.amountmadepercraft/cur.amountneeded)**-1)))
     # ? in theory, red should be the same as multiplying the amount resulted
     # ? by the amount made per craft unit test this theory ?
     # have a bool comparision to see if this number is greater than red, green is ceiling rounded
     traceback: bool = green > red
+    cur.amountonhand = max(green,red)
+    cur.amountresulted = cur.amountonhand
     if traceback:
         # create a temp node
         # traverse upward through the structure and add each amount on hand by
@@ -231,9 +231,8 @@ def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
         while black.parent is not None:
             # ? the amount resulted will need to be increased by a single increment
             # ? of the amount made per craft, also caculate for reminder
-            black.amountonhand += (1*black.amountmadepercraft)
             black = black.parent
-    cur.amountresulted = cur.amountonhand
+            black.amountonhand += (black.amountmadepercraft)
     if len(cur.children) > 0:
         for childnode in cur.children.items():
             if not isinstance(childnode[1], Node):

@@ -1,5 +1,6 @@
 """unit testing code, test out Mode A and Mode B for the script
 """
+from math import ceil
 import random
 import unittest
 
@@ -130,7 +131,7 @@ class MODEBtesting2(unittest.TestCase):
         """
         testvalue = random.randint(1, 100)
         self.assertGreaterEqual(reversearithmetic(self.amethyst, testvalue), testvalue)
-class MODEBtesting3(unittest.TestCase):
+class BlockofNetheriteB(unittest.TestCase):
     """unit testing the recursive arithmetic method under Mode B's runtime condition
 
     Args:
@@ -172,3 +173,44 @@ class MODEBtesting3(unittest.TestCase):
         """reverse arithmetic testing with many endpoints
         """
         self.assertEqual(reversearithmetic(self.netheritescrap,64),64)
+
+
+class StickofRAMB(unittest.TestCase):
+    """stick of Ram ingredient tree test
+
+    Args:
+        unittest (class): Unit Test framework
+    """
+    #? desired amount of stick of ram is 53, resuled amount should be equal to or greater than 54
+    stickofram        : Node = Node('Stick of Ram', None, 0, 1, 1)
+    plasticpolymer    : Node = Node('Plastic Polymer', stickofram, 0, 2, 2)  # branch A
+    copper_bar : Node = Node('Copper Bar',plasticpolymer,0,4,1)
+    water : Node = Node('Water',plasticpolymer,0,4,2)
+    carbondioxide : Node = Node('Carbon Dioxide',plasticpolymer,0,4,3)
+    
+    goldbar           : Node = Node('Gold Bar', stickofram, 0, 2, 1)  # brnach B
+    siliconboard      : Node = Node('Silicon Board', stickofram, 0, 2, 2)  # branch C
+    assertvalue: int = reversearithmetic(stickofram, 53)
+
+    def test_stickofram(self):
+        """tentative description
+        """
+        self.assertEqual(self.stickofram.amountonhand, 54)
+
+    def test_plasticpolymer(self):
+        """amount of plastic polymer needed to craft the desired amount of stick of ram
+        """
+        self.assertEqual(self.plasticpolymer.amountonhand, 54)
+    def test_copperbar(self):
+        """amount of copper bar needed to craft the desired amount of plastic polymer
+        """
+        self.assertEqual(self.copper_bar.amountonhand,ceil(54/4))
+    def test_goldbar(self):
+        """amount of gold bar needed to craft the desired amount of stick of ram
+        """
+        self.assertEqual(self.goldbar.amountonhand, 54/self.goldbar.amountmadepercraft)
+
+    def test_siliconboard(self):
+        """amount of silicon board needed to craft the desired amount of stick of ram
+        """
+        self.assertEqual(self.siliconboard.amountonhand, 54)
