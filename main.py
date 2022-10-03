@@ -195,24 +195,11 @@ def recursivearithmetic(cur: Node) -> int:
 
 
 def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
-    """
-    recursive arithmetic method for mode B
-
-    Args:
-        cur (Node): instance of Node
-        desiredamount (int, optional): the desired amount resulted of cur.
-        Defaults to 0.
-
-    Returns:
-        int: the desired amount resulted of cur
-    """
     if not isinstance(cur, Node):
         raise TypeError('parameter is not an instance of', Node)
-    while desiredamount > cur.amountresulted:
-        cur.amountonhand += 1
-        red = (cur.amountmadepercraft / cur.amountneeded)
-        blue = round(math.floor(red*cur.amountonhand))
-        cur.amountresulted = blue
+    cur.amountresulted = desiredamount
+    # solve for the amount on hand
+    cur.amountonhand = round(math.ceil(cur.amountresulted * ((cur.amountmadepercraft/cur.amountneeded)**-1)))
     if len(cur.children) > 0:
         for childnode in cur.children.items():
             if not isinstance(childnode[1], Node):
