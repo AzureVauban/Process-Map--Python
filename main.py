@@ -218,8 +218,8 @@ def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
     while desiredamount > cur.amountresulted:
         cur.amountonhand += 1
         red = (cur.amountmadepercraft / cur.amountneeded)**-1
-        blue = round(math.floor(red*cur.amountonhand))
-        cur.amountresulted = blue
+        green = round(math.floor(red*cur.amountonhand))
+        cur.amountresulted = green
     if len(cur.children) > 0:
         for childnode in cur.children.items():
             if not isinstance(childnode[1], Node):
