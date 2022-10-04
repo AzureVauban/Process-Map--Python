@@ -9,7 +9,7 @@ struct data
 {
     std::string ingredient; //name of the item
     data *parent;
-    data(std::string name = "",data *P = NULL)
+    data(std::string name = "",data *P = NULL) //!PASS PARENT IN BY REFRENCE data(name,&PARENT);
     {
         ingredient = name;
         parent = P;
