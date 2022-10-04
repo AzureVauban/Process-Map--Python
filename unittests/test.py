@@ -96,6 +96,30 @@ class FocusingArray(unittest.TestCase):
         """amount resulted of zerchesium ore should be 39996
         """
         self.assertEqual(self.zerchesiumore.amountonhand, 39996)
+    def test_penumbriteshard(self):
+        """amount resulted of penumbrite shard should be 19998
+        """
+        self.assertEqual(self.penumbriteshard.amountonhand, 19998)
+
+
+    def test_penumbriteore(self):
+        """amount resulted of penumbrite ore should be 39996
+        """
+        self.assertEqual(self.penumbriteore.amountonhand, 39996)
+    def test_protocitebar(self):
+        """amount resulted of protocite bar should be 19998
+        """
+        self.assertEqual(self.protocitebar.amountonhand, 19998)
+
+
+    def test_protociteore(self):
+        """amount resulted of protocite should be 39996
+        """
+        self.assertEqual(self.protociteore.amountonhand, 39996)
+    def test_lead(self):
+        """amount resulted of lead should be 19998
+        """
+        self.assertEqual(self.lead.amountonhand,19998)
 class BlockOfNetherite(unittest.TestCase):
     """unit testing the recursive arithmetic method under Mode B's runtime condition
 
