@@ -196,6 +196,19 @@ def recursivearithmetic(cur: Node) -> int:
 
 
 def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
+    """find how much of a material you will need get a particular amount of an item you want
+
+    Args:
+        cur (Node): stores information about an ingredient
+        desiredamount (int, optional): what the amount resulted should be given the
+        returned value of this method. Defaults to 0.
+
+    Raises:
+        TypeError: child is not an instance of Node
+
+    Returns:
+        int: the amount on hand of the current Node's item needed to get the desired amount
+    """
     cur.amountresulted = desiredamount
     red : float = ((cur.amountmadepercraft/cur.amountneeded)**-1)*cur.amountresulted
     green: float = round(math.ceil(red))
