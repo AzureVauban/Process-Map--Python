@@ -40,18 +40,14 @@ public:
         return ingredient;
     }
 
-    mockNode(std::string red = nullptr, mockNode *blue = nullptr)
+    mockNode(std::string name = "")
     {
-        ingredient = red;
-        parent = blue;
-        if (parent)
-        {
-            parent->child->emplace_back(this);
-        }
-        promptnumber();
+        ingredient = name;
     }
-    ~mockNode()
+    void linkchild(mockNode &blue)
     {
+        child->emplace_back(blue);
+        blue.parent = this;
     }
 };
 //! bool outputrepeated(std::vector<std::string> &mystrvector, std::string &mystring); // checks to see if the output is repeated and if it is append how many times its been repeated to make it unique
