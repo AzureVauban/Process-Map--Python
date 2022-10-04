@@ -54,8 +54,8 @@ class FocusingArray(unittest.TestCase):
     focusingarray       : Node = Node('Focusing Array', None, 0, 1, 1)
     advancedalloy       : Node = Node('Advanced Alloy', focusingarray, 8, 1, 2)
     crystal             : Node = Node('Crystal', focusingarray, 640, 1, 2)
-    plasmiccrystal      : Node = Node('Plasmic Crystal', focusingarray, 41, 2, 2)
-    quantumprocessor    : Node = Node('Quantum Processor', focusingarray, 20, 2, 1)
+    plasmiccrystal      : Node = Node('Plasmic Crystal', focusingarray, 41, 1, 2)
+    quantumprocessor    : Node = Node('Quantum Processor', focusingarray, 20, 1, 1)
     zerchesiumbar       : Node = Node('Zerchesium Bar', advancedalloy, 548, 1, 1)
     zerchesiumore       : Node = Node('Zerchesium Ore', zerchesiumbar, 2, 1, 2)
     protocitebar        : Node = Node('Protocite Bar', advancedalloy, 277, 1, 1)
@@ -140,22 +140,22 @@ class FocusingArray(unittest.TestCase):
     def test_plasmiccrystal(self):
         """amount resulted of plasmic crystal should be 19998
         """
-        self.assertEqual(self.plasmiccrystal.amountonhand, 19998)
+        self.assertEqual(self.plasmiccrystal.amountonhand, 9999*2)
 
     def test_bloodrock(self):
         """amount resulted of blood rock should be 999900
         """
-        self.assertEqual(self.bloodrock.amountonhand, 999900)
+        self.assertEqual(self.bloodrock.amountonhand, 9999*2*50)
 
     def test_blood(self):
         """amount resulted of blood should be 999900
         """
-        self.assertEqual(self.blood.amountonhand, 999900)
+        self.assertEqual(self.blood.amountonhand, 9999*2*50)
 
     def test_lava(self):
         """amount resulted of blood should be 999900
         """
-        self.assertEqual(self.lava.amountonhand, 999900)
+        self.assertEqual(self.lava.amountonhand, 9999*2*50)
 
 class BlockOfNetherite(unittest.TestCase):
     """unit testing the recursive arithmetic method under Mode B's runtime condition
