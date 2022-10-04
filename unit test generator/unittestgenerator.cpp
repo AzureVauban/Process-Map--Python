@@ -5,60 +5,75 @@ the first node will always have an amount made per craft and amount needed of 1 
 #include <iostream>
 #include <string>
 #include <vector>
-struct data
+struct Node
 {
-    std::string ingredient;                                 // name of the item
-    const data *parent;                                     // parent of item
-    std::vector<data> *children;                            // subnodes
-    data(const std::string name = "", const data *P = NULL) //! PASS PARENT IN BY REFRENCE data(name,&PARENT);
+    std::string ingredient;
+    Node* parent;
+    std::vector<Node*> children;
+    Node(std::string name = "",Node* par = nullptr)
     {
+        children = {};
         ingredient = name;
-        parent = P;
+        parent = par;
         if (parent)
         {
-            parent->children->emplace_back(this);
+            parent->children.emplace_back(this);
         }
-    }
-    ~data()
+    } 
+    ~Node()
     {
-        std::cout << "Deleting " << ingredient << " : " << this << std::endl;
+        std::cout << "Removing " << ingredient << " from " << this << std::endl;
     }
 };
-void populate(data &purple); // creates trees
-int main()
+void collectgarbage(Node* cur)
 {
-    std::string headitemname = "HEAD";
-    data head(headitemname);
-    populate(head);
-    return 0;
-}
-void populate(data &purple)
+    for (auto &i : cur->children)
+    {
+        collectgarbage(i);
+    }
+    delete cur;
+} 
+void populate(Node* current)
 {
-    std::cout << "What ingredients do you need create " << purple.ingredient << ":" << std::endl;
-    std::vector<std::string> myinputs;
-    // prompt user input
+    //prompt if the current node has a parent, loop through its parents and output the trail
+    if (current->parent)
+    {
+        //todo finish code here
+    }
+    //prompt user to input nodes
+    std::vector<std::string> userinputs = {};
+    std::cout << "What do you need to create " << current->ingredient << ":" << std::endl;
     while (true)
     {
-        std::string userinput;
-        std::getline(std::cin, userinput);
-        if (userinput.empty())
+        std::string myinput;
+        std::getline(std::cin,myinput);
+        if (not myinput.empty())
         {
+            userinputs.emplace_back(myinput);
+        } else {
             break;
         }
-        else
-        {
-            myinputs.emplace_back(userinput);
-        }
     }
-    // create new children instances
-    for (auto &i : myinputs)
+    //create new nodes
+    for (const auto &str : userinputs)
     {
-         
+        auto child = new Node(str,current);
     }
-    // continue function recursvely
-    for (int i = 0; i < purple.children->size(); i++)
+    //continue function recursively
+    for (auto &childinstance : current->children)
     {
-        populate(purple.children->at(i));
+        populate(childinstance);
     }
-    std::cout << "end of function from" << populate << std::endl;
+}
+int main()
+{
+    std::string treetitle = "";
+    do {
+    std::cout << "What is the name of the head node: ";
+    std::getline(std::cin,treetitle);
+    } while(treetitle.empty());
+    auto head = new Node(treetitle);
+    populate(head);
+    collectgarbage(head);
+    return 0;
 }
