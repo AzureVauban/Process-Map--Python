@@ -196,6 +196,16 @@ def recursivearithmetic(cur: Node) -> int:
 
 
 def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
+    cur.amountresulted = desiredamount
+    red : float = ((cur.amountmadepercraft/cur.amountneeded)**-1)*cur.amountresulted
+    green: float = round(math.ceil(red))
+    cur.amountonhand = int(max(red,green))
+    traceback : bool = green > red
+    if traceback: #go back through the higher up nodes and increase the amount on hand by 1
+        temp : Node = cur
+        while temp.parent is not None:
+            temp = temp.parent
+            temp.amountonhand += 1
     # continue method recursively
     if len(cur.children) > 0:
         for childnode in cur.children.items():
