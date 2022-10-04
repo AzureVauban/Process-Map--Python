@@ -7,14 +7,19 @@ This file is used to create big mock ingredient trees for the Process Map (Pytho
 #include <string>
 #include <vector>
 #include <sstream> //for converting strings into interger
-class mockNode
+struct mockNode
 {
-    std::string *ingredient;
+public:
+    std::vector<mockNode> *child = {};
+    std::string ingredient;
+
+private:
     mockNode *parent;
-    std::vector<mockNode> *children = {};
     int amountonhand = 0,
         amountneeded = 1,
         amountmadepercraft = 1;
+
+    // setters
     void promptnumber()
     {
         // prompt user to input the numeric data
@@ -28,19 +33,30 @@ class mockNode
     }
 
 public:
-    mockNode(std::string *red = nullptr, mockNode *blue = nullptr)
+    // getters
+    std::string itemname()
+    {
+        return ingredient;
+    }
+
+    mockNode(std::string red = nullptr, mockNode *blue = nullptr)
     {
         ingredient = red;
         parent = blue;
+        if (parent)
+        {
+            parent->child->emplace_back(this);
+        }
         promptnumber();
     }
     ~mockNode()
     {
     }
 };
-bool outputrepeated(std::vector<std::string> &mystrvector, std::string &mystring); // checks to see if the output is repeated and if it is append how many times its been repeated to make it unique
-void populate(mockNode &cur);                                                      // same method from the main solution python file, just in C++
-void createoutputfile(std::vector<std::string> &methodnames);                      // outputs a .py file for the unit tests
+//! bool outputrepeated(std::vector<std::string> &mystrvector, std::string &mystring); // checks to see if the output is repeated and if it is append how many times its been repeated to make it unique
+void populate(mockNode &cur);                                 // same method from the main solution python file, just in C++
+void createoutputfile(std::vector<std::string> &methodnames); // outputs a .py file for the unit tests
+void mass_delete(mockNode &black);
 int main()
 {
     // prompt the user to input the class
@@ -55,23 +71,57 @@ int main()
             break;
         }
     }
+    mockNode head(CLASSNAME);
     // prompt the user to input test names
+    populate(head);
     // create file object and output items
-    std::cout << "terminating process, file outputted into program's directory" << std::endl;
+    std::cout << "file outputted" << std::endl;
+    // destroy node data
+    std::cout << "terminating process" << std::endl;
+    mass_delete(head);
     return 0;
-}
-bool outputrepeated(std::vector<std::string> &mystrvector, std::string &mystring)
-{
-    bool repeated = false;
-    return repeated;
 }
 void populate(mockNode &cur)
 {
-    // output the trail if the parent of the augment instance is not null
+    std::cout << "What do you need to create " << cur.itemname() << ":" << std::endl;
+    // output the trail if parent of the augment instance is not null
+    std::vector<std::string> myinputs = {};
     // prompt input
+    while (true)
+    {
+        std::string input;
+        std::getline(std::cin, input);
+        if (input.empty())
+        {
+            break;
+        }
+        else
+        {
+            myinputs.emplace_back(input);
+        }
+    }
     // create new nodes and emplace them into the childrens vector of their parent
+    for (const auto &i : myinputs)
+    {
+        mockNode childnode(i);
+    }
     // continue function recursively
+    // auto j = cur.child->begin();
+    for (int i = 0; i < cur.child->size(); i++)
+    {
+        populate(cur.child->at(i));
+    }
 }
-void createoutputfile(std::vector<std::string> &methodnames)
+void createoutputfile(mockNode &white)
 { // todo get file code from old project
+}
+void mass_delete(mockNode &black)
+{
+    for (int i = 0; i < black.child->size(); i++)
+    {
+        mass_delete(black.child->at(i));
+    }
+    //!std::cout << "Deconstructor was called on " << &black << ":" << &black << std::endl;
+    std::cout << "Deconstructor was called on " << &black.ingredient << std::endl;
+    delete &black;
 }
