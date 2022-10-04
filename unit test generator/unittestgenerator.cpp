@@ -56,25 +56,8 @@ int main()
         }
     }
     // prompt the user to input test names
-    std::vector<std::string> testmethodsname = {};
-    std::cout << "Input the name of your test methods:" << std::endl;
-    while (true)
-    {
-        std::string myinput = "";
-        std::getline(std::cin, myinput);
-        if (myinput.empty())
-        {
-            break;
-        }
-        else if (true) // todo insert duplicate checker function
-        {
-            // check to see if the input has been repeated, if so append a number onto the name input
-        }
-        else
-        {
-            testmethodsname.emplace_back(myinput);
-        }
-    }
+    // create file object and output items
+    std::cout << "terminating process, file outputted into program's directory" << std::endl;
     return 0;
 }
 bool outputrepeated(std::vector<std::string> &mystrvector, std::string &mystring)
