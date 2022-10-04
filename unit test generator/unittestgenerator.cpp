@@ -38,8 +38,9 @@ public:
     {
     }
 };
-bool outputrepeated(std::vector<std::string> &mystrvector, std::string &mystring);
-void populate(mockNode &cur); // same method from the main solution python file, just in C++
+bool outputrepeated(std::vector<std::string> &mystrvector, std::string &mystring); // checks to see if the output is repeated and if it is append how many times its been repeated to make it unique
+void populate(mockNode &cur);                                                      // same method from the main solution python file, just in C++
+void createoutputfile(std::vector<std::string> &methodnames);                      // outputs a .py file for the unit tests
 int main()
 {
     // prompt the user to input the class
@@ -80,4 +81,10 @@ bool outputrepeated(std::vector<std::string> &mystrvector, std::string &mystring
 {
     bool repeated = false;
     return repeated;
+}
+void populate(mockNode &cur)
+{
+}
+void createoutputfile(std::vector<std::string> &methodnames)
+{
 }
