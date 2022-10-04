@@ -84,6 +84,10 @@ bool outputrepeated(std::vector<std::string> &mystrvector, std::string &mystring
 }
 void populate(mockNode &cur)
 {
+    // output the trail if the parent of the augment instance is not null
+    // prompt input
+    // create new nodes and emplace them into the childrens vector of their parent
+    // continue function recursively
 }
 void createoutputfile(std::vector<std::string> &methodnames)
 {
