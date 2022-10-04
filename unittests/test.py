@@ -83,6 +83,7 @@ class FocusingArray(unittest.TestCase):
         """amount resulted of focusing array should be 9999
         """
         self.assertGreaterEqual(self.focusingarray.amountonhand, 9999)
+    #? tests for advanced alloy branch
 
     def test_advancedalloy(self):
         """amount resulted of advanced alloy should be 19998, which comes from 9999*2
@@ -98,30 +99,64 @@ class FocusingArray(unittest.TestCase):
         """amount resulted of zerchesium ore should be 39996
         """
         self.assertEqual(self.zerchesiumore.amountonhand, 39996)
+
     def test_penumbriteshard(self):
         """amount resulted of penumbrite shard should be 19998
         """
         self.assertEqual(self.penumbriteshard.amountonhand, 19998)
 
-
     def test_penumbriteore(self):
         """amount resulted of penumbrite ore should be 39996
         """
         self.assertEqual(self.penumbriteore.amountonhand, 39996)
+
     def test_protocitebar(self):
         """amount resulted of protocite bar should be 19998
         """
         self.assertEqual(self.protocitebar.amountonhand, 19998)
 
-
     def test_protociteore(self):
         """amount resulted of protocite should be 39996
         """
         self.assertEqual(self.protociteore.amountonhand, 39996)
+
     def test_lead(self):
         """amount resulted of lead should be 19998
         """
-        self.assertEqual(self.lead.amountonhand,19998)
+        self.assertEqual(self.lead.amountonhand, 19998)
+    #? tests for crystal branch
+
+    def test_crystal(self):
+        """amount resulted of crystal should be 9999
+        """
+        self.assertEqual(self.crystal.amountonhand, 9999*2)
+
+    def test_crystalplant(self):
+        """amount resulted of crystal plant should be 19998
+        """
+        self.assertEqual(self.crystalplantseed.amountonhand, 19998)
+    #? tests for plasmic crystal branch
+
+    def test_plasmiccrystal(self):
+        """amount resulted of plasmic crystal should be 19998
+        """
+        self.assertEqual(self.plasmiccrystal.amountonhand, 19998)
+
+    def test_bloodrock(self):
+        """amount resulted of blood rock should be 999900
+        """
+        self.assertEqual(self.bloodrock.amountonhand, 999900)
+
+    def test_blood(self):
+        """amount resulted of blood should be 999900
+        """
+        self.assertEqual(self.blood.amountonhand, 999900)
+
+    def test_lava(self):
+        """amount resulted of blood should be 999900
+        """
+        self.assertEqual(self.lava.amountonhand, 999900)
+
 class BlockOfNetherite(unittest.TestCase):
     """unit testing the recursive arithmetic method under Mode B's runtime condition
 
