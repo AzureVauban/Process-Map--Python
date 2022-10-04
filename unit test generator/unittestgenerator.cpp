@@ -7,6 +7,7 @@ This file is used to create big mock ingredient trees for the Process Map (Pytho
 #include <string>
 #include <vector>
 #include <sstream> //for converting strings into interger
+#include <thread>
 struct mockNode
 {
 public:
@@ -57,6 +58,7 @@ public:
 void populate(mockNode &cur);                                 // same method from the main solution python file, just in C++
 void createoutputfile(std::vector<std::string> &methodnames); // outputs a .py file for the unit tests
 void mass_delete(mockNode &black);
+void terminateprogram(int seconds);
 int main()
 {
     // prompt the user to input the class
@@ -121,7 +123,19 @@ void mass_delete(mockNode &black)
     {
         mass_delete(black.child->at(i));
     }
-    //!std::cout << "Deconstructor was called on " << &black << ":" << &black << std::endl;
+    //! std::cout << "Deconstructor was called on " << &black << ":" << &black << std::endl;
     std::cout << "Deconstructor was called on " << &black.ingredient << std::endl;
     delete &black;
+}
+void terminateprogram(int seconds)
+{
+    using namespace std::this_thread;
+    using namespace std::chrono_literals;
+    std::cout << "Shutting down program in " << seconds << " seconds\n";
+    for (int s = seconds; s > 0; s--)
+    {
+        sleep_for(1s);
+        std::cout << s << std::endl;
+    }
+    std::cout << "TERMINATING PROCESS" << std::endl;
 }
