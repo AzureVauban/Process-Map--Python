@@ -6,13 +6,15 @@ This file is used to create big mock ingredient trees for the Process Map (Pytho
 #include <algorithm> //for alphabetlically sorting the input
 #include <string>
 #include <vector>
-#include <sstream>
+#include <sstream> //for converting strings into interger
 class mockNode
 {
     std::string *ingredient;
     mockNode *parent;
     std::vector<mockNode> *children = {};
-    int amountonhand, amountneeded, amountmadepercraft;
+    int amountonhand = 0,
+        amountneeded = 1,
+        amountmadepercraft = 1;
     void promptnumber()
     {
         // prompt user to input the numeric data
