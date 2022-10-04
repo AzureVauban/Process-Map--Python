@@ -47,7 +47,9 @@ def resetsupplyvalues(cur: Node):
             tempnode.amountonhand = 0
             tempnode = tempnode.parent
 class FocusingArray(unittest.TestCase):
-    """converted mode A mock tree into mode B mock tree, resets all amounts on hand of each item into 0
+    """
+    converted mode A mock tree into mode B mock tree, resets all amounts on hand of each item
+    into 0
     """
     focusingarray       : Node = Node('Focusing Array', None, 0, 1, 1)
     advancedalloy       : Node = Node('Advanced Alloy', focusingarray, 8, 1, 2)
