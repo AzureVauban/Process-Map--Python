@@ -7,6 +7,7 @@ the first node will always have an amount made per craft and amount needed of 1 
 #include <vector>
 #include <fstream>
 #include <sstream>
+#include <thread>
 enum programmode
 {
     red = 0,
@@ -61,6 +62,7 @@ struct Node
         std::cout << "What is your desired amount " << ingredient << ":" << std::endl;
         return intergersetter();
     }
+
 private:
     long long int intergersetter()
     {
@@ -107,9 +109,10 @@ private:
 std::vector<Node *> allnodes = {};
 void collectgarbage(Node *current);
 void populate(Node *current);
-void createnodedeclarations(Node *current);   //? create node instances
-void createtestmethods(Node *currentnode); //? create test methods
+void createnodedeclarations(Node *current); //? create node instances
+void createtestmethods(Node *currentnode);  //? create test methods
 std::string parseformatter(std::string somestring, int formattype = 0);
+void terminateprocess(int seconds);
 int main()
 {
     // prompt program mode
@@ -186,13 +189,11 @@ int main()
         createnodedeclarations(allnodes.at(i));
     }
     // write import methods onto the file object
-    int DESIREDAMOUNT = 9999; // todo modify this in the future to be changable and inputting, only for a mode B mock tree
-    if (MODE = blue)
+    int DESIREDAMOUNT = 9999;
+    if (MODE = blue) //?MODE B
     {
-    DESIREDAMOUNT = head->desiredamountsetter();
-    resultfile << "\treversearithmetic(" << parseformatter(head->ingredient, 0) << "," << DESIREDAMOUNT << ") # the resulted amount of head should be equal to or greater than the desired amount\n";
-    } else {
-
+        DESIREDAMOUNT = head->desiredamountsetter();
+        resultfile << "\treversearithmetic(" << parseformatter(head->ingredient, 0) << "," << DESIREDAMOUNT << ") # the resulted amount of head should be equal to or greater than the desired amount\n";
     }
     // write test methods declarations onto the file below, after all declarations of been created
     resultfile << std::endl;
@@ -205,6 +206,7 @@ int main()
     resultfile.close();
     // destroy nodes and reset used memory
     collectgarbage(head);
+    terminateprocess(5);
     return 0;
 }
 void collectgarbage(Node *current)
@@ -317,10 +319,11 @@ void createtestmethods(Node *current)
     resultfile << "\t\t\"\"\"" << std::endl;
     if (MODE = blue)
     {
-    resultfile << "\t\tself.assertEqual(self." << nodeinstancename << ".amountonhand, " << assertedvalue << ")" << std::endl;
-    } else {
-    resultfile << "\t\tself.assertEqual(self." << nodeinstancename << ".amountresulted, " << assertedvalue << ")" << std::endl;
-
+        resultfile << "\t\tself.assertEqual(self." << nodeinstancename << ".amountonhand, " << assertedvalue << ")" << std::endl;
+    }
+    else
+    {
+        resultfile << "\t\tself.assertEqual(self." << nodeinstancename << ".amountresulted, " << assertedvalue << ")" << std::endl;
     }
 }
 std::string parseformatter(std::string somestring, int formattype)
@@ -354,4 +357,16 @@ std::string parseformatter(std::string somestring, int formattype)
         break;
     }
     return myreturnedstring;
+}
+void terminateprocess(int seconds)
+{
+    using namespace std::this_thread;
+    using namespace std::chrono_literals;
+    std::cout << "Shutting down program in " << seconds << " seconds\n";
+    for (int s = seconds; s > 0; s--)
+    {
+        sleep_for(1s);
+        std::cout << s << std::endl;
+    }
+    std::cout << "TERMINATING PROGRAM\n";
 }
