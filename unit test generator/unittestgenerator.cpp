@@ -54,9 +54,14 @@ int main()
     allnodes.emplace_back(head);
     populate(head);
     // output mock unit test file
-    std::string doctstring = "\"\"\"Unit testing code for Python Process Map\n   Auto Generated\n\"\"\"\n";
+    std::string doctstring = "\"\"\"Unit testing code for Python Process Map\n   Auto Generated from Unit Test generator\n\"\"\"\n";
     resultfile << doctstring;
-    resultfile << "import unittest\n\nfrom main import Node\n\n"
+    resultfile << "import unittest\n"
+               << std::endl
+               << "from main import Node\n"
+               << std::endl
+               << "from main import reversearithmetic()\n"
+               << std::endl
                << std::endl;
     // create unit test class
     std::string classname = head->ingredient;
@@ -166,7 +171,7 @@ void createnodedeclarations(Node *ari)
     std::string parentinstancename = "None";
     if (ari->parent)
     {
-        parentinstancename = parseformatter(ari->parent->ingredient,0);
+        parentinstancename = parseformatter(ari->parent->ingredient, 0);
     }
     // write data onto it
     //?create class declaration, make a copy of the ingredient name and parse through it captializing it then removing whitespace
@@ -194,7 +199,7 @@ std::string parseformatter(std::string somestring, int formattype)
     std::string myreturnedstring = somestring;
     switch (formattype)
     {
-    case 0: //declaration syntax of an instance of Node (remove whitespace)
+    case 0: // declaration syntax of an instance of Node (remove whitespace)
         for (int i = 0; i < myreturnedstring.size(); i++)
         {
             if (myreturnedstring.at(i) == ' ')
@@ -204,7 +209,7 @@ std::string parseformatter(std::string somestring, int formattype)
         }
         break;
 
-    default: //declaration syntax of an instance of Node (replace whitespace with underscore)
+    default: // declaration syntax of an instance of Node (replace whitespace with underscore)
         for (int i = 0; i < myreturnedstring.size(); i++)
         {
             if (myreturnedstring.at(i) == ' ')
