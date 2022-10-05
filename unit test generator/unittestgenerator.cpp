@@ -329,6 +329,9 @@ void createtestmethods(Node *current)
 {
 
     std::string nodeinstancename = parseformatter(current->ingredient);
+    /*
+    in mode B, the assert value is the product amountonhand of the parent and the inverse of the quotient between its amount made per craft and amount needed per craft
+    */
     int assertedvalue = 0;
     // make copy and modify string to be used as a declaration
     // write data onto the file
