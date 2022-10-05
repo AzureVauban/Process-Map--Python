@@ -293,22 +293,17 @@ void createnodedeclarations(Node *current)
     */
     int assertedvalue = 0;
     // parse nodename
+
     std::string nodeinstancename = parseformatter(current->ingredient);
     //? check to see how many times this has been repeated, if the amount if greater than 1, append (total +2) onto it
     auto tempinstance = current;
     while (tempinstance->parent)
-    {
+    { // TODO FIX CONVERTING INTERGER INTO STRING CODE
         if (tempinstance->ingredient == current->ingredient)
         {
-
-            std::stringstream ssbuffer;
-            std::string strvar;
-            int integer;
-
-            std::stringstream ssbuffer;
-            ssbuffer << integer;
-            ssbuffer >> strvar;
-            nodeinstancename.append("_"+strvar);
+            //! ssbuffer2 << tempinstance->instancekey;
+            auto strvar = to_string(tempinstance->instancekey);
+            nodeinstancename.append("_" + strvar);
             break;
         }
         tempinstance->parent;
@@ -325,15 +320,9 @@ void createnodedeclarations(Node *current)
         {
             if (tempinstance->ingredient == current->parent->ingredient)
             {
-
-                std::stringstream ssbuffer;
-                std::string strvar;
-                int integer;
-
-                std::stringstream ssbuffer;
-                ssbuffer << integer;
-                ssbuffer >> strvar;
-                parentinstancename.append("_"+strvar);
+                //! ssbuffer2 << tempinstance->instancekey;
+                // TODO FIX CONVERTING INTERGER INTO STRING CODE
+                parentinstancename.append("_" + strvar);
                 break;
             }
             tempinstance->parent;
