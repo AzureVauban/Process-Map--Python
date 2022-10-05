@@ -53,9 +53,12 @@ int main()
     auto head = new Node(treetitle);
     allnodes.emplace_back(head);
     populate(head);
-    // output mock unit test file
-    std::string doctstring = "\"\"\"Unit testing code for Python Process Map\n   Auto Generated from Unit Test generator\n\"\"\"\n";
-    resultfile << doctstring;
+    //write to file its docstring
+    resultfile << "\"\"\"Unit testing code for Python Process Map" << std::endl;
+    resultfile << "   Generated from Unit Test generator" << std::endl;
+    resultfile << "   PLEASE USE THE FORMAT DOCUMENT AND FORMAT IMPORTS OF CHOSEN IDE" << std::endl;
+    resultfile << "\"\"\"\n";
+    //write module imports
     resultfile << "import unittest\n"
                << std::endl
                << "from main import Node\n"
@@ -187,7 +190,9 @@ void createtestmethods(Node *ari)
     // make copy and modify string to be used as a declaration
     // write data onto the file
     resultfile << "\tdef test_" << nodeinstancename << "(self):" << std::endl;
-    resultfile << "\t\t\"\"\"the amount resulted of " << nodeinstancename << " should be " << assertedvalue << "\"\"\"" << std::endl;
+    resultfile << "\t\t\"\"\"the asserted value of " << ari->ingredient << " should be " << assertedvalue << std::endl <<"\t\t";
+    resultfile << "include additional comments here: " << ari << std::endl;
+    resultfile << "\t\t\"\"\"" << std::endl;
     resultfile << "\t\tself.assertEqual(self." << nodeinstancename << ".amountonhand, " << assertedvalue << ")" << std::endl;
 }
 std::string parseformatter(std::string somestring, int formattype)
