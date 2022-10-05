@@ -61,9 +61,7 @@ int main()
     // write module imports
     resultfile << "import unittest\n"
                << std::endl
-               << "from main import Node\n"
-               << std::endl
-               << "from main import reversearithmetic\n"
+               << "from main import Node, reversearithmetic\n"
                << std::endl
                << std::endl;
     // create unit test class
@@ -87,6 +85,9 @@ int main()
 
         createnodedeclarations(allnodes.at(i));
     }
+    //write import methods onto the file object
+    int DESIREDAMOUNT = 9999;//todo modify this in the future to be changable and inputting, only for a mode B mock tree
+    resultfile << "\treversearithmetic("<<parseformatter(head->ingredient,0)<<","<<DESIREDAMOUNT<<") # the resulted amount of head should be equal to or greater than the desired amount\n"; 
     // write test methods declarations onto the file below, after all declarations of been created
     resultfile << std::endl;
     for (int i = 0; i < allnodes.size(); i++)
@@ -123,13 +124,13 @@ void populate(Node *current)
         bool namealreadytyped = false, duplicated = false;
         std::string myinput;
         std::getline(std::cin, myinput);
-        //strip the input of leading whitespace
+        // strip the input of leading whitespace
         while (myinput.size() > 0 and myinput.front() == ' ')
         {
             myinput.erase(0);
             myinput.shrink_to_fit();
         }
-        //strip the input of trailing whitespace
+        // strip the input of trailing whitespace
         while (myinput.size() > 0 and myinput.back() == ' ')
         {
             myinput.pop_back();
@@ -173,7 +174,7 @@ void populate(Node *current)
         populate(childinstance);
     }
 }
-void createnodedeclarations(Node *ari)
+void createnodedeclarations(Node *current)
 {
     /*
     example of a Node declared in the python unit test file
@@ -181,32 +182,32 @@ void createnodedeclarations(Node *ari)
     */
     int assertedvalue = 0;
     // parse nodename
-    std::string nodeinstancename = parseformatter(ari->ingredient);
+    std::string nodeinstancename = parseformatter(current->ingredient);
     //? check to see how many times this has been repeated, if the amount if greater than 1, append (total +2) onto it
     // setter code for the parent instances of the parameter
     std::string parentinstancename = "None";
-    if (ari->parent)
+    if (current->parent)
     {
-        parentinstancename = parseformatter(ari->parent->ingredient, 0);
+        parentinstancename = parseformatter(current->parent->ingredient, 0);
         //?check to see how many times this has been repeated, if the amount if greater than 1, append (total +2) onto it
     }
     // write data onto it
     //?create class declaration, make a copy of the ingredient name and parse through it captializing it then removing whitespace
-    resultfile << "\t" << nodeinstancename << std::right << "\t: Node = Node('" << ari->ingredient << "',";
+    resultfile << "\t" << nodeinstancename << std::right << "\t: Node = Node('" << current->ingredient << "',";
     resultfile << parentinstancename << ", ";
-    resultfile << "0, " << ari->amountmadepercraft << ", " << ari->amountneeded << ")" << std::endl;
+    resultfile << "0, " << current->amountmadepercraft << ", " << current->amountneeded << ")" << std::endl;
 }
-void createtestmethods(Node *ari)
+void createtestmethods(Node *current)
 {
 
-    std::string nodeinstancename = parseformatter(ari->ingredient);
+    std::string nodeinstancename = parseformatter(current->ingredient);
     int assertedvalue = 0;
     // make copy and modify string to be used as a declaration
     // write data onto the file
-    resultfile << "\tdef test_" << nodeinstancename << "(self):" << std::endl;
-    resultfile << "\t\t\"\"\"the asserted value of " << ari->ingredient << " should be " << assertedvalue << std::endl
+    resultfile << "\t\ndef test_" << nodeinstancename << "(self):" << std::endl;
+    resultfile << "\t\t\"\"\"the asserted value of " << current->ingredient << " should be " << assertedvalue << std::endl
                << "\t\t";
-    resultfile << "   include additional comments here: " << ari << std::endl;
+    resultfile << "   include additional comments here: " << current << std::endl;
     resultfile << "\t\t\"\"\"" << std::endl;
     resultfile << "\t\tself.assertEqual(self." << nodeinstancename << ".amountonhand, " << assertedvalue << ")" << std::endl;
 }
