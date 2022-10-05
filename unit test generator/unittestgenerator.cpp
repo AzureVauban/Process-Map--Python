@@ -56,7 +56,11 @@ struct Node
             amountmadepercraft = intergersetter();
         }
     }
-
+    int desiredamountsetter()
+    {
+        std::cout << "What is your desired amount " << ingredient << ":" << std::endl;
+        return intergersetter();
+    }
 private:
     long long int intergersetter()
     {
@@ -183,7 +187,13 @@ int main()
     }
     // write import methods onto the file object
     int DESIREDAMOUNT = 9999; // todo modify this in the future to be changable and inputting, only for a mode B mock tree
+    if (MODE = blue)
+    {
+    DESIREDAMOUNT = head->desiredamountsetter();
     resultfile << "\treversearithmetic(" << parseformatter(head->ingredient, 0) << "," << DESIREDAMOUNT << ") # the resulted amount of head should be equal to or greater than the desired amount\n";
+    } else {
+
+    }
     // write test methods declarations onto the file below, after all declarations of been created
     resultfile << std::endl;
     for (int i = 0; i < allnodes.size(); i++)
@@ -305,7 +315,13 @@ void createtestmethods(Node *current)
                << "\t\t";
     resultfile << "   include additional comments here: " << current << std::endl;
     resultfile << "\t\t\"\"\"" << std::endl;
+    if (MODE = blue)
+    {
     resultfile << "\t\tself.assertEqual(self." << nodeinstancename << ".amountonhand, " << assertedvalue << ")" << std::endl;
+    } else {
+    resultfile << "\t\tself.assertEqual(self." << nodeinstancename << ".amountresulted, " << assertedvalue << ")" << std::endl;
+
+    }
 }
 std::string parseformatter(std::string somestring, int formattype)
 {
