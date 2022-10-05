@@ -108,6 +108,32 @@ void createtestmethods(Node *currentnode); //? create test methods
 std::string parseformatter(std::string somestring, int formattype = 0);
 int main()
 {
+    // prompt program mode
+    while (true)
+    {
+        int userinputmode = -1;
+        std::cout << "What Mode will the mock tree run in? ([0] red, [1] blue)";
+        if (userinputmode == 0 or userinputmode == 1)
+        {
+            switch (userinputmode)
+            {
+            case 1:
+                MODE = blue;
+                break;
+
+            default:
+                MODE = red;
+                break;
+            }
+        }
+        else
+        {
+            std::cout << "Please type in 1 or 2" << std::endl;
+            std::cin.clear();
+            std::cin.sync();
+        }
+    }
+
     // prompt tree title (which is the name of the mock ingredient tree)
     std::string treetitle = "";
     do
