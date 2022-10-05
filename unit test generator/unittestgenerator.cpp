@@ -418,15 +418,15 @@ auto checkfornamingduplicates(Node *purple)
             isduplicate = a == b;
             if (isduplicate)
             { //! if the node is a duplicate, append its instance key to the formatted name in the output formatter functions
-                returnvalue.second+=1;
+                returnvalue.second += 1;
             }
         }
     }
-    //if second of the pair, is greater than 0. return true
+    // if second of the pair, is greater than 0. return true
     if (returnvalue.second > 0)
     {
         returnvalue.first = true;
     }
     return returnvalue;
 }
-    // end of code
+// end of code
