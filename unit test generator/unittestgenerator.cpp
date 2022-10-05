@@ -308,7 +308,7 @@ void createnodedeclarations(Node *current)
             std::stringstream ssbuffer;
             ssbuffer << integer;
             ssbuffer >> strvar;
-            nodeinstancename.append(strvar);
+            nodeinstancename.append("_"+strvar);
             break;
         }
         tempinstance->parent;
@@ -333,7 +333,7 @@ void createnodedeclarations(Node *current)
                 std::stringstream ssbuffer;
                 ssbuffer << integer;
                 ssbuffer >> strvar;
-                parentinstancename.append(strvar);
+                parentinstancename.append("_"+strvar);
                 break;
             }
             tempinstance->parent;
