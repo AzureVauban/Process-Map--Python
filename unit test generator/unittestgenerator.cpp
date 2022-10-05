@@ -8,6 +8,7 @@ the first node will always have an amount made per craft and amount needed of 1 
 #include <fstream>
 #include <sstream>
 #include <thread>
+#include <utility> //modify traversal check method to return a pair, a bool and the number of times the name is repeated
 enum programmode
 {
     red = 0, // solve for the possible amount you can create of your desired amount, primary
@@ -128,7 +129,7 @@ std::string parseformatter(std::string somestring, int formattype = 0);
 // closes program after a certain about of seconds
 void terminateprocess(int seconds);
 // traverse upward, emplacing names into it, double "for" check for duplicates, clear afterwards
-bool checkfornamingduplicates(Node *purple);
+auto checkfornamingduplicates(Node *purple);
 
 int main()
 {
@@ -389,9 +390,10 @@ void terminateprocess(int seconds)
     }
     std::cout << "TERMINATING PROGRAM\n";
 }
-bool checkfornamingduplicates(Node *purple)
+auto checkfornamingduplicates(Node *purple)
 {
     bool isduplicate = false;
+    std::pair<bool, int> returnvalue = {isduplicate, 0};
     std::vector<std::string> nodenames = {};
     // emplace string variables into the vector
     while (purple->parent)
@@ -416,9 +418,15 @@ bool checkfornamingduplicates(Node *purple)
             isduplicate = a == b;
             if (isduplicate)
             { //! if the node is a duplicate, append its instance key to the formatted name in the output formatter functions
-                break;
+                returnvalue.second+=1;
             }
         }
-        return isduplicate;
     }
+    //if second of the pair, is greater than 0. return true
+    if (returnvalue.second > 0)
+    {
+        returnvalue.first = true;
+    }
+    return returnvalue;
+}
     // end of code
