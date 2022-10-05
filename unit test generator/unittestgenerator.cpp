@@ -12,14 +12,17 @@ struct Node
     std::string ingredient;
     Node *parent;
     std::vector<Node *> children;
-    int amountmadepercraft, amountneeded;
-    Node(std::string name = "", Node *par = nullptr)
+    int amountmadepercraft, amountneeded,amountonhand;
+    Node(std::string name = "", Node *par = nullptr,int a = 0, int b = 1, int c = 1)
     {
         children = {};
         ingredient = name;
         parent = par;
-        amountmadepercraft = 1;
-        amountneeded = 1;
+        //todo create function that prompts the user to input values for the numeric data
+        prompt_numbericdata();
+        amountonhand = a;
+        amountmadepercraft = b;
+        amountneeded = c;
         if (parent)
         {
             parent->children.emplace_back(this);
@@ -28,6 +31,14 @@ struct Node
     ~Node()
     {
         std::cout << "Removing " << ingredient << " from " << this << std::endl;
+    }
+    void prompt_numbericdata()
+    {
+        /*
+        if there is a parent prompt amount made per craft and amount needed
+        if mode B, do not prompt the amount on hand, keep it as its default value,
+        else prompt amount on hand for EVERY node in the ingredient tree!
+        */
     }
 };
 std::vector<Node *> allnodes = {};
