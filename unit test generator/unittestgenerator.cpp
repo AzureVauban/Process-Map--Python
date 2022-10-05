@@ -85,7 +85,7 @@ private:
         B << myinput;
         B >> C;
         return C;
-    } // todo finish function
+    }
     bool checkchar(std::string somestring)
     {
         bool isadigit = true;
@@ -101,9 +101,9 @@ private:
     }
 };
 std::vector<Node *> allnodes = {};
-void collectgarbage(Node *cur);
+void collectgarbage(Node *current);
 void populate(Node *current);
-void createnodedeclarations(Node *head);   //? create node instances
+void createnodedeclarations(Node *current);   //? create node instances
 void createtestmethods(Node *currentnode); //? create test methods
 std::string parseformatter(std::string somestring, int formattype = 0);
 int main()
@@ -197,13 +197,13 @@ int main()
     collectgarbage(head);
     return 0;
 }
-void collectgarbage(Node *cur)
+void collectgarbage(Node *current)
 {
-    for (auto &i : cur->children)
+    for (auto &i : current->children)
     {
         collectgarbage(i);
     }
-    delete cur;
+    delete current;
 }
 void populate(Node *current)
 {
