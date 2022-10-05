@@ -33,28 +33,9 @@ struct Node
 std::vector<Node *> allnodes = {};
 void collectgarbage(Node *cur);
 void populate(Node *current);
-void createnodedeclarations(Node *head);
-void createtestmethods(Node *head)
-{
-    for (auto &nodetitle : allnodes)
-    {
-        std::string nodename = nodetitle;
-        int assertedvalue = 0;
-        // make copy and modify string to be used as a declaration
-        for (int i = 0; i < nodename.size(); i++)
-        {
-            if (nodename.at(i) == ' ')
-            {
-                nodename.erase(i);
-                nodename.shrink_to_fit();
-            }
-        }
-        // write data onto the file
-        resultfile << "\tdef test_" << nodename << "(self):" << std::endl;
-        resultfile << "\t\t\"\"\"the amount resulted of " << nodename << " should be " << assertedvalue << "\"\"\"" << std::endl;
-        resultfile << "\t\tself.assertEqual(self." << nodename << ".amountonhand, " << assertedvalue << ")" << std::endl;
-    }
-}
+void createnodedeclarations(Node *head);   //? create node instances
+void createtestmethods(Node *currentnode); //? create test methods
+std::string parseformatter(std::string somestring, int formattype = 0);
 int main()
 {
     // prompt tree title (which is the name of the mock ingredient tree)
@@ -70,11 +51,12 @@ int main()
     } while (treetitle.empty());
     // create tree using Nodes linked to each other
     auto head = new Node(treetitle);
+    allnodes.emplace_back(head);
     populate(head);
     // output mock unit test file
     std::string doctstring = "\"\"\"Unit testing code for Python Process Map\n   Auto Generated\n\"\"\"\n";
     resultfile << doctstring;
-    resultfile << "import unittest\n\n"
+    resultfile << "import unittest\n\nfrom main import Node\n\n"
                << std::endl;
     // create unit test class
     std::string classname = head->ingredient;
@@ -92,13 +74,17 @@ int main()
                << "Unit Testing for a mock tree to create " << head->ingredient << "\"\"\"\n"
                << std::endl;
     // write node declarations onto of the file at the top of the Unit Test class
-    for (int i = 0; i < allnodes.size();i++)
+    for (int i = 0; i < allnodes.size(); i++)
     {
 
         createnodedeclarations(allnodes.at(i));
     }
     // write test methods declarations onto the file below, after all declarations of been created
-    createtestmethods(head);
+    for (int i = 0; i < allnodes.size(); i++)
+    {
+
+        createtestmethods(allnodes.at(i));
+    }
 
     resultfile.close();
     // destroy nodes and reset used memory
@@ -167,37 +153,67 @@ void populate(Node *current)
         populate(childinstance);
     }
 }
-void createnodedeclarations(Node *nodeinstance)
+void createnodedeclarations(Node *ari)
 {
     /*
     example of a Node declared in the python unit test file
     focusingarray       : Node = Node('Focusing Array', None, 0, 1, 1)
     */
     int assertedvalue = 0;
-    for (auto &nodetitle : allnodes)
+    // parse nodename
+    std::string nodeinstancename = parseformatter(ari->ingredient);
+    // setter code for the parent instances of the parameter
+    std::string parentinstancename = "None";
+    if (ari->parent)
     {
-        // parse nodename
-        std::string nodename = nodetitle;
-        for (int i = 0; i < nodename.size(); i++)
+        parentinstancename = parseformatter(ari->parent->ingredient,0);
+    }
+    // write data onto it
+    //?create class declaration, make a copy of the ingredient name and parse through it captializing it then removing whitespace
+    resultfile << "\t" << nodeinstancename << std::right << "\t: Node = Node('" << nodeinstancename << "',";
+    resultfile << parentinstancename << ", ";
+    resultfile << "0, " << ari->amountmadepercraft << ", " << ari->amountneeded << ")" << std::endl;
+}
+void createtestmethods(Node *ari)
+{
+
+    std::string nodeinstancename = parseformatter(ari->ingredient);
+    int assertedvalue = 0;
+    // make copy and modify string to be used as a declaration
+    // write data onto the file
+    resultfile << "\tdef test_" << nodeinstancename << "(self):" << std::endl;
+    resultfile << "\t\t\"\"\"the amount resulted of " << nodeinstancename << " should be " << assertedvalue << "\"\"\"" << std::endl;
+    resultfile << "\t\tself.assertEqual(self." << nodeinstancename << ".amountonhand, " << assertedvalue << ")" << std::endl;
+}
+std::string parseformatter(std::string somestring, int formattype)
+{
+    /* formatting types:
+    type 1: declaration syntax of an instance of Node (remove whitespace)
+    default : declaration syntax of an instance of Node (replace whitespace with underscore)
+    */
+    std::string myreturnedstring = somestring;
+    switch (formattype)
+    {
+    case 0: //declaration syntax of an instance of Node (remove whitespace)
+        for (int i = 0; i < myreturnedstring.size(); i++)
         {
-            if (nodename.at(i) == ' ')
+            if (myreturnedstring.at(i) == ' ')
             {
-                nodename.erase(i);
-                nodename.shrink_to_fit();
+                myreturnedstring.at(i) = '_';
             }
         }
-        // write data onto it
-        //?create class declaration, make a copy of the ingredient name and parse through it captializing it then removing whitespace
-        resultfile << "\t" << nodename << ": Node = Node('" << nodeinstance->ingredient << "',";
-        if (nodeinstance->parent)
+        break;
+
+    default: //declaration syntax of an instance of Node (replace whitespace with underscore)
+        for (int i = 0; i < myreturnedstring.size(); i++)
         {
-            resultfile << nodename << ",";
+            if (myreturnedstring.at(i) == ' ')
+            {
+                myreturnedstring.erase(i);
+                myreturnedstring.shrink_to_fit();
+            }
         }
-        else
-        {
-            resultfile << "None"
-                       << ", ";
-        }
-        resultfile << "0, " << nodeinstance->amountmadepercraft << ", " << nodeinstance->amountneeded << ")" << std::endl;
+        break;
     }
+    return myreturnedstring;
 }
