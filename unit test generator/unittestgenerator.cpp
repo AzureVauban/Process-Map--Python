@@ -125,12 +125,13 @@ void createnodedeclarations(Node *current);
 // write test methods onto output file
 void createtestmethods(Node *currentnode);
 // returns a formatted string
-std::string parseformatter(std::string somestring, int formattype = 0);
+std::string parseformatter(std::string somestring, int formattype = 0, Node *object = nullptr);
 // closes program after a certain about of seconds
 void terminateprocess(int seconds);
 // traverse upward, emplacing names into it, double "for" check for duplicates, clear afterwards
-auto checkfornamingduplicates(Node *purple);
-
+bool checkfornamingduplicates(Node *purple);
+// parse traverse through the global list of nodes, return a count of all nodes that have the same ingredient before reaching the same node in the vector
+int subappend(Node *orange, std::vector<Node *> purple);
 int main()
 {
     // prompt program mode
@@ -173,7 +174,7 @@ int main()
         }
     }
     resultfile << "class " << classname << "(unittest.TestCase):" << std::endl;
-    resultfile << "\t\"\"\""
+    resultfile << "    \"\"\""
                << "Unit Testing for a mock tree to create " << head->ingredient << "\"\"\"\n"
                << std::endl;
     // write node declarations onto of the file at the top of the Unit Test class
@@ -187,7 +188,7 @@ int main()
     if (MODE = blue) //?MODE B
     {
         DESIREDAMOUNT = head->desiredamountsetter();
-        resultfile << "\treversearithmetic(" << parseformatter(head->ingredient, 0) << "," << DESIREDAMOUNT << ") # the resulted amount of head should be equal to or greater than the desired amount\n";
+        resultfile << "    reversearithmetic(" << parseformatter(head->ingredient, 0) << "," << DESIREDAMOUNT << ") # the resulted amount of head should be equal to or greater than the desired amount\n";
     }
     // write test methods declarations onto the file below, after all declarations of been created
     resultfile << std::endl;
@@ -200,6 +201,8 @@ int main()
     resultfile.close();
     // destroy nodes and reset used memory
     collectgarbage(head);
+    // destory nodes in all nodes vector
+    delete allnodes[allnodes.size()];
     terminateprocess(5);
     return 0;
 }
@@ -216,7 +219,20 @@ void populate(Node *current)
     // prompt if the current node has a parent, loop through its parents and output the trail
     if (current->parent)
     {
-        // todo finish code here
+        Node *temp = current;
+        while (temp->parent)
+        {
+            if (temp->parent)
+            {
+                std::cout << temp->ingredient << " -> ";
+            }
+            else
+            {
+                std::cout << temp->ingredient << std::endl;
+                break;
+            }
+            temp = temp->parent;
+        }
     }
     // prompt user to input nodes
     std::vector<std::string> userinputs = {};
@@ -285,7 +301,8 @@ void createnodedeclarations(Node *current)
     int assertedvalue = 0;
     // parse nodename
     std::vector<std::string> tempstrings = {}; //?traverse upward, emplacing names into it, double "for" check for duplicates, clear afterwards
-    std::string nodeinstancename = parseformatter(current->ingredient);
+    //! std::string nodeinstancename = parseformatter(current->ingredient); recomment this back in if the case 1 logic doesn't work
+    std::string nodeinstancename = parseformatter(current->ingredient, 1, current);
     //? check to see how many times this has been repeated, if the amount if greater than 1, append (total +2) onto it
     auto tempinstance = current;
     std::string strvar = "";
@@ -304,7 +321,8 @@ void createnodedeclarations(Node *current)
     std::string parentinstancename = "None";
     if (current->parent)
     {
-        parentinstancename = parseformatter(current->parent->ingredient, 0);
+        //! parentinstancename = parseformatter(current->parent->ingredient, 0); recomment this back in if the case 1 logic for the parsestring function does not work
+        parentinstancename = parseformatter(current->parent->ingredient, 1, current->parent);
         //?check to see how many times this has been repeated, if the amount if greater than 1, append (total +2) onto it
         auto tempinstance = current->parent;
         while (tempinstance->parent)
@@ -321,35 +339,43 @@ void createnodedeclarations(Node *current)
     }
     // write data onto it
     //?create class declaration, make a copy of the ingredient name and parse through it captializing it then removing whitespace
-    resultfile << "\t" << nodeinstancename << std::right << "\t: Node = Node('" << current->ingredient << "',";
+    resultfile << "    " << nodeinstancename << std::right << "    : Node = Node('" << current->ingredient << "',";
     resultfile << parentinstancename << ", ";
     resultfile << "0, " << current->amountmadepercraft << ", " << current->amountneeded << ")" << std::endl;
 }
 void createtestmethods(Node *current)
 {
 
-    std::string nodeinstancename = parseformatter(current->ingredient);
     /*
     in mode B, the assert value is the product amountonhand of the parent and the inverse of the quotient between its amount made per craft and amount needed per craft
     */
     int assertedvalue = 0;
     // make copy and modify string to be used as a declaration
+    //! recomment this code if the parsemethod case 1 doesn't work
+    /*
+    std::string nodeinstancename = parseformatter(current->ingredient);
+    if (checkfornamingduplicates(current))
+    {
+        nodeinstancename.append(std::to_string(subappend(current,allnodes)));
+    }
+    */
+    std::string nodeinstancename = parseformatter(current->ingredient, 1, current);
     // write data onto the file
-    resultfile << "\t\ndef test_" << nodeinstancename << "(self):" << std::endl;
-    resultfile << "\t\t\"\"\"the asserted value of " << current->ingredient << " should be " << assertedvalue << std::endl
-               << "\t\t";
+    resultfile << "    \ndef test_" << nodeinstancename << "(self):" << std::endl;
+    resultfile << "        \"\"\"the asserted value of " << current->ingredient << " should be " << assertedvalue << std::endl
+               << "        ";
     resultfile << "   include additional comments here: " << current << std::endl;
-    resultfile << "\t\t\"\"\"" << std::endl;
+    resultfile << "        \"\"\"" << std::endl;
     if (MODE = blue)
     {
-        resultfile << "\t\tself.assertEqual(self." << nodeinstancename << ".amountonhand, " << assertedvalue << ")" << std::endl;
+        resultfile << "        self.assertEqual(self." << nodeinstancename << ".amountonhand, " << assertedvalue << ")" << std::endl;
     }
     else
     {
-        resultfile << "\t\tself.assertEqual(self." << nodeinstancename << ".amountresulted, " << assertedvalue << ")" << std::endl;
+        resultfile << "        self.assertEqual(self." << nodeinstancename << ".amountresulted, " << assertedvalue << ")" << std::endl;
     }
 }
-std::string parseformatter(std::string somestring, int formattype)
+std::string parseformatter(std::string somestring, int formattype, Node *nodeobject)
 {
     /* formatting types:
     type 1: declaration syntax of an instance of Node (remove whitespace)
@@ -367,7 +393,13 @@ std::string parseformatter(std::string somestring, int formattype)
             }
         }
         break;
-
+    case 1: // modified declaration node name, appended with an interger (the number duplicates are above itself) to be unique
+        myreturnedstring = parseformatter(somestring);
+        if (checkfornamingduplicates(nodeobject) and nodeobject)
+        {
+            myreturnedstring.append(std::to_string(subappend(nodeobject, allnodes)));
+        }
+        break;
     default: // declaration syntax of an instance of Node (replace whitespace with underscore)
         for (int i = 0; i < myreturnedstring.size(); i++)
         {
@@ -393,24 +425,14 @@ void terminateprocess(int seconds)
     }
     std::cout << "TERMINATING PROGRAM\n";
 }
-auto checkfornamingduplicates(Node *purple)
+bool checkfornamingduplicates(Node *purple)
 {
     bool isduplicate = false;
-    std::pair<bool, int> returnvalue = {isduplicate, 0};
     std::vector<std::string> nodenames = {};
     // emplace string variables into the vector
     while (purple->parent)
     {
         nodenames.emplace_back(purple->ingredient);
-        /*
-        if (tempinstance->ingredient == current->ingredient)
-        {
-
-            strvar = std::to_string(tempinstance->instancekey);
-            nodeinstancename.append("_" + strvar);
-            break;
-        }
-        */
         purple = purple->parent;
     }
     // check to see if duplicate is present
@@ -421,15 +443,31 @@ auto checkfornamingduplicates(Node *purple)
             isduplicate = a == b;
             if (isduplicate)
             { //! if the node is a duplicate, append its instance key to the formatted name in the output formatter functions
-                returnvalue.second += 1;
+                break;
             }
         }
     }
-    // if second of the pair, is greater than 0. return true
-    if (returnvalue.second > 0)
+    return isduplicate;
+}
+//
+int subappend(Node *orange, std::vector<Node *> purple)
+{
+    // todo find better variable names
+    // stop when orange's instancekey is the same as purple
+    //?returns the amount of duplicates of orange's ingredient name there is before reaching to itself in the vector
+    int count = 0;
+    for (const auto &instance : purple)
     {
-        returnvalue.first = true;
+        bool booleanbreak = orange->instancekey == instance->instancekey;
+        if (booleanbreak)
+        {
+            break;
+        }
+        if (orange->ingredient == instance->ingredient and not booleanbreak)
+        {
+            count += 1;
+        }
+        return count; // append this number to the string in the filewrite functions
     }
-    return returnvalue;
 }
 // end of code
