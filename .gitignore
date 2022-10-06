@@ -9,3 +9,4 @@ __pycache__/main.cpython-310.pyc
 unit test generator/unittestgenerator.exe
 unit test generator/unittestgenerator.cpp
 .vscode/c_cpp_properties.json
+.vscode/bookmarks.json
