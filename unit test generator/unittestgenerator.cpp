@@ -349,7 +349,7 @@ void createnodedeclarations(Node *current)
 void createtestmethods(Node *current)
 {
 
-    /*
+    /*DEADLIFE deviant
     in mode B, the assert value is the product amountonhand of the parent and the inverse of the quotient between its amount made per craft and amount needed per craft
     */
     auto assertedvalue = 0.00;
@@ -369,7 +369,7 @@ void createtestmethods(Node *current)
     // write data onto the file
     resultfile << "\t\ndef test_" << nodeinstancename << "(self):" << std::endl;
     resultfile << "\t\t\"\"\"the asserted value of " << current->ingredient << " should be " << assertedvalue << std::endl;
-    resultfile << "\t\tinclude additional comments here: " << current << std::endl;
+    resultfile << "\t\tinclude additional comments here: " << "..." << std::endl;
     resultfile << "\t\t\"\"\"" << std::endl;
     if (MODE = blue)
     {
