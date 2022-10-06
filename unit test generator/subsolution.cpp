@@ -26,7 +26,7 @@ struct Node
     std::vector<Node *> children;
     long long int amountmadepercraft, amountneeded, amountonhand, instancekey;
     bool promptamountmadepercraft = true;
-    Node(std::string name = "", Node *par = nullptr, long long int a = 0, long long int b = 1, long long int c = 1)
+    Node(std::string name = "", Node *par = nullptr, long long int a = 0, long long int b = 1, long long int c = 1, bool prompt = false)
     {
         instancekey = instances;
         children = {};
@@ -35,7 +35,7 @@ struct Node
         amountonhand = a;
         amountmadepercraft = b;
         amountneeded = c;
-        // todo create function that prompts the user to input values for the numeric data
+        promptamountmadepercraft = prompt;
         if (parent)
         {
             parent->children.emplace_back(this);
@@ -67,12 +67,6 @@ struct Node
                     std::cout << "Only intergers values equal to or above one will be acccepted" << std::endl;
                 }
             } while (amountmadepercraft < 1 and promptamountmadepercraft);
-            promptamountmadepercraft = false;
-            for (auto &sibling : this->parent->children)
-            {
-                sibling->amountmadepercraft = this->amountmadepercraft;
-                sibling->promptamountmadepercraft = false;
-            }
             // prompt amount needed to craft parent once
             do
             {
@@ -311,10 +305,13 @@ void populate(Node *current)
         }
     }
     // create new nodes
+    bool promptnummade = true;
     for (const auto &str : userinputs)
     {
-        auto child = new Node(str, current);
+        auto child = new Node(str, current, 0, 1, 1, promptnummade);
         allnodes.emplace_back(child);
+        promptnummade = false;
+        // todo set amount made per craft of child to its eldest sibiling's
     }
     // continue function recursively
     for (auto &childinstance : current->children)
@@ -454,7 +451,6 @@ bool checkfornamingduplicates(Node *purple)
     }
     return isduplicate;
 }
-//
 int subappend(Node *orange, std::vector<Node *> purple)
 {
     // todo find better variable names
