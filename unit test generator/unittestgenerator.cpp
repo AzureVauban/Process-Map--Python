@@ -391,7 +391,7 @@ void createtestmethods(Node *current)
     /*
     in mode B, the assert value is the product amountonhand of the parent and the inverse of the quotient between its amount made per craft and amount needed per craft
     */
-    int assertedvalue = 0;
+    auto assertedvalue = 0;
     if (MODE == blue and not current->parent)
     {
         assertedvalue = DESIREDAMOUNT;
