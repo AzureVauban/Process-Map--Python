@@ -190,7 +190,7 @@ int main()
     // write to file its docstring
     resultfile << "\"\"\"Unit testing code for Python Process Map" << std::endl;
     resultfile << "\tGenerated from Unit Test generator" << std::endl;
-    resultfile << "\tPLEASE USE THE FORMAT DOCUMENT AND FORMAT IMPORT OPTIONS OF CHOSEN IDE" << std::endl;
+    resultfile << "\tPLEASE USE THE DOCUMENT FORMATING AND FORMATING IMPORT OPTIONS OF UTILIZED IDE" << std::endl;
     resultfile << "\"\"\"\n";
     // write module imports
     resultfile << "import unittest\n"
@@ -369,7 +369,8 @@ void createtestmethods(Node *current)
     // write data onto the file
     resultfile << "\t\ndef test_" << nodeinstancename << "(self):" << std::endl;
     resultfile << "\t\t\"\"\"the asserted value of " << current->ingredient << " should be " << assertedvalue << std::endl;
-    resultfile << "\t\tinclude additional comments here: " << "..." << std::endl;
+    resultfile << "\t\tinclude additional comments here: "
+               << "..." << std::endl;
     resultfile << "\t\t\"\"\"" << std::endl;
     if (MODE = blue)
     {
