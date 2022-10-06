@@ -188,8 +188,8 @@ int main()
     }
     // write to file its docstring
     resultfile << "\"\"\"Unit testing code for Python Process Map" << std::endl;
-    resultfile << "   Generated from Unit Test generator" << std::endl;
-    resultfile << "   PLEASE USE THE FORMAT DOCUMENT AND FORMAT IMPORT OPTIONS OF CHOSEN IDE" << std::endl;
+    resultfile << "\tGenerated from Unit Test generator" << std::endl;
+    resultfile << "\tPLEASE USE THE FORMAT DOCUMENT AND FORMAT IMPORT OPTIONS OF CHOSEN IDE" << std::endl;
     resultfile << "\"\"\"\n";
     // write module imports
     resultfile << "import unittest\n"
@@ -209,7 +209,7 @@ int main()
         }
     }
     resultfile << "class " << classname << "(unittest.TestCase):" << std::endl;
-    resultfile << "    \"\"\""
+    resultfile << "\t\"\"\""
                << "Unit Testing for a mock tree to create " << head->ingredient << "\"\"\"\n"
                << std::endl;
     // write node declarations onto of the file at the top of the Unit Test class
@@ -222,7 +222,7 @@ int main()
     if (MODE = blue) //?MODE B
     {
         //!long long int DESIREDAMOUNT = head->desiredamountsetter();
-        resultfile << "    reversearithmetic(" << parseformatter(head->ingredient, 0) << "," << DESIREDAMOUNT << ") # the resulted amount of head should be equal to or greater than the desired amount\n";
+        resultfile << "\treversearithmetic(" << parseformatter(head->ingredient, 0) << "," << DESIREDAMOUNT << ") # the resulted amount of head should be equal to or greater than the desired amount\n";
 
     }
     // write test methods declarations onto the file below, after all declarations of been created
@@ -380,7 +380,7 @@ void createnodedeclarations(Node *current)
     }
     // write data onto it
     //?create class declaration, make a copy of the ingredient name and parse through it captializing it then removing whitespace
-    resultfile << "    " << nodeinstancename << std::right << "    : Node = Node('" << current->ingredient << "',";
+    resultfile << "\t" << nodeinstancename << std::right << "    : Node = Node('" << current->ingredient << "',";
     resultfile << parentinstancename << ", ";
     resultfile << current->amountonhand << ", " << current->amountmadepercraft << ", " << current->amountneeded << ")";
     resultfile << " # key :" << current->instancekey << std::endl;
@@ -391,16 +391,17 @@ void createtestmethods(Node *current)
     /*
     in mode B, the assert value is the product amountonhand of the parent and the inverse of the quotient between its amount made per craft and amount needed per craft
     */
-    auto assertedvalue = 0;
+    auto assertedvalue = 0.00;
     if (MODE == blue and not current->parent)
     {
         assertedvalue = DESIREDAMOUNT;
     } else if (MODE == blue and current->parent)
     {
-    long long int &a = current->amountmadepercraft;
-    long long int &b = current->amountneeded;
+    //todo DEBUG THIS
+    int a = current->amountmadepercraft;
+    int b = current->amountneeded;
     float ratio = 1/(current->amountmadepercraft/current->amountneeded);
-    assertedvalue = current->parent->amountonhand * ratio;
+    assertedvalue = ceil(current->parent->amountonhand * ratio);
     }
     // make copy and modify string to be used as a declaration
     //! recomment this code if the parsemethod case 1 doesn't work
@@ -413,18 +414,17 @@ void createtestmethods(Node *current)
     */
     std::string nodeinstancename = parseformatter(current->ingredient, 1, current);
     // write data onto the file
-    resultfile << "    \ndef test_" << nodeinstancename << "(self):" << std::endl;
-    resultfile << "        \"\"\"the asserted value of " << current->ingredient << " should be " << assertedvalue << std::endl
-               << "        ";
-    resultfile << "   include additional comments here: " << current << std::endl;
-    resultfile << "        \"\"\"" << std::endl;
+    resultfile << "\t\ndef test_" << nodeinstancename << "(self):" << std::endl;
+    resultfile << "\t\t\"\"\"the asserted value of " << current->ingredient << " should be " << assertedvalue << std::endl;
+    resultfile << "\t\tinclude additional comments here: " << current << std::endl;
+    resultfile << "\t\t\"\"\"" << std::endl;
     if (MODE = blue)
     {
-        resultfile << "        self.assertEqual(self." << nodeinstancename << ".amountonhand, " << assertedvalue << ")" << std::endl;
+        resultfile << "\t\tself.assertEqual(self." << nodeinstancename << ".amountonhand, " << assertedvalue << ")" << std::endl;
     }
     else
     {
-        resultfile << "        self.assertEqual(self." << nodeinstancename << ".amountresulted, " << assertedvalue << ")" << std::endl;
+        resultfile << "\t\tself.assertEqual(self." << nodeinstancename << ".amountresulted, " << assertedvalue << ")" << std::endl;
     }
 }
 std::string parseformatter(std::string somestring, int formattype, Node *nodeobject)
@@ -449,7 +449,10 @@ std::string parseformatter(std::string somestring, int formattype, Node *nodeobj
         myreturnedstring = parseformatter(somestring);
         if (checkfornamingduplicates(nodeobject) and nodeobject)
         {
+            if (subappend(nodeobject,allnodes) > 0)
+            {
             myreturnedstring.append(std::to_string(subappend(nodeobject, allnodes)));
+            }
         }
         break;
     default: // declaration syntax of an instance of Node (replace whitespace with underscore)
