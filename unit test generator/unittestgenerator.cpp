@@ -399,7 +399,7 @@ void createtestmethods(Node *current)
     {
     long long int &a = current->amountmadepercraft;
     long long int &b = current->amountneeded;
-    float ratio = ceil(pow((a/b),-1));
+    float ratio = 1/(current->amountmadepercraft/current->amountneeded);
     assertedvalue = current->parent->amountonhand * ratio;
     }
     // make copy and modify string to be used as a declaration
