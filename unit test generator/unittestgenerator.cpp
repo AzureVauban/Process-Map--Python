@@ -54,16 +54,32 @@ struct Node
 
         if (not MODE == blue)
         {
-
+            // prompt amount on hand
             std::cout << "What is the amount of " << ingredient << " you have on hand:" << std::endl;
             amountonhand = integersetter();
         }
         if (parent)
         {
-            std::cout << "How much " << ingredient << " do you need to craft " << parent->ingredient << " once";
-            amountneeded = integersetter();
-            std::cout << "What is the amount of " << parent->ingredient << " you create each craft:" << std::endl;
-            amountmadepercraft = integersetter();
+            // prompt amount needed to craft parent once
+            do
+            {
+                std::cout << "How much " << ingredient << " do you need to craft " << parent->ingredient << " once";
+                amountneeded = integersetter();
+                if (amountneeded < 1)
+                {
+                    std::cout << "Only intergers values equal to or above one will be acccepted" << std::endl;
+                }
+            } while (amountneeded < 1);
+            // prompt amount made per craft
+            do
+            {
+                std::cout << "What is the amount of " << parent->ingredient << " you create each craft: " << std::endl;
+                amountmadepercraft = integersetter();
+                if (amountmadepercraft < 1)
+                {
+                    std::cout << "Only intergers values equal to or above one will be acccepted" << std::endl;
+                }
+            } while (amountmadepercraft < 1);
         }
     }
     int desiredamountsetter()
@@ -467,7 +483,7 @@ int subappend(Node *orange, std::vector<Node *> purple)
         {
             count += 1;
         }
-        return count; // append this number to the string in the filewrite functions
     }
+    return count; // append this number to the string in the filewrite functions
 }
 // end of code
