@@ -400,8 +400,8 @@ void createtestmethods(Node *current)
     //todo DEBUG THIS
     int a = current->amountmadepercraft;
     int b = current->amountneeded;
-    auto ratio = ceil(pow(double((current->amountmadepercraft/current->amountneeded)),-1));
-    assertedvalue = ceil(current->parent->amountonhand * ratio);
+    auto parenttocurrent_ratio = ceil(pow(double((current->amountmadepercraft/current->amountneeded)),-1));
+    assertedvalue = ceil(current->parent->amountonhand * parenttocurrent_ratio);
     }
     // make copy and modify string to be used as a declaration
     //! recomment this code if the parsemethod case 1 doesn't work
