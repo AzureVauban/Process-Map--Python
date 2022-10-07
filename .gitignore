@@ -1,13 +1,3 @@
-/desktop.ini
-__pycache__/solution.cpython-310.pyc
-.vscode/settings.json
-.vscode/c_cpp_properties.json
-__pycache__/myunittests.cpython-310.pyc
-__pycache__/test.cpython-310.pyc
-unittests/__pycache__/test.cpython-310.pyc
-__pycache__/main.cpython-310.pyc
-unit test generator/unittestgenerator.exe
-unit test generator/unittestgenerator.cpp
-.vscode/c_cpp_properties.json
-.vscode/bookmarks.json
+desktop.ini
 /unittests/
+/unittests/test.py
