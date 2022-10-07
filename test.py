@@ -25,7 +25,8 @@ class Issue12(unittest.TestCase):
     prisilitestar : Node = Node('Prisilite Star',tritaniumbar)
     prismshard : Node = Node('Prism Shard',prisilitestar,0,1,2)
     pixels4 : Node = Node('Pixels',prismshard,0,1,1838) #? buy from geologist NPC ingame
-    reversearithmetic(tritaniumbar,random.randint(1,100))
+    desiredamount : int = random.randint(1,100)
+    reversearithmetic(tritaniumbar,desiredamount)
     roots : dict = findlocalendpoints(tritaniumbar,{})
     def test_endpointsdict(self):
         """test to see if the length of the endpoints dictionary
