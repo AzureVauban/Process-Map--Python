@@ -45,3 +45,7 @@ class Issue12(unittest.TestCase):
                 if not iscalledpixels:
                     break
         self.assertTrue(iscalledpixels)
+    def test_temptest(self):
+        """tentative description
+        """
+        
