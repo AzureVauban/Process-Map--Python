@@ -518,6 +518,6 @@ int subappend(Node *orange, std::vector<Node *> purple)
             count += 1;
         }
     }
-    return count; // append this number to the string in the filewrite functions
+    return count+1; // append this number to the string in the filewrite functions
 }
 // end of code
