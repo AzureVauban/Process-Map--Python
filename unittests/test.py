@@ -3,7 +3,7 @@
 import random
 import unittest
 
-from Process_Mao import reversearithmetic  # pylint:disable=E0401
+from main import reversearithmetic  # pylint:disable=E0401
 from main import Node, findlocalendpoints  # pylint:disable=E0401
 
 # To get 9999x Solar Array you need the following:
