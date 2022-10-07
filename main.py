@@ -315,8 +315,8 @@ def tentative_formatoutput(endpoints : dict) -> dict:
     # check if the dictionary is not empty
     argumentdictlength : int = 0
     for dictitme in endpoints.items():
-        
-    if len(endpoints.values()) == 0:
+        argumentdictlength += 1
+    if argumentdictlength == 0:
         raise ValueError('Argument dictionary is empty, needs at least one value to run')
     else:
         foundendpoints : dict = endpoints
