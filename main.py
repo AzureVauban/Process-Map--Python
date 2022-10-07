@@ -129,21 +129,23 @@ class Node(NodeB):
                 child[1].clearamountresulted()
 
 
-def findlocalendpoints(cur: Node, testdict: dict) -> dict:
+def findlocalendpoints(cur: Node, foundendpoints: dict) -> dict:
     """
     look for endpoints connected to the tree at this node
     after this method is finished running, please clear its utilized dictionaryy
     """
-    if testdict is None:
-        testdict: dict = {}
+    if foundendpoints is None:
+        myendpoints: dict = {}
+    else:
+        myendpoints: dict = foundendpoints
     # ! unit testing failing
     if len(cur.children) > 0:
         for child in cur.children.items():
             if isinstance(child[1], Node):
-                findlocalendpoints(child[1], testdict)
+                findlocalendpoints(child[1], myendpoints)
     else:
-        testdict.update({cur.instancekey: cur})
-    returndict: dict = testdict
+        myendpoints.update({cur.instancekey: cur})
+    returndict: dict = myendpoints
     return returndict
 
 
@@ -354,8 +356,8 @@ if __name__ == '__main__':
                 # get the second to last node
                 if len(head.children) > 1:
                     tempnode: Node = itemnode[1]
-                    while tempnode.parent.parent is not None:
-                        tempnode = tempnode.parent
+                    while tempnode.parent.parent is not None: # type: ignore
+                        tempnode = tempnode.parent  # type: ignore
                     temporarystring: str = tempnode.ingredient
                     print(itemnode[1].ingredient, ':',
                           itemnode[1].amountonhand, end='x')
