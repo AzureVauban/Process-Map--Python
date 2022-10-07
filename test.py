@@ -51,6 +51,6 @@ class Issue12(unittest.TestCase):
     def test_temptest(self):
         """tentative description
         """
-        tentative_formatoutput(roots)
+        tentative_formatoutputs(self.roots)
         print('hello world from VS Code')
         self.assertEqual(1,1*1)
