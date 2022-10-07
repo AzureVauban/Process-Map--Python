@@ -10,7 +10,7 @@ from main import Node, findlocalendpoints, reversearithmetic
 
 
 class Issue12(unittest.TestCase):
-    """tentative description
+    """test new formatting and endpoint search methods from main.py module
 
     Args:
         unittest (_type_): _description_
