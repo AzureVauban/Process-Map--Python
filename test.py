@@ -4,7 +4,6 @@
 import random
 import unittest
 
-
 from main import Node, findlocalendpoints, reversearithmetic
 
 
@@ -36,12 +35,12 @@ class Issue12(unittest.TestCase):
     def test_endpoints(self):
         """test to see if the item name of each endpoint is Pixels
         """
-        isPixel : bool = True
+        iscalledpixels : bool = True
         for instance in self.roots.items():
             if not isinstance(instance[1], Node):
                 raise TypeError('endpoint is not an instance of',Node)
             else:
-                isPixel = instance[1].ingredient == 'Pixels'
-                if not isPixel:
+                iscalledpixels = instance[1].ingredient == 'Pixels'
+                if not iscalledpixels:
                     break 
-        self.assertTrue(isPixel)
+        self.assertTrue(iscalledpixels)
