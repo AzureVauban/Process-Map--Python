@@ -32,15 +32,16 @@ class Issue12(unittest.TestCase):
         is 4 elements
         """
         self.assertEqual(len(self.roots),4)
+
     def test_endpoints(self):
         """test to see if the item name of each endpoint is Pixels
         """
-        iscalledpixels : bool = True
+        iscalledpixels: bool = True
         for instance in self.roots.items():
             if not isinstance(instance[1], Node):
-                raise TypeError('endpoint is not an instance of',Node)
+                raise TypeError('endpoint is not an instance of', Node)
             else:
                 iscalledpixels = instance[1].ingredient == 'Pixels'
                 if not iscalledpixels:
-                    break 
+                    break
         self.assertTrue(iscalledpixels)
