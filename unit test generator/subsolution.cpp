@@ -55,6 +55,7 @@ struct Node
         }
         prompt_numbericdata();
         instances += 1;
+        setter_assertval();
     }
     ~Node()
     {
@@ -106,29 +107,49 @@ struct Node
         std::cout << "What is your desired amount " << ingredient << ":" << std::endl;
         return integersetter();
     }
-void setter_assertval()
+    void setter_assertval()
     {
-        //create a clone of 'this' then traverse upward multiplying by the ratio or its inverse depending on the mode
-auto currentnode = this;
+        // create a clone of 'this' then traverse upward multiplying by the ratio or its inverse depending on the mode
+        auto currentnode = this;
 
-while (currentnode->parent)
-{
-if (MODE = red)
-{
-assertvalue *= currentnode->amountmadepercraft / currentnode->amountneeded;
-assertvalue = floorl(round(assertvalue));
-} else if (MODE = blue){
-assertvalue *= std::pow((currentnode->amountmadepercraft / currentnode->amountneeded),-1);
-assertvalue = ceill(round(assertvalue));
-} else {
-    amountonhand = -1;
-    amountresulted = -1;
-    std::cout << "UNDEFINED MODE" << std::endl;
-    break;
-}
-currentnode = currentnode->parent;
-}
+        while (currentnode->parent)
+        {
+            if (MODE = red)
+            {
+                assertvalue *= currentnode->amountmadepercraft / currentnode->amountneeded;
+                assertvalue = floorl(round(assertvalue));
+            }
+            else if (MODE = blue)
+            {
+                assertvalue *= std::pow((currentnode->amountmadepercraft / currentnode->amountneeded), -1);
+                assertvalue = ceill(round(assertvalue));
+            }
+            else
+            {
+                amountonhand = -1;
+                amountresulted = -1;
+                std::cout << "UNDEFINED MODE" << std::endl;
+                break;
+            }
+            currentnode = currentnode->parent;
+        }
     }
+    void traverse()
+    {
+        auto black = this;
+        std::cout << "Trail : ";
+        while (black)
+        {
+            std::cout << black->ingredient;
+            if (black->parent)
+            {
+                std::cout << " => ";
+            }
+            black = black->parent;
+        }
+        std::cout << std::endl;
+    }
+
 private:
     long long int integersetter()
     {
@@ -164,7 +185,6 @@ private:
         ssbuffer >> integer;
         return integer;
     }
-};
     bool checkchar(std::string somestring)
     { // strings always fail validation input, could this function be the reason why?
         bool isadigit = true;
@@ -178,6 +198,7 @@ private:
         }
         return isadigit;
     }
+};
 std::vector<Node *> allnodes = {};
 // clean up allocated memory using during runtime
 void collectgarbage(Node *current);
@@ -278,23 +299,7 @@ void collectgarbage(Node *current)
 void populate(Node *current)
 {
     // prompt if the current node has a parent, loop through its parents and output the trail
-    if (current->parent)
-    {
-        Node *temp = current;
-        while (temp->parent)
-        {
-            if (temp->parent)
-            {
-                std::cout << temp->ingredient << " -> ";
-            }
-            else
-            {
-                std::cout << temp->ingredient << std::endl;
-                break;
-            }
-            temp = temp->parent;
-        }
-    }
+    current->traverse();
     // prompt user to input nodes
     std::vector<std::string> userinputs = {};
     std::cout << "What do you need to create " << current->ingredient << ":" << std::endl;
@@ -393,7 +398,7 @@ void createnodedeclarations(Node *current)
 void createtestmethods(Node *current)
 {
 
-    /*DEADLIFE deviant
+    /*
     in mode B, the assert value is the product amountonhand of the parent and the inverse of the quotient between its amount made per craft and amount needed per craft
     */
     auto assertedvalue = 0.00;
@@ -414,17 +419,17 @@ void createtestmethods(Node *current)
     std::string nodeinstancename = parseformatter(current->ingredient, 1, current);
     // write data onto the file
     resultfile << "\tdef test_" << nodeinstancename << "(self):" << std::endl;
-    resultfile << "\t\t\"\"\"the asserted value of " << current->ingredient << " should be " << assertedvalue << std::endl;
+    resultfile << "\t\t\"\"\"the asserted value of " << current->ingredient << " should be " << current->assertvalue << std::endl;
     resultfile << "\t\tinclude additional comments here: "
                << "..." << std::endl;
     resultfile << "\t\t\"\"\"" << std::endl;
     if (MODE = blue)
     {
-        resultfile << "\t\tself.assertEqual(self." << nodeinstancename << ".amountonhand, " << assertedvalue << ")" << std::endl;
+        resultfile << "\t\tself.assertEqual(self." << nodeinstancename << ".amountonhand, " << current->assertvalue << ")" << std::endl;
     }
     else
     {
-        resultfile << "\t\tself.assertEqual(self." << nodeinstancename << ".amountresulted, " << assertedvalue << ")" << std::endl;
+        resultfile << "\t\tself.assertEqual(self." << nodeinstancename << ".amountresulted, " << current->assertvalue << ")" << std::endl;
     }
 }
 std::string parseformatter(std::string somestring, int formattype, Node *nodeobject)
@@ -518,6 +523,6 @@ int subappend(Node *orange, std::vector<Node *> purple)
             count += 1;
         }
     }
-    return count+1; // append this number to the string in the filewrite functions
+    return count + 1; // append this number to the string in the filewrite functions
 }
 // end of code
