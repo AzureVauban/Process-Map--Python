@@ -1,12 +1,10 @@
 """
+<<<<<<< HEAD
 - This is a reworked version of the Process Map (Python) V1, use as base for forking future versions
 - Mode A : The user figures out how much of item A can they make given the their supply of item
 B,C,D...
 - Mode B: The user figures out how much of item B,C,D... they need to get their desired amount of A
 """
-import math
-import sys
-import time
 import math  # used for floor and ceiling rounding floats into intergers
 import sys  # used for recursive arithmethic method
 import time  # used only in process termination
@@ -198,14 +196,9 @@ def recursivearithmetic(cur: Node) -> int:
 
 
 def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
-    """
-    recursive arithmetic method for mode B
     """find how much of a material you will need get a particular amount of an item you want
 
     Args:
-        cur (Node): instance of Node
-        desiredamount (int, optional): the desired amount resulted of cur.
-        Defaults to 0.
         cur (Node): stores information about an ingredient
         desiredamount (int, optional): what the amount resulted should be given the
         returned value of this method. Defaults to 0.
@@ -214,16 +207,8 @@ def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
         TypeError: child is not an instance of Node
 
     Returns:
-        int: the desired amount resulted of cur
         int: the amount on hand of the current Node's item needed to get the desired amount
     """
-    if not isinstance(cur, Node):
-        raise TypeError('parameter is not an instance of', Node)
-    while desiredamount > cur.amountresulted:
-        cur.amountonhand += 1
-        red = (cur.amountmadepercraft / cur.amountneeded)
-        blue = round(math.floor(red*cur.amountonhand))
-        cur.amountresulted = blue
     cur.amountresulted = desiredamount
     red: float = ((cur.amountmadepercraft/cur.amountneeded)
                   ** -1)*cur.amountresulted
@@ -241,7 +226,6 @@ def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
             if not isinstance(childnode[1], Node):
                 raise TypeError('child is not an instance of', Node)
             reversearithmetic(childnode[1], cur.amountonhand)
-    return cur.amountresulted
     return cur.amountonhand
 
 
@@ -322,7 +306,6 @@ if __name__ == '__main__':
     while True:
         # prompt user which mode they want to run the program in
         printprompt()
-        while True:  # ! removed userinput == 'Y' because True was able to work again
         while True:
             userinput = (input(''))
             userinput = userinput.strip()
@@ -371,17 +354,12 @@ if __name__ == '__main__':
                 # only do this if there 2 or more children for the head node,
                 # get the second to last node
                 if len(head.children) > 1:
-                    temp: Node = itemnode[1]
-                    while temp.parent.parent is not None:
-                        temp = temp.parent
-                    tempstr: str = temp.ingredient
                     tempnode: Node = itemnode[1]
                     while tempnode.parent.parent is not None:
                         tempnode = tempnode.parent
                     temporarystring: str = tempnode.ingredient
                     print(itemnode[1].ingredient, ':',
                           itemnode[1].amountonhand, end='x')
-                    print(' ->', tempstr)
                     print(' ->', temporarystring)
                 else:
                     print(itemnode[1].ingredient, ':',
