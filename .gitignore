@@ -10,3 +10,4 @@ unit test generator/unittestgenerator.exe
 unit test generator/unittestgenerator.cpp
 .vscode/c_cpp_properties.json
 .vscode/bookmarks.json
+unittests/test.py

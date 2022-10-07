@@ -210,7 +210,8 @@ def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
         int: the amount on hand of the current Node's item needed to get the desired amount
     """
     cur.amountresulted = desiredamount
-    red : float = ((cur.amountmadepercraft/cur.amountneeded)**-1)*cur.amountresulted
+    red: float = ((cur.amountmadepercraft/cur.amountneeded)
+                  ** -1)*cur.amountresulted
     green: float = round(math.ceil(red))
     cur.amountonhand = int(max(red, green))
     traceback: bool = green > red
@@ -305,7 +306,7 @@ if __name__ == '__main__':
     while True:
         # prompt user which mode they want to run the program in
         printprompt()
-        while True:  # ! removed userinput == 'Y' because True was able to work again
+        while True:
             userinput = (input(''))
             userinput = userinput.strip()
             userinput = userinput.upper()
