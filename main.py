@@ -7,6 +7,9 @@ B,C,D...
 import math
 import sys
 import time
+import math  # used for floor and ceiling rounding floats into intergers
+import sys  # used for recursive arithmethic method
+import time  # used only in process termination
 
 PROGRAMMODETYPE: int = 0
 
@@ -197,14 +200,22 @@ def recursivearithmetic(cur: Node) -> int:
 def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
     """
     recursive arithmetic method for mode B
+    """find how much of a material you will need get a particular amount of an item you want
 
     Args:
         cur (Node): instance of Node
         desiredamount (int, optional): the desired amount resulted of cur.
         Defaults to 0.
+        cur (Node): stores information about an ingredient
+        desiredamount (int, optional): what the amount resulted should be given the
+        returned value of this method. Defaults to 0.
+
+    Raises:
+        TypeError: child is not an instance of Node
 
     Returns:
         int: the desired amount resulted of cur
+        int: the amount on hand of the current Node's item needed to get the desired amount
     """
     if not isinstance(cur, Node):
         raise TypeError('parameter is not an instance of', Node)
@@ -213,12 +224,25 @@ def reversearithmetic(cur: Node, desiredamount: int = 0) -> int:
         red = (cur.amountmadepercraft / cur.amountneeded)
         blue = round(math.floor(red*cur.amountonhand))
         cur.amountresulted = blue
+    cur.amountresulted = desiredamount
+    red: float = ((cur.amountmadepercraft/cur.amountneeded)
+                  ** -1)*cur.amountresulted
+    green: float = round(math.ceil(red))
+    cur.amountonhand = int(max(red, green))
+    traceback: bool = green > red
+    if traceback:  # go back through the higher up nodes and increase the amount on hand by 1
+        temp: Node = cur
+        while temp.parent is not None:
+            temp = temp.parent
+            temp.amountonhand += 1
+    # continue method recursively
     if len(cur.children) > 0:
         for childnode in cur.children.items():
             if not isinstance(childnode[1], Node):
                 raise TypeError('child is not an instance of', Node)
             reversearithmetic(childnode[1], cur.amountonhand)
     return cur.amountresulted
+    return cur.amountonhand
 
 
 def populate(cur: Node):
@@ -299,6 +323,7 @@ if __name__ == '__main__':
         # prompt user which mode they want to run the program in
         printprompt()
         while True:  # ! removed userinput == 'Y' because True was able to work again
+        while True:
             userinput = (input(''))
             userinput = userinput.strip()
             userinput = userinput.upper()
@@ -350,9 +375,14 @@ if __name__ == '__main__':
                     while temp.parent.parent is not None:
                         temp = temp.parent
                     tempstr: str = temp.ingredient
+                    tempnode: Node = itemnode[1]
+                    while tempnode.parent.parent is not None:
+                        tempnode = tempnode.parent
+                    temporarystring: str = tempnode.ingredient
                     print(itemnode[1].ingredient, ':',
                           itemnode[1].amountonhand, end='x')
                     print(' ->', tempstr)
+                    print(' ->', temporarystring)
                 else:
                     print(itemnode[1].ingredient, ':',
                           itemnode[1].amountonhand, end='x\n')
