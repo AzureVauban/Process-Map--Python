@@ -4,7 +4,6 @@
 import random
 import unittest
 
-from numpy import true_divide
 
 from main import Node, findlocalendpoints, reversearithmetic
 
@@ -13,7 +12,7 @@ class Issue12(unittest.TestCase):
     """test new formatting and endpoint search methods from main.py module
 
     Args:
-        unittest (_type_): _description_
+        unittest (class): Unit testing framework for python
     """
     tritaniumbar : Node = Node('Tritanium Bar')
     lead : Node = Node('Lead',tritaniumbar)
