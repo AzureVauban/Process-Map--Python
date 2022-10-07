@@ -301,14 +301,26 @@ def printprompt():
     print("Type in 'H' if you need a reminder of the prompt\n")
 
 def tentative_formatoutput(endpoints : dict) -> dict:
+    """_summary_
+
+    Args:
+        endpoints (dict): _description_
+
+    Raises:
+        ValueError: _description_
+
+    Returns:
+        dict: _description_
+    """
     # check if the dictionary is not empty
     if len(endpoints) == 0:
         raise ValueError('Argument dictionary is empty, needs at least one value to run')
     else:
         foundendpoints : dict = endpoints
+    # insert elements into dict 
+    black : list = list(endpoints)
+    white : list = list(endpoints)
     # bubble check for duplicate node names, make a copy of a dict as a list
-    black : list = []
-    white : list = []
     # if a node has the same name, remove the b node and amount resulted/amount on hand (dependent on mode) to the a node
     return foundendpoints
 if __name__ == '__main__':
