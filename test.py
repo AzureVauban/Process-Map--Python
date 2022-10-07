@@ -48,4 +48,4 @@ class Issue12(unittest.TestCase):
     def test_temptest(self):
         """tentative description
         """
-        
+        self.assertEqual()
