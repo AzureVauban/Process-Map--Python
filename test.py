@@ -4,6 +4,8 @@
 import random
 import unittest
 
+from numpy import true_divide
+
 from main import Node, findlocalendpoints, reversearithmetic
 
 
@@ -32,4 +34,10 @@ class MODEAtesting(unittest.TestCase):
         is 4 elements
         """
         self.assertEqual(len(self.roots),4)
-    
+    def test_endpoints(self):
+        """test to see if the item name of each endpoint is Pixels
+        """
+        isPixel : bool = True
+        for instance in self.roots.items():
+            isPixel : instance[1].name
+        self.assertTrue(isPixel)
