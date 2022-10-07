@@ -138,7 +138,6 @@ def findlocalendpoints(cur: Node, foundendpoints: dict) -> dict:
         myendpoints: dict = {}
     else:
         myendpoints: dict = foundendpoints
-    # ! unit testing failing
     if len(cur.children) > 0:
         for child in cur.children.items():
             if isinstance(child[1], Node):
