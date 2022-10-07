@@ -58,15 +58,18 @@ struct Node
         if (parent)
         {
             // prompt amount made per craft
-            do
+            if (promptamountmadepercraft)
             {
-                std::cout << "What is the amount of " << parent->ingredient << " you create each craft: " << std::endl;
-                amountmadepercraft = integersetter();
-                if (amountmadepercraft < 1)
+                do
                 {
-                    std::cout << "Only intergers values equal to or above one will be acccepted" << std::endl;
-                }
-            } while (amountmadepercraft < 1 and promptamountmadepercraft);
+                    std::cout << "What is the amount of " << parent->ingredient << " you create each craft: " << std::endl;
+                    amountmadepercraft = integersetter();
+                    if (amountmadepercraft < 1)
+                    {
+                        std::cout << "Only intergers values equal to or above one will be acccepted" << std::endl;
+                    }
+                } while (amountmadepercraft < 1);
+            }
             // prompt amount needed to craft parent once
             do
             {
@@ -210,7 +213,6 @@ int main()
     // write node declarations onto of the file at the top of the Unit Test class
     for (int i = 0; i < allnodes.size(); i++)
     {
-
         createnodedeclarations(allnodes.at(i));
     }
     // write import methods onto the file object
@@ -306,11 +308,21 @@ void populate(Node *current)
     }
     // create new nodes
     bool promptnummade = true;
+    int setter_amountmadepercraft_noprompt = 1;
     for (const auto &str : userinputs)
     {
-        auto child = new Node(str, current, 0, 1, 1, promptnummade);
-        allnodes.emplace_back(child);
-        promptnummade = false;
+        if (promptnummade)
+        {
+            auto child = new Node(str, current, 0, 1, 1, promptnummade);
+            setter_amountmadepercraft_noprompt = child->amountmadepercraft;
+            allnodes.emplace_back(child);
+            promptnummade = false;
+        }
+        else
+        {
+            auto child = new Node(str, current, 0, setter_amountmadepercraft_noprompt, 1);
+            allnodes.emplace_back(child);
+        }
         // todo set amount made per craft of child to its eldest sibiling's
     }
     // continue function recursively
