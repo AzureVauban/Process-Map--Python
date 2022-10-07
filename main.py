@@ -300,7 +300,9 @@ def printprompt():
     print('Mode B - You are trying to figure out how much base materials you need to create a certain amount of your desired item, (Type in B)')  # pylint:disable=C0301
     print("Type in 'H' if you need a reminder of the prompt\n")
 
-
+def tentative_formatoutput(foundendpoints : dict = None):
+    #type check to see if the augment is a dict, None, or anything else
+    pass
 if __name__ == '__main__':
     print('Welcome to Process Map (Python) v1.1!\n')
     while True:
