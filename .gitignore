@@ -3,3 +3,4 @@ unittests/
 unittests/test.py
 test.py
 unittests/test.py
+.vscode/settings.json
