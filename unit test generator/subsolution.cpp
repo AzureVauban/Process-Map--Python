@@ -24,7 +24,12 @@ struct Node
     std::string ingredient;
     Node *parent;
     std::vector<Node *> children;
-    long long int amountmadepercraft, amountneeded, amountonhand, instancekey;
+    long long int amountmadepercraft,
+        amountneeded,
+        amountonhand,
+        instancekey,
+        assertvalue,
+        amountresulted;
     bool promptamountmadepercraft = true;
     Node(std::string name = "", Node *par = nullptr, long long int a = 0, long long int b = 1, long long int c = 1, bool prompt = false)
     {
@@ -35,6 +40,14 @@ struct Node
         amountonhand = a;
         amountmadepercraft = b;
         amountneeded = c;
+        if (MODE == red)
+        {
+            assertvalue = amountresulted;
+        }
+        else
+        {
+            assertvalue = amountonhand;
+        }
         promptamountmadepercraft = prompt;
         if (parent)
         {
@@ -93,7 +106,29 @@ struct Node
         std::cout << "What is your desired amount " << ingredient << ":" << std::endl;
         return integersetter();
     }
+void setter_assertval()
+    {
+        //create a clone of 'this' then traverse upward multiplying by the ratio or its inverse depending on the mode
+auto currentnode = this;
 
+while (currentnode->parent)
+{
+if (MODE = red)
+{
+assertvalue *= currentnode->amountmadepercraft / currentnode->amountneeded;
+assertvalue = floorl(round(assertvalue));
+} else if (MODE = blue){
+assertvalue *= std::pow((currentnode->amountmadepercraft / currentnode->amountneeded),-1);
+assertvalue = ceill(round(assertvalue));
+} else {
+    amountonhand = -1;
+    amountresulted = -1;
+    std::cout << "UNDEFINED MODE" << std::endl;
+    break;
+}
+currentnode = currentnode->parent;
+}
+    }
 private:
     long long int integersetter()
     {
@@ -129,6 +164,7 @@ private:
         ssbuffer >> integer;
         return integer;
     }
+};
     bool checkchar(std::string somestring)
     { // strings always fail validation input, could this function be the reason why?
         bool isadigit = true;
@@ -142,7 +178,6 @@ private:
         }
         return isadigit;
     }
-};
 std::vector<Node *> allnodes = {};
 // clean up allocated memory using during runtime
 void collectgarbage(Node *current);
@@ -368,15 +403,17 @@ void createtestmethods(Node *current)
     }
     else if (MODE == blue and current->parent)
     {
-        // todo DEBUG THIS
+        // todo debug
+        /*
         int a = current->amountmadepercraft;
         int b = current->amountneeded;
         auto parenttocurrent_ratio = ceil(pow(double((current->amountmadepercraft / current->amountneeded)), -1)); //! CORRUPTED/BAD SETTER FUNCTION?
         assertedvalue = ceil(current->parent->amountonhand * parenttocurrent_ratio);
+        */
     }
     std::string nodeinstancename = parseformatter(current->ingredient, 1, current);
     // write data onto the file
-    resultfile << "\t\ndef test_" << nodeinstancename << "(self):" << std::endl;
+    resultfile << "\tdef test_" << nodeinstancename << "(self):" << std::endl;
     resultfile << "\t\t\"\"\"the asserted value of " << current->ingredient << " should be " << assertedvalue << std::endl;
     resultfile << "\t\tinclude additional comments here: "
                << "..." << std::endl;
