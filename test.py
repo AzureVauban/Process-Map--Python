@@ -9,7 +9,7 @@ from numpy import true_divide
 from main import Node, findlocalendpoints, reversearithmetic
 
 
-class MODEAtesting(unittest.TestCase):
+class Issue12(unittest.TestCase):
     """tentative description
 
     Args:
@@ -39,5 +39,10 @@ class MODEAtesting(unittest.TestCase):
         """
         isPixel : bool = True
         for instance in self.roots.items():
-            isPixel : instance[1].name
+            if not isinstance(instance[1], Node):
+                raise TypeError('endpoint is not an instance of',Node)
+            else:
+                isPixel = instance[1].ingredient == 'Pixels'
+                if not isPixel:
+                    break 
         self.assertTrue(isPixel)
