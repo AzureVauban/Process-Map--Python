@@ -8,7 +8,7 @@ the first node will always have an amount made per craft and amount needed of 1 
 #include <fstream>
 #include <sstream>
 #include <thread>
-#include <cmath>
+#include <math.h>
 #include <utility> //modify traversal check method to return a pair, a bool and the number of times the name is repeated
 enum programmode
 {
@@ -55,7 +55,6 @@ struct Node
         }
         prompt_numbericdata();
         instances += 1;
-        setter_assertval();
     }
     ~Node()
     {
@@ -110,19 +109,19 @@ struct Node
     void setter_assertval()
     {
         // create a clone of 'this' then traverse upward multiplying by the ratio or its inverse depending on the mode
-        auto currentnode = this;
-
+        Node* currentnode = this;
         while (currentnode->parent)
         {
+            float ratio = currentnode->amountmadepercraft / currentnode->amountneeded;
             if (MODE = red)
             {
-                assertvalue *= currentnode->amountmadepercraft / currentnode->amountneeded;
-                assertvalue = floorl(round(assertvalue));
+                assertvalue *= ratio;
+                //assertvalue = int(floorl(round(assertvalue)));
             }
             else if (MODE = blue)
             {
-                assertvalue *= std::pow((currentnode->amountmadepercraft / currentnode->amountneeded), -1);
-                assertvalue = ceill(round(assertvalue));
+                assertvalue *= (1/ratio);
+                //assertvalue = int(ceill(round(assertvalue)));
             }
             else
             {
@@ -401,6 +400,8 @@ void createtestmethods(Node *current)
     /*
     in mode B, the assert value is the product amountonhand of the parent and the inverse of the quotient between its amount made per craft and amount needed per craft
     */
+    /*
+    REMOVE CODE
     auto assertedvalue = 0.00;
     if (MODE == blue and not current->parent)
     {
@@ -409,15 +410,15 @@ void createtestmethods(Node *current)
     else if (MODE == blue and current->parent)
     {
         // todo debug
-        /*
         int a = current->amountmadepercraft;
         int b = current->amountneeded;
         auto parenttocurrent_ratio = ceil(pow(double((current->amountmadepercraft / current->amountneeded)), -1)); //! CORRUPTED/BAD SETTER FUNCTION?
         assertedvalue = ceil(current->parent->amountonhand * parenttocurrent_ratio);
-        */
     }
+    */
     std::string nodeinstancename = parseformatter(current->ingredient, 1, current);
     // write data onto the file
+    current->setter_assertval();
     resultfile << "\tdef test_" << nodeinstancename << "(self):" << std::endl;
     resultfile << "\t\t\"\"\"the asserted value of " << current->ingredient << " should be " << current->assertvalue << std::endl;
     resultfile << "\t\tinclude additional comments here: "
