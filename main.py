@@ -4,9 +4,9 @@
 B,C,D...
 - Mode B: The user figures out how much of item B,C,D... they need to get their desired amount of A
 """
-import math  # used for floor and ceiling rounding floats into intergers
-import sys  # used for recursive arithmethic method
-import time  # used only in process termination
+import math
+import sys
+import time
 
 PROGRAMMODETYPE: int = 0
 
