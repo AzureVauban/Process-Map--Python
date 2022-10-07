@@ -300,9 +300,17 @@ def printprompt():
     print('Mode B - You are trying to figure out how much base materials you need to create a certain amount of your desired item, (Type in B)')  # pylint:disable=C0301
     print("Type in 'H' if you need a reminder of the prompt\n")
 
-def tentative_formatoutput(foundendpoints : dict = None):
-    #type check to see if the augment is a dict, None, or anything else
-    pass
+def tentative_formatoutput(endpoints : dict) -> dict:
+    # check if the dictionary is not empty
+    if len(endpoints) == 0:
+        raise ValueError('Argument dictionary is empty, needs at least one value to run')
+    else:
+        foundendpoints : dict = endpoints
+    # bubble check for duplicate node names, make a copy of a dict as a list
+    black : list = []
+    white : list = []
+    # if a node has the same name, remove the b node and amount resulted/amount on hand (dependent on mode) to the a node
+    return foundendpoints
 if __name__ == '__main__':
     print('Welcome to Process Map (Python) v1.1!\n')
     while True:
