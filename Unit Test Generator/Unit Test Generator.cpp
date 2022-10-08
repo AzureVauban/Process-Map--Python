@@ -76,8 +76,16 @@ void populate(Node *current)
 }
 long long int inverserecursivearithmetic(Node *current, long long int desiredamount = 0)
 {
+    std::cout << "SETTING ASSERT VALUE FOR " << current->ingredient << std::endl;
     current->amountresulted = desiredamount;
+    auto red = current->amountmadepercraft;
+    auto blue = current->amountneeded;
     // create assert values
+    current->amountonhand = std::pow(red/blue,-1)*current->amountresulted;
+    for (const auto &child : current->children)
+    {
+        recursivearithmetic(child);
+    }
     return current->amountonhand;
 }
 
