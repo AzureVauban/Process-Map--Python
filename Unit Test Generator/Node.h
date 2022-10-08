@@ -9,7 +9,7 @@ struct Node
 namespace NodeUtility
 {
     // include functions here
-    //todo make function for formatting the name of the ingredient, should have 3 
+    //todo create function for formatting ingredient name of 
     std::string parsestringformat(Node &red, const int formattype = 0)
     {
         /* 
