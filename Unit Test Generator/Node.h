@@ -120,6 +120,8 @@ namespace NodeUtility
     void generatateunittest(Node *head, std::ofstream &outputfile)
     {
         std::cout << "GENERATING UNITTEST" << std::endl;
+        outputfile << "\"\"\"Tentative Description: " << head << std::endl
+                      << "\"\"\"" << std::endl;
         // loop until all classes have been written onto the file
             // generate module docstring
             // generate unit test class
