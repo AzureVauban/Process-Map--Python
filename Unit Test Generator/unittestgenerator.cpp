@@ -50,7 +50,6 @@ void populate(Node *current)
 void recursivearithmetic(Node *current)
 {
     // create assert values
-    
 }
 void inverserecursivearithmetic(Node *current)
 {
