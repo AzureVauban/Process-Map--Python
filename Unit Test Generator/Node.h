@@ -133,7 +133,9 @@ namespace NodeUtility
             void module(std::ofstream &pymodule)
             {
                 std::cout << "GENERATING UNITTEST DOCSTRING" << std::endl;
-                pymodule << "\"\"\"" << "AUTO GENERATED UNIT TEST FILE" << std::endl << "\"\"\"";
+                pymodule << "\"\"\"" << "AUTO GENERATED UNIT TEST FILE" << std::endl 
+                << "USE FORMATTING FUNCTIONS OF UTILIZED IDE TO CLEANUP AND FINALIZE ANY MISTAKES REGARDING FORMATTING THAT COULD BE MADE" 
+                <<"\"\"\"";
             }
         }
         // todo create function for outtputting test class to output .py file
