@@ -1,6 +1,6 @@
 #include "Node.h"
 int main()
 {
-    Node
+    auto head = Node("Head Node",10,20,30);
     return 0;
 }

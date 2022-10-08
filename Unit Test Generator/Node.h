@@ -10,9 +10,12 @@ struct SimpleData
         amountneeded = 1,
         amountresulted = 0,
         amountmadepercraft = 1;
-    SimpleData()
+    SimpleData(std::string I = "", int A = 0, int B = 1, int C = 1)
     {
-        
+        ingredient = I;
+        amountonhand = A;
+        amountmadepercraft = B;
+        amountneeded = C;
     }
 };
 struct Node ::public SimpleData
