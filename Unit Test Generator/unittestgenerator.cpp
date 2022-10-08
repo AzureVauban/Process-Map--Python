@@ -18,6 +18,8 @@ int main()
 }
 void populate(Node *current)
 {
+    std::cout << "What ingredients do you need to create " << current->ingredient << ":" << std::endl;
+    //create input loop
 }
 void recursivearithmetic(Node *current)
 {
