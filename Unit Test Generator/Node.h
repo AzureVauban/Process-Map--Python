@@ -76,33 +76,31 @@ namespace NodeUtility
     namespace create
     {
         // todo create function for outtputting test class to output .py file
-        void testclass(Node& purple,std::ofstream pymodule)
+        void testclass(Node &purple, std::ofstream pymodule)
         {
-
         }
         namespace docstring
         {
-        // todo create function for outputting docstring for class
-            void testclass(Node& blue, std::ofstream pymodule)
+            // todo create function for outputting docstring for class
+            void testclass(Node &blue, std::ofstream pymodule)
             {
-
             }
-        // todo create function for outtputting docstring for method
-            void method(Node& green, std::ofstream pymodule)
+            // todo create function for outtputting docstring for method
+            void method(Node &green, std::ofstream pymodule)
             {
-
             }
         }
-        
+
         // todo create function for outputitng test method declaration
-        void method(Node &yellow, MODE type,std::ofstream pymodule)
+        void method(Node &yellow, MODE type, std::ofstream pymodule)
         {
-            //todo add code
+            // todo add code
+            NodeUtility::create::docstring::method(yellow,pymodule);
         }
         // todo create function for creating variable declarations
-        void declaration(Node &orange,std::ofstream pymodule)
+        void declaration(Node &orange, std::ofstream pymodule)
         {
-            //todo add code
+            // todo add code
         }
     }
 
