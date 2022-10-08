@@ -1,7 +1,7 @@
 #include "Node.h"
 void populate(Node &current);
 void recursivearithmetic(Node &current);
-void generatateunittest(
+void generatateunittest()
     enum formatenumeration
     {
         white = 0,  // variable and method declaration
@@ -32,7 +32,10 @@ int main()
        |                                            ~~~~~~~~~~~~~~^~~~~~~~
 
     */
+
+    //cleanup and terminate process
     generatedunittest.close();
+    NodeUtility::destroy(head);
     return 0;
 }
 void populate(Node &current)
