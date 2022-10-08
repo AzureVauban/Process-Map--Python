@@ -4,8 +4,8 @@
 import random
 import unittest
 
-
-from main import Node, findlocalendpoints, reversearithmetic,tentative_formatoutput
+from main import (Node, findlocalendpoints, reversearithmetic,
+                  tentative_formatoutput)
 
 
 class Issue12(unittest.TestCase):
@@ -54,6 +54,7 @@ class Issue12(unittest.TestCase):
         tentative_formatoutput(self.roots)
         #! temp : list = list(tentative_formatoutput(self.roots).items()) save this for later, creates a list of the the instancekey and the node tuple
         totalofpixels : int = 0
+        endpointnodes : dict = tentative_formatoutput(self.roots)
         for nodeinstance in tentative_formatoutput(self.roots).items():
             totalofpixels += nodeinstance[1].amountonhand
         floatpercents : dict = {}
