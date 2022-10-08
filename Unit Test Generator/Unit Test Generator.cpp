@@ -49,7 +49,7 @@ void populate(Node *current)
         } else if (myinput == current->ingredient){
             std::cout << "You cannot type that in" << std::endl;
         }  else if (myinput == headnode){
-            std::cout << "You cannot type that in, you are trying to create that item" 
+            std::cout << "You cannot type that in, you are trying to create that item" << std::endl;
         }
     } while (not myinput.empty());
     //create Nodes
