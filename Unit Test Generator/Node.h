@@ -2,13 +2,18 @@
 #include <iostream>
 #include <string>
 #include <vector>
-struct Node
+struct SimpleData {
+int amountonhand = 0;
+int amountneeded = 0, amountresulted = 0;
+int
+};
+struct Node :: public SimpleData
 {
     std::string ingredient = "";
 };
 namespace NodeUtility
 {
-    // include functions here
+    // include functions that are needed to be used with the Node class here here
     //todo create function for formatting ingredient name to be used
     std::string parsestringformat(Node &red, const int formattype = 0)
     {
