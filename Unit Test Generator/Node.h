@@ -30,6 +30,17 @@ struct Node : public SimpleData
         ingredient = I2;
     }
 };
+namespace createdocstring
+{
+    // todo create function for outputting docstring for class
+    void testclass(const Node &blue, std::ofstream pymodule)
+    {
+    }
+    // todo create function for outtputting docstring for method
+    void method_doc(const Node &green, std::ofstream tentativename)
+    {
+    }
+}
 namespace NodeUtility
 {
     // include functions that are needed to be used with the Node class here here
@@ -72,17 +83,7 @@ namespace NodeUtility
         }
         return Nani.ingredient;
     }
-    namespace createdocstring
-    {
-        // todo create function for outputting docstring for class
-        void testclass(const Node &blue, std::ofstream pymodule)
-        {
-        }
-        // todo create function for outtputting docstring for method
-        void method_doc(const Node &green, std::ofstream tentativename)
-        {
-        }
-    }
+
     // todo create function to get assert values for test methods
     namespace create
     {
