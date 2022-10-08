@@ -9,11 +9,11 @@ int main()
     std::cout << "Name of Linked List:" << std::endl;
     std::string headname = "";
     std::getline(std::cin, headname);
-    auto head = new Node(headname);
+    auto head = Node(headname);
     // modify ofstream object
     generatedunittest << "\"\"\"Tentative Description: " << headname << std::endl
                       << "\"\"\"" << std::endl;
-    NodeUtility::create::testclass(head, generatedunittest); // error on this line has been resolved by passing the ofstream by refrence
+    NodeUtility::create::testclass(head,generatedunittest); // error on this line has been resolved by passing the ofstream by refrence
     /* Complier Error
     C:/msys64/mingw64/include/c++/12.1.0/fstream:853:7: note: declared here
     853 |       basic_ofstream(const basic_ofstream&) = delete;
@@ -27,7 +27,7 @@ int main()
 
     // cleanup and terminate process
     generatedunittest.close();
-    NodeUtility::destroy(head);
+    //NodeUtility::destroy(head);
     return 0;
 }
 void populate(Node &current)
