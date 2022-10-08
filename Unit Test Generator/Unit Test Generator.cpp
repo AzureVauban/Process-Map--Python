@@ -40,7 +40,7 @@ void populate(Node *current)
     // create new node instances
     for (const auto &newnodename : userinputs)
     {
-        auto childnode = new Node(newnodename,)
+        auto childnode = new Node(newnodename,current);
     }
     // continue function recursively by iterating itself onto children instances
     for (auto &child : current->children)
