@@ -8,5 +8,5 @@
 #define PCH_H
 
 // add headers that you want to pre-compile here
-#include "Node.h"
+#include "Unit Test Generator\Node.h"
 #endif //PCH_H
