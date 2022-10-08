@@ -28,7 +28,7 @@ namespace NodeUtility
 {
     // include functions that are needed to be used with the Node class here here
     // todo create function for formatting ingredient name to be used
-    enum class MyClass { };
+    enum formatmode MyClass { };
     std::string parsestringformat(Node &red, const int formattype = 0)
     {
         /*
