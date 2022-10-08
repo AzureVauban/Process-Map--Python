@@ -96,7 +96,7 @@ namespace NodeUtility
         void method(const Node &yellow, MODE type, std::ofstream pymodule)
         {
             // todo add code
-            method_doc(yellow,pymodule);
+           virtual method_doc(yellow,pymodule);
         }
 
         // todo create function for creating variable declarations
