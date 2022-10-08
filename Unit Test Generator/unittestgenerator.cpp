@@ -7,6 +7,6 @@ int main()
     std::getline(std::cin,headname);
     Node head(headname);
     std::cout << "Formatted String: " << NodeUtility::parsestringformat(head) << std::endl;
-    NodeUtility::create::declaration()
+    NodeUtility::create::testclass(head,generatedunittest);
     return 0;
 }

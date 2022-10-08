@@ -92,6 +92,8 @@ namespace NodeUtility
         void testclass(const Node &purple, std::ofstream pymodule)
         {
             // todo add code
+            pymodule.open();
+            pymodule.close();
         }
         void method(const Node &yellow, MODE type, std::ofstream pymodule)
         {
