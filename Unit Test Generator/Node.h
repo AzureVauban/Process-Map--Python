@@ -10,6 +10,10 @@ struct SimpleData
         amountneeded = 1,
         amountresulted = 0,
         amountmadepercraft = 1;
+    SimpleData()
+    {
+        
+    }
 };
 struct Node ::public SimpleData
 {
