@@ -142,6 +142,7 @@ namespace NodeUtility
         void testclass(const Node &nodeobject, std::ofstream &pymodule)
         {
             // todo add code
+            pymodule << "class " << parsestringformat(nodeobject,)
             docstring::testclass(nodeobject, pymodule);
         }
         // todo create function for outputitng test method declaration of definition
