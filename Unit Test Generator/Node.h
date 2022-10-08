@@ -94,9 +94,10 @@ namespace NodeUtility
             // todo add code
         }
         // todo create function for outtputting test class to output .py file
-        void testclass(const Node &purple, std::ofstream pymodule)
+        void testclass(const Node &purple, std::ofstream &pymodule)
         {
             // todo add code
+            pymodule << std::endl << "thanks fluffles" << std::endl;
         }
         void method(const Node &yellow, MODE type, std::ofstream pymodule)
         {
