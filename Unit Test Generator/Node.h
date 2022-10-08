@@ -30,9 +30,9 @@ namespace NodeUtility
     // todo create function for formatting ingredient name to be used
     enum format
     {
-        white = 0,
-        orange = 1,
-        green = 2,
+        white = 0, //variable and method declaration 
+        orange = 1, //docstring 
+        green = 2, //trailing and leading whitespace
         purple = 3
     };
     std::string parsestringformat(Node &red, format MODE = white)
