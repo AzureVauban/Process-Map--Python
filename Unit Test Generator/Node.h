@@ -33,7 +33,7 @@ namespace NodeUtility
         white = 0, //variable and method declaration 
         purple = 1, //docstring 
         green = 2, //trailing and leading whitespace
-        orange = 3 //
+        orange = 3 //all lowercase
     };
     std::string parsestringformat(Node &red, format MODE = white)
     {
