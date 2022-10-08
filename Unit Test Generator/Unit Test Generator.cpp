@@ -26,6 +26,13 @@ void populate(Node *current)
     std::vector<std::string> userinputs;
     std::cout << "What do you need to create " << current->ingredient << ":" << std::endl;
     std::string myinput = "";
+    std::string headnode = current->ingredient;
+    Node* temp = current;
+    while (temp->parent)
+    {
+        temp = temp->parent;
+    }
+    headnode = temp->ingredient;
     //prompt inputs
     do {
         std::getline(std::cin,myinput);
@@ -39,6 +46,10 @@ void populate(Node *current)
         else if (not myinput.empty())
         {
             userinputs.emplace_back(myinput);
+        } else if (myinput == current->ingredient){
+            std::cout << "You cannot type that in" << std::endl;
+        }  else if (myinput == headnode){
+            std::cout << "You cannot type that in, you are trying to create that item" 
         }
     } while (not myinput.empty());
     //create Nodes
