@@ -31,9 +31,9 @@ namespace NodeUtility
     enum format
     {
         white = 0, //variable and method declaration 
-        orange = 1, //docstring 
+        purple = 1, //docstring 
         green = 2, //trailing and leading whitespace
-        purple = 3
+        orange = 3 //
     };
     std::string parsestringformat(Node &red, format MODE = white)
     {
