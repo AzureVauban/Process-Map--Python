@@ -30,13 +30,41 @@ struct Node : public SimpleData
         ingredient = I2;
     }
 };
-class fileobject
+struct fileobject
 {
     std::ofstream pymodule;
     fileobject(std::ofstream module)
     {
-        
+    
     }
+    private:
+    void testclass_doc(const Node &blue, std::ofstream pymodule)
+        {
+            // todo add code
+        }
+        // todo create function for outputitng test method declaration
+        // todo create function for outtputting docstring for method
+        void method_doc(const Node &green, std::ofstream tentativename)
+        {
+            // todo add code
+        }
+        // todo create function for outtputting test class to output .py file
+        void testclass(const Node &purple, std::ofstream pymodule)
+        {
+            // todo add code
+            pymodule.open();
+            pymodule.close();
+        }
+        void method(const Node &yellow, MODE type, std::ofstream pymodule)
+        {
+            // todo add code
+        }
+
+        // todo create function for creating variable declarations
+        void declaration(const Node &orange, std::ofstream pymodule)
+        {
+            // todo add code
+        }
 };
 namespace NodeUtility
 {
