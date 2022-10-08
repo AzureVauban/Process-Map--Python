@@ -11,11 +11,15 @@ int main()
     std::cout << "Name of Linked List:" << std::endl;
     std::string headname = "";
     std::getline(std::cin, headname);
-    auto head = new Node(headname,nullptr);
+    auto head = new Node(headname, nullptr);
+    //prompt amount desired
+    long long int desiredamount = 0;
+    std::cout << "How much " << headname << " do you want to create? " << std::endl;
+    std::cin >> desiredamount;
     // prompt ingredient
     populate(head);
     // set assert values
-    inverserecursivearithmetic(head);
+    inverserecursivearithmetic(head,desiredamount);
     // cleanup and terminate process
     NodeUtility::generatateunittest(head, generatedunittest);
     NodeUtility::destroy(head);
@@ -27,45 +31,53 @@ void populate(Node *current)
     std::cout << "What do you need to create " << current->ingredient << ":" << std::endl;
     std::string myinput = "";
     std::string headnode = current->ingredient;
-    Node* temp = current;
+    Node *temp = current;
     while (temp->parent)
     {
         temp = temp->parent;
     }
     headnode = temp->ingredient;
-    //prompt inputs
-    do {
-        std::getline(std::cin,myinput);
+    // prompt inputs
+    do
+    {
+        std::getline(std::cin, myinput);
         bool duplicatedinput = false;
-        for (const auto &u : userinputs){
+        for (const auto &u : userinputs)
+        {
             duplicatedinput = u == myinput;
         }
-        if (duplicatedinput){
+        if (duplicatedinput)
+        {
             std::cout << "You already typed something else" << std::endl;
         }
-         else if (myinput == current->ingredient){
+        else if (myinput == current->ingredient)
+        {
             std::cout << "You cannot type that in" << std::endl;
-        }  else if (myinput == headnode){
+        }
+        else if (myinput == headnode)
+        {
             std::cout << "You cannot type that in, you are trying to create that item" << std::endl;
-        } else if (not myinput.empty())
+        }
+        else if (not myinput.empty())
         {
             userinputs.emplace_back(myinput);
         }
     } while (not myinput.empty());
-    //create Nodes
+    // create Nodes
     for (const auto &child : userinputs)
     {
-        auto childnode = new Node(child,current);
+        auto childnode = new Node(child, current);
     }
-    //continue function recursively
+    // continue function recursively
     for (const auto &childnode : current->children)
     {
         populate(childnode);
     }
 }
-void inverserecursivearithmetic(Node *current)
+void inverserecursivearithmetic(Node *current,long long int desiredamount = 0)
 {
     // create assert values
+    
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
