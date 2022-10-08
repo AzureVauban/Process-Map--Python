@@ -70,5 +70,6 @@ class Issue12(unittest.TestCase):
         for floatnum in floatpercents.items():
             totalpercent += floatnum[1]
         #? use debug console to see output
-        print(floatpercents)
+        # print % into debug console
+        for floatnum in 
         self.assertEqual(totalpercent,1.00)
