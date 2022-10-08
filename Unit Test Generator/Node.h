@@ -45,7 +45,7 @@ namespace NodeUtility
             filename = file;
             filename.append(fileextenstion);
         }
-        virtual std::ofstream returnfile()
+        std::ofstream returnfile()
         {
             return std::ofstream(filename);
         }
