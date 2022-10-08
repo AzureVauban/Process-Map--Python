@@ -74,6 +74,7 @@ class Issue12(unittest.TestCase):
         for floatnum in floatpercents.items():
             totalpercent += floatnum[1]
         # print % into debug console
+        print('total # of pixels',totalofpixels,end='x\n')
         for floatnum in floatpercents.items():
             print(round(floatnum[1]*100,2),'%')
         # ? use debug console to see output
