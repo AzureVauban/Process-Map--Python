@@ -1,4 +1,5 @@
 #include "Node.h"
+void populate(Node &current);
 int main()
 {
     std::ofstream generatedunittest("myfile.py");
@@ -23,4 +24,8 @@ int main()
     */
     generatedunittest.close();
     return 0;
+}
+void populate(Node &current)
+{
+    
 }
