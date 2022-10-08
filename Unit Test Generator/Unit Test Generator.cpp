@@ -33,18 +33,16 @@ void populate(Node *current)
         // strip leading and trailing whitespace
         // validate string
         bool duplicatedstring = false;
-        for (const auto &previousinput : userinputs)
-        {
-            duplicatedstring = previousinput == myinput;
-            if (duplicatedstring)
-            {
-                break;
-            }
-        }
-
         if (!myinput.empty())
         {
             userinputs.emplace_back(myinput);
+        } else if (duplicatedstring)
+        {
+            std::cout << "" << std::endl;
+        }
+        else
+        {
+            break;
         }
     } while (!myinput.empty());
     // create new node instances
