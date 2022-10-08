@@ -160,7 +160,7 @@ namespace NodeUtility
     {
         create::docstring::module(outputfile);
         outputfile << "import unittest" << std::endl << "import random" << std::endl << std::endl;
-        outputfile << "from main import (Node"
+        outputfile << "from main import (Node, findlocalendpoints, reversearithmetic, tentative_formatoutput)" << std::endl;
         //NodeUtility::tabbing(outputfile, 3);
         //outputfile << "Tentative Description : " << head << std::endl;
         //NodeUtility::tabbing(outputfile, 3);
