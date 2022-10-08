@@ -18,7 +18,7 @@ struct SimpleData
         amountneeded = C;
     }
 };
-struct Node ::public SimpleData
+struct Node : public SimpleData
 {
     int tempvalue = amountonhand * 2;
     std::cout << tempvalue << std::endl;
