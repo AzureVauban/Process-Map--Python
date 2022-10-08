@@ -10,6 +10,6 @@ int main()
     //test output of string formatter function
     std::cout << "Formatted String: " << NodeUtility::parsestringformat(head) << std::endl;
     //modify resulted unit test module
-
+    NodeUtility::create::testclass(head,generatedunittest);
     return 0;
 }
