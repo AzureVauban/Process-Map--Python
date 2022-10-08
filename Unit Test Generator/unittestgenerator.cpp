@@ -37,6 +37,8 @@ void populate(Node *current)
 {
     std::cout << "What ingredients do you need to create " << current->ingredient << ":" << std::endl;
     // create input loop
+    std::string = "";
+    
     // create new node instances
     // continue function recursively by iterating itself onto children instances
 }
