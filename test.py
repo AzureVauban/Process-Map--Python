@@ -51,6 +51,6 @@ class Issue12(unittest.TestCase):
         """tentative description
         """
         tentative_formatoutput(self.roots)
-        
+        temp : list = list(tentative_formatoutput(self.roots))
         print('hello world from VS Code')
         self.assertEqual(1,1*1)
