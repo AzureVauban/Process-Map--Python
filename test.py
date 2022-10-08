@@ -14,7 +14,8 @@ class Issue12(unittest.TestCase):
     Args:
         unittest (class): Unit testing framework for python
     """
-    desiredamount       : int = random.randint(1, 100)
+    desiredamount       : int = random.randint(1, 100) 
+    # it should take 6696 pixels to make one tritanium bar
     tritaniumbar        : Node = Node('Tritanium Bar')
     lead                : Node = Node('Lead', tritaniumbar)
     pixels              : Node = Node('Pixels', lead, 0, 1, 200)
