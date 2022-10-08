@@ -35,7 +35,6 @@ namespace NodeUtility
         green = 2,
         purple = 3
     };
-    // format MODE = white;
     std::string parsestringformat(Node &red, format MODE = white)
     {
         /*
