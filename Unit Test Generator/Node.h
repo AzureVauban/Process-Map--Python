@@ -75,12 +75,12 @@ namespace NodeUtility
     namespace create
     {
         // todo create function for outputitng test method declaration
-        void method(Node &Ariana, MODE type,)
+        void method(Node &Ariana, MODE type,std::ofstream pymodule)
         {
             //todo add code
         }
         // todo create function for creating variable declarations
-        void declaration(Node &Alex)
+        void declaration(Node &Alex,std::ofstream pymodule)
         {
             //todo add code
         }
