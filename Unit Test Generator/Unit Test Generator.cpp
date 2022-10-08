@@ -31,10 +31,8 @@ void populate(Node *current)
         if (not myinput.empty())
         {
             userinputs.emplace_back(myinput);
-        } else {
-            break;
         }
-    } while (myinput.empty());
+    } while (not myinput.empty());
     std::cout << "ad\n";
 }
 void inverserecursivearithmetic(Node *current)
