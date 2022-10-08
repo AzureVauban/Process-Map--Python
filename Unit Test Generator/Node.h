@@ -3,9 +3,7 @@
 #include <string>
 #include <vector>
 struct SimpleData {
-int amountonhand = 0;
-int amountneeded = 0, amountresulted = 0;
-int
+int amountonhand = 0, amountneeded = 0, amountresulted = 0, amountmadepercraft = 0, amount
 };
 struct Node :: public SimpleData
 {
