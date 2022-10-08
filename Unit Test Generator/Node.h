@@ -63,7 +63,7 @@ namespace NodeUtility
         return current;
     }
     // todo finish function for formatting ingredient name to be used - use Visual Studio to Unit Test
-    std::string parsestringformat(const Node &Nani, format MODE = white)
+    std::string parsestringformat(const Node *Nani, format MODE = white)
     {
         /*
         white, default mode, formats string for variable declaration and to be utilized
@@ -77,6 +77,7 @@ namespace NodeUtility
             input:   advanced alloy    , output: advanced alloy
         orange, formats string to be only lowercase characters
         */
+        std::string returnstring = Nani->ingredient;
         switch (MODE)
         {
         case purple:
@@ -92,7 +93,7 @@ namespace NodeUtility
             std::cout << "Default" << std::endl;
             break;
         }
-        return Nani.ingredient;
+        return returnstring;
     }
     // create function to delete all node pointers
     void destroy(const Node *nodeobject)
@@ -139,7 +140,7 @@ namespace NodeUtility
             }
         }
         // todo create function for outtputting test class to output .py file
-        void testclass(const Node &nodeobject, std::ofstream &pymodule)
+        void testclass(const Node *nodeobject, std::ofstream &pymodule)
         {
             // todo add code
             pymodule << "class test_" << parsestringformat(nodeobject,orange) << std::endl;
