@@ -90,10 +90,10 @@ namespace NodeUtility
         return Nani.ingredient;
     }
     // create function to delete all node pointers
-    void destroy(Node *coldnode)
+    void destroy(Node *nodeobject)
     {
         // todo add code
-        delete coldnode;
+        delete nodeobject;
     }
     // todo create function to get assert values for test methods
     namespace create
