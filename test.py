@@ -75,6 +75,6 @@ class Issue12(unittest.TestCase):
             totalpercent += floatnum[1]
         # print % into debug console
         for floatnum in floatpercents.items():
-            console.log(floatnum[1]*100, '%')
+            print(floatnum[1]*100, '%')
         # ? use debug console to see output
         self.assertEqual(totalpercent, 1.00)
