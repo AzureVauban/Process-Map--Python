@@ -74,7 +74,7 @@ class Issue12(unittest.TestCase):
         # check to see if the total of the % rounds to 1.00
         for floatnum in floatpercents.items():
             totalpercent += floatnum[1]
-        tempbool : bool = totalofpixels // 6696 == 0
+        tempbool : bool = totalofpixels % 6696 == 0
         # print % into debug console
         print('total # of pixels',totalofpixels,end='x\n')
         for floatnum in floatpercents.items():
