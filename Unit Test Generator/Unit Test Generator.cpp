@@ -12,14 +12,14 @@ int main()
     std::string headname = "";
     std::getline(std::cin, headname);
     auto head = new Node(headname, nullptr);
-    //prompt amount desired
+    // prompt amount desired
     long long int desiredamount = 0;
     std::cout << "How much " << headname << " do you want to create? " << std::endl;
     std::cin >> desiredamount;
     // prompt ingredient
     populate(head);
     // set assert values
-    inverserecursivearithmetic(head,desiredamount);
+    inverserecursivearithmetic(head, desiredamount);
     // cleanup and terminate process
     NodeUtility::generatateunittest(head, generatedunittest);
     NodeUtility::destroy(head);
@@ -74,7 +74,7 @@ void populate(Node *current)
         populate(childnode);
     }
 }
-long long int inverserecursivearithmetic(Node *current,long long int desiredamount = 0)
+long long int inverserecursivearithmetic(Node *current, long long int desiredamount = 0)
 {
     // create assert values
     return current->amountonhand;
