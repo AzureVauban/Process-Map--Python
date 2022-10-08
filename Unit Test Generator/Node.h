@@ -78,8 +78,22 @@ namespace NodeUtility
         // todo create function for outtputting test class to output .py file
         void testclass(Node& Issac,std::ofstream pymodule)
         {
-            
+
         }
+        namespace docstring
+        {
+        // todo create function for outputting docstring for class
+            void testclass()
+            {
+                
+            }
+        // todo create function for outtputting docstring for method
+            void method()
+            {
+
+            }
+        }
+        
         // todo create function for outputitng test method declaration
         void method(Node &Ariana, MODE type,std::ofstream pymodule)
         {
