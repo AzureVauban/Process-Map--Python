@@ -134,7 +134,7 @@ namespace NodeUtility
             {
                 std::cout << "GENERATING UNITTEST DOCSTRING" << std::endl;
                 pymodule << "\"\"\"" << "AUTO GENERATED UNIT TEST FILE" << std::endl 
-                << "   USE FORMATTING FUNCTIONS OF UTILIZED IDE TO CLEANUP AND FINALIZE ANY MISTAKES REGARDING\nFORMATTING THAT COULD BE MADE" 
+                << "   USE FORMATTING FUNCTIONS OF UTILIZED IDE TO CLEANUP AND FINALIZE ANY MISTAKES REGARDING\n   FORMATTING THAT COULD BE MADE" 
                 << std::endl << "\"\"\"" << std::endl;
             }
         }
