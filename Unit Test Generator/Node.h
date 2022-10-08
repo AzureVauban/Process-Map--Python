@@ -37,7 +37,7 @@ struct Node : public SimpleData
         parent = parentinstance;
         if (parent)
         {
-            children.emplace_back(this);
+            parent->children.emplace_back(this);
         }
     }
 };
