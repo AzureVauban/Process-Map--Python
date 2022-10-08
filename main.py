@@ -313,10 +313,7 @@ def tentative_formatoutput(endpoints : dict) -> dict:
         dict: _description_
     """
     # check if the dictionary is not empty
-    argumentdictlength : int = 0
-    for argumentitem in endpoints.items():
-        argumentdictlength += 1
-    if argumentdictlength == 0:
+    if len(endpoints) == 0:
         raise ValueError('Argument dictionary is empty, needs at least one value to run')
     else:
         foundendpoints : dict = endpoints

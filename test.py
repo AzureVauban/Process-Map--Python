@@ -4,7 +4,6 @@
 import random
 import unittest
 
-from numpy import roots
 
 from main import Node, findlocalendpoints, reversearithmetic,tentative_formatoutput
 
@@ -51,6 +50,8 @@ class Issue12(unittest.TestCase):
     def test_temptest(self):
         """tentative description
         """
-        tentative_formatoutputs(self.roots)
+        #!tentative_formatoutput(self.roots)
+        tentative_formatoutput({})
+        
         print('hello world from VS Code')
         self.assertEqual(1,1*1)
