@@ -52,7 +52,7 @@ class Issue12(unittest.TestCase):
         rounds towards 1 (100%)
         """
         tentative_formatoutput(self.roots)
-        temp : list = list(tentative_formatoutput(self.roots).items())
+        #! temp : list = list(tentative_formatoutput(self.roots).items()) save this for later, creates a list of the the instancekey and the node tuple
         totalofpixels : int = 0
         for nodeinstance in tentative_formatoutput(self.roots).items():
             totalofpixels += nodeinstance[1].amountonhand
