@@ -5,5 +5,6 @@ int main()
     std::string headname = "";
     std::getline(std::cin,headname);
     Node head(headname);
+    std::cout << "Formatted String: " << NodeUtility::parsestringformat(head) << std::endl;
     return 0;
 }
