@@ -159,6 +159,8 @@ namespace NodeUtility
     void generatateunittest(Node *head, std::ofstream &outputfile)
     {
         create::docstring::module(outputfile);
+        outputfile << "import unittest" << std::endl << "import random" << std::endl << std::endl;
+        outputfile << "from main import (Node"
         //NodeUtility::tabbing(outputfile, 3);
         //outputfile << "Tentative Description : " << head << std::endl;
         //NodeUtility::tabbing(outputfile, 3);
