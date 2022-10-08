@@ -43,9 +43,9 @@ namespace NodeUtility
             filename = file;
             filename.append(fileextenstion);
         }
-        std::ofstream()
+        std::ofstream returnfile()
         {
-            return std::ofstream(std::string);
+            return std::ofstream(filename);
         }
     };
     // include functions that are needed to be used with the Node class here here
