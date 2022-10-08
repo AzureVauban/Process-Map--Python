@@ -61,7 +61,7 @@ class Issue12_single_unique_endpoint(unittest.TestCase): #pylint:disable=C0103
         totalofpixels: int = 0
         endpointnodes: dict = tentative_formatoutput(self.roots)
         floatpercents: dict = {}
-        totalpercent: float = 0.00
+        #! totalpercent: float = 0.00 only used for 
         # find total amount of an item
         for nodeinstance in endpointnodes.items():
             totalofpixels += nodeinstance[1].amountonhand
