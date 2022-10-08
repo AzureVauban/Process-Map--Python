@@ -75,7 +75,6 @@ class Issue12_single_unique_endpoint(unittest.TestCase): #pylint:disable=C0103
         # check to see if the total of the % rounds to 1.00
         #! for floatnum in floatpercents.items():
         #!     totalpercent += floatnum[1]
-        
         # print % into debug console
         print('total # of pixels',totalofpixels,end='x\n')
         for floatnum in floatpercents.items():
@@ -86,5 +85,5 @@ class Issue12_single_unique_endpoint(unittest.TestCase): #pylint:disable=C0103
 class Issue12_multiple_unique_endpoint(unittest.TestCase): #pylint:disable=C0103
     """test new formatting and endpoint search methods from main.py module wih only one endpoint
     """
-    #? 
+    pass
     
