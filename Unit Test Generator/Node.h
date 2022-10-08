@@ -31,14 +31,14 @@ struct Node : public SimpleData
     {
         std::cout << "ALLOCATING " << I2 << " : " << this << std::endl;
         ingredient = I2;
+        amountonhand = A2;
+        amountmadepercraft = B2;
+        amountneeded = C2;
         parent = parentinstance;
         if (parent)
         {
             children.emplace_back(this);
         }
-        amountonhand = A2;
-        amountmadepercraft = B2;
-        amountneeded = C2;
     }
 };
 
