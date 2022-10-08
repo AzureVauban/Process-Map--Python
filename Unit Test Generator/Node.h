@@ -121,11 +121,11 @@ namespace NodeUtility
     {
         std::cout << "GENERATING UNITTEST" << std::endl;
         outputfile << "\"\"\"Tentative Description: " << head << std::endl
-                      << "\"\"\"" << std::endl;
+                   << "\"\"\"" << std::endl;
         // loop until all classes have been written onto the file
-            // generate module docstring
-            // generate unit test class
-            // generate unit test methods based on program mode
+        // generate module docstring
+        // generate unit test class
+        // generate unit test methods based on program mode
         // close file
         outputfile.close();
     }

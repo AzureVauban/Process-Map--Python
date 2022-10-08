@@ -1,5 +1,5 @@
 """unit testing code, test out Mode A and Mode B for the script
-   readd to gitignore when pulling and merging modifications into master
+   re-add to gitignore when pulling and merging modifications into master
 """
 import random
 import unittest
