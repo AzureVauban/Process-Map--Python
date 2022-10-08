@@ -56,7 +56,7 @@ class Issue12(unittest.TestCase):
         totalofpixels : int = 0
         endpointnodes : dict = tentative_formatoutput(self.roots)
         floatpercents : dict = {}
-        totalpercentssum : float = 0.00
+        totalpercent : float = 0.00
         # find total amount of an item
         for nodeinstance in endpointnodes.items():
             totalofpixels += nodeinstance[1].amountonhand
@@ -68,7 +68,6 @@ class Issue12(unittest.TestCase):
                 raise TypeError('not an instance of',Node)
         # check to see if the total of the % rounds to 1.00
         for floatnum in floatpercents.items():
-            totalpercentssum += floatnum[1]
+            totalpercent += floatnum[1]
         #? use debug console to see output
-        
-        self.assertEqual(1,1*1)
+        self.assertEqual(totalpercent,1.00)
