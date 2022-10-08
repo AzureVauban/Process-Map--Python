@@ -75,7 +75,7 @@ namespace NodeUtility
     namespace create
     {
         // todo create function for outputitng test method declaration
-        void method(Node &Ariana, MODE type)
+        void method(Node &Ariana, MODE type,)
         {
             //todo add code
         }
