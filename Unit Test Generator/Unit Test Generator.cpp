@@ -32,6 +32,7 @@ void populate(Node *current)
         std::getline(std::cin, myinput);
         // strip leading and trailing whitespace
         // validate string
+        Node* tempinstance = 
         bool duplicatedstring = false;
         if (!myinput.empty())
         {
