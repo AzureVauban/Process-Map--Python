@@ -48,9 +48,11 @@ class Issue12(unittest.TestCase):
                     break
         self.assertTrue(iscalledpixels)
     def test_temptest(self):
-        """tentative description
+        """test to see if the total sum of the endpoint node's % compostion correctly
+        rounds towards 1 (100%)
         """
         tentative_formatoutput(self.roots)
         temp : list = list(tentative_formatoutput(self.roots).items())
+        totalofpixels: 
         print('hello world from VS Code')
         self.assertEqual(1,1*1)
