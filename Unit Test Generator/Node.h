@@ -41,7 +41,7 @@ namespace NodeUtility
         orange = 3  // all lowercase
     };
     // todo finish function for formatting ingredient name to be used
-    std::string parsestringformat(Node &Nani, format MODE = white)
+    std::string parsestringformat(const Node &Nani, format MODE = white)
     {
         /*
         white, default mode, formats string for variable declaration and to be utilized
@@ -72,32 +72,33 @@ namespace NodeUtility
         }
         return Nani.ingredient;
     }
+    namespace docstring
+    {
+        // todo create function for outputting docstring for class
+        void testclass(const Node &blue, std::ofstream pymodule)
+        {
+        }
+        // todo create function for outtputting docstring for method
+        void method(const Node &green, std::ofstream pymodule)
+        {
+        }
+    }
     // todo create function to get assert values for test methods
     namespace create
     {
         // todo create function for outtputting test class to output .py file
-        void testclass(Node &purple, std::ofstream pymodule)
+        void testclass(const Node &purple, std::ofstream pymodule)
         {
-        }
-        namespace docstring
-        {
-            // todo create function for outputting docstring for class
-            void testclass(Node &blue, std::ofstream pymodule)
-            {
-            }
-            // todo create function for outtputting docstring for method
-            void method(Node &green, std::ofstream pymodule)
-            {
-            }
         }
 
         // todo create function for outputitng test method declaration
-        void method(Node &yellow, MODE type, std::ofstream pymodule)
+        void method(const Node &yellow, MODE type, std::ofstream pymodule)
         {
             // todo add code
+            docstring::method(yellow, pymodule);
         }
         // todo create function for creating variable declarations
-        void declaration(Node &orange, std::ofstream pymodule)
+        void declaration(const Node &orange, std::ofstream pymodule)
         {
             // todo add code
         }
