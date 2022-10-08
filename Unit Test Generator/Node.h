@@ -20,7 +20,7 @@ namespace NodeUtility
                 the same ingredient name.
         1, formats string to be utilized in docstring of math asseration method.
             input : advanced alloy, output : Advanced Alloy
-        2, 
+        2, formats string to have removed 
         */
         return red.ingredient;
     }
