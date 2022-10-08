@@ -25,8 +25,8 @@ struct SimpleData
 };
 struct Node : public SimpleData
 {
-    Node* parent;
-    Node(std::string I2 = "",Node*parentinstance = nullptr,int A2 = 0, int B2 = 1, int C2 = 1)
+    Node *parent;
+    Node(std::string I2 = "", Node *parentinstance = nullptr, int A2 = 0, int B2 = 1, int C2 = 1)
     {
         ingredient = I2;
         parent = parentinstance;
@@ -47,8 +47,8 @@ namespace NodeUtility
         green = 2,  // trailing and leading whitespace
         orange = 3  // all lowercase
     };
-    //return head node/parent most of a particular Node instance
-    Node* origin(Node* current)
+    // return head node/parent most of a particular Node instance
+    Node *origin(Node *current)
     {
         while (current->parent)
         {
