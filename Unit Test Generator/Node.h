@@ -95,7 +95,6 @@ namespace NodeUtility
         void method(Node &yellow, MODE type, std::ofstream pymodule)
         {
             // todo add code
-            NodeUtility::create::docstring::method(yellow,pymodule);
         }
         // todo create function for creating variable declarations
         void declaration(Node &orange, std::ofstream pymodule)
