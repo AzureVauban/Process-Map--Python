@@ -133,9 +133,9 @@ namespace NodeUtility
                 pymodule << "Writing Docstring for " << parsestringformat(nodeobject) << std::endl;
             }
             // todo create function for outtputting docstring for method
-            void method(const Node &nodeobject, std::ofstream &pymodule)
+            void method(const Node *nodeobject, std::ofstream &pymodule)
             {
-                std::cout << "Writing Docstring for " << parsestringformat(nodeobject,orange) << " test method" << std::endl;
+                std::cout << "Writing Docstring for " << parsestringformat(nodeobject, orange) << " test method" << std::endl;
                 // todo add code
             }
             // create function for outtputting module docstring
@@ -157,7 +157,7 @@ namespace NodeUtility
             docstring::testclass(nodeobject, pymodule);
         }
         // todo create function for outputitng test method declaration of definition
-        void method(const Node &nodeobject, MODE type, std::ofstream &pymodule)
+        void method(const Node *nodeobject, MODE type, std::ofstream &pymodule)
         {
             // todo add code
             docstring::method(nodeobject, pymodule);
