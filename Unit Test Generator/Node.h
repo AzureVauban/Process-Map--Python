@@ -2,7 +2,8 @@
 #include <iostream>
 #include <string>
 #include <vector>
-enum MODE {
+enum MODE
+{
     red = 0,
     blue = 1
 };
@@ -33,12 +34,12 @@ namespace NodeUtility
     // include functions that are needed to be used with the Node class here here
     enum format
     {
-        white = 0, //variable and method declaration 
-        purple = 1, //docstring 
-        green = 2, //trailing and leading whitespace
-        orange = 3 //all lowercase
+        white = 0,  // variable and method declaration
+        purple = 1, // docstring
+        green = 2,  // trailing and leading whitespace
+        orange = 3  // all lowercase
     };
-    //todo finish function for formatting ingredient name to be used
+    // todo finish function for formatting ingredient name to be used
     std::string parsestringformat(Node &Nani, format MODE = white)
     {
         /*
@@ -70,10 +71,17 @@ namespace NodeUtility
         }
         return Nani.ingredient;
     }
-    //todo create function for outputitng test method declaration
-    void createdeclaration(Node &Ariana, MODE type)
+    // todo create function for outputitng test method declaration
+    namespace create
     {
-
+        void method(Node &Ariana, MODE type)
+        {
+            //todo add code
+        }
+        // todo create function for creating variable declarations
+        void declaration(Node &Alex)
+        {
+            //todo add code
+        }
     }
-    //todo create function for creating Node 
 }
