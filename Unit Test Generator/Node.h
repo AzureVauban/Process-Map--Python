@@ -90,10 +90,21 @@ namespace NodeUtility
         return Nani.ingredient;
     }
     // create function to delete all node pointers
-    void destroy(Node *nodeobject)
+    void destroy(const Node *nodeobject)
     {
-        // todo add code
+        std::cout << "DEALLOCATING " << nodeobject->ingredient << " : " << nodeobject << std::endl;
+        for (const auto &i : nodeobject->children)
+        {
+            destroy(i);
+        }
         delete nodeobject;
+    }
+    void tabbing(std::ofstream &pymodule, const int TABLEVEL)
+    {
+        std::cout << "SETTING INDENTATION..." << std::endl;
+        for (int i = 0; i < TABLEVEL; i++) {
+            pymodule << "\t";
+        }
     }
     // todo create function to get assert values for test methods
     namespace create
@@ -113,8 +124,14 @@ namespace NodeUtility
                 std::cout << "Writing Docstring for " << parsestringformat(nodeobject) << " test method" << std::endl;
                 // todo add code
             }
-            // todo create function for outtputting test class to output .py file
+            // create function for outtputting module docstring
+            void module(std::ofstream &pymodule)
+            {
+                std::cout << "GENERATING UNITTEST DOCSTRING" << std::endl;
+                pymodule << "\"\"\"" << "AUTO GENERATED UNIT TEST FILE" << std::endl << "\"\"\"";
+            }
         }
+        // todo create function for outtputting test class to output .py file
         void testclass(const Node &nodeobject, std::ofstream &pymodule)
         {
             // todo add code
@@ -136,9 +153,11 @@ namespace NodeUtility
     // create function for generating the unit test file
     void generatateunittest(Node *head, std::ofstream &outputfile)
     {
-        std::cout << "GENERATING UNITTEST" << std::endl;
-        outputfile << "\"\"\"Tentative Description: " << head << std::endl
-                   << "\"\"\"" << std::endl;
+     
+
+        //NodeUtility::tabbing(outputfile, 3);
+        //outputfile << "Tentative Description : " << head << std::endl;
+        //NodeUtility::tabbing(outputfile, 3);
         // loop until all classes have been written onto the file
         // generate module docstring
         // generate unit test class
