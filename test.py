@@ -79,5 +79,5 @@ class Issue12(unittest.TestCase):
         for floatnum in floatpercents.items():
             print(round(floatnum[1]*100,2),'%')
         # ? use debug console to see output
-        # desired output Pixels : 147312x (2.99 % used in Lead, 17.92 % used in Irradium Ore, 24.19 % used in, 54.9 % used in)
+        # desired output Pixels : 147312x (2.99 % used in Lead, 17.92 % used in Irradium Ore, 24.19 % used in Trianglium Ore, 54.9 % used in Prism Shard)
         self.assertEqual(totalpercent, 1.00)
