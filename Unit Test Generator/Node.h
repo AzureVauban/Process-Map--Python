@@ -82,7 +82,7 @@ namespace NodeUtility
     // todo create function to get assert values for test methods
     namespace create
     {
-        namespace docstring{
+        namespace docstring {
 
         // todo create function for outputting docstring for class
         void testclass(const Node &blue, std::ofstream &pymodule)
