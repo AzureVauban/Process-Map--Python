@@ -56,5 +56,7 @@ class Issue12(unittest.TestCase):
         totalofpixels : int = 0
         for nodeinstance in tentative_formatoutput(self.roots).items():
             totalofpixels += nodeinstance[1].amountonhand
+        floatpercents : dict = {}
+        
         print('hello world from VS Code')
         self.assertEqual(1,1*1)
