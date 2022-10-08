@@ -83,9 +83,9 @@ namespace NodeUtility
         namespace docstring
         {
         // todo create function for outputting docstring for class
-            void testclass()
+            void testclass(Node& )
             {
-                
+
             }
         // todo create function for outtputting docstring for method
             void method()
