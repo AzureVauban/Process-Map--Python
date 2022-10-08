@@ -38,7 +38,9 @@ void populate(Node *current)
             userinputs.emplace_back(myinput);
         } else if (duplicatedstring)
         {
-            std::cout << "" << std::endl;
+            std::cout << "You already typed that in " << std::endl;
+        } else if (){
+            
         }
         else
         {
