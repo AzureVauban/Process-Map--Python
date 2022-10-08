@@ -166,6 +166,7 @@ namespace NodeUtility
         // generate module docstring
         // generate unit test class
         // generate unit test methods based on program mode
+        outputfile << std::endl;
         // close file
         outputfile.close();
     }
