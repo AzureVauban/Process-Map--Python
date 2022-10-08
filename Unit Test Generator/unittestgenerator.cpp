@@ -3,7 +3,11 @@
 void populate(Node *current);
 void recursivearithmetic(Node *current);
 void inverserecursivearithmetic(Node *current);
-enum programMode {yin = 0, yang = 1};
+enum programMode
+{
+    yin = 0,
+    yang = 1
+};
 mode = yang;
 int main()
 {
@@ -13,8 +17,17 @@ int main()
     std::string headname = "";
     std::getline(std::cin, headname);
     auto head = new Node(headname);
+    // prompt ingredient
     populate(head);
-    recursivearithmetic(head);
+    // set assert values
+    if (yin)
+    {
+        recursivearithmetic(head);
+    }
+    else
+    {
+        inverserecursivearithmetic(head);
+    }
     // cleanup and terminate process
     NodeUtility::generatateunittest(head, generatedunittest);
     NodeUtility::destroy(head);
