@@ -161,6 +161,7 @@ namespace NodeUtility
     // create function for generating the unit test file
     void generatateunittest(Node *head, std::ofstream &outputfile)
     {
+        // generate module docstring
         create::docstring::module(outputfile);
         outputfile << "import unittest" << std::endl << "import random" << std::endl << std::endl;
         outputfile << "from main import (Node, findlocalendpoints, reversearithmetic, tentative_formatoutput)" << std::endl;
@@ -168,8 +169,8 @@ namespace NodeUtility
         //outputfile << "Tentative Description : " << head << std::endl;
         //NodeUtility::tabbing(outputfile, 3);
         // loop until all classes have been written onto the file
-        // generate module docstring
         // generate unit test class
+        NodeUtility::create::testclass(head,outputfile);
         // generate unit test methods based on program mode
         outputfile << std::endl;
         // close file
