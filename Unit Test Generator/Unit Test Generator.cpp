@@ -81,7 +81,7 @@ long long int inverserecursivearithmetic(Node *current, const long long int desi
     auto red = current->amountmadepercraft;
     auto blue = current->amountneeded;
     // create assert values
-    current->amountonhand = std::pow(red / blue, -1) * current->amountresulted;
+    current->amountonhand = float(std::pow(red / blue, -1)) * current->amountresulted;
     for (const auto &child : current->children)
     {
         inverserecursivearithmetic(child);
