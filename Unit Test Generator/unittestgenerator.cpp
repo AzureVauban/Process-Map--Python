@@ -9,6 +9,6 @@ int main()
     Node head(headname);
     //test output of string formatter function
     std::cout << "Formatted String: " << NodeUtility::parsestringformat(head) << std::endl;
-    // 
+    //test 
     return 0;
 }
