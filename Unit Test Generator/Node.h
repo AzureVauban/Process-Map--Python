@@ -19,6 +19,10 @@ struct SimpleData
 };
 struct Node : public SimpleData
 {
+    Node(std::string I2 = "")
+    {
+        ingredient = I2;
+    }
 };
 namespace NodeUtility
 {
