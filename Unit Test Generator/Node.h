@@ -28,8 +28,14 @@ namespace NodeUtility
 {
     // include functions that are needed to be used with the Node class here here
     // todo create function for formatting ingredient name to be used
-    enum format { purple = 0, blue = 1, green = 2,yellow =3};
-    formatSTRINGmode 
+    enum format
+    {
+        white = 0,
+        orange = 1,
+        green = 2,
+        purple = 3
+    };
+    format MODE = white;
     std::string parsestringformat(Node &red)
     {
         /*
@@ -44,12 +50,14 @@ namespace NodeUtility
             input:   advanced alloy    , output: advanced alloy
         3, formats string to
         */
-        switch (formatmode)
+        switch (MODE)
         {
-        case /* constant-expression */:
-            /* code */
+        case orange:
             break;
-        
+        case green:
+            break;
+        case purple:
+            break;
         default:
             break;
         }
