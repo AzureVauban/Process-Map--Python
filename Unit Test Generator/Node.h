@@ -116,15 +116,15 @@ namespace NodeUtility
             // todo add code
         }
     }
-    //create function for generating the unit test file
-    void generatateunittest()
-{
-    std::cout << "GENERATING UNITTEST" << std::endl;
-    //loop until all classes have been written onto the file
-        //generate module docstring
-        //generate unit test class
-        //generate unit test methods based on program mode
-    //close file
-    generatedunittest.close();
-}
+    // create function for generating the unit test file
+    void generatateunittest(Node *head, std::ofstream &outputfile)
+    {
+        std::cout << "GENERATING UNITTEST" << std::endl;
+        // loop until all classes have been written onto the file
+            // generate module docstring
+            // generate unit test class
+            // generate unit test methods based on program mode
+        // close file
+        outputfile.close();
+    }
 }

@@ -1,4 +1,4 @@
-#include "Node.h" 
+#include "Node.h"
 void populate(Node &current);
 void recursivearithmetic(Node &current);
 int main()
@@ -12,7 +12,7 @@ int main()
     // modify ofstream object
     generatedunittest << "\"\"\"Tentative Description: " << headname << std::endl
                       << "\"\"\"" << std::endl;
-    NodeUtility::create::testclass(head,generatedunittest); // error on this line has been resolved by passing the ofstream by refrence
+    NodeUtility::create::testclass(head, generatedunittest); // error on this line has been resolved by passing the ofstream by refrence
     // cleanup and terminate process
     NodeUtility::generatateunittest();
     NodeUtility::destroy(head);
