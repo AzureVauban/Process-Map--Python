@@ -27,7 +27,6 @@ struct Node : public SimpleData
 namespace NodeUtility
 {
     // include functions that are needed to be used with the Node class here here
-    // todo create function for formatting ingredient name to be used
     enum format
     {
         white = 0, //variable and method declaration 
@@ -35,6 +34,7 @@ namespace NodeUtility
         green = 2, //trailing and leading whitespace
         orange = 3 //all lowercase
     };
+    //todo finish function for formatting ingredient name to be used
     std::string parsestringformat(Node &red, format MODE = white)
     {
         /*
@@ -66,4 +66,5 @@ namespace NodeUtility
         }
         return red.ingredient;
     }
+    //todo finish function for 
 }
