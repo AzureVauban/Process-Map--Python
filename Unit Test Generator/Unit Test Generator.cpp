@@ -27,40 +27,21 @@ void populate(Node *current)
     // create input loop
     std::string myinput = "";
     std::vector<std::string> userinputs = {};
-    Node *tempinstance = current;
-    while (tempinstance->parent)
+    while (true)
     {
-        tempinstance = tempinstance->parent;
-    }
-    do
-    {
-        std::getline(std::cin, myinput);
-        // strip leading and trailing whitespace
-        // validate string
-        std::string &headnodestring = tempinstance->ingredient;
-        bool duplicatedstring = false;
-        if (!myinput.empty())
-        {
-            userinputs.emplace_back(myinput);
-        }
-        else if (duplicatedstring)
-        {
-            std::cout << "You already typed that in " << std::endl;
-        }
-        else if (current->ingredient == myinput)
-        {
-            std::cout << "You cannot type that in" << std::endl;
-        }
-        else if (myinput == headnodestring)
-        {
-            std::cout << "You cannot type that in! That is the item you are trying to create" << std::endl;
-        }
-        else
+        std::getline(std::cin,myinput);
+        if (myinput.empty())
         {
             break;
+        } else {
+            userinputs.emplace_back(myinput);
         }
-    } while (!myinput.empty());
+    }
     // create new node instances
+    for (const auto &newnodename : userinputs)
+    {
+        auto childnode = new Node(newnodename,)
+    }
     // continue function recursively by iterating itself onto children instances
     for (auto &child : current->children)
     {
