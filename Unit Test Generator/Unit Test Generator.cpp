@@ -26,6 +26,7 @@ void populate(Node *current)
     std::vector<std::string> userinputs;
     std::cout << "What do you need to create " << current->ingredient << ":" << std::endl;
     std::string myinput = "";
+    //prompt inputs
     do {
         std::getline(std::cin,myinput);
         if (not myinput.empty())
