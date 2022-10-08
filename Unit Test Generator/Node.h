@@ -32,7 +32,11 @@ struct Node : public SimpleData
 };
 class fileobject
 {
-    
+    std::ofstream pymodule;
+    fileobject(std::ofstream module)
+    {
+        
+    }
 };
 namespace NodeUtility
 {
