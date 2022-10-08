@@ -72,7 +72,7 @@ namespace NodeUtility
         }
         return Nani.ingredient;
     }
-    namespace docstring
+    namespace createdocstring
     {
         // todo create function for outputting docstring for class
         void testclass(const Node &blue, std::ofstream pymodule)
@@ -95,7 +95,7 @@ namespace NodeUtility
         void method(const Node &yellow, MODE type, std::ofstream pymodule)
         {
             // todo add code
-            docstring::method_doc(yellow, pymodule);
+            createdocstring::method_doc(yellow, pymodule);
         }
         // todo create function for creating variable declarations
         void declaration(const Node &orange, std::ofstream pymodule)
