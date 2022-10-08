@@ -14,6 +14,7 @@ class Issue12_single_unique_endpoint(unittest.TestCase): #pylint:disable=C0103
     Args:
         unittest (class): Unit testing framework for python
     """
+    #? Tritanium Bar Mock Tree: https://frackinuniverse.miraheze.org/wiki/Tritanium_Bar
     desiredamount       : int = random.randint(1, 100)
     # it should take 6696 pixels to make one tritanium bar
     tritaniumbar        : Node = Node('Tritanium Bar')
@@ -84,4 +85,5 @@ class Issue12_single_unique_endpoint(unittest.TestCase): #pylint:disable=C0103
 class Issue12_multiple_unique_endpoint(unittest.TestCase): #pylint:disable=C0103
     """test new formatting and endpoint search methods from main.py module wih only one endpoint
     """
+    #? 
     
