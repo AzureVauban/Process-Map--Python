@@ -12,9 +12,9 @@ struct SimpleData
 {
     std::string ingredient = "";
     long long int amountonhand = 0,
-        amountneeded = 1,
-        amountresulted = 0,
-        amountmadepercraft = 1;
+                  amountneeded = 1,
+                  amountresulted = 0,
+                  amountmadepercraft = 1;
     SimpleData(std::string I = "", long long int A = 0, long long int B = 1, long long int C = 1)
     {
         ingredient = I;
@@ -26,7 +26,7 @@ struct SimpleData
 struct Node : public SimpleData
 {
     Node *parent;
-    std::vector <Node*> children = {};
+    std::vector<Node *> children = {};
     Node(std::string I2 = "", Node *parentinstance = nullptr, long long int A2 = 0, long long int B2 = 1, long long int C2 = 1)
     {
         std::cout << "ALLOCATING " << I2 << " : " << this << std::endl;
@@ -87,8 +87,13 @@ namespace NodeUtility
             std::cout << "Green" << std::endl;
             break;
         case orange:
-            for (auto &character : returnstring){
+            for (auto &character : returnstring)
+            {
                 character = tolower(character);
+                if (character == ' ')
+                {
+                    character = '_';
+                }
             }
             break;
         default:
@@ -110,7 +115,8 @@ namespace NodeUtility
     void tabbing(std::ofstream &pymodule, const int TABLEVEL)
     {
         std::cout << "SETTING INDENTATION..." << std::endl;
-        for (int i = 0; i < TABLEVEL; i++) {
+        for (int i = 0; i < TABLEVEL; i++)
+        {
             pymodule << "\t";
         }
     }
@@ -123,7 +129,7 @@ namespace NodeUtility
             // todo create function for outputting docstring for class
             void testclass(const Node *nodeobject, std::ofstream &pymodule)
             {
-                tabbing(pymodule,1);
+                tabbing(pymodule, 1);
                 pymodule << "Writing Docstring for " << parsestringformat(nodeobject) << std::endl;
             }
             // todo create function for outtputting docstring for method
@@ -136,16 +142,18 @@ namespace NodeUtility
             void module(std::ofstream &pymodule)
             {
                 std::cout << "GENERATING UNITTEST DOCSTRING" << std::endl;
-                pymodule << "\"\"\"" << "AUTO GENERATED UNIT TEST FILE" << std::endl 
-                << "   USE FORMATTING FUNCTIONS OF UTILIZED IDE TO CLEANUP AND FINALIZE ANY MISTAKES REGARDING\n   FORMATTING THAT COULD BE MADE" 
-                << std::endl << "\"\"\"" << std::endl;
+                pymodule << "\"\"\""
+                         << "AUTO GENERATED UNIT TEST FILE" << std::endl
+                         << "   USE FORMATTING FUNCTIONS OF UTILIZED IDE TO CLEANUP AND FINALIZE ANY MISTAKES REGARDING\n   FORMATTING THAT COULD BE MADE"
+                         << std::endl
+                         << "\"\"\"" << std::endl;
             }
         }
         // todo create function for outtputting test class to output .py file
         void testclass(const Node *nodeobject, std::ofstream &pymodule)
         {
             // todo add code
-            pymodule << "class test_" << parsestringformat(nodeobject,orange) << std::endl;
+            pymodule << "class test_" << parsestringformat(nodeobject, orange) << std::endl;
             docstring::testclass(nodeobject, pymodule);
         }
         // todo create function for outputitng test method declaration of definition
@@ -166,14 +174,16 @@ namespace NodeUtility
     {
         // generate module docstring
         create::docstring::module(outputfile);
-        outputfile << "import unittest" << std::endl << "import random" << std::endl << std::endl;
+        outputfile << "import unittest" << std::endl
+                   << "import random" << std::endl
+                   << std::endl;
         outputfile << "from main import (Node, findlocalendpoints, reversearithmetic, tentative_formatoutput)" << std::endl;
-        //NodeUtility::tabbing(outputfile, 3);
-        //outputfile << "Tentative Description : " << head << std::endl;
-        //NodeUtility::tabbing(outputfile, 3);
-        // loop until all classes have been written onto the file
-        // generate unit test class
-        NodeUtility::create::testclass(head,outputfile);
+        // NodeUtility::tabbing(outputfile, 3);
+        // outputfile << "Tentative Description : " << head << std::endl;
+        // NodeUtility::tabbing(outputfile, 3);
+        //  loop until all classes have been written onto the file
+        //  generate unit test class
+        NodeUtility::create::testclass(head, outputfile);
         // generate unit test methods based on program mode
         outputfile << std::endl;
         // close file
