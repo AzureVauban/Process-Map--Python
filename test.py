@@ -8,8 +8,8 @@ from main import (Node, findlocalendpoints, reversearithmetic,
                   tentative_formatoutput)
 
 
-class Issue12(unittest.TestCase):
-    """test new formatting and endpoint search methods from main.py module
+class Issue12_single_unique_endpoint(unittest.TestCase): #pylint:disable=C0103
+    """test new formatting and endpoint search methods from main.py module wih only one endpoint
 
     Args:
         unittest (class): Unit testing framework for python
@@ -81,3 +81,5 @@ class Issue12(unittest.TestCase):
         # ? use debug console to see output
         # desired output Pixels : 147312x (2.99 % used in Lead, 17.92 % used in Irradium Ore, 24.19 % used in Trianglium Ore, 54.9 % used in Prism Shard)
         self.assertEqual(totalpercent, 1.00)
+class Issue12_multiple_unique_endpoint(unittest.TestCase): #pylint:disable=C0103
+    pass
