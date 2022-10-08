@@ -14,19 +14,8 @@ int main()
     generatedunittest << "\"\"\"Tentative Description: " << headname << std::endl
                       << "\"\"\"" << std::endl;
     NodeUtility::create::testclass(head,generatedunittest); // error on this line has been resolved by passing the ofstream by refrence
-    /* Complier Error
-    C:/msys64/mingw64/include/c++/12.1.0/fstream:853:7: note: declared here
-    853 |       basic_ofstream(const basic_ofstream&) = delete;
-        |       ^~~~~~~~~~~~~~
-
-    Node.h:97:58: note:   initializing argument 2 of 'void NodeUtility::create::testclass(const Node&, std::ofstream)'
-    97 |         void testclass(const Node &purple, std::ofstream pymodule)
-       |                                            ~~~~~~~~~~~~~~^~~~~~~~
-
-    */
-
     // cleanup and terminate process
-    generatedunittest.close();
+    generatateunittest();
     NodeUtility::destroy(head);
     return 0;
 }
@@ -38,6 +27,7 @@ void recursivearithmetic(Node &current)
 }
 void generatateunittest()
 {
+    std::cout << "GENERATING UNITTEST" << std::endl;
     enum formatenumeration
     {
         white = 0,  // variable and method declaration
@@ -45,4 +35,10 @@ void generatateunittest()
         green = 2,  // trailing and leading whitespace
         orange = 3  // all lowercase
     };
+    //loop until all classes have been written onto the file
+        //generate module docstring
+        //generate unit test class
+        //generate unit test methods based on program mode
+    //close file
+    generatedunittest.close();
 }
