@@ -79,7 +79,7 @@ namespace NodeUtility
         {
         }
         // todo create function for outtputting docstring for method
-        void method_doc(const Node &green, std::ofstream pymodule)
+        void method_doc(const Node &green, std::ofstream tentativename)
         {
         }
     }
