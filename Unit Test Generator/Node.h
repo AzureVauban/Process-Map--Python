@@ -2,6 +2,10 @@
 #include <iostream>
 #include <string>
 #include <vector>
+enum MODE {
+    red = 0,
+    blue = 1
+};
 struct SimpleData
 {
     std::string ingredient = "";
@@ -35,7 +39,7 @@ namespace NodeUtility
         orange = 3 //all lowercase
     };
     //todo finish function for formatting ingredient name to be used
-    std::string parsestringformat(Node &red, format MODE = white)
+    std::string parsestringformat(Node &Nani, format MODE = white)
     {
         /*
         white, default mode, formats string for variable declaration and to be utilized
@@ -64,7 +68,12 @@ namespace NodeUtility
             std::cout << "Default" << std::endl;
             break;
         }
-        return red.ingredient;
+        return Nani.ingredient;
     }
-    //todo finish function for 
+    //todo create function for outputitng test method declaration
+    void createdeclaration(Node &Ariana, MODE type)
+    {
+
+    }
+    //todo create function for creating Node 
 }
