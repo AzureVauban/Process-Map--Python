@@ -76,6 +76,7 @@ void populate(Node *current)
 }
 long long int inverserecursivearithmetic(Node *current, long long int desiredamount = 0)
 {
+    current->amountresulted = desiredamount;
     // create assert values
     return current->amountonhand;
 }
