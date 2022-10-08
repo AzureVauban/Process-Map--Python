@@ -25,9 +25,14 @@ struct SimpleData
 };
 struct Node : public SimpleData
 {
-    Node(std::string I2 = "")
+    Node* parent;
+    Node(std::string I2 = "",Node*parentinstance = nullptr,int A2 = 0, int B2 = 1, int C2 = 1)
     {
         ingredient = I2;
+        parent = parentinstance;
+        amountonhand = A2;
+        amountmadepercraft = B2;
+        amountneeded = C2;
     }
 };
 
@@ -43,7 +48,14 @@ namespace NodeUtility
         orange = 3  // all lowercase
     };
     //return head node/parent most of a particular Node instance
-    
+    Node* origin(Node* current)
+    {
+        while (current->parent)
+        {
+            current = current->parent;
+        }
+        return current;
+    }
     // todo finish function for formatting ingredient name to be used - use Visual Studio to Unit Test
     std::string parsestringformat(const Node &Nani, format MODE = white)
     {
