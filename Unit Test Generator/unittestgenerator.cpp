@@ -38,12 +38,11 @@ void populate(Node *current)
     std::cout << "What ingredients do you need to create " << current->ingredient << ":" << std::endl;
     // create input loop
     std::string myinput = "";
-    std::vector <std::string> userinputs;
+    std::vector<std::string> userinputs;
     do
     {
         std::getline(std::cin, myinput);
-        //strip leading and trailing whitespace
-        
+        // strip leading and trailing whitespace
     } while (myinput.empty());
     // create new node instances
     // continue function recursively by iterating itself onto children instances
