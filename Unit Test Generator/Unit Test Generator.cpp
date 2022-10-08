@@ -11,7 +11,7 @@ int main()
     std::cout << "Name of Linked List:" << std::endl;
     std::string headname = "";
     std::getline(std::cin, headname);
-    auto head = new Node(headname);
+    Node* head;
     // prompt ingredient
     populate(head);
     // set assert values
