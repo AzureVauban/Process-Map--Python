@@ -118,7 +118,7 @@ namespace NodeUtility
         {
 
             // todo create function for outputting docstring for class
-            void testclass(const Node &nodeobject, std::ofstream &pymodule)
+            void testclass(const Node *nodeobject, std::ofstream &pymodule)
             {
                 tabbing(pymodule,1);
                 pymodule << "Writing Docstring for " << parsestringformat(nodeobject) << std::endl;
