@@ -26,6 +26,7 @@ struct SimpleData
 struct Node : public SimpleData
 {
     Node *parent;
+    std::vector <Node*> children = {};
     Node(std::string I2 = "", Node *parentinstance = nullptr, int A2 = 0, int B2 = 1, int C2 = 1)
     {
         ingredient = I2;

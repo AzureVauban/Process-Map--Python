@@ -46,6 +46,10 @@ void populate(Node *current)
     } while (myinput.empty());
     // create new node instances
     // continue function recursively by iterating itself onto children instances
+    for (auto &child : current->children)
+    {
+        populate(child);
+    }
 }
 void recursivearithmetic(Node *current)
 {
