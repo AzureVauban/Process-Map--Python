@@ -11,11 +11,11 @@ enum MODE
 struct SimpleData
 {
     std::string ingredient = "";
-    int amountonhand = 0,
+    long long int amountonhand = 0,
         amountneeded = 1,
         amountresulted = 0,
         amountmadepercraft = 1;
-    SimpleData(std::string I = "", int A = 0, int B = 1, int C = 1)
+    SimpleData(std::string I = "", long long int A = 0, long long int B = 1, long long int C = 1)
     {
         ingredient = I;
         amountonhand = A;
@@ -27,7 +27,7 @@ struct Node : public SimpleData
 {
     Node *parent;
     std::vector <Node*> children = {};
-    Node(std::string I2 = "", Node *parentinstance = nullptr, int A2 = 0, int B2 = 1, int C2 = 1)
+    Node(std::string I2 = "", Node *parentinstance = nullptr, long long int A2 = 0, long long int B2 = 1, long long int C2 = 1)
     {
         std::cout << "ALLOCATING " << I2 << " : " << this << std::endl;
         ingredient = I2;

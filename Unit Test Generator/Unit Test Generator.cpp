@@ -74,10 +74,10 @@ void populate(Node *current)
         populate(childnode);
     }
 }
-void inverserecursivearithmetic(Node *current,long long int desiredamount = 0)
+long long int inverserecursivearithmetic(Node *current,long long int desiredamount = 0)
 {
     // create assert values
-    
+    return current->amountonhand;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
