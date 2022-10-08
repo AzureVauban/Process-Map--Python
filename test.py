@@ -80,6 +80,7 @@ class Issue12_single_unique_endpoint(unittest.TestCase): #pylint:disable=C0103
         for floatnum in floatpercents.items():
             print(round(floatnum[1]*100,2),'%')
         # ? use debug console to see output
+        #remove
         # desired output Pixels : 147312x (2.99 % used in Lead, 17.92 % used in Irradium Ore, 24.19 % used in Trianglium Ore, 54.9 % used in Prism Shard)
         self.assertEqual(len(endpointnodes), 1)
 class Issue12_multiple_unique_endpoint(unittest.TestCase): #pylint:disable=C0103
