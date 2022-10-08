@@ -27,21 +27,33 @@ void populate(Node *current)
     // create input loop
     std::string myinput = "";
     std::vector<std::string> userinputs = {};
+    Node *tempinstance = current;
+    while (tempinstance->parent)
+    {
+        tempinstance = tempinstance->parent;
+    }
     do
     {
         std::getline(std::cin, myinput);
         // strip leading and trailing whitespace
         // validate string
-        Node* tempinstance = 
+        std::string &headnodestring = tempinstance->ingredient;
         bool duplicatedstring = false;
         if (!myinput.empty())
         {
             userinputs.emplace_back(myinput);
-        } else if (duplicatedstring)
+        }
+        else if (duplicatedstring)
         {
             std::cout << "You already typed that in " << std::endl;
-        } else if (current->ingredient == myinput){
+        }
+        else if (current->ingredient == myinput)
+        {
             std::cout << "You cannot type that in" << std::endl;
+        }
+        else if (myinput == headnodestring)
+        {
+            std::cout << "You cannot type that in! That is the item you are trying to create" << std::endl;
         }
         else
         {
