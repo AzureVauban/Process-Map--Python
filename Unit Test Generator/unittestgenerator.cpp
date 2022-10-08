@@ -14,7 +14,7 @@ int main()
                       << "\"\"\"" << std::endl;
     NodeUtility::create::testclass(head,generatedunittest); // error on this line has been resolved by passing the ofstream by refrence
     // cleanup and terminate process
-    generatateunittest();
+    NodeUtility::generatateunittest();
     NodeUtility::destroy(head);
     return 0;
 }
