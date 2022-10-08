@@ -42,6 +42,8 @@ namespace NodeUtility
         green = 2,  // trailing and leading whitespace
         orange = 3  // all lowercase
     };
+    //return head node/parent most of a particular Node instance
+    
     // todo finish function for formatting ingredient name to be used - use Visual Studio to Unit Test
     std::string parsestringformat(const Node &Nani, format MODE = white)
     {
