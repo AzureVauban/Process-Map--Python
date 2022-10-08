@@ -8,6 +8,6 @@ int main()
     Node head(headname);
     std::cout << "Formatted String: " << NodeUtility::parsestringformat(head) << std::endl;
     NodeUtility::HOT_OUTPUTFILE myfile("myfile");
-    NodeUtility::create::testclass(head,myfile.returnfile());
+    //NodeUtility::create::testclass(head,myfile.returnfile());
     return 0;
 }
