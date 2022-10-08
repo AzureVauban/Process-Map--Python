@@ -35,8 +35,8 @@ namespace NodeUtility
         green = 2,
         purple = 3
     };
-    format MODE = white;
-    std::string parsestringformat(Node &red)
+    // format MODE = white;
+    std::string parsestringformat(Node &red, format MODE = white)
     {
         /*
         0, default mode, formats string for variable declaration and to be utilized
@@ -53,12 +53,16 @@ namespace NodeUtility
         switch (MODE)
         {
         case orange:
+            std::cout << "Orange" << std::endl;
             break;
         case green:
+            std::cout << "Green" << std::endl;
             break;
         case purple:
+            std::cout << "Purple" << std::endl;
             break;
         default:
+            std::cout << "Default" << std::endl;
             break;
         }
         return red.ingredient;
