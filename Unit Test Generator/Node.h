@@ -4,7 +4,6 @@
 #include <vector>
 struct SimpleData
 {
-    private:
     std::string ingredient = "";
     int amountonhand = 0,
         amountneeded = 1,
@@ -22,6 +21,10 @@ struct Node : public SimpleData
 {
     int tempvalue = amountonhand * 2;
     std::cout << tempvalue << std::endl;
+    Node()
+    {
+
+    }
 };
 namespace NodeUtility
 {
