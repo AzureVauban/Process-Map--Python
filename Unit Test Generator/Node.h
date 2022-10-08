@@ -30,7 +30,10 @@ struct Node : public SimpleData
         ingredient = I2;
     }
 };
-
+class fileobject
+{
+    
+};
 namespace NodeUtility
 {
     // include functions that are needed to be used with the Node class here here
