@@ -158,8 +158,7 @@ namespace NodeUtility
     // create function for generating the unit test file
     void generatateunittest(Node *head, std::ofstream &outputfile)
     {
-     
-
+        create::docstring(head,outputfile);
         //NodeUtility::tabbing(outputfile, 3);
         //outputfile << "Tentative Description : " << head << std::endl;
         //NodeUtility::tabbing(outputfile, 3);
