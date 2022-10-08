@@ -52,10 +52,6 @@ void populate(Node* current)
         populate(child);
     }
 }
-void recursivearithmetic(Node* current)
-{
-    // create assert values
-}
 void inverserecursivearithmetic(Node* current)
 {
     // create assert values
