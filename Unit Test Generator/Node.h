@@ -9,10 +9,18 @@ struct Node
 namespace NodeUtility
 {
     // include functions here
-    //todo make function for formatting the name of the ingredient, should have 3 modes
-    std::string parsestringformat(Node &red.const int )
+    //todo make function for formatting the name of the ingredient, should have 3 
+    std::string parsestringformat(Node &red, const int formattype = 0)
     {
-
+        /* 
+        0, default mode, formats string for variable declaration
+        1, formats string to be utilized in math asseration method declaration
+            input : advanced alloy, output : advancedalloyN
+            where N is a number used to help make the declaration unique in the event there are multple instances
+                the same 
+        2, formats string to be utilized in docstring of math asseration method
+            input : advanced alloy, output : Advanced Alloy
+        */
         return red.ingredient;
     }
 }
