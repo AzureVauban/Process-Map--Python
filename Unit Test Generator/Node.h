@@ -120,8 +120,8 @@ namespace NodeUtility
             // todo create function for outputting docstring for class
             void testclass(const Node &nodeobject, std::ofstream &pymodule)
             {
-                //pymodule << "Writing Docstring for " << parsestringformat(blue) << << std::endl;
-                // todo add code
+                tabbing(pymodule,1);
+                pymodule << "Writing Docstring for " << parsestringformat(nodeobject) << std::endl;
             }
             // todo create function for outtputting docstring for method
             void method(const Node &nodeobject, std::ofstream &pymodule)
