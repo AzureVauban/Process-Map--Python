@@ -26,7 +26,8 @@ class Issue12(unittest.TestCase):
     pixels3             : Node = Node('Pixels', triangliumore, 0, 1, 810)
     prisilitestar       : Node = Node('Prisilite Star', tritaniumbar)
     prismshard          : Node = Node('Prism Shard', prisilitestar, 0, 1, 2)
-    pixels4             : Node = Node('Pixels', prismshard, 0, 1, 1838)  # buy from geologist NPC ingame
+    # buy prism shards from geologist NPC ingame
+    pixels4             : Node = Node('Pixels', prismshard, 0, 1, 1838)
     reversearithmetic(tritaniumbar, desiredamount)
     roots: dict = findlocalendpoints(tritaniumbar, {})
 
