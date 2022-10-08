@@ -23,7 +23,19 @@ int main()
 }
 void populate(Node *current)
 {
+    std::vector<std::string> userinputs;
     std::cout << "What do you need to create " << current->ingredient << ":" << std::endl;
+    std::string myinput = "";
+    do {
+        std::getline(std::cin,myinput);
+        if (not myinput.empty())
+        {
+            userinputs.emplace_back(myinput);
+        } else {
+            break;
+        }
+    } while (myinput.empty());
+    std::cout << "ad\n";
 }
 void inverserecursivearithmetic(Node *current)
 {
