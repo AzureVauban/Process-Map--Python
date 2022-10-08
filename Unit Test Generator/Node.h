@@ -3,7 +3,6 @@
 #include <string>
 #include <vector>
 #include <fstream>
-#include <function.h>
 enum MODE
 {
     red = 0,
