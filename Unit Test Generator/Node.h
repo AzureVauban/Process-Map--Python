@@ -30,17 +30,7 @@ struct Node : public SimpleData
         ingredient = I2;
     }
 };
-namespace createdocstring
-{
-    // todo create function for outputting docstring for class
-    void testclass(const Node &blue, std::ofstream pymodule)
-    {
-    }
-    // todo create function for outtputting docstring for method
-    void method_doc(const Node &green, std::ofstream tentativename)
-    {
-    }
-}
+
 namespace NodeUtility
 {
     // include functions that are needed to be used with the Node class here here
@@ -87,16 +77,27 @@ namespace NodeUtility
     // todo create function to get assert values for test methods
     namespace create
     {
+        // todo create function for outputting docstring for class
+        void testclass_doc(const Node &blue, std::ofstream pymodule)
+        {
+            // todo add code
+        }
+        // todo create function for outtputting docstring for method
+        void method_doc(const Node &green, std::ofstream tentativename)
+        {
+            // todo add code
+        }
         // todo create function for outtputting test class to output .py file
         void testclass(const Node &purple, std::ofstream pymodule)
         {
+            // todo add code
         }
 
         // todo create function for outputitng test method declaration
         void method(const Node &yellow, MODE type, std::ofstream pymodule)
         {
             // todo add code
-            createdocstring::method_doc(yellow, pymodule);
+            method_doc(yellow,pymodule);
         }
         // todo create function for creating variable declarations
         void declaration(const Node &orange, std::ofstream pymodule)
@@ -104,5 +105,4 @@ namespace NodeUtility
             // todo add code
         }
     }
-
 }
