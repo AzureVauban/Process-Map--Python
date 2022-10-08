@@ -39,8 +39,8 @@ void populate(Node *current)
         } else if (duplicatedstring)
         {
             std::cout << "You already typed that in " << std::endl;
-        } else if (){
-            
+        } else if (current->ingredient == myinput){
+            std::cout << "You cannot type that in" << std::endl;
         }
         else
         {
