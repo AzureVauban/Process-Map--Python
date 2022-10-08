@@ -53,6 +53,8 @@ class Issue12(unittest.TestCase):
         """
         tentative_formatoutput(self.roots)
         temp : list = list(tentative_formatoutput(self.roots).items())
-        totalofpixels: 
+        totalofpixels : int = 0
+        for nodeinstance in tentative_formatoutput(self.roots).items():
+            totalofpixels += nodeinstance[1].amountonhand
         print('hello world from VS Code')
         self.assertEqual(1,1*1)
