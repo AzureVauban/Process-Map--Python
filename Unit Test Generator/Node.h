@@ -87,7 +87,9 @@ namespace NodeUtility
             std::cout << "Green" << std::endl;
             break;
         case orange:
-            std::cout << "Orange" << std::endl;
+            for (auto &character : returnstring){
+                character = tolower(character);
+            }
             break;
         default:
             std::cout << "Default" << std::endl;
