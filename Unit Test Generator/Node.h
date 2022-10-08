@@ -47,7 +47,7 @@ namespace NodeUtility
             input: advanced alloy, output : Advanced Alloy
         green formats string to exclude leading and trailing whitespace
             input:   advanced alloy    , output: advanced alloy
-        orange, formats string to
+        orange, formats string to 
         */
         switch (MODE)
         {
