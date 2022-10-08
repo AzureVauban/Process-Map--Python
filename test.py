@@ -75,6 +75,7 @@ class Issue12(unittest.TestCase):
             totalpercent += floatnum[1]
         # print % into debug console
         for floatnum in floatpercents.items():
-            print(floatnum[1]*100, '%')
+            formatfloat : str = "{:.2f}".format(floatnum[1]*100)
+            print(formatfloat,'%')
         # ? use debug console to see output
         self.assertEqual(totalpercent, 1.00)
