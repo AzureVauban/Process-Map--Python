@@ -1,4 +1,4 @@
-#include "Node.h"
+#include "Node.h" 
 void populate(Node &current);
 void recursivearithmetic(Node &current);
 void generatateunittest();
@@ -9,7 +9,7 @@ int main()
     std::cout << "Name of Linked List:" << std::endl;
     std::string headname = "";
     std::getline(std::cin, headname);
-    auto head = Node(headname);
+    auto head = new Node(headname);
     // modify ofstream object
     generatedunittest << "\"\"\"Tentative Description: " << headname << std::endl
                       << "\"\"\"" << std::endl;
@@ -27,7 +27,7 @@ int main()
 
     // cleanup and terminate process
     generatedunittest.close();
-    //NodeUtility::destroy(head);
+    NodeUtility::destroy(head);
     return 0;
 }
 void populate(Node &current)
