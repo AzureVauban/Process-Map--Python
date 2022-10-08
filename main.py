@@ -319,7 +319,7 @@ def tentative_formatoutput(endpoints : dict) -> dict:
         foundendpoints : dict = endpoints
     # insert elements into dict
     black : list = list(endpoints.items())
-    white : list = list(endpoints)
+    white : list = black
     # bubble check for duplicate node names, make a copy of a dict as a list
     # if a node has the same name, remove the b node and amount resulted/amount on hand (dependent on mode) to the a node
     return foundendpoints
