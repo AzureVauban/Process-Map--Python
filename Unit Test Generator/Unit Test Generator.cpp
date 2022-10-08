@@ -35,6 +35,16 @@ void populate(Node *current)
         }
     } while (not myinput.empty());
     std::cout << "ad\n";
+    //create Nodes
+    for (const auto &child : userinputs)
+    {
+        auto childnode = new Node(child,current);
+    }
+    //continue function recursively
+    for (const auto &childnode : current->children)
+    {
+        populate(childnode);
+    }
 }
 void inverserecursivearithmetic(Node *current)
 {
