@@ -32,11 +32,11 @@ void populate(Node* current)
         std::getline(std::cin, myinput);
         // strip leading and trailing whitespace
         //validate string
-        bool clone = false;
+        bool duplicatedstring = false;
         for (const auto &previousinput : userinputs)
         {
-            clone = previousinput == myinput;
-            if (clone) {
+            duplicatedstring = previousinput == myinput;
+            if (duplicatedstring) {
                 break;
             }
         }
