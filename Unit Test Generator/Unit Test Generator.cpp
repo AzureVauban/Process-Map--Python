@@ -29,12 +29,18 @@ void populate(Node *current)
     //prompt inputs
     do {
         std::getline(std::cin,myinput);
-        if (not myinput.empty())
+        bool duplicatedinput = false;
+        for (const auto &u : userinputs){
+            duplicatedinput = u == myinput;
+        }
+        if (duplicatedinput){
+            std::cout << "You already typed something else" << std::endl;
+        }
+        else if (not myinput.empty())
         {
             userinputs.emplace_back(myinput);
         }
     } while (not myinput.empty());
-    std::cout << "ad\n";
     //create Nodes
     for (const auto &child : userinputs)
     {
