@@ -11,7 +11,7 @@ int main()
     // modify ofstream object
     generatedunittest << "\"\"\"Tentative Description: " << headname << std::endl
                       << "\"\"\"" << std::endl;
-    NodeUtility::create::testclass(headoflinkedlist,generatedunittest); // error on this line
+    NodeUtility::create::testclass(headoflinkedlist,generatedunittest); // error on this line has been resolved by passing the ofstream by refrence
     /* Complier Error
     C:/msys64/mingw64/include/c++/12.1.0/fstream:853:7: note: declared here
     853 |       basic_ofstream(const basic_ofstream&) = delete;
@@ -27,5 +27,5 @@ int main()
 }
 void populate(Node &current)
 {
-    
+
 }
