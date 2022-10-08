@@ -82,6 +82,7 @@ namespace NodeUtility
         {
             // todo add code
         }
+        // todo create function for outputitng test method declaration
         // todo create function for outtputting docstring for method
         void method_doc(const Node &green, std::ofstream tentativename)
         {
@@ -92,13 +93,12 @@ namespace NodeUtility
         {
             // todo add code
         }
-
-        // todo create function for outputitng test method declaration
         void method(const Node &yellow, MODE type, std::ofstream pymodule)
         {
             // todo add code
             method_doc(yellow,pymodule);
         }
+
         // todo create function for creating variable declarations
         void declaration(const Node &orange, std::ofstream pymodule)
         {
