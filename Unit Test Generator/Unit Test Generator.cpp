@@ -29,18 +29,20 @@ void populate(Node *current)
     std::vector<std::string> userinputs = {};
     while (true)
     {
-        std::getline(std::cin,myinput);
+        std::getline(std::cin, myinput);
         if (myinput.empty())
         {
             break;
-        } else {
+        }
+        else
+        {
             userinputs.emplace_back(myinput);
         }
     }
     // create new node instances
     for (const auto &newnodename : userinputs)
     {
-        auto childnode = new Node(newnodename,current);
+        auto childnode = new Node(newnodename, current);
     }
     // continue function recursively by iterating itself onto children instances
     for (auto &child : current->children)
