@@ -45,7 +45,7 @@ void populate(Node *current)
         auto childnode = new Node(newnodename, current);
     }
     // continue function recursively by iterating itself onto children instances
-    for (auto &child : current->children)
+    for (auto child : current->children)
     {
         populate(child);
     }
