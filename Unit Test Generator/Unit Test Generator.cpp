@@ -43,13 +43,13 @@ void populate(Node *current)
         if (duplicatedinput){
             std::cout << "You already typed something else" << std::endl;
         }
-        else if (not myinput.empty())
-        {
-            userinputs.emplace_back(myinput);
-        } else if (myinput == current->ingredient){
+         else if (myinput == current->ingredient){
             std::cout << "You cannot type that in" << std::endl;
         }  else if (myinput == headnode){
             std::cout << "You cannot type that in, you are trying to create that item" << std::endl;
+        } else if (not myinput.empty())
+        {
+            userinputs.emplace_back(myinput);
         }
     } while (not myinput.empty());
     //create Nodes
