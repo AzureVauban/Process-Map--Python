@@ -33,7 +33,7 @@ struct Node : public SimpleData
 
 namespace NodeUtility
 {
-   
+
     // include functions that are needed to be used with the Node class here here
     enum format
     {
@@ -75,37 +75,38 @@ namespace NodeUtility
         return Nani.ingredient;
     }
     // create function to delete all node pointers
-    void destroy(Node* parent)
+    void destroy(Node *parent)
     {
-        // todo add code 
+        // todo add code
     }
     // todo create function to get assert values for test methods
     namespace create
     {
-        namespace docstring {
+        namespace docstring
+        {
 
-        // todo create function for outputting docstring for class
-        void testclass(const Node &blue, std::ofstream &pymodule)
-        {
-            // todo add code
-        }
-        // todo create function for outputitng test method declaration
-        // todo create function for outtputting docstring for method
-        void method(const Node &green, std::ofstream &pymodule)
-        {
-            // todo add code
-        }
-        // todo create function for outtputting test class to output .py file
+            // todo create function for outputting docstring for class
+            void testclass(const Node &blue, std::ofstream &pymodule)
+            {
+                // todo add code
+            }
+            // todo create function for outtputting docstring for method
+            void method(const Node &green, std::ofstream &pymodule)
+            {
+                // todo add code
+            }
+            // todo create function for outtputting test class to output .py file
         }
         void testclass(const Node &purple, std::ofstream &pymodule)
         {
             // todo add code
-            docstring::testclass(purple,pymodule);
+            docstring::testclass(purple, pymodule);
         }
+        // todo create function for outputitng test method declaration of definition
         void method(const Node &yellow, MODE type, std::ofstream &pymodule)
         {
             // todo add code
-            docstring::method(yellow,pymodule);
+            docstring::method(yellow, pymodule);
         }
 
         // todo create function for creating variable declarations
