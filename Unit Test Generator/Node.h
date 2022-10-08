@@ -17,7 +17,7 @@ namespace NodeUtility
         1, formats string to be utilized in math asseration method declaration
             input : advanced alloy, output : advancedalloyN
             where N is a number used to help make the declaration unique in the event there are multple instances
-                the same 
+                the same ingredient name
         2, formats string to be utilized in docstring of math asseration method
             input : advanced alloy, output : Advanced Alloy
         */
