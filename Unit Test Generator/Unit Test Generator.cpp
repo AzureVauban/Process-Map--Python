@@ -74,7 +74,7 @@ void populate(Node *current)
         populate(childnode);
     }
 }
-long long int inverserecursivearithmetic(Node *current, long long int desiredamount = 0)
+long long int inverserecursivearithmetic(Node *current, const long long int desiredamount = 0)
 {
     std::cout << "SETTING ASSERT VALUE FOR " << current->ingredient << std::endl;
     current->amountresulted = desiredamount;
