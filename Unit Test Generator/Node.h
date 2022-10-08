@@ -110,7 +110,7 @@ namespace NodeUtility
             // todo create function for outtputting docstring for method
             void method(const Node &green, std::ofstream &pymodule)
             {
-                pymodule << "Writing Docstring for " << parsestringformat(green) << " test method" << std::endl;
+                std::cout << "Writing Docstring for " << parsestringformat(green) << " test method" << std::endl;
                 // todo add code
             }
             // todo create function for outtputting test class to output .py file
