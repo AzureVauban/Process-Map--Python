@@ -11,7 +11,7 @@ int main()
     std::cout << "Name of Linked List:" << std::endl;
     std::string headname = "";
     std::getline(std::cin, headname);
-    Node* head;
+    auto head = new Node(headname,nullptr);
     // prompt ingredient
     populate(head);
     // set assert values
@@ -23,32 +23,7 @@ int main()
 }
 void populate(Node *current)
 {
-    std::cout << "What ingredients do you need to create " << current->ingredient << ":" << std::endl;
-    // create input loop
-    std::string myinput = "";
-    std::vector<std::string> userinputs = {};
-    while (true)
-    {
-        std::getline(std::cin, myinput);
-        if (myinput.empty())
-        {
-            break;
-        }
-        else
-        {
-            userinputs.emplace_back(myinput);
-        }
-    }
-    // create new node instances
-    for (auto &newnodename : userinputs)
-    {
-        auto childnode = new Node(newnodename, current);
-    }
-    // continue function recursively by iterating itself onto children instances
-    for (auto child : current->children)
-    {
-        populate(child);
-    }
+    std::cout << "What do you need to create " << current->ingredient << ":" << std::endl;
 }
 void inverserecursivearithmetic(Node *current)
 {
