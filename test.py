@@ -55,9 +55,9 @@ class Issue12(unittest.TestCase):
         #! temp : list = list(tentative_formatoutput(self.roots).items()) save this for later, creates a list of the the instancekey and the node tuple
         totalofpixels : int = 0
         endpointnodes : dict = tentative_formatoutput(self.roots)
-        for nodeinstance in tentative_formatoutput(self.roots).items():
+        # find total amount of an item
+        for nodeinstance in endpointnodes.items():
             totalofpixels += nodeinstance[1].amountonhand
         floatpercents : dict = {}
-        
         print('hello world from VS Code')
         self.assertEqual(1,1*1)
