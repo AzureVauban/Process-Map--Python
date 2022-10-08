@@ -43,7 +43,7 @@ namespace NodeUtility
             filename = file;
             filename.append(fileextenstion);
         }
-        std::ofstream returnfile()
+        virtual std::ofstream returnfile()
         {
             return std::ofstream(filename);
         }
@@ -104,11 +104,11 @@ namespace NodeUtility
             // todo add code
         }
         // todo create function for outtputting test class to output .py file
-        void testclass(const Node &purple, std::ofstream &pymodule)
+        void testclass(const Node &purple, outputfile foobaz)
         {
             // todo add code
-            pymodule.open();
-            pymodule.close();
+            foobaz.returnfile().close();
+
         }
         void method(const Node &yellow, MODE type, std::ofstream pymodule)
         {
