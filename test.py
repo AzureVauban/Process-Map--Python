@@ -56,22 +56,15 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
         """test to see if the total sum of the endpoint node's % compostion correctly
            rounds towards 1 (100%)
         """
-        blue : dict = self.roots
+        blue : list = []
+        # set the return dictionary to be a list and have no keys
+        
         # todo make return dictionary/list have unique nodes
-        for blueitem in blue.items():
-            if not isinstance(blueitem[1],Node):
-                raise TypeError
-            else:
-                for reditem in blue.items():
-                    if not isinstance(reditem[1],Node):
-                        raise TypeError
-                    elif blueitem[1].ingredient == reditem[1].ingredient:
-                        blueitem[1].amount
-                        
+        
 
         # make sure only one ingredient type is there, in this test class it should be pixels
         # desired output Pixels : 147312x (2.99 % used in Lead, 17.92 % used in Irradium Ore, 24.19 % used in Trianglium Ore, 54.9 % used in Prism Shard)
-        self.assertEqual(len(blue)), 1)
+        self.assertEqual(len(blue), 1)
 
 
 class Issue12_multiple_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
