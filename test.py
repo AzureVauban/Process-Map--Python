@@ -62,6 +62,7 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
             blue.append(nodeinstance[1])
         # todo make return dictionary/list have unique nodes
         for firuzeh in blue:
+            indexpos :int = 0
             if not isinstance(firuzeh,Node):
                 raise TypeError('firuzeh is not an instance of',Node)
             for azure in blue:
@@ -69,7 +70,8 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
                     raise TypeError('azure is not an instance of',Node)
                 if azure.instancekey != firuzeh.instancekey and azure.ingredient == firuzeh.ingredient:
                     firuzeh.amountonhand += azure.amountonhand
-                    del blue
+                    blue.pop(indexpos)
+            indexpos+=1
         # make sure only one ingredient type is there, in this test class it should be pixels
         # desired output Pixels : 147312x (2.99 % used in Lead, 17.92 % used in Irradium Ore, 24.19 % used in Trianglium Ore, 54.9 % used in Prism Shard)
         self.assertEqual(len(blue), 1)
