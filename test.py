@@ -58,6 +58,9 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
         """
         blue: list = []
         red : dict = {} #? {itemname,list [amountonhand of each endpoint]}
+        # set the secondary dict
+        for crimson in self.roots.items():
+            red.update({crimson[1].ingredient:[crimson[1].amountonhand]})
         # set the return dictionary to be a list and have no keys
         for nodeinstance in self.roots.items():
             blue.append(nodeinstance[1])
@@ -73,7 +76,10 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
                     firuzeh.amountonhand += azure.amountonhand
                     blue.pop(indexpos)
                     #check to see if the dictionary has the item inputted, if it is, update the list witin the dictionary
-                    
+                    isstored: bool = False
+                    for tentative in red.items():
+                        if not isinstance(tentative[1],list):
+                            raise TypeError('the dictionary is supposed to store an instance of',list,'not an instance of',type(tentative[1]))
             indexpos += 1
         # make sure only one ingredient type is there, in this test class it should be pixels
         # desired output Pixels : 147312x (2.99 % used in Lead, 17.92 % used in Irradium Ore, 24.19 % used in Trianglium Ore, 54.9 % used in Prism Shard)
