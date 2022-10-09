@@ -54,50 +54,11 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
 
     def test_temptest(self):
         """test to see if the total sum of the endpoint node's % compostion correctly
-        rounds towards 1 (100%)
+           rounds towards 1 (100%)
         """
-        tentative_formatoutput(self.roots)
-        #! temp : list = list(tentative_formatoutput(self.roots).items()) save this for later, creates a list of the the instancekey and the node tuple
-        totalofpixels: int = 0
-        endpointnodes: dict = tentative_formatoutput(self.roots)
-        floatpercents: dict = {}
-        #! totalpercent: float = 0.00 only used for testing, remove later
-        # find total amount of an item
-        for nodeinstance in endpointnodes.items():
-            totalofpixels += nodeinstance[1].amountonhand
-        # find the % composition of the total
-        for nodeinstance in endpointnodes.items():
-            if isinstance(nodeinstance[1], Node):
-                floatpercents.update(
-                    {nodeinstance[1].instancekey: nodeinstance[1].amountonhand/totalofpixels})
-            else:
-                raise TypeError('not an instance of', Node)
-        # check to see if the total of the % rounds to 1.00
-        #! for floatnum in floatpercents.items():
-        #!     totalpercent += floatnum[1]
-        # print % into debug console
-        print('total # of pixels', totalofpixels, end='x\n')
-        for floatnum in floatpercents.items():
-            print(round(floatnum[1]*100, 2), '%')
-        # ? use debug console to see output
-        # remove duplicates
-        # boolean for removing the duplicate endpoint to make the endpoint dictionary have only unique endpoints (based on item name)
-        mergeclone: bool = False
-        for blue in endpointnodes.items():
-            if not isinstance(blue, Node):
-                raise TypeError('child node is not an instance of', Node)
-            else:
-                for red in endpointnodes.items():
-                    if not isinstance(blue, Node):
-                        raise TypeError(
-                            'child node is not an instance of', Node)
-                    else:
-                        mergeclone = blue[1].ingredient == red[1].ingredient
-                        if mergeclone:
-                            blue[1].amountonhand += red[1].ingredient
-                            # remove the current instance of red the endpoints dictionary
+        uniqueendpoints : dict = self.roots
         # desired output Pixels : 147312x (2.99 % used in Lead, 17.92 % used in Irradium Ore, 24.19 % used in Trianglium Ore, 54.9 % used in Prism Shard)
-        self.assertEqual(len(endpointnodes), 1)
+        self.assertEqual(len(uniqueendpoints), 1)
 
 
 class Issue12_multiple_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
