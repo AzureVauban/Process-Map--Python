@@ -65,7 +65,8 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
                 for reditem in blue.items():
                     if not isinstance(reditem[1],Node):
                         raise TypeError
-                    else:
+                    elif blueitem[1].ingredient == reditem[1].ingredient:
+                        blueitem[1].amount
                         
 
         # make sure only one ingredient type is there, in this test class it should be pixels
