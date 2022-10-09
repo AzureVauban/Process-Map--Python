@@ -60,6 +60,7 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
         red : dict = {} #? {itemname,list [amountonhand of each endpoint]}
         # set the secondary dict
         for crimson in self.roots.items():
+            ispresent : bool = crimson[1].ingredi
             red.update({crimson[1].ingredient:[crimson[1].amountonhand]})
         # set the return dictionary to be a list and have no keys
         for nodeinstance in self.roots.items():
