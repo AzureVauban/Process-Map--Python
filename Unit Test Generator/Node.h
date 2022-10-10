@@ -42,7 +42,8 @@ namespace format
     {
         defaulttype = 0,
         docstring = 1,
-        classname = 2
+        classname = 2,
+        method = 3
     };
     // todo add funnctions for formatting here
     std::string formatstring(const std::string basestring, const formattype type = defaulttype)
@@ -129,7 +130,7 @@ namespace write
         }
         */
         tabbing(module,1);
-        module << "def test_" << format::
+        module << "def test_" << format::formatstring(object->ingredient,format::method);
     }
     void tree_declaration(std::ofstream &module, const Node *object)
     {
