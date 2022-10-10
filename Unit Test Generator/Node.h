@@ -43,7 +43,8 @@ namespace format
         defaulttype = 0,
         docstring = 1,
         classname = 2,
-        method = 3
+        method = 3,
+        declaration = 4
     };
     // todo add funnctions for formatting here
     std::string formatstring(const std::string basestring, const formattype type = defaulttype)
@@ -115,8 +116,9 @@ namespace write
             tabbing(tentativename,2);
             tentativename << docstringprefix << "assert that "<<tentativename_object->ingredient << " is equal to " << tentativename_object->amountonhand << std::endl;
             tabbing(tentativename,2);
-            tentativename << std:endl;
-            
+            tentativename << std::endl;
+            tabbing(tentativename,2);
+            tentativename << "self.assertEqual("<<  format::formatstring(tentativename_object->ingredient,format::declaration) << std::endl;
         }
     }
     void declaration(std::ofstream &module, const Node *object)
