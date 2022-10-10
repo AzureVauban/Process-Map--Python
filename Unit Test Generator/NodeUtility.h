@@ -1,12 +1,13 @@
 #pragma once
 #include <iostream>
 #include <string>
+#include <cmath>
 #include <vector>
 #include <fstream>
 #include <algorithm>
 namespace NodeUtility
 {
-    
+
     struct Node
     {
         //! using namespace NodeUtility;
@@ -14,7 +15,7 @@ namespace NodeUtility
         long long int amountonhand, amountneeded, amountmadepercraft, amountresulted;
         Node *parent;
         std::vector<Node *> children;
-        Node(std::string name = "", Node *par = nullptr, long long int A = 0, long long int B = 1, long long int C = 1)
+        Node(std::string name = "", Node *par = nullptr, long long int amount_on_hand = 0, long long int amount_parent_madepercraft = 1, long long int amount_needed = 1)
         {
             ingredient = name;
             parent = par;
@@ -22,16 +23,28 @@ namespace NodeUtility
             {
                 parent->children.emplace_back(this);
             }
-            amountonhand = A;
-            amountmadepercraft = B;
-            amountneeded = C;
+            amountonhand = amount_on_hand;
+            amountmadepercraft = amount_parent_madepercraft;
+            amountneeded = amount_needed;
         }
         ~Node()
         {
             std::cout << "DEALLOCATING " << ingredient << " : " << this << std::endl;
         }
     };
-
+    // set the amount on hand to the desired amount/assertvalue
+    long long int setassertvalues(Node *object, const long long int desiredamount = 0)
+    {
+        object->amountresulted = desiredamount;
+        const float ratio = 1 / (object->amountmadepercraft / object->amountneeded);
+        object->amountonhand = round(object->amountresulted * ratio);
+        for (auto child : object->children)
+        {
+            setassertvalues(child, object->amountonhand);
+        }
+        std::cout << "FINISH SETTING ASSERT VALUE FOR " << object->ingredient << std::endl;
+        return object->amountonhand;
+    }
 }
 
 void massdelete(NodeUtility::Node *obj)
@@ -135,7 +148,7 @@ namespace write
         {
             // docstring for test method
             tabbing(module, 2);
-            module << docstringprefix << "assert that " << object->ingredient<< " is equal to " << object->amountonhand << std::endl;
+            module << docstringprefix << "assert that " << object->ingredient << " is equal to " << object->amountonhand << std::endl;
             tabbing(module, 2);
             module << docstringprefix;
             module << std::endl;
