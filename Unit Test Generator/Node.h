@@ -120,7 +120,16 @@ namespace write
     }
     void method(std::ofstream &module, const Node *object)
     {
+        //todo finish
+        /*
         std::string parentstring = "None";
+        if (object->parent)
+        {
+            parentstring = format::formatstring(object->parent->ingredient);
+        }
+        */
+        tabbing(module,1);
+        module << "def test_" << format::
     }
     void tree_declaration(std::ofstream &module, const Node *object)
     {
@@ -132,6 +141,7 @@ namespace write
     }
     void tree_method(std::ofstream &module, const Node *object)
     {
+        //todo finish 
     }
     void createclass(std::ofstream &module, Node *object)
     {
