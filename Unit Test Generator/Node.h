@@ -168,7 +168,7 @@ namespace NodeUtility
             pymodule << "def " << "test_" << parsestringformat(nodeobject,white) << "_amountresulted():" << std::endl;
             docstring::method(nodeobject, pymodule);
             tabbing(pymodule,1);
-            pymodule << "self."
+            pymodule << "self.assertGreaterEqual(self."<<parsestringformat(nodeobject,white)<<",0)" << std::endl << std::endl;;
         }
 
         // todo create function for creating variable declarations
@@ -177,12 +177,16 @@ namespace NodeUtility
             // todo add code
         }
     }
+    // create functon for traversing through the linked list tree to make a declaration for each Node
+    void masscreate_variables(const Node* nodeobject, std::ofstream &pymodule){
+        
+    }
     // create functon for traversing through the linked list tree to make a test method for each Node
-    void traversetree(const Node* nodeobject, std::ofstream &outputfile)
+    void masscreate_methods(const Node* nodeobject, std::ofstream &outputfile)
     {
         create::method(nodeobject,outputfile);
         for (const auto child : nodeobject->children){
-            traversetree(nodeobject,outputfile);
+            masscreate_methods(nodeobject,outputfile);
         }
     }
     // create function for generating the unit test file
@@ -201,7 +205,7 @@ namespace NodeUtility
         //  generate unit test class
         NodeUtility::create::testclass(head, outputfile);
         // generate unit test methods
-        traversetree(head,outputfile);
+        masscreate_methods(head,outputfile);
         
         // final newline
         outputfile << std::endl;
