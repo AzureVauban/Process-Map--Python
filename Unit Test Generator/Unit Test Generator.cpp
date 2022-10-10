@@ -69,7 +69,7 @@ void populate(Node *current)
         auto childnode = new Node(child, current);
     }
     // continue function recursively
-    for (const auto &childnode : current->children)
+    for (const auto childnode : current->children)
     {
         populate(childnode);
     }

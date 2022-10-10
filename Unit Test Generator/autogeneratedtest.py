@@ -6,15841 +6,10627 @@ import unittest
 import random
 
 from main import (Node, findlocalendpoints, reversearithmetic, tentative_formatoutput)
-class test_morphite():
-	"""Writing Docstring for morphite mock ingredient tree testing
+class test_a():
+	"""Writing Docstring for a mock ingredient tree testing
 	"""
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
+	def test_a_amountresulted():
+				self.assertGreaterEqual(self.a,0)
 
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
-				self.assertGreaterEqual(self.morphite,0)
-
-	def test_morphite_amountresulted():
+	def test_a_amountresulted():

@@ -23,15 +23,15 @@ struct Node : public SimpleData
 {
     Node *parent;
     std::vector<Node *> children = {};
-    Node(std::string I2 = "", Node *parentinstance = nullptr, long long int A2 = 0, long long int B2 = 1, long long int C2 = 1)
+    Node(std::string I2 = "", Node *par = nullptr, long long int A2 = 0, long long int B2 = 1, long long int C2 = 1)
     {
-        children = {};
+        children.clear();
         std::cout << "ALLOCATING " << I2 << " : " << this << std::endl;
         ingredient = I2;
         amountonhand = A2;
         amountmadepercraft = B2;
         amountneeded = C2;
-        parent = parentinstance;
+        parent = par;
         if (parent)
         {
             parent->children.emplace_back(this);
@@ -127,14 +127,14 @@ namespace NodeUtility
             {
                 tabbing(pymodule, 1);
                 pymodule << docstringprefix;
-                pymodule << "Writing Docstring for " << parsestringformat(nodeobject) << " mock ingredient tree testing"<<std::endl;
+                pymodule << "Writing Docstring for " << parsestringformat(nodeobject) << " mock ingredient tree testing" << std::endl;
                 tabbing(pymodule, 1);
                 pymodule << docstringprefix << std::endl;
             }
             // todo create function for outtputting docstring for method
             void method(const Node *nodeobject, std::ofstream &pymodule)
             {
-                tabbing(pymodule,2);
+                tabbing(pymodule, 2);
                 std::cout << "Writing Docstring for " << parsestringformat(nodeobject, orange) << " test method" << std::endl;
                 // todo add code
             }
@@ -153,50 +153,59 @@ namespace NodeUtility
         void testclass(const Node *nodeobject, std::ofstream &pymodule)
         {
             // todo add code
-            pymodule << "class test_" << parsestringformat(nodeobject, orange) << "():"<< std::endl;
+            pymodule << "class test_" << parsestringformat(nodeobject, orange) << "():" << std::endl;
             docstring::testclass(nodeobject, pymodule);
         }
         // todo create function for outputitng test method declaration of definition
         void method(const Node *nodeobject, std::ofstream &pymodule)
         {
             // todo add code
-            tabbing(pymodule,1);
-            pymodule << "def " << "test_" << parsestringformat(nodeobject,white) << "_amountresulted():" << std::endl;
+            tabbing(pymodule, 1);
+            pymodule << "def "
+                     << "test_" << parsestringformat(nodeobject, white) << "_amountresulted():" << std::endl;
             docstring::method(nodeobject, pymodule);
-            tabbing(pymodule,2);
-            pymodule << "self.assertGreaterEqual(self."<<parsestringformat(nodeobject,white)<<",0)" << std::endl << std::endl;;
+            tabbing(pymodule, 2);
+            pymodule << "self.assertGreaterEqual(self." << parsestringformat(nodeobject, white) << ",0)" << std::endl
+                     << std::endl;
+            ;
         }
 
         // todo create function for creating variable declarations
         void declaration(const Node *nodeobject, std::ofstream &pymodule)
         {
             std::string parentnodename = "None";
-            if (nodeobject->parent){
-                parentnodename = parsestringformat(nodeobject->parent,white);
+            if (nodeobject->parent)
+            {
+                parentnodename = parsestringformat(nodeobject->parent, white);
             }
             // todo add code
-            tabbing(pymodule,1);
-            pymodule << parsestringformat(nodeobject,white) << ": Node = Node('" << nodeobject->ingredient << "',"<<parentnodename << ", " << 0 <<", " << nodeobject->amountmadepercraft << ", " << nodeobject->amountneeded << ")" << std::endl;
+            tabbing(pymodule, 1);
+            pymodule << parsestringformat(nodeobject, white) << ": Node = Node('" << nodeobject->ingredient << "'," << parentnodename << ", " << 0 << ", " << nodeobject->amountmadepercraft << ", " << nodeobject->amountneeded << ")" << std::endl;
         }
     }
     // create functon for traversing through the linked list tree to make a declaration for each Node
-    void masscreate_variables(const Node* nodeobject, std::ofstream &pymodule){
-        std::cout << "WRITTING " << nodeobject->ingredient << " ONTO FILE" <<std::endl;
-        NodeUtility::create::declaration(nodeobject,pymodule);
-        if (not nodeobject->children.empty()){
-        for (const auto child : nodeobject->children){
-            masscreate_variables(nodeobject,pymodule);
-        }
+    void masscreate_variables(const Node *nodeobject, std::ofstream &pymodule)
+    {
+        std::cout << "WRITTING " << nodeobject->ingredient << " ONTO FILE" << std::endl;
+        NodeUtility::create::declaration(nodeobject, pymodule);
+        if (not nodeobject->children.empty())
+        {
+            for (const auto child : nodeobject->children)
+            {
+                masscreate_variables(nodeobject, pymodule);
+            }
         }
     }
     // create functon for traversing through the linked list tree to make a test method for each Node
-    void masscreate_methods(const Node* nodeobject, std::ofstream &pymodule)
+    void masscreate_methods(const Node *nodeobject, std::ofstream &pymodule)
     {
-        create::method(nodeobject,pymodule);
-        if (not nodeobject->children.empty()){
-        for (const auto child : nodeobject->children){
-            masscreate_methods(nodeobject,pymodule);
-        }
+        create::method(nodeobject, pymodule);
+        if (not nodeobject->children.empty())
+        {
+            for (const auto child : nodeobject->children)
+            {
+                masscreate_methods(nodeobject, pymodule);
+            }
         }
     }
     // create function for generating the unit test file
@@ -215,8 +224,8 @@ namespace NodeUtility
         //  generate unit test class
         NodeUtility::create::testclass(head, outputfile);
         // generate unit test methods
-        masscreate_methods(head,outputfile);
-        
+        masscreate_methods(head, outputfile);
+
         // final newline
         outputfile << std::endl;
         // close file
