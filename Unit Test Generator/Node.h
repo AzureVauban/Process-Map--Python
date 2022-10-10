@@ -3,6 +3,7 @@
 #include <string>
 #include <vector>
 #include <fstream>
+const std::string docstringprefix = "\"\"\"";
 enum MODE
 {
     red = 0,
@@ -44,7 +45,6 @@ struct Node : public SimpleData
 
 namespace NodeUtility
 {
-
     // include functions that are needed to be used with the Node class here here
     enum format
     {
@@ -130,7 +130,10 @@ namespace NodeUtility
             void testclass(const Node *nodeobject, std::ofstream &pymodule)
             {
                 tabbing(pymodule, 1);
+                pymodule << docstringprefix;
                 pymodule << "Writing Docstring for " << parsestringformat(nodeobject) << std::endl;
+                tabbing(pymodule, 1);
+                pymodule << docstringprefix << std::endl;
             }
             // todo create function for outtputting docstring for method
             void method(const Node *nodeobject, std::ofstream &pymodule)
@@ -168,6 +171,11 @@ namespace NodeUtility
         {
             // todo add code
         }
+    }
+    // create functon for traversing through the linked list tree to make a test method for each Node
+    void traversetree(const Node& nodeobject, std::ofstream &outputfile)
+    {
+        
     }
     // create function for generating the unit test file
     void generatateunittest(Node *head, std::ofstream &outputfile)
