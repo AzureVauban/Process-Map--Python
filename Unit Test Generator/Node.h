@@ -101,8 +101,12 @@ namespace write
                           << std::endl;
             tentativename << "from main import Node" << std::endl;
         }
-        void classdoc(std::ofstream &tentativename){
-            tabbing(tentativename,1);
+        void classdoc(std::ofstream &tentativename)
+        {
+            tabbing(tentativename, 1);
+            tentativename << docstringprefix << "tentative test class, add additional comments here: " << std::endl;
+            tabbing(tentativename, 1);
+            tentativename << docstringprefix << std::endl;
         }
     }
     void declaration(std::ofstream &module, const Node *object)
@@ -129,7 +133,8 @@ namespace write
         {
             temp = temp->parent;
         }
-        module << "class " << format::formatstring(temp->ingredient, format::classname) << "_" << temp << "(unittest.TestCase):" << std::endl;
+        module << "class " << format::formatstring(temp->ingredient, format::classname) << "_unittest"<< "(unittest.TestCase): #pylint:disable" << std::endl;
+        docstring::classdoc(module);
         // call docstring function for class
     }
 }

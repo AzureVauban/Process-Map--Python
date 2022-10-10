@@ -20,6 +20,7 @@ int main()
     output << std::endl;
     // create variable declarations
     write::tree_declaration(output,head);
+    output << std::endl;
     // create test class
     write::createclass(output,head);
     // clean up allocated memory from tree
