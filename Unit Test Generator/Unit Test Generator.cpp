@@ -3,13 +3,16 @@
 #include "Node.h"
 int main()
 {
-    //prompt the name of the head most ingredient
-    std::cout << "Step 1" << std::endl;
-    //prompt subingredients
-    std::cout << "Step 2" << std::endl;
-    //create and write into file
-    std::cout << "Step 3" << std::endl;
-    //clean up allocated memory from tree
-    std::cout << "Step 4" << std::endl;
-    //terminate process
+    // prompt the name of the head most ingredient
+
+    // prompt subingredients
+
+    // create and write into file
+
+    // clean up allocated memory from tree
+    auto test = "Visual Studio Code";
+    std::cout << test << std::endl;
+    std::cout << format::formatstring(test) << std::endl;
+    // terminate process
+    return 0;
 }
