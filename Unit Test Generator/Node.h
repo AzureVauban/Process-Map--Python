@@ -110,7 +110,7 @@ namespace write
             tabbing(tentativename, 1);
             tentativename << docstringprefix << std::endl;
         }
-        void method(std::ofstream &tentativename,Node* tentativename_object)
+        void method(std::ofstream &tentativename,const Node* tentativename_object)
         {
             //docstring for test method
             tabbing(tentativename,2);
@@ -142,7 +142,8 @@ namespace write
         */
         tabbing(module,1);
         module << "def test_" << format::formatstring(object->ingredient,format::method) << "(self):" << std::endl;
-        module << write::docstring::method(module,object
+        tabbing(module,2);
+        write::docstring::method(module,object);
     }
     void tree_declaration(std::ofstream &module, const Node *object)
     {
