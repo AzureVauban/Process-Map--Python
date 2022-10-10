@@ -4,9 +4,40 @@
 #include <vector>
 #include <fstream>
 #include <algorithm>
+namespace NodeUtility
+{
+class nodestring : public std::string
+{ // nodestring with built in string modifications
+    std::string derivedstring;
+
+public:
+    nodestring(const std::string basestring)
+    {
+        derivedstring = basestring;
+    }
+
+public:
+    // return private member, unmodified string
+    virtual std::string base()
+    {
+        return derivedstring;
+    }
+    // return string used in the declaration of a node
+    virtual std::string variable_declaration() //? also used in test method declaration
+    {
+        //todo add code
+    }
+    //return string used in test class declaration (all UPPERCASE with "testclass_" prepended to it)
+    virtual std::string class_declaration()
+    {
+        std::string returnstring = derivedstring;
+        std::remove(returnstring.begin(), returnstring.end(), ' ');
+        return returnstring;
+    }
+};
 struct Node
 {
-    std::string ingredient = "";
+    nodestring ingredient(" ");
     long long int amountonhand, amountneeded, amountmadepercraft, amountresulted;
     Node *parent;
     std::vector<Node *> children;
@@ -27,35 +58,10 @@ struct Node
         std::cout << "DEALLOCATING " << ingredient << " : " << this << std::endl;
     }
 };
-class nodestring : public std::string
-{ // nodestring with built in string modifications
-    std::string derivedstring;
 
-public:
-    nodestring(const std::string basestring)
-    {
-        derivedstring = basestring;
-    }
+}
 
-public:
-    // return private member, unmodified string
-    virtual std::string base()
-    {
-        return derivedstring;
-    }
-    // return string used in the declaration of a node
-    virtual std::string variable_declaration()
-    {
-        //todo add code
-    }
-    //return string used in test class declaration (all UPPERCASE with "testclass_" prepended to it)
-    virtual std::string class_declaration()
-    {
-        
-    }
-};
-
-void massdelete(Node *obj)
+void massdelete(NodeUtility::Node *obj)
 {
     for (auto child : obj->children)
     {
@@ -64,7 +70,7 @@ void massdelete(Node *obj)
     delete obj;
 }
 // functions for writting and creating the unit test module
-namespace format
+namespace format //todo modify these functions in a string subclass
 {
     enum formattype
     {
@@ -119,6 +125,7 @@ namespace format
 }
 namespace write
 {
+    using namespace NodeUtility;
     const std::string docstringprefix = "\"\"\"";
     // create functions for writing onto ostream object here
     void tabbing(std::ofstream &module, const int tablevel = 1)
