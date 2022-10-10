@@ -11,10 +11,10 @@ int main()
     using namespace NodeUtility;
     // prompt the name of the head most ingredient
     auto blockofnetherite = new Node("Block of Netherite");
-    auto netheriteingot = new Node("Netherite Ingot", blockofnetherite,0,1,9);
-    auto goldingot = new Node("Gold Ingot", netheriteingot,0,1,4);
-    auto netheritescrap = new Node("Netherite Scrap", netheriteingot,1,1,4);
-    auto emerald = new Node("Emerald", netheritescrap,0,1,34);
+    auto netheriteingot = new Node("Netherite Ingot", blockofnetherite, 0, 1, 9);
+    auto goldingot = new Node("Gold Ingot", netheriteingot, 0, 1, 4);
+    auto netheritescrap = new Node("Netherite Scrap", netheriteingot, 1, 1, 4);
+    auto emerald = new Node("Emerald", netheritescrap, 0, 1, 34);
     Node tentativetest("head", nullptr);
     // prompt subingredients
     //  populate(tentativetest);
@@ -22,7 +22,7 @@ int main()
     // todo create function that determines if an input has been repeated somewhere else and append a number the name to make it unique
     //  create docstring
     // set assert values - do arithmetic
-    NodeUtility::setassertvalues(blockofnetherite,64);
+    NodeUtility::setassertvalues(blockofnetherite, 64);
     write::docstring::module(output);
     output << std::endl;
     // create variable declarations
