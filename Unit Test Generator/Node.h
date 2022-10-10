@@ -25,6 +25,7 @@ struct Node : public SimpleData
     std::vector<Node *> children = {};
     Node(std::string I2 = "", Node *parentinstance = nullptr, long long int A2 = 0, long long int B2 = 1, long long int C2 = 1)
     {
+        children = {};
         std::cout << "ALLOCATING " << I2 << " : " << this << std::endl;
         ingredient = I2;
         amountonhand = A2;
