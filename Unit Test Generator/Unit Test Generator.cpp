@@ -5,7 +5,7 @@ std::ofstream output("generatedUnitTest.py");
 int main()
 {
     // prompt the name of the head most ingredient
-    auto head = new Node("Head Node");
+    auto head = new Node("Test");
     auto bodyA = new Node("Body A", head);
     auto bodyB = new Node("Body B", bodyA);
     auto bodyC = new Node("Body C", bodyB);
@@ -20,7 +20,7 @@ int main()
     output << std::endl;
     // create variable declarations
     write::tree_declaration(output,head);
-    output << std::endl;
+    output << std::endl << std::endl;
     // create test class
     write::createclass(output,head);
     // clean up allocated memory from tree
