@@ -5,7 +5,7 @@ std::ofstream output("generatedUnitTest.py");
 int main()
 {
     // prompt the name of the head most ingredient
-    auto head = new Node("Test");
+    auto head = new Node("Head");
     auto bodyA = new Node("Body A", head);
     auto bodyB = new Node("Body B", bodyA);
     auto bodyC = new Node("Body C", bodyB);
