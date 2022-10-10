@@ -11,7 +11,7 @@ Body_C: Node = Node('Body C', Body_B, 0, 1, 1)
 Body_D: Node = Node('Body D', Body_C, 0, 1, 1)
 
 
-class Head_unittest(unittest.TestCase): #pylint:disable
+class Head_unittest(unittest.TestCase): #pylint:disable=C0103
 	"""tentative test class, add additional comments here: 
 	"""
 

@@ -171,7 +171,7 @@ namespace write
             temp = temp->parent;
         }
         module << "class " << format::formatstring(temp->ingredient, format::classname) << "_unittest"
-               << "(unittest.TestCase): #pylint:disable" << std::endl;
+               << "(unittest.TestCase): #pylint:disable=C0103" << std::endl;
         docstring::classdoc(module);
         module << std::endl;
         // call docstring function for class
