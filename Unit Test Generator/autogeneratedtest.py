@@ -6,8 +6,10 @@ import unittest
 import random
 
 from main import (Node, findlocalendpoints, reversearithmetic, tentative_formatoutput)
-class test_advanced_alloy():
-	"""Writing Docstring for advanced alloy
+class test_morphite():
+	"""Writing Docstring for morphite
+	"""
+	def test_morphite_amountresulted():
+			self.assertGreaterEqual(self.morphite,0)
 
 
-	def test_advanced alloy_amountresulted():
