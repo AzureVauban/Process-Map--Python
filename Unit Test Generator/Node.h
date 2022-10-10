@@ -116,7 +116,11 @@ namespace write
         {
             parentstring = format::formatstring(object->parent->ingredient);
         }
-        module << format::formatstring(object->ingredient) << " : Node = Node('" << object->ingredient << "', " << parentstring << ", " << 0 << ", " << object->amountmadepercraft << ", " << object->amountneeded << ")" << std::endl;
+        module << format::formatstring(object->ingredient) << ": Node = Node('" << object->ingredient << "', " << parentstring << ", " << 0 << ", " << object->amountmadepercraft << ", " << object->amountneeded << ")" << std::endl;
+    }
+    void method(std::ofstream &module, const Node *object)
+    {
+        std::string parentstring = "None";
     }
     void tree_declaration(std::ofstream &module, const Node *object)
     {
@@ -126,6 +130,9 @@ namespace write
             tree_declaration(module, miniobject);
         }
     }
+    void tree_method(std::ofstream &module, const Node *object)
+    {
+    }
     void createclass(std::ofstream &module, Node *object)
     {
         Node *temp = object;
@@ -133,7 +140,8 @@ namespace write
         {
             temp = temp->parent;
         }
-        module << "class " << format::formatstring(temp->ingredient, format::classname) << "_unittest"<< "(unittest.TestCase): #pylint:disable" << std::endl;
+        module << "class " << format::formatstring(temp->ingredient, format::classname) << "_unittest"
+               << "(unittest.TestCase): #pylint:disable" << std::endl;
         docstring::classdoc(module);
         // call docstring function for class
     }
