@@ -24,7 +24,7 @@ int main()
     // create test class
     write::createclass(output,head);
     //create test methods
-    
+    write::tree_method(output,head);
     // clean up allocated memory from tree
     massdelete(head);
     // terminate process
