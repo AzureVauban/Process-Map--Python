@@ -1,6 +1,7 @@
 // Unit Test Generator.cpp : This file contains the 'main' function. Program execution begins and ends there.
 #include "Node.h"
-int main(){
+int main()
+{
     std::cout << "Hello Github!" << std::endl;
 }
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
