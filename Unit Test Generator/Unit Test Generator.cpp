@@ -10,12 +10,12 @@ int main()
 {
     using namespace NodeUtility;
     // prompt the name of the head most ingredient
-    auto head = new Node("Head");
-    auto bodyA = new Node("Body A", head);
-    auto bodyB = new Node("Body B", bodyA);
-    auto bodyC = new Node("Body C", bodyB);
-    auto bodyD = new Node("Body D", bodyC);
-    Node tentativetest("head",nullptr);
+    auto head = new Node("Block of Netherite");
+    auto bodyA = new Node("Netherite Ingot", head);
+    auto bodyB = new Node("Gold Ingot", bodyA);
+    auto bodyC = new Node("Netherite Scrap", bodyA);
+    auto bodyD = new Node("Emerald", bodyC);
+    Node tentativetest("head", nullptr);
     // prompt subingredients
     populate(tentativetest);
     // create and write into file

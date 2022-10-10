@@ -6,58 +6,17 @@
 #include <algorithm>
 namespace NodeUtility
 {
-    class nodestring : public std::string
-    { // nodestring with built in string modifications
-        std::string superstring;
-
-    public:
-        nodestring(const std::string basestring = "")
-        {
-            superstring = basestring;
-        }
-
-    public:
-        // return private member, unmodified string
-        virtual std::string base()
-        {
-            return superstring;
-        }
-        // return string used in the declaration of a node
-        virtual std::string variable_declaration() //? also used in test method declaration
-        {
-            // todo add code
-            return superstring;
-        }
-        // return string used in test class declaration (all UPPERCASE with "testclass_" prepended to it)
-        virtual std::string class_declaration()
-        {
-            std::string returnstring = superstring;
-            std::remove(returnstring.begin(), returnstring.end(), ' ');
-            return returnstring;
-        }
-        // makes string empty and returns it
-        virtual std::string StringClear()
-        {
-            superstring.clear();
-            return superstring;
-        }
-        // sets string to a different value
-        virtual std::string StringSet(const std::string newvalue)
-        {
-            superstring = newvalue;
-            return superstring;
-        }
-    };
+    
     struct Node
     {
         //! using namespace NodeUtility;
-        nodestring ingredient;
+        std::string ingredient;
         long long int amountonhand, amountneeded, amountmadepercraft, amountresulted;
         Node *parent;
         std::vector<Node *> children;
         Node(std::string name = "", Node *par = nullptr, long long int A = 0, long long int B = 1, long long int C = 1)
         {
-            ingredient.StringSet(name);
+            ingredient = name;
             parent = par;
             if (parent)
             {
@@ -176,7 +135,7 @@ namespace write
         {
             // docstring for test method
             tabbing(module, 2);
-            module << docstringprefix << "assert that " << object->ingredient << " is equal to " << object->amountonhand << std::endl;
+            module << docstringprefix << "assert that " << object->ingredient<< " is equal to " << object->amountonhand << std::endl;
             tabbing(module, 2);
             module << docstringprefix;
             module << std::endl;
