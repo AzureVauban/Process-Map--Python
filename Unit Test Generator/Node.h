@@ -64,6 +64,14 @@ namespace format
         case classname: // return no spaces
             std::remove(returnstring.begin(), returnstring.end(), ' ');
             break;
+        case instance_declaration:
+            for (auto &character : returnstring)
+            {
+                if (character == ' ')
+                {
+                    character = '_';
+                }
+            }
         default: // return no spaces, replace spaces with underscore
             for (auto &character : returnstring)
             {
