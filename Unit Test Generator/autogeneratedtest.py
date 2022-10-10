@@ -6,7 +6,11302 @@ import unittest
 import random
 
 from main import (Node, findlocalendpoints, reversearithmetic, tentative_formatoutput)
-class test_morphite():
-	"""Writing Docstring for Morphite
+class test_advanced_alloy():
+	"""Writing Docstring for advanced alloy
 	"""
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
 
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():
+			self.assertGreaterEqual(self.advanced alloy,0)
+
+	def test_advanced alloy_amountresulted():

@@ -4,11 +4,6 @@
 #include <vector>
 #include <fstream>
 const std::string docstringprefix = "\"\"\"";
-enum MODE
-{
-    red = 0,
-    blue = 1
-};
 struct SimpleData
 {
     std::string ingredient = "";
@@ -172,21 +167,31 @@ namespace NodeUtility
         }
 
         // todo create function for creating variable declarations
-        void declaration(const Node &nodeobject, std::ofstream &pymodule)
+        void declaration(const Node *nodeobject, std::ofstream &pymodule)
         {
+            std::string parentnodename = "None";
+            if (nodeobject->parent){
+                parentnodename = parsestringformat(nodeobject->parent,white);
+            }
             // todo add code
+            tabbing(pymodule,1);
+            pymodule << parsestringformat(nodeobject,white) << ": Node = Node('" << nodeobject->ingredient << "',"<<parentnodename << ", " << 0 <<", " << nodeobject->amountmadepercraft << ", " << nodeobject->amountneeded << ")" << std::endl;
         }
     }
     // create functon for traversing through the linked list tree to make a declaration for each Node
     void masscreate_variables(const Node* nodeobject, std::ofstream &pymodule){
-        
+        std::cout << "WRITTING " << nodeobject->ingredient << " ONTO FILE" <<std::endl;
+        NodeUtility::create::declaration(nodeobject,pymodule);
+        for (const auto child : nodeobject->children){
+            masscreate_variables(nodeobject,pymodule);
+        }
     }
     // create functon for traversing through the linked list tree to make a test method for each Node
-    void masscreate_methods(const Node* nodeobject, std::ofstream &outputfile)
+    void masscreate_methods(const Node* nodeobject, std::ofstream &pymodule)
     {
-        create::method(nodeobject,outputfile);
+        create::method(nodeobject,pymodule);
         for (const auto child : nodeobject->children){
-            masscreate_methods(nodeobject,outputfile);
+            masscreate_methods(nodeobject,pymodule);
         }
     }
     // create function for generating the unit test file
