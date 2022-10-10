@@ -138,6 +138,7 @@ namespace NodeUtility
             // todo create function for outtputting docstring for method
             void method(const Node *nodeobject, std::ofstream &pymodule)
             {
+                tabbing(pymodule,2);
                 std::cout << "Writing Docstring for " << parsestringformat(nodeobject, orange) << " test method" << std::endl;
                 // todo add code
             }
@@ -160,9 +161,11 @@ namespace NodeUtility
             docstring::testclass(nodeobject, pymodule);
         }
         // todo create function for outputitng test method declaration of definition
-        void method(const Node *nodeobject, MODE type, std::ofstream &pymodule)
+        void method(const Node *nodeobject, std::ofstream &pymodule)
         {
             // todo add code
+            tabbing(pymodule,1);
+            pymodule << "def " << "test_" << parsestringformat(nodeobject,white) << "_amountresulted()" << std::endl;
             docstring::method(nodeobject, pymodule);
         }
 
@@ -173,9 +176,12 @@ namespace NodeUtility
         }
     }
     // create functon for traversing through the linked list tree to make a test method for each Node
-    void traversetree(const Node& nodeobject, std::ofstream &outputfile)
+    void traversetree(const Node* nodeobject, std::ofstream &outputfile)
     {
-        create::method(nodeobject,)
+        create::method(nodeobject,outputfile);
+        for (const auto child : nodeobject->children){
+            traversetree(nodeobject,outputfile);
+        }
     }
     // create function for generating the unit test file
     void generatateunittest(Node *head, std::ofstream &outputfile)

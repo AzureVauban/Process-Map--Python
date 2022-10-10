@@ -6,7 +6,7 @@ import unittest
 import random
 
 from main import (Node, findlocalendpoints, reversearithmetic, tentative_formatoutput)
-class test_irradium_ore
-	"""Writing Docstring for irradium ore
+class test_morphite():
+	"""Writing Docstring for Morphite
 	"""
 
