@@ -116,6 +116,7 @@ namespace write
             tabbing(tentativename,2);
             tentativename << docstringprefix << "assert that "<<tentativename_object->ingredient << " is equal to " << tentativename_object->amountonhand << std::endl;
             tabbing(tentativename,2);
+            tentativename << docstringprefix;
             tentativename << std::endl;
         }
     }

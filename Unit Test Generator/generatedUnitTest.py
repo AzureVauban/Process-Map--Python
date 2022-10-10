@@ -16,6 +16,5 @@ class Head_unittest(unittest.TestCase): #pylint:disable
 	"""
 	def test_Head(self):
 		"""assert that Head is equal to 0
-		
+		"""
 		self.assertEqual(Head
-
