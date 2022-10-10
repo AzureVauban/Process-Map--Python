@@ -44,7 +44,7 @@ namespace format
         docstring = 1,
         classname = 2,
         method = 3,
-        declaration = 4
+        instance_declaration = 4
     };
     // todo add funnctions for formatting here
     std::string formatstring(const std::string basestring, const formattype type = defaulttype)
@@ -118,7 +118,7 @@ namespace write
             tabbing(tentativename,2);
             tentativename << std::endl;
             tabbing(tentativename,2);
-            tentativename << "self.assertEqual("<<  format::formatstring(tentativename_object->ingredient,format::declaration) << std::endl;
+            tentativename << "self.assertEqual("<<  format::formatstring(tentativename_object->ingredient,format::instance_declaration) << std::endl;
         }
     }
     void declaration(std::ofstream &module, const Node *object)
@@ -126,9 +126,9 @@ namespace write
         std::string parentstring = "None";
         if (object->parent)
         {
-            parentstring = format::formatstring(object->parent->ingredient);
+            parentstring = format::formatstring(object->parent->ingredient,format::instance_declaration);
         }
-        module << format::formatstring(object->ingredient) << ": Node = Node('" << object->ingredient << "', " << parentstring << ", " << 0 << ", " << object->amountmadepercraft << ", " << object->amountneeded << ")" << std::endl;
+        module << format::formatstring(object->ingredient,format::instance_declaration) << ": Node = Node('" << object->ingredient << "', " << parentstring << ", " << 0 << ", " << object->amountmadepercraft << ", " << object->amountneeded << ")" << std::endl;
     }
     void method(std::ofstream &module, const Node *object)
     {
@@ -142,7 +142,7 @@ namespace write
         */
         tabbing(module,1);
         module << "def test_" << format::formatstring(object->ingredient,format::method) << "(self):" << std::endl;
-        module << write::docstring::
+        module << write::docstring::method()
     }
     void tree_declaration(std::ofstream &module, const Node *object)
     {
