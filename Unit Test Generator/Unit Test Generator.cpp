@@ -10,30 +10,29 @@ int main()
 {
     using namespace NodeUtility;
     // prompt the name of the head most ingredient
-    auto head = new Node("Block of Netherite");
-    auto bodyA = new Node("Netherite Ingot", head);
-    auto bodyB = new Node("Gold Ingot", bodyA);
-    auto bodyC = new Node("Netherite Scrap", bodyA);
-    auto bodyD = new Node("Emerald", bodyC);
+    auto blockofnetherite = new Node("Block of Netherite");
+    auto netheriteingot = new Node("Netherite Ingot", blockofnetherite);
+    auto goldingot = new Node("Gold Ingot", netheriteingot);
+    auto netheritescrap = new Node("Netherite Scrap", netheriteingot);
+    auto emerald = new Node("Emerald", netheritescrap);
     Node tentativetest("head", nullptr);
     // prompt subingredients
-    populate(tentativetest);
+    //  populate(tentativetest);
     // create and write into file
-    auto test = "Visual Studio Code";
     // todo create function that determines if an input has been repeated somewhere else and append a number the name to make it unique
     //  create docstring
     write::docstring::module(output);
     output << std::endl;
     // create variable declarations
-    write::tree_declaration(output, head);
+    write::tree_declaration(output, blockofnetherite);
     output << std::endl
            << std::endl;
     // create test class
-    write::createclass(output, head);
+    write::createclass(output, blockofnetherite);
     // create test methods
-    write::tree_method(output, head);
+    write::tree_method(output, blockofnetherite);
     // clean up allocated memory from tree
-    massdelete(head);
+    massdelete(blockofnetherite);
     // terminate process
     output << std::endl;
     output.close();

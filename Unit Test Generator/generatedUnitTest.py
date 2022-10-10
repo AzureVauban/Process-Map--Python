@@ -4,35 +4,35 @@ import unittest
 
 from main import Node
 
-Head: Node = Node('Head', None, 0, 1, 1)
-Body_A: Node = Node('Body A', Head, 0, 1, 1)
-Body_B: Node = Node('Body B', Body_A, 0, 1, 1)
-Body_C: Node = Node('Body C', Body_B, 0, 1, 1)
-Body_D: Node = Node('Body D', Body_C, 0, 1, 1)
+Block_of_Netherite: Node = Node('Block of Netherite', None, 0, 1, 1)
+Netherite_Ingot: Node = Node('Netherite Ingot', Block_of_Netherite, 0, 1, 1)
+Gold_Ingot: Node = Node('Gold Ingot', Netherite_Ingot, 0, 1, 1)
+Netherite_Scrap: Node = Node('Netherite Scrap', Netherite_Ingot, 0, 1, 1)
+Emerald: Node = Node('Emerald', Netherite_Scrap, 0, 1, 1)
 
 
-class Head_unittest(unittest.TestCase): #pylint:disable=C0103
+class BlockofNetheritete_unittest(unittest.TestCase): #pylint:disable=C0103
 	"""tentative test class, add additional comments here: 
 	"""
 
-	def test_Head(self):
-		"""assert that Head is equal to 0
+	def test_Block_of_Netherite(self):
+		"""assert that Block of Netherite is equal to 0
 		"""
-		self.assertEqual(Head.amountonhand,0)
-	def test_Body_A(self):
-		"""assert that Body A is equal to 0
+		self.assertEqual(Block_of_Netherite.amountonhand,0)
+	def test_Netherite_Ingot(self):
+		"""assert that Netherite Ingot is equal to 0
 		"""
-		self.assertEqual(Body_A.amountonhand,0)
-	def test_Body_B(self):
-		"""assert that Body B is equal to 0
+		self.assertEqual(Netherite_Ingot.amountonhand,0)
+	def test_Gold_Ingot(self):
+		"""assert that Gold Ingot is equal to 0
 		"""
-		self.assertEqual(Body_B.amountonhand,0)
-	def test_Body_C(self):
-		"""assert that Body C is equal to 0
+		self.assertEqual(Gold_Ingot.amountonhand,0)
+	def test_Netherite_Scrap(self):
+		"""assert that Netherite Scrap is equal to 0
 		"""
-		self.assertEqual(Body_C.amountonhand,0)
-	def test_Body_D(self):
-		"""assert that Body D is equal to 0
+		self.assertEqual(Netherite_Scrap.amountonhand,0)
+	def test_Emerald(self):
+		"""assert that Emerald is equal to 0
 		"""
-		self.assertEqual(Body_D.amountonhand,0)
+		self.assertEqual(Emerald.amountonhand,0)
 
