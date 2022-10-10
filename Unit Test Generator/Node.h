@@ -142,8 +142,8 @@ namespace write
         */
         tabbing(module,1);
         module << "def test_" << format::formatstring(object->ingredient,format::method) << "(self):" << std::endl;
-        tabbing(module,2);
         write::docstring::method(module,object);
+        
     }
     void tree_declaration(std::ofstream &module, const Node *object)
     {
