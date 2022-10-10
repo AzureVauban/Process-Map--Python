@@ -28,10 +28,10 @@ namespace format
             }
             break;
 
-        default: //find substrings, input them into a vector, recombine with the first character of each substring captial
+        default: // find substrings, input them into a vector, recombine with the first character of each substring captial
             for (int i = 0; i < returnstring.size(); i++)
             {
-                std::vector <std::string> mystrings;
+                std::vector<std::string> mystrings = {};
                 if (returnstring.at(i) == ' ')
                 {
                     returnstring.erase(i);
