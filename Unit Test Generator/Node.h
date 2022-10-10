@@ -165,8 +165,10 @@ namespace NodeUtility
         {
             // todo add code
             tabbing(pymodule,1);
-            pymodule << "def " << "test_" << parsestringformat(nodeobject,white) << "_amountresulted()" << std::endl;
+            pymodule << "def " << "test_" << parsestringformat(nodeobject,white) << "_amountresulted():" << std::endl;
             docstring::method(nodeobject, pymodule);
+            tabbing(pymodule,1);
+            pymodule << "self."
         }
 
         // todo create function for creating variable declarations
