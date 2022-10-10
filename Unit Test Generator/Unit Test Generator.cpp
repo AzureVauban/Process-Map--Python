@@ -2,8 +2,13 @@
 // merge changes into Bug Fixing Branch when this is completed
 #include "NodeUtility.h"
 std::ofstream output("generatedUnitTest.py");
+void populate(NodeUtility::Node& object)
+{
+    
+}
 int main()
 {
+    using namespace NodeUtility;
     // prompt the name of the head most ingredient
     auto head = new Node("Head");
     auto bodyA = new Node("Body A", head);
