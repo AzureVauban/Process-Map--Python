@@ -6,14 +6,22 @@ int main()
 {
     // prompt the name of the head most ingredient
     auto head = new Node("Head Node");
+    auto bodyA = new Node("Body A", head);
+    auto bodyB = new Node("Body B", bodyA);
+    auto bodyC = new Node("Body C", bodyB);
+    auto bodyD = new Node("Body D", bodyC);
+
     // prompt subingredients
 
     // create and write into file
     auto test = "Visual Studio Code";
     // create docstring
-    write::moduledocstring(output);
+    write::docstring::module(output);
     output << std::endl;
-    // create class
+    // create variable declarations
+    write::tree_declaration(output,head);
+    // create test class
+    write::createclass(output,head);
     // clean up allocated memory from tree
     massdelete(head);
     // terminate process

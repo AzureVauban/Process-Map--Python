@@ -29,9 +29,9 @@ struct Node
 };
 void massdelete(Node *obj)
 {
-    for (const auto child : obj->children)
+    for (auto child : obj->children)
     {
-        massdelete(obj);
+        massdelete(child);
     }
     delete obj;
 }
@@ -41,7 +41,8 @@ namespace format
     enum formattype
     {
         defaulttype = 0,
-        docstring = 1
+        docstring = 1,
+        classname = 2
     };
     // todo add funnctions for formatting here
     std::string formatstring(const std::string basestring, const formattype type = defaulttype)
@@ -58,7 +59,9 @@ namespace format
                 }
             }
             break;
-
+        case classname: // return no spaces
+            std::remove(returnstring.begin(), returnstring.end(), ' ');
+            break;
         default: // return no spaces, replace spaces with underscore
             for (auto &character : returnstring)
             {
@@ -82,19 +85,51 @@ namespace write
             module << "\t";
         }
     }
-    void moduledocstring(std::ofstream &module)
+    namespace docstring
     {
-        module << write::docstringprefix << "AUTO GENERATED UNIT TEST" << std::endl
-               << write::docstringprefix << std::endl;
-        std::vector<std::string> moduleimportnames = {"unittest", "random", "math", "main"};
-        std::sort(moduleimportnames.begin(), moduleimportnames.end());
-        for (const auto &import : moduleimportnames)
+
+        void module(std::ofstream &tentativename)
         {
-            module << "import " << import << std::endl;
+            tentativename << write::docstringprefix << "AUTO GENERATED UNIT TEST" << std::endl
+                          << write::docstringprefix << std::endl;
+            /*
+            std::vector<std::string> moduleimportnames = {"unittest", "random", "math", "main"};
+            std::sort(moduleimportnames.begin(), moduleimportnames.end());
+            */
+
+            tentativename << "import unittest" << std::endl
+                          << std::endl;
+            tentativename << "from main import Node" << std::endl;
+        }
+        void classdoc(std::ofstream &tentativename){
+            tabbing(tentativename,1);
         }
     }
-    void variabledeclaration(std::ofstream &module, const Node *object)
+    void declaration(std::ofstream &module, const Node *object)
     {
-        module << format::formatstring(object->ingredient) << 
+        std::string parentstring = "None";
+        if (object->parent)
+        {
+            parentstring = format::formatstring(object->parent->ingredient);
+        }
+        module << format::formatstring(object->ingredient) << " : Node = Node('" << object->ingredient << "', " << parentstring << ", " << 0 << ", " << object->amountmadepercraft << ", " << object->amountneeded << ")" << std::endl;
+    }
+    void tree_declaration(std::ofstream &module, const Node *object)
+    {
+        write::declaration(module, object);
+        for (auto miniobject : object->children)
+        {
+            tree_declaration(module, miniobject);
+        }
+    }
+    void createclass(std::ofstream &module, Node *object)
+    {
+        Node *temp = object;
+        while (temp->parent)
+        {
+            temp = temp->parent;
+        }
+        module << "class " << format::formatstring(temp->ingredient, format::classname) << "_" << temp << "(unittest.TestCase):" << std::endl;
+        // call docstring function for class
     }
 }

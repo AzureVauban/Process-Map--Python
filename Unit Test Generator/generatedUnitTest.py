@@ -1,8 +1,13 @@
 """AUTO GENERATED UNIT TEST
 """
-import main
-import math
-import random
 import unittest
 
+from main import Node
 
+Head_Node : Node = Node('Head Node', None, 0, 1, 1)
+Body_A : Node = Node('Body A', Head_Node, 0, 1, 1)
+Body_B : Node = Node('Body B', Body_A, 0, 1, 1)
+Body_C : Node = Node('Body C', Body_B, 0, 1, 1)
+Body_D : Node = Node('Body D', Body_C, 0, 1, 1)
+class HeadNodee_0x141b9a624b0(unittest.TestCase):
+    pass
