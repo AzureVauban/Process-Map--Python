@@ -1,16 +1,15 @@
 // Unit Test Generator.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// merge changes into Bug Fixing Branch when this is completed
 #include "Node.h"
 int main()
 {
-    std::cout << "Hello Github!" << std::endl;
+    //prompt the name of the head most ingredient
+    std::cout << "Step 1" << std::endl;
+    //prompt subingredients
+    std::cout << "Step 2" << std::endl;
+    //create and write into file
+    std::cout << "Step 3" << std::endl;
+    //clean up allocated memory from tree
+    std::cout << "Step 4" << std::endl;
+    //terminate process
 }
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started:
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file

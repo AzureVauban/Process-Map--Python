@@ -6,8 +6,18 @@
 const std::string docstringprefix = "\"\"\"";
 namespace format
 {
-    //todo add funnctions for formatting here
+    enum formattingtype
+    {
+        docstring = 0
+    }
+    // todo add funnctions for formatting here
+    std::string tentative(std::string basestring, formattingtype type)
+    {
+        std::string returnstring = basestring;
+        return returnstring;
+    }
 }
-namespace write {
-    //create functions for writing onto ostream object here
+namespace write
+{
+    // create functions for writing onto ostream object here
 }
