@@ -109,6 +109,15 @@ namespace write
             tabbing(tentativename, 1);
             tentativename << docstringprefix << std::endl;
         }
+        void method(std::ofstream &tentativename,Node* tentativename_object)
+        {
+            //docstring for test method
+            tabbing(tentativename,2);
+            tentativename << docstringprefix << "assert that "<<tentativename_object->ingredient << " is equal to " << tentativename_object->amountonhand << std::endl;
+            tabbing(tentativename,2);
+            tentativename << std:endl;
+            
+        }
     }
     void declaration(std::ofstream &module, const Node *object)
     {
@@ -130,7 +139,8 @@ namespace write
         }
         */
         tabbing(module,1);
-        module << "def test_" << format::formatstring(object->ingredient,format::method);
+        module << "def test_" << format::formatstring(object->ingredient,format::method) << "(self):" << std::endl;
+        module << write::docstring::
     }
     void tree_declaration(std::ofstream &module, const Node *object)
     {
