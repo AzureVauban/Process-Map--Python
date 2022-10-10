@@ -127,7 +127,7 @@ namespace NodeUtility
             {
                 tabbing(pymodule, 1);
                 pymodule << docstringprefix;
-                pymodule << "Writing Docstring for " << parsestringformat(nodeobject) << std::endl;
+                pymodule << "Writing Docstring for " << parsestringformat(nodeobject) << " mock ingredient tree testing"<<std::endl;
                 tabbing(pymodule, 1);
                 pymodule << docstringprefix << std::endl;
             }
@@ -183,16 +183,20 @@ namespace NodeUtility
     void masscreate_variables(const Node* nodeobject, std::ofstream &pymodule){
         std::cout << "WRITTING " << nodeobject->ingredient << " ONTO FILE" <<std::endl;
         NodeUtility::create::declaration(nodeobject,pymodule);
+        if (not nodeobject->children.empty()){
         for (const auto child : nodeobject->children){
             masscreate_variables(nodeobject,pymodule);
+        }
         }
     }
     // create functon for traversing through the linked list tree to make a test method for each Node
     void masscreate_methods(const Node* nodeobject, std::ofstream &pymodule)
     {
         create::method(nodeobject,pymodule);
+        if (not nodeobject->children.empty()){
         for (const auto child : nodeobject->children){
             masscreate_methods(nodeobject,pymodule);
+        }
         }
     }
     // create function for generating the unit test file
