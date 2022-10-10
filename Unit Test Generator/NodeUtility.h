@@ -8,44 +8,44 @@ namespace NodeUtility
 {
     class nodestring : public std::string
     { // nodestring with built in string modifications
-        std::string derivedstring;
+        std::string superstring;
 
     public:
         nodestring(const std::string basestring = "")
         {
-            derivedstring = basestring;
+            superstring = basestring;
         }
 
     public:
         // return private member, unmodified string
         virtual std::string base()
         {
-            return derivedstring;
+            return superstring;
         }
         // return string used in the declaration of a node
         virtual std::string variable_declaration() //? also used in test method declaration
         {
             // todo add code
-            return derivedstring;
+            return superstring;
         }
         // return string used in test class declaration (all UPPERCASE with "testclass_" prepended to it)
         virtual std::string class_declaration()
         {
-            std::string returnstring = derivedstring;
+            std::string returnstring = superstring;
             std::remove(returnstring.begin(), returnstring.end(), ' ');
             return returnstring;
         }
         // makes string empty and returns it
         virtual std::string StringClear()
         {
-            derivedstring.clear();
-            return derivedstring;
+            superstring.clear();
+            return superstring;
         }
         // sets string to a different value
         virtual std::string StringSet(const std::string newvalue)
         {
-            derivedstring = newvalue;
-            return derivedstring;
+            superstring = newvalue;
+            return superstring;
         }
     };
     struct Node
