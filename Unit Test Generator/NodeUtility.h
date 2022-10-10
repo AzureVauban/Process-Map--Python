@@ -27,6 +27,34 @@ struct Node
         std::cout << "DEALLOCATING " << ingredient << " : " << this << std::endl;
     }
 };
+class nodestring : public std::string
+{ // nodestring with built in string modifications
+    std::string derivedstring;
+
+public:
+    nodestring(const std::string basestring)
+    {
+        derivedstring = basestring;
+    }
+
+public:
+    // return private member, unmodified string
+    virtual std::string base()
+    {
+        return derivedstring;
+    }
+    // return string used in the declaration of a node
+    virtual std::string variable_declaration()
+    {
+        //todo add code
+    }
+    //return string used in test class declaration (all UPPERCASE with "testclass_" prepended to it)
+    virtual std::string class_declaration()
+    {
+        
+    }
+};
+
 void massdelete(Node *obj)
 {
     for (auto child : obj->children)
@@ -82,6 +110,11 @@ namespace format
             }
         }
         return returnstring;
+    }
+    std::string modifytitle(const std::string basestring)
+    {
+        std::string newstring = basestring;
+        return newstring;
     }
 }
 namespace write
