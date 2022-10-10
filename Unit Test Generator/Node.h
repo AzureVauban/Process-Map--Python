@@ -163,7 +163,7 @@ namespace NodeUtility
             tabbing(pymodule,1);
             pymodule << "def " << "test_" << parsestringformat(nodeobject,white) << "_amountresulted():" << std::endl;
             docstring::method(nodeobject, pymodule);
-            tabbing(pymodule,1);
+            tabbing(pymodule,2);
             pymodule << "self.assertGreaterEqual(self."<<parsestringformat(nodeobject,white)<<",0)" << std::endl << std::endl;;
         }
 
