@@ -198,7 +198,10 @@ namespace NodeUtility
         //  loop until all classes have been written onto the file
         //  generate unit test class
         NodeUtility::create::testclass(head, outputfile);
-        // generate unit test methods based on program mode
+        // generate unit test methods
+        traversetree(head,outputfile);
+        
+        // final newline
         outputfile << std::endl;
         // close file
         outputfile.close();
