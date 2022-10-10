@@ -98,34 +98,34 @@ namespace write
     namespace docstring
     {
 
-        void module(std::ofstream &tentativename)
+        void module(std::ofstream &module)
         {
-            tentativename << write::docstringprefix << "AUTO GENERATED UNIT TEST" << std::endl
-                          << write::docstringprefix << std::endl;
+            module << write::docstringprefix << "AUTO GENERATED UNIT TEST" << std::endl
+                   << write::docstringprefix << std::endl;
             /*
             std::vector<std::string> moduleimportnames = {"unittest", "random", "math", "main"};
             std::sort(moduleimportnames.begin(), moduleimportnames.end());
             */
 
-            tentativename << "import unittest" << std::endl
-                          << std::endl;
-            tentativename << "from main import Node" << std::endl;
+            module << "import unittest" << std::endl
+                   << std::endl;
+            module << "from main import Node" << std::endl;
         }
-        void classdoc(std::ofstream &tentativename)
+        void classdoc(std::ofstream &module)
         {
-            tabbing(tentativename, 1);
-            tentativename << docstringprefix << "tentative test class, add additional comments here: " << std::endl;
-            tabbing(tentativename, 1);
-            tentativename << docstringprefix << std::endl;
+            tabbing(module, 1);
+            module << docstringprefix << "tentative test class, add additional comments here: " << std::endl;
+            tabbing(module, 1);
+            module << docstringprefix << std::endl;
         }
-        void method(std::ofstream &tentativename,const Node* tentativename_object)
+        void method(std::ofstream &module, const Node *object)
         {
-            //docstring for test method
-            tabbing(tentativename,2);
-            tentativename << docstringprefix << "assert that "<<tentativename_object->ingredient << " is equal to " << tentativename_object->amountonhand << std::endl;
-            tabbing(tentativename,2);
-            tentativename << docstringprefix;
-            tentativename << std::endl;
+            // docstring for test method
+            tabbing(module, 2);
+            module << docstringprefix << "assert that " << object->ingredient << " is equal to " << object->amountonhand << std::endl;
+            tabbing(module, 2);
+            module << docstringprefix;
+            module << std::endl;
         }
     }
     void declaration(std::ofstream &module, const Node *object)
@@ -133,27 +133,17 @@ namespace write
         std::string parentstring = "None";
         if (object->parent)
         {
-            parentstring = format::formatstring(object->parent->ingredient,format::instance_declaration);
+            parentstring = format::formatstring(object->parent->ingredient, format::instance_declaration);
         }
-        module << format::formatstring(object->ingredient,format::instance_declaration) << ": Node = Node('" << object->ingredient << "', " << parentstring << ", " << 0 << ", " << object->amountmadepercraft << ", " << object->amountneeded << ")" << std::endl;
+        module << format::formatstring(object->ingredient, format::instance_declaration) << ": Node = Node('" << object->ingredient << "', " << parentstring << ", " << 0 << ", " << object->amountmadepercraft << ", " << object->amountneeded << ")" << std::endl;
     }
     void method(std::ofstream &module, const Node *object)
     {
-        //todo finish
-        /*
-        std::string parentstring = "None";
-        if (object->parent)
-        {
-            parentstring = format::formatstring(object->parent->ingredient);
-        }
-        */
-        tabbing(module,1);
-        module << "def test_" << format::formatstring(object->ingredient,format::method) << "(self):" << std::endl;
-        write::docstring::method(module,object);
-        tabbing(module,2);
-        module << "self.assertEqual("<<  format::formatstring(object->ingredient,format::instance_declaration) << ".amountonhand,"<<object->amountonhand<< ")"<<std::endl;
-
-
+        tabbing(module, 1);
+        module << "def test_" << format::formatstring(object->ingredient, format::method) << "(self):" << std::endl;
+        write::docstring::method(module, object);
+        tabbing(module, 2);
+        module << "self.assertEqual(" << format::formatstring(object->ingredient, format::instance_declaration) << ".amountonhand," << object->amountonhand << ")" << std::endl;
     }
     void tree_declaration(std::ofstream &module, const Node *object)
     {
@@ -165,11 +155,11 @@ namespace write
     }
     void tree_method(std::ofstream &module, const Node *object)
     {
-        write::method(module,object);
-        //std::vector<Node*> copy_of_children = {};
+        write::method(module, object);
+        // std::vector<Node*> copy_of_children = {};
         for (const auto miniobject : object->children)
         {
-           tree_method(module,miniobject);
+            tree_method(module, miniobject);
         }
     }
     void createclass(std::ofstream &module, Node *object)
