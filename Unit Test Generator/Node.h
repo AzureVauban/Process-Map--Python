@@ -143,7 +143,7 @@ namespace write
         module << "def test_" << format::formatstring(object->ingredient,format::method) << "(self):" << std::endl;
         write::docstring::method(module,object);
         tabbing(module,2);
-        module << "self.assertEqual("<<  format::formatstring(object->ingredient,format::instance_declaration) << std::endl;
+        module << "self.assertEqual("<<  format::formatstring(object->ingredient,format::instance_declaration) << ".amountonhand,"<<object->amountonhand<< ")"<<std::endl;
 
 
     }
