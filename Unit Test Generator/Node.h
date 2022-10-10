@@ -18,7 +18,7 @@ namespace format
         std::string returnstring = basestring;
         switch (type)
         {
-        case classname:
+        case classname: // return no spaces, replace spaces with underscore
             for (auto &character : returnstring)
             {
                 if (character == ' ')
@@ -28,11 +28,14 @@ namespace format
             }
             break;
 
-        default: // return no spaces, replace spaces with underscore
-            for (int i = 0; i < returnstring.size(); i++){
+        default: //find substrings, input them into a vector, recombine with the first character of each substring captial
+            for (int i = 0; i < returnstring.size(); i++)
+            {
+                std::vector <std::string> mystrings;
                 if (returnstring.at(i) == ' ')
                 {
-                    
+                    returnstring.erase(i);
+                    returnstring.shrink_to_fit();
                 }
             }
             break;
