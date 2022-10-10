@@ -156,10 +156,10 @@ namespace write
     }
     void tree_method(std::ofstream &module, const Node *object)
     {
-        
-        if (const auto miniobject : object->children)
+        write::method(module,object);
+        for (const auto miniobject : object->children)
         {
-            
+            tree_method(module,object);
         }
     }
     void createclass(std::ofstream &module, Node *object)
