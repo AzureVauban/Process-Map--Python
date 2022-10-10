@@ -117,8 +117,6 @@ namespace write
             tentativename << docstringprefix << "assert that "<<tentativename_object->ingredient << " is equal to " << tentativename_object->amountonhand << std::endl;
             tabbing(tentativename,2);
             tentativename << std::endl;
-            tabbing(tentativename,2);
-            tentativename << "self.assertEqual("<<  format::formatstring(tentativename_object->ingredient,format::instance_declaration) << std::endl;
         }
     }
     void declaration(std::ofstream &module, const Node *object)
@@ -143,7 +141,10 @@ namespace write
         tabbing(module,1);
         module << "def test_" << format::formatstring(object->ingredient,format::method) << "(self):" << std::endl;
         write::docstring::method(module,object);
-        
+        tabbing(module,2);
+        module << "self.assertEqual("<<  format::formatstring(object->ingredient,format::instance_declaration) << std::endl;
+
+
     }
     void tree_declaration(std::ofstream &module, const Node *object)
     {
@@ -155,7 +156,11 @@ namespace write
     }
     void tree_method(std::ofstream &module, const Node *object)
     {
-        //todo finish 
+        
+        if (const auto miniobject : object->children)
+        {
+            
+        }
     }
     void createclass(std::ofstream &module, Node *object)
     {

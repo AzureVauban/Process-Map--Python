@@ -23,6 +23,8 @@ int main()
     output << std::endl << std::endl;
     // create test class
     write::createclass(output,head);
+    //create test methods
+    
     // clean up allocated memory from tree
     massdelete(head);
     // terminate process
