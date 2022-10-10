@@ -2,9 +2,9 @@
 // merge changes into Bug Fixing Branch when this is completed
 #include "NodeUtility.h"
 std::ofstream output("generatedUnitTest.py");
-void populate(NodeUtility::Node& object)
+void populate(NodeUtility::Node &object)
 {
-    
+    std::cout << "What do you need to create " << object.ingredient << ":" << std::endl;
 }
 int main()
 {
@@ -15,9 +15,9 @@ int main()
     auto bodyB = new Node("Body B", bodyA);
     auto bodyC = new Node("Body C", bodyB);
     auto bodyD = new Node("Body D", bodyC);
-
+    Node tentativetest("head",nullptr);
     // prompt subingredients
-
+    populate(tentativetest);
     // create and write into file
     auto test = "Visual Studio Code";
     // todo create function that determines if an input has been repeated somewhere else and append a number the name to make it unique

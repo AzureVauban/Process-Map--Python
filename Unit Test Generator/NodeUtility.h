@@ -26,6 +26,7 @@ namespace NodeUtility
         virtual std::string variable_declaration() //? also used in test method declaration
         {
             // todo add code
+            return derivedstring;
         }
         // return string used in test class declaration (all UPPERCASE with "testclass_" prepended to it)
         virtual std::string class_declaration()
