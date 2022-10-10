@@ -14,8 +14,9 @@ Body_D: Node = Node('Body D', Body_C, 0, 1, 1)
 class Head_unittest(unittest.TestCase): #pylint:disable
 	"""tentative test class, add additional comments here: 
 	"""
+
 	def test_Head(self):
 		"""assert that Head is equal to 0
 		"""
-		self.assertEqual(Head.amountonhand,0
+		self.assertEqual(Head.amountonhand,0)
 
