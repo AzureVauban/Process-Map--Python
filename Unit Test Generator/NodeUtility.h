@@ -126,8 +126,12 @@ namespace format
                 }
             }
             break;
-        case classname: // return no spaces
+        case classname: // return no spaces and all caps
             std::remove(returnstring.begin(), returnstring.end(), ' ');
+            for (auto &character : returnstring)
+            {
+                character = std::toupper(character);
+            }
             break;
         case instance_declaration:
             for (auto &character : returnstring)
