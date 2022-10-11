@@ -35,15 +35,20 @@ namespace NodeUtility
     // set the amount on hand to the desired amount/assertvalue
     long long int setassertvalues(Node *object, const long long int desiredamount = 0)
     {
+        std::cin.clear();
         object->amountresulted = desiredamount;
-        float ratio = 1 / (object->amountmadepercraft / object->amountneeded);
-        object->amountonhand = object->amountresulted * ratio;
+        auto A = object->amountresulted;
+        auto B = object->amountmadepercraft;
+        auto C = object->amountneeded;
+        auto D = object->amountresulted;
+        auto E = object->amountresulted * (A/B);
+        auto amountonhand_local = E;
         for (auto child : object->children)
         {
-            setassertvalues(child, object->amountonhand);
+            setassertvalues(child,E);
         }
         std::cout << "FINISH SETTING ASSERT VALUE FOR " << object->ingredient << std::endl;
-        return object->amountonhand;
+        return amountonhand_local;
     }
 }
 
