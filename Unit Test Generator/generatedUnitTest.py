@@ -16,33 +16,33 @@ class BlockofNetheritete_unittest(unittest.TestCase): # pylint:disable=C0103
 	"""
 
 	def test_Block_of_Netherite(self):# pylint:disable=C0103
-		"""assert that Block of Netherite is equal to 0
+		"""assert that Block of Netherite is equal to 89
 		"""
 
-		self.assertEqual(Block_of_Netherite.amountonhand,0)
+		self.assertEqual(Block_of_Netherite.amountonhand,89)
 
 	def test_Netherite_Ingot(self):# pylint:disable=C0103
-		"""assert that Netherite Ingot is equal to 0
+		"""assert that Netherite Ingot is equal to 801
 		"""
 
-		self.assertEqual(Netherite_Ingot.amountonhand,0)
+		self.assertEqual(Netherite_Ingot.amountonhand,801)
 
 	def test_Gold_Ingot(self):# pylint:disable=C0103
-		"""assert that Gold Ingot is equal to 0
+		"""assert that Gold Ingot is equal to 3204
 		"""
 
-		self.assertEqual(Gold_Ingot.amountonhand,0)
+		self.assertEqual(Gold_Ingot.amountonhand,3204)
 
 	def test_Netherite_Scrap(self):# pylint:disable=C0103
-		"""assert that Netherite Scrap is equal to 0
+		"""assert that Netherite Scrap is equal to 3204
 		"""
 
-		self.assertEqual(Netherite_Scrap.amountonhand,0)
+		self.assertEqual(Netherite_Scrap.amountonhand,3204)
 
 	def test_Emerald(self):# pylint:disable=C0103
-		"""assert that Emerald is equal to 0
+		"""assert that Emerald is equal to 108936
 		"""
 
-		self.assertEqual(Emerald.amountonhand,0)
+		self.assertEqual(Emerald.amountonhand,108936)
 
 
