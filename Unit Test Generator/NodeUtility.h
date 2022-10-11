@@ -41,7 +41,7 @@ namespace NodeUtility
         auto B = object->amountmadepercraft;
         auto C = object->amountneeded;
         auto D = object->amountresulted;
-        auto E = object->amountresulted * (A/B);
+        auto E = object->amountresulted * 1/((A/B));
         auto amountonhand_local = E;
         for (auto child : object->children)
         {
