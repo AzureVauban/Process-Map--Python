@@ -35,9 +35,8 @@ namespace NodeUtility
     // set the amount on hand to the desired amount/assertvalue
     int setassertvalues(Node *object, const int desiredamount = 0)
     {
-        do {
-            object->amountonhand+=1;
-        } while(object->amountonhand*((object->amountmadepercraft/object->amountneeded)));
+        int answer = object->amountonhand * std::pow(object->amountmadepercraft/object->amountneeded,-1);
+        while (desiredamount > )
         for (auto child : object->children)
         {
             setassertvalues(child,object->amountonhand);
