@@ -1,12 +1,16 @@
 // Unit Test Generator.cpp : This file contains the 'main' function. Program execution begins and ends there.
 // merge changes into Bug Fixing Branch when this is completed
 #include "NodeUtility.h"
+#include <sstream>
 std::ofstream output("generatedUnitTest.py");
 void populate(NodeUtility::Node &object)
 {
     std::cout << "What do you need to create " << object.ingredient << ":" << std::endl;
 }
-
+bool isdigit_check(const std::string A = "")
+{
+    bool 
+}
 int main()
 {
     using namespace NodeUtility;
