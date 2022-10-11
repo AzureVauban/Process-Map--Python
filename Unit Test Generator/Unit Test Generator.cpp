@@ -16,15 +16,16 @@ int main()
     auto goldingot = new Node("Gold Ingot", netheriteingot, 0, 1, 4);
     auto netheritescrap = new Node("Netherite Scrap", netheriteingot, 1, 1, 4);
     auto emerald = new Node("Emerald", netheritescrap, 0, 1, 34);
-    Node tentativetest("head", nullptr);
     // prompt subingredients
     //  populate(tentativetest);
     // create and write into file
     // todo create function that determines if an input has been repeated somewhere else and append a number the name to make it unique
     // set assert values - do arithmetic
 
-    
-    NodeUtility::setassertvalues(blockofnetherite, 64);
+    std::cout << "How much " << blockofnetherite->ingredient << " do you want to create? " << std::endl;
+    int desirednumofhead = 1;
+    std::cin >> desirednumofhead;
+    NodeUtility::setassertvalues(blockofnetherite, desirednumofhead);
     //  create docstring
     write::docstring::module(output);
     output << std::endl;

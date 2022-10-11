@@ -143,7 +143,7 @@ namespace write
         void classdoc(std::ofstream &module)
         {
             tabbing(module, 1);
-            module << docstringprefix << "tentative test class, add additional comments here: " << std::endl;
+            module << docstringprefix << "tentative test class, add additional comments here:" << std::endl;
             tabbing(module, 1);
             module << docstringprefix << std::endl;
         }
@@ -186,6 +186,7 @@ namespace write
     void tree_method(std::ofstream &module, const Node *object)
     {
         write::method(module, object);
+        module << std::endl;
         // std::vector<Node*> copy_of_children = {};
         for (const auto miniobject : object->children)
         {
