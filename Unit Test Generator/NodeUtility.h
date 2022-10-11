@@ -153,21 +153,25 @@ namespace format
         std::string newstring = basestring;
         return newstring;
     }
-    
-    void checkappend(NodeUtility::Node* blue,NodeUtility::Node* red,int timessees = 1)
+
+    void checkappend(NodeUtility::Node *blue, NodeUtility::Node *red, int timessees = 1)
     {
         bool addtocounter = blue->ingredient == red->ingredient and blue != red;
         if (addtocounter)
         {
-            timessees+=1;
+            timessees += 1;
             std::stringstream buffer;
             std::string red_append;
             buffer << timessees;
             buffer >> red_append;
-            red->ingredient.append("_repeat"+red_append);
+            red->ingredient.append("_repeat" + red_append);
         }
-        for (auto lightblue : blue->children){
-            checkappend(blue,lightblue);
+        if (!blue->children.empty())
+        {
+            for (auto lightblue : blue->children)
+            {
+                checkappend(blue, lightblue, timessees);
+            }
         }
     }
     void nickname(NodeUtility::Node *object)
@@ -175,7 +179,7 @@ namespace format
         // call traverse function here
         for (auto child_object : object->children)
         {
-            checkappend(object,child_object);
+            checkappend(object, child_object);
             nickname(child_object);
         }
     }
