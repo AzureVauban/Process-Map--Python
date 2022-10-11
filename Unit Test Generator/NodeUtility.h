@@ -36,8 +36,8 @@ namespace NodeUtility
     long long int setassertvalues(Node *object, const long long int desiredamount = 0)
     {
         object->amountresulted = desiredamount;
-        const float ratio = 1 / (object->amountmadepercraft / object->amountneeded);
-        object->amountonhand = round(object->amountresulted * ratio);
+        float ratio = 1 / (object->amountmadepercraft / object->amountneeded);
+        object->amountonhand = object->amountresulted * ratio;
         for (auto child : object->children)
         {
             setassertvalues(child, object->amountonhand);
