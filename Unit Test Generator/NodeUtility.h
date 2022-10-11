@@ -12,10 +12,10 @@ namespace NodeUtility
     {
         //! using namespace NodeUtility;
         std::string ingredient;
-        long long int amountonhand, amountneeded, amountmadepercraft, amountresulted;
+        int amountonhand, amountneeded, amountmadepercraft, amountresulted;
         Node *parent;
         std::vector<Node *> children;
-        Node(std::string name = "", Node *par = nullptr, long long int amount_on_hand = 0, long long int amount_parent_madepercraft = 1, long long int amount_needed = 1)
+        Node(std::string name = "", Node *par = nullptr, int amount_on_hand = 0,int amount_parent_madepercraft = 1,int amount_needed = 1)
         {
             ingredient = name;
             parent = par;
@@ -33,16 +33,16 @@ namespace NodeUtility
         }
     };
     // set the amount on hand to the desired amount/assertvalue
-    long long int setassertvalues(Node *object, const long long int desiredamount = 0)
+    long long int setassertvalues(Node *object, const int desiredamount = 0)
     {
         std::cin.clear();
         object->amountresulted = desiredamount;
-        auto A = object->amountresulted;
-        auto B = object->amountmadepercraft;
-        auto C = object->amountneeded;
-        auto D = object->amountresulted;
-        auto E = object->amountresulted * 1/((A/B));
-        auto amountonhand_local = E;
+        float A = object->amountresulted;
+        float B = object->amountmadepercraft;
+        float C = object->amountneeded;
+        float D = object->amountresulted;
+        int E = object->amountresulted * 1/((A/B));
+        float amountonhand_local = E;
         for (auto child : object->children)
         {
             setassertvalues(child,E);
