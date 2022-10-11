@@ -29,9 +29,11 @@ void populate(NodeUtility::Node *object)
         }
     } while (!userinput.empty());
     //create child node instances
-    bool 
+    bool promptbool = true;
+    int amountmadepercraft = 0; 
     for (const auto& childname : userinputs){
-        auto childinstance = new NodeUtility::Node(childname,object,0,1,1,);
+        auto childinstance = new NodeUtility::Node(childname,object,0,1,1,promptbool);
+        promptbool = false;
     }
     //recursive runtime
 }
