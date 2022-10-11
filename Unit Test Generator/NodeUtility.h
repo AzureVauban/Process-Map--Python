@@ -214,7 +214,7 @@ namespace write
 
             module << "import unittest" << std::endl
                    << std::endl;
-            module << "from main import Node" << std::endl;
+            module << "from main import Node, reversearithmetic" << std::endl;
         }
         void classdoc(std::ofstream &module)
         {

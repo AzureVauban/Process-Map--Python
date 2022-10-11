@@ -78,7 +78,7 @@ int main()
     auto head = new Node(head_node_name);
     // prompt subingredients
     populate(head);
-    //make ingredient names unique
+    // make ingredient names unique
     ///! SEG FAULT CAUSED BY FORMAT STRING FUNCTION, FIX format::nickname(head);
 
     // prompt desired amount
@@ -92,6 +92,7 @@ int main()
     output << std::endl;
     // create variable declarations
     write::tree_declaration(output, head);
+    output << "reversearithmetic(" << format::formatstring(head->ingredient, format::instance_declaration) << ", " << desirednumofhead << ")" << std::endl;
     output << std::endl
            << std::endl;
     // create test class
