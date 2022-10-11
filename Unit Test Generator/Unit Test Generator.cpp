@@ -79,7 +79,7 @@ int main()
     // prompt subingredients
     populate(head);
     // todo create function that determines if an input has been repeated somewhere else and append a number the name to make it unique
-    format::nickname(head);
+    ///! SEG FAULT CAUSED BY FORMAT STRING FUNCTION, FIX format::nickname(head);
     //! call the functiion on the line of this comment <FUNCTION>
     // prompt desired amount
     std::cout << "How much " << head->ingredient << " do you want to create? " << std::endl;
