@@ -9,7 +9,11 @@ void populate(NodeUtility::Node &object)
 }
 bool isdigit_check(const std::string A = "")
 {
-    bool 
+    bool isdigit = false;
+    for (const auto &character : A)
+    {
+        if 
+    }
 }
 int main()
 {
@@ -27,8 +31,14 @@ int main()
     // set assert values - do arithmetic
 
     std::cout << "How much " << blockofnetherite->ingredient << " do you want to create? " << std::endl;
+    std::string desiredamount_str = "";
+    do {
+    std::getline(std::cin,desiredamount_str);
+    std::remove(desiredamount_str.begin(), desiredamount_str.end(), ' ');
+    } while (not isdigit_check(desiredamount_str));
+
     int desirednumofhead = 1;
-    std::cin >> desirednumofhead;
+    //std::cin >> desirednumofhead;
     NodeUtility::setassertvalues(blockofnetherite, desirednumofhead);
     //  create docstring
     write::docstring::module(output);
