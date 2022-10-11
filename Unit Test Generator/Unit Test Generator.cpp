@@ -21,7 +21,7 @@ int main()
     // create and write into file
     // todo create function that determines if an input has been repeated somewhere else and append a number the name to make it unique
     // set assert values - do arithmetic
-    NodeUtility::setassertvalues(blockofnetherite,64);
+    NodeUtility::setassertvalues(blockofnetherite, 64);
     //  create docstring
     write::docstring::module(output);
     output << std::endl;
