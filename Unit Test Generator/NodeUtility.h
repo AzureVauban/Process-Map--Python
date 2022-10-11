@@ -207,10 +207,6 @@ namespace write
         {
             module << write::docstringprefix << "AUTO GENERATED UNIT TEST" << std::endl
                    << write::docstringprefix << std::endl;
-            /*
-            std::vector<std::string> moduleimportnames = {"unittest", "random", "math", "main"};
-            std::sort(moduleimportnames.begin(), moduleimportnames.end());
-            */
 
             module << "import unittest" << std::endl
                    << std::endl;
@@ -246,7 +242,7 @@ namespace write
     void method(std::ofstream &module, const Node *object)
     {
         tabbing(module, 1);
-        module << "def test_" << format::formatstring(object->ingredient, format::method) << "(self):# pylint:disable=C0103" << std::endl;
+        module << "def test_" << format::formatstring(object->ingredient, format::method) << "(self): # pylint:disable=C0103" << std::endl;
         write::docstring::method(module, object);
         tabbing(module, 2);
         module << "self.assertEqual(" << format::formatstring(object->ingredient, format::instance_declaration) << ".amountonhand," << object->amountonhand << ")" << std::endl;
@@ -263,7 +259,6 @@ namespace write
     {
         write::method(module, object);
         module << std::endl;
-        // std::vector<Node*> copy_of_children = {};
         for (const auto miniobject : object->children)
         {
             tree_method(module, miniobject);
