@@ -6,6 +6,7 @@ void populate(NodeUtility::Node &object)
 {
     std::cout << "What do you need to create " << object.ingredient << ":" << std::endl;
 }
+
 int main()
 {
     using namespace NodeUtility;
@@ -21,6 +22,8 @@ int main()
     // create and write into file
     // todo create function that determines if an input has been repeated somewhere else and append a number the name to make it unique
     // set assert values - do arithmetic
+
+    
     NodeUtility::setassertvalues(blockofnetherite, 64);
     //  create docstring
     write::docstring::module(output);
@@ -34,9 +37,10 @@ int main()
     // create test methods
     write::tree_method(output, blockofnetherite);
     // clean up allocated memory from tree
-    massdelete(blockofnetherite);
     // terminate process
     output << std::endl;
     output.close();
+    
+    massdelete(blockofnetherite);
     return 0;
 }
