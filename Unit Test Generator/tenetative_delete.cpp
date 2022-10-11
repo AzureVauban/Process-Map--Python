@@ -1,15 +1,17 @@
 #include <iostream>
 #include <cmath>
-int test_power(const double a, const double b)
+int red(const double a, const double b)
 {
     return int(std::pow(a, b));
 }
-void test(const double x, const double y)
+void blue(const double x, const double y)
 {
-    std::cout << x << "^" << y << " " << test_power(x, y);
+    std::cout << x << " ^ " << y << " == " << red(x, y) << std::endl;
 }
 int main()
 {
-    test((1 / 50), -1);
+//    blue((1.00 / 50.00), -1);
+    blue((double(1) / double(50)), -1);
+
     return 0;
 }
