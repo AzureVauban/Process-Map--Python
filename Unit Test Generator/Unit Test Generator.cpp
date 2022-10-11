@@ -13,7 +13,11 @@ void populate(NodeUtility::Node *object)
     {
         std::getline(std::cin, userinput);
         //std::remove(userinput.begin(), userinput.end(), ' ');
-        
+        while (userinput.size() > 0 and userinput.back() == ' ')
+        {
+            userinput.pop_back();
+            userinput.shrink_to_fit();
+        }
         bool isalreadypresent = false;
         for (const auto &mystring : userinputs)
         {
@@ -53,6 +57,10 @@ void populate(NodeUtility::Node *object)
         }
     }
     // recursive runtime
+    for (auto childnode : object->children)
+    {
+        populate(childnode);
+    }
 }
 int main()
 {
