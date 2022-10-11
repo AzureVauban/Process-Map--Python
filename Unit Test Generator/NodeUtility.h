@@ -65,6 +65,9 @@ namespace NodeUtility
             {
                 std::cout << "What is the amount of " << parent->ingredient << " you create each time you craft it? " << std::endl;
                 amountmadepercraft = integer_input();
+            }
+            if (parent)
+            {
                 std::cout << "What is the amount of " << ingredient << " you need to craft " << parent->ingredient << " 1 time?" << std::endl;
                 amountneeded = integer_input();
             }

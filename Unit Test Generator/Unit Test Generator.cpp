@@ -32,8 +32,15 @@ void populate(NodeUtility::Node *object)
     bool promptbool = true;
     int amountmadepercraft = 0; 
     for (const auto& childname : userinputs){
+        if (promptbool)
+        {
         auto childinstance = new NodeUtility::Node(childname,object,0,1,1,promptbool);
         promptbool = false;
+        amountmadepercraft = childinstance->amountmadepercraft;
+        } else {
+        auto childinstance = new NodeUtility::Node(childname,object,0,amountmadepercraft,1);
+        }
+
     }
     //recursive runtime
 }
