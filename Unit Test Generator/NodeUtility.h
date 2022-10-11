@@ -101,7 +101,7 @@ void massdelete(NodeUtility::Node *obj)
     delete obj;
 }
 // functions for writting and creating the unit test module
-namespace format // todo modify these functions in a string subclass
+namespace format
 {
     enum formattype
     {
@@ -152,6 +152,32 @@ namespace format // todo modify these functions in a string subclass
     {
         std::string newstring = basestring;
         return newstring;
+    }
+    
+    void checkappend(NodeUtility::Node* blue,NodeUtility::Node* red,int timessees = 1)
+    {
+        bool addtocounter = blue->ingredient == red->ingredient and blue != red;
+        if (addtocounter)
+        {
+            timessees+=1;
+            std::stringstream buffer;
+            std::string red_append;
+            buffer << timessees;
+            buffer >> red_append;
+            red->ingredient.append("_repeat"+red_append);
+        }
+        for (auto lightblue : blue->children){
+            checkappend(blue,lightblue);
+        }
+    }
+    void nickname(NodeUtility::Node *object)
+    {
+        // call traverse function here
+        for (auto child_object : object->children)
+        {
+            checkappend(object,child_object);
+            nickname(child_object);
+        }
     }
 }
 namespace write
