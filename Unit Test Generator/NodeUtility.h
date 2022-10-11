@@ -12,10 +12,10 @@ namespace NodeUtility
     {
         //! using namespace NodeUtility;
         std::string ingredient;
-        int amountonhand = 0, 
-        amountneeded = 0, 
-        amountmadepercraft = 0, 
-        amountresulted = 0;
+        int amountonhand = 0,
+            amountneeded = 0,
+            amountmadepercraft = 0,
+            amountresulted = 0;
         Node *parent;
         std::vector<Node *> children;
         Node(std::string name = "", Node *par = nullptr, int amount_on_hand = 0, int amount_parent_madepercraft = 1, int amount_needed = 1)
@@ -39,13 +39,7 @@ namespace NodeUtility
     int setassertvalues(Node *object, int desiredamount = 0)
     {
         // figure out how much the assert should be, the long way
-        int answer = 0;
-        while (desiredamount < answer)
-        {
-                object->amountonhand += 1;
-                answer = object->amountonhand * (object->amountmadepercraft/object->amountneeded);
-            
-        }
+        object->amountonhand = desiredamount * std::pow(double(object->amountmadepercraft) / double(object->amountneeded), -1.00);
         // iterate through the children subnodes
         for (auto child : object->children)
         {
@@ -160,7 +154,8 @@ namespace write
             module << docstringprefix << "assert that " << object->ingredient << " is equal to " << object->amountonhand << std::endl;
             tabbing(module, 2);
             module << docstringprefix;
-            module << std::endl;
+            module << std::endl
+                   << std::endl;
         }
     }
     void declaration(std::ofstream &module, const Node *object)
@@ -175,7 +170,7 @@ namespace write
     void method(std::ofstream &module, const Node *object)
     {
         tabbing(module, 1);
-        module << "def test_" << format::formatstring(object->ingredient, format::method) << "(self):" << std::endl;
+        module << "def test_" << format::formatstring(object->ingredient, format::method) << "(self):# pylint:disable=C0103" << std::endl;
         write::docstring::method(module, object);
         tabbing(module, 2);
         module << "self.assertEqual(" << format::formatstring(object->ingredient, format::instance_declaration) << ".amountonhand," << object->amountonhand << ")" << std::endl;
@@ -205,7 +200,7 @@ namespace write
             temp = temp->parent;
         }
         module << "class " << format::formatstring(temp->ingredient, format::classname) << "_unittest"
-               << "(unittest.TestCase): #pylint:disable=C0103" << std::endl;
+               << "(unittest.TestCase): # pylint:disable=C0103" << std::endl;
         docstring::classdoc(module);
         module << std::endl;
         // call docstring function for class

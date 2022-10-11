@@ -39,8 +39,7 @@ int main()
     // clean up allocated memory from tree
     // terminate process
     output << std::endl;
-    output.close();
-    
     massdelete(blockofnetherite);
+    output.close();
     return 0;
 }
