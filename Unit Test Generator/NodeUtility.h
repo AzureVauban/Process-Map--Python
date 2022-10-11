@@ -41,7 +41,7 @@ namespace NodeUtility
         float B = object->amountmadepercraft;
         float C = object->amountneeded;
         float D = object->amountresulted;
-        int E = object->amountresulted * 1/((A/B));
+        int E = D * 1/((A/B));
         float amountonhand_local = E;
         for (auto child : object->children)
         {
