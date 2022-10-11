@@ -12,7 +12,8 @@ void populate(NodeUtility::Node *object)
     do
     {
         std::getline(std::cin, userinput);
-        std::remove(userinput.begin(), userinput.end(), ' ');
+        //std::remove(userinput.begin(), userinput.end(), ' ');
+        
         bool isalreadypresent = false;
         for (const auto &mystring : userinputs)
         {
