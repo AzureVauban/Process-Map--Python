@@ -12,7 +12,6 @@ void populate(NodeUtility::Node *object)
     do
     {
         std::getline(std::cin, userinput);
-        //std::remove(userinput.begin(), userinput.end(), ' ');
         while (userinput.size() > 0 and userinput.back() == ' ')
         {
             userinput.pop_back();
@@ -66,14 +65,18 @@ int main()
 {
     using namespace NodeUtility;
     // prompt the name of the head most ingredient
-    auto head = new Node("Block of Netherite");
+    std::string head_node_name = "";
+    do
+    {
+        std::cout << "What is the name of the item you want to create?" << std::endl;
+        std::getline(std::cin, head_node_name);
+        if (head_node_name.empty())
+        {
+            std::cout << "Please type in something!" << std::endl;
+        }
+    } while (head_node_name.empty());
+    auto head = new Node(head_node_name);
     // prompt subingredients
-    /*
-    auto netheriteingot = new Node("Netherite Ingot", head, 0, 1, 9);
-    auto goldingot = new Node("Gold Ingot", netheriteingot, 0, 1, 4);
-    auto netheritescrap = new Node("Netherite Scrap", netheriteingot, 1, 1, 4);
-    auto emerald = new Node("Emerald", netheritescrap, 0, 1, 34);
-    */
     populate(head);
     // todo create function that determines if an input has been repeated somewhere else and append a number the name to make it unique
     // prompt desired amount
