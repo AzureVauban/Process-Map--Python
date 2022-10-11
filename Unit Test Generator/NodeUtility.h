@@ -12,10 +12,13 @@ namespace NodeUtility
     {
         //! using namespace NodeUtility;
         std::string ingredient;
-        int amountonhand, amountneeded, amountmadepercraft, amountresulted;
+        int amountonhand = 0, 
+        amountneeded = 0, 
+        amountmadepercraft = 0, 
+        amountresulted = 0;
         Node *parent;
         std::vector<Node *> children;
-        Node(std::string name = "", Node *par = nullptr, int amount_on_hand = 0,int amount_parent_madepercraft = 1,int amount_needed = 1)
+        Node(std::string name = "", Node *par = nullptr, int amount_on_hand = 0, int amount_parent_madepercraft = 1, int amount_needed = 1)
         {
             ingredient = name;
             parent = par;
@@ -33,13 +36,20 @@ namespace NodeUtility
         }
     };
     // set the amount on hand to the desired amount/assertvalue
-    int setassertvalues(Node *object, const int desiredamount = 0)
+    int setassertvalues(Node *object, int desiredamount = 0)
     {
-        int answer = object->amountonhand * std::pow(object->amountmadepercraft/object->amountneeded,-1);
-        while (desiredamount > )
+        // figure out how much the assert should be, the long way
+        int answer = 0;
+        while (desiredamount < answer)
+        {
+                object->amountonhand += 1;
+                answer = object->amountonhand * (object->amountmadepercraft/object->amountneeded);
+            
+        }
+        // iterate through the children subnodes
         for (auto child : object->children)
         {
-            setassertvalues(child,object->amountonhand);
+            setassertvalues(child, object->amountonhand);
         }
         std::cout << "FINISH SETTING ASSERT VALUE FOR " << object->ingredient << std::endl;
         return object->amountonhand;
