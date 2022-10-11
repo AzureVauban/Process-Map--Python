@@ -4,7 +4,39 @@
 #include <cmath>
 #include <vector>
 #include <fstream>
+#include <sstream>
 #include <algorithm>
+bool isdigit_check(const std::string basestring = "")
+{
+    bool isdigit = false;
+    for (const auto &character : basestring)
+    {
+        isdigit = (int)character <= 57 and (int) character >= 48;
+        if (not isdigit)
+        {
+            break;
+        }
+    }
+    return isdigit;
+}
+int integer_input()
+{
+    int returnint = 0;
+    std::string userinpput = "";
+    std::stringstream buffer;
+    do
+    {
+        std::getline(std::cin, userinpput);
+        std::remove(userinpput.begin(), userinpput.end(), ' ');
+        if (not isdigit_check(userinpput))
+        {
+            std::cout << "Please type in an interger" << std::endl;
+        }
+    } while (not isdigit_check(userinpput));
+    buffer << userinpput;
+    buffer >> returnint;
+    return returnint;
+}
 namespace NodeUtility
 {
 
@@ -18,7 +50,7 @@ namespace NodeUtility
             amountresulted = 0;
         Node *parent;
         std::vector<Node *> children;
-        Node(std::string name = "", Node *par = nullptr, int amount_on_hand = 0, int amount_parent_madepercraft = 1, int amount_needed = 1)
+        Node(std::string name = "", Node *par = nullptr, int amount_on_hand = 0, int amount_parent_madepercraft = 1, int amount_needed = 1, const bool promptdiffers = false)
         {
             ingredient = name;
             parent = par;
@@ -29,6 +61,13 @@ namespace NodeUtility
             amountonhand = amount_on_hand;
             amountmadepercraft = amount_parent_madepercraft;
             amountneeded = amount_needed;
+            if (parent and promptdiffers)
+            {
+                std::cout << "What is the amount of " << parent->ingredient << " you create each time you craft it? " << std::endl;
+                amountmadepercraft = integer_input();
+                std::cout << "What is the amount of " << ingredient << " you need to craft " << parent->ingredient << " 1 time?" << std::endl;
+                amountneeded = integer_input();
+            }
         }
         ~Node()
         {
