@@ -156,7 +156,7 @@ namespace format
     namespace unique
     {
 
-    void modifyname(NodeUtility::Node *base, const std::string checkstring = "", int timesseen = 1)
+    void modifyname(NodeUtility::Node *base, const std::string checkstring = "", static int timesseen = 1)
     {
         bool changename = base->ingredient == checkstring;
         if (changename)

@@ -79,7 +79,7 @@ int main()
     // prompt subingredients
     populate(head);
     // make ingredient names unique
-    ///test this function below the comment
+    /// test this function below the comment
     format::unique::parsetree(head);
     // prompt desired amount
     std::cout << "How much " << head->ingredient << " do you want to create? " << std::endl;
