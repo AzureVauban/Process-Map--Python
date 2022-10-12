@@ -4,30 +4,32 @@ import unittest
 
 from main import Node, reversearithmetic
 
-morphite: Node = Node('morphite', None, 0, 1, 1)
-yt: Node = Node('yt', morphite, 0, 43, 6)
-fgd: Node = Node('fgd', morphite, 0, 43, 7)
-reversearithmetic(morphite, 7)
+Morphite: Node = Node('Morphite', None, 0, 1, 1)
+Mini_Morphit: Node = Node('Mini Morphit', Morphite, 0, 1, 9)
+booitem: Node = Node('booitem', Mini_Morphit, 0, 9, 1)
+reversearithmetic(Morphite, 64)
 
 
-class MORPHITE_unittest(unittest.TestCase):  # pylint:disable=C0103
-    """tentative test class, add additional comments here:
-    """
+class MORPHITE_unittest(unittest.TestCase): # pylint:disable=C0103
+	"""tentative test class, add additional comments here:
+	"""
 
-    def test_morphite(self):  # pylint:disable=C0103
-        """assert that morphite is equal to 7
-        """
+	def test_Morphite(self): # pylint:disable=C0103
+		"""assert that Morphite is equal to 64
+		"""
 
-        self.assertEqual(morphite.amountonhand, 7)
+		self.assertEqual(Morphite.amountonhand,64)
 
-    def test_yt(self):  # pylint:disable=C0103
-        """assert that yt is equal to 0
-        """
+	def test_Mini_Morphit(self): # pylint:disable=C0103
+		"""assert that Mini Morphit is equal to 576
+		"""
 
-        self.assertEqual(yt.amountonhand, 0)
+		self.assertEqual(Mini_Morphit.amountonhand,576)
 
-    def test_fgd(self):  # pylint:disable=C0103
-        """assert that fgd is equal to 1
-        """
+	def test_booitem(self): # pylint:disable=C0103
+		"""assert that booitem is equal to 64
+		"""
 
-        self.assertEqual(fgd.amountonhand, 1)
+		self.assertEqual(booitem.amountonhand,64)
+
+
