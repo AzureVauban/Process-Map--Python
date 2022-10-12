@@ -2,7 +2,7 @@
 // merge changes into Bug Fixing Branch when this is completed
 #include "NodeUtility.h"
 
-std::ofstream output("generatedUnitTest.py");
+std::ofstream output("auto_generated_unittest.py");
 void populate(NodeUtility::Node *object)
 {
     std::cout << "What do you need to create " << object->ingredient << ":" << std::endl;
@@ -101,7 +101,6 @@ int main()
     write::tree_method(output, head);
     // clean up allocated memory from tree
     // terminate process
-    output << std::endl;
     massdelete(head);
     output.close();
     return 0;
