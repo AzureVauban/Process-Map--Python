@@ -111,7 +111,7 @@ namespace format
         method = 3,
         instance_declaration = 4
     };
-    // todo add funnctions for formatting here
+    // todo add functions for formatting here
     std::string formatstring(const std::string basestring, const formattype type = defaulttype)
     {
         std::string returnstring = basestring;
@@ -152,36 +152,12 @@ namespace format
         }
         return returnstring;
     }
+    // todo add functions for appending numbers to ingredient names to make ingredient names unique
+    void (NodeUtility::Node *base)
+    {
 
-    void checkappend(NodeUtility::Node *blue, NodeUtility::Node *red, int timessees = 1)
-    {
-        bool addtocounter = blue->ingredient == red->ingredient and blue != red;
-        if (addtocounter)
-        {
-            timessees += 1;
-            std::stringstream buffer;
-            std::string red_append;
-            buffer << timessees;
-            buffer >> red_append;
-            red->ingredient.append("_repeat" + red_append);
-        }
-        if (!blue->children.empty())
-        {
-            for (auto lightblue : blue->children)
-            {
-                checkappend(blue, lightblue, timessees);
-            }
-        }
     }
-    void nickname(NodeUtility::Node *object)
-    {
-        // call traverse function here
-        for (auto child_object : object->children)
-        {
-            checkappend(object, child_object);
-            nickname(child_object);
-        }
-    }
+
 }
 namespace write
 {
