@@ -10,26 +10,24 @@ fgd: Node = Node('fgd', morphite, 0, 43, 7)
 reversearithmetic(morphite, 7)
 
 
-class MORPHITE_unittest(unittest.TestCase): # pylint:disable=C0103
-	"""tentative test class, add additional comments here:
-	"""
+class MORPHITE_unittest(unittest.TestCase):  # pylint:disable=C0103
+    """tentative test class, add additional comments here:
+    """
 
-	def test_morphite(self): # pylint:disable=C0103
-		"""assert that morphite is equal to 7
-		"""
+    def test_morphite(self):  # pylint:disable=C0103
+        """assert that morphite is equal to 7
+        """
 
-		self.assertEqual(morphite.amountonhand,7)
+        self.assertEqual(morphite.amountonhand, 7)
 
-	def test_yt(self): # pylint:disable=C0103
-		"""assert that yt is equal to 0
-		"""
+    def test_yt(self):  # pylint:disable=C0103
+        """assert that yt is equal to 0
+        """
 
-		self.assertEqual(yt.amountonhand,0)
+        self.assertEqual(yt.amountonhand, 0)
 
-	def test_fgd(self): # pylint:disable=C0103
-		"""assert that fgd is equal to 1
-		"""
+    def test_fgd(self):  # pylint:disable=C0103
+        """assert that fgd is equal to 1
+        """
 
-		self.assertEqual(fgd.amountonhand,1)
-
-
+        self.assertEqual(fgd.amountonhand, 1)
