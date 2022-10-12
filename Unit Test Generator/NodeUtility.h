@@ -153,7 +153,10 @@ namespace format
         return returnstring;
     }
     // function for appending numbers to ingredient names to make ingredient names unique
-    void makenameunique(NodeUtility::Node *base, const std::string checkstring = "", int timesseen = 1)
+    namespace unique
+    {
+
+    void modifyname(NodeUtility::Node *base, const std::string checkstring = "", int timesseen = 1)
     {
         bool changename = base->ingredient == checkstring;
         if (changename)
@@ -169,11 +172,15 @@ namespace format
         {
             for (auto child : base->children)
             {
-                makenameunique(child);
+                modifyname(child);
             }
         }
     }
-    void parsetrees
+    void parsetree(NodeUtility::Node* base)
+    {
+
+    }
+    }
 }
 namespace write
 {
