@@ -178,9 +178,10 @@ namespace format
     }
     void parsetree(NodeUtility::Node* base)
     {
+        modifyname(base,base->ingredient);
         for (auto childnode : base->children)
         {
-            parsetree(childnode,childnode.in);
+            parsetree(childnode);
         }
     }
     }
