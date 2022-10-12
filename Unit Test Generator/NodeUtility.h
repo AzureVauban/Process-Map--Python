@@ -152,11 +152,6 @@ namespace format
         }
         return returnstring;
     }
-    std::string modifytitle(const std::string basestring)
-    {
-        std::string newstring = basestring;
-        return newstring;
-    }
 
     void checkappend(NodeUtility::Node *blue, NodeUtility::Node *red, int timessees = 1)
     {
