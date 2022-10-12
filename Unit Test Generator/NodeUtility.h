@@ -153,9 +153,12 @@ namespace format
         return returnstring;
     }
     // function for appending numbers to ingredient names to make ingredient names unique
-    void makeunique(NodeUtility::Node *base,const std::string checkstring = "",int timesseen + 1)
+    void makeunique(NodeUtility::Node *base,const std::string checkstring = "",int timesseen = 1)
     {
-        
+        bool changename = base->ingredient == checkstring;
+        if (changename){
+            
+        }
     }
 
 }
