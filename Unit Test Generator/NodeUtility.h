@@ -152,10 +152,10 @@ namespace format
         }
         return returnstring;
     }
-    // todo add functions for appending numbers to ingredient names to make ingredient names unique
-    void (NodeUtility::Node *base)
+    // function for appending numbers to ingredient names to make ingredient names unique
+    void makeunique(NodeUtility::Node *base,const std::string checkstring = "",int timesseen + 1)
     {
-
+        
     }
 
 }
