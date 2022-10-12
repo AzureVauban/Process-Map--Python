@@ -79,8 +79,8 @@ int main()
     // prompt subingredients
     populate(head);
     // make ingredient names unique
-    ///! SEG FAULT CAUSED BY FORMAT STRING FUNCTION, FIX format::nickname(head);
-
+    ///test this function below the comment
+    format::unique::parsetree(head);
     // prompt desired amount
     std::cout << "How much " << head->ingredient << " do you want to create? " << std::endl;
     int desirednumofhead = integer_input();
