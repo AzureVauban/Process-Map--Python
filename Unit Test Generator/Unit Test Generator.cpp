@@ -92,7 +92,7 @@ void populate(NodeUtility::Node *object)
         {
             std::cout << "Please type in some letters, an ingredient name with only numbers is not allowed!" << std::endl;
         }
-        else if (notunique) // ingredient cannot be typed in already, EACH ingredient input must be unique
+        else if (not notunique) // ingredient cannot be typed in already, EACH ingredient input must be unique
         {
             std::cout << "This ingredient name is not unique, please type something on the end of its name to make it unique" << std::endl;
         }
