@@ -24,7 +24,6 @@ int main()
     populate(head);
     // make ingredient names unique
     /// test this function below the comment
-    format::unique::parsetree(head);
     // prompt desired amount
     std::cout << "How much " << head->ingredient << " do you want to create? " << std::endl;
     int desirednumofhead = integer_input();
@@ -54,6 +53,11 @@ void populate(NodeUtility::Node *object)
     std::cout << "What do you need to create " << object->ingredient << ":" << std::endl;
     std::string userinput = "";
     std::vector<std::string> userinputs = {};
+    auto headnode = object;
+    while (headnode->parent)
+    {
+        headnode = headnode->parent;
+    }
     // prompt inputs
     do
     {
@@ -83,6 +87,10 @@ void populate(NodeUtility::Node *object)
         else if (userinput == object->ingredient)
         {
             std::cout << "You cannot type that in..." << std::endl;
+        }
+        else if (not verifyuniqueness(userinput, headnode))
+        {
+            std::cout << "Please type in the same thing with a unique notation, example: " << userinput << "_2a" << std::endl;
         }
     } while (!userinput.empty());
     // create child node instances
