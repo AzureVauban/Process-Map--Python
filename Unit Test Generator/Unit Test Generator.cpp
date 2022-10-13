@@ -3,6 +3,52 @@
 #include "NodeUtility.h"
 
 std::ofstream output("auto_generated_unittest.py");
+void populate(NodeUtility::Node *object);
+bool verifyuniqueness(const std::string A, const NodeUtility::Node *objectNode);
+int main()
+{
+    using namespace NodeUtility;
+    // prompt the name of the head most ingredient
+    std::string head_node_name = "";
+    do
+    {
+        std::cout << "What is the name of the item you want to create?" << std::endl;
+        std::getline(std::cin, head_node_name);
+        if (head_node_name.empty())
+        {
+            std::cout << "Please type in something!" << std::endl;
+        }
+    } while (head_node_name.empty());
+    auto head = new Node(head_node_name);
+    // prompt subingredients
+    populate(head);
+    // make ingredient names unique
+    /// test this function below the comment
+    format::unique::parsetree(head);
+    // prompt desired amount
+    std::cout << "How much " << head->ingredient << " do you want to create? " << std::endl;
+    int desirednumofhead = integer_input();
+    // set assert values - do arithmetic
+    NodeUtility::setassertvalues(head, desirednumofhead);
+    // create and write into file
+    //  create docstring
+    write::docstring::module(output);
+    output << std::endl;
+    // create variable declarations
+    write::tree_declaration(output, head);
+    output << "reversearithmetic(" << format::formatstring(head->ingredient, format::instance_declaration) << ", " << desirednumofhead << ")" << std::endl;
+    output << std::endl
+           << std::endl;
+    // create test class
+    write::createclass(output, head);
+    // create test methods
+    write::tree_method(output, head);
+    // clean up allocated memory from tree
+    // terminate process
+    massdelete(head);
+    output.close();
+    return 0;
+}
 void populate(NodeUtility::Node *object)
 {
     std::cout << "What do you need to create " << object->ingredient << ":" << std::endl;
@@ -61,48 +107,15 @@ void populate(NodeUtility::Node *object)
         populate(childnode);
     }
 }
-bool isnotunique(const std::string)
-int main()
+bool verifyuniqueness(const std::string A, const NodeUtility::Node *objectNode)
 {
-    using namespace NodeUtility;
-    // prompt the name of the head most ingredient
-    std::string head_node_name = "";
-    do
+    static bool isnotuniquestring = A != objectNode->ingredient;
+    if (isnotuniquestring)
     {
-        std::cout << "What is the name of the item you want to create?" << std::endl;
-        std::getline(std::cin, head_node_name);
-        if (head_node_name.empty())
+        for (const auto child : objectNode->children)
         {
-            std::cout << "Please type in something!" << std::endl;
+            verifyuniqueness(A, child);
         }
-    } while (head_node_name.empty());
-    auto head = new Node(head_node_name);
-    // prompt subingredients
-    populate(head);
-    // make ingredient names unique
-    /// test this function below the comment
-    format::unique::parsetree(head);
-    // prompt desired amount
-    std::cout << "How much " << head->ingredient << " do you want to create? " << std::endl;
-    int desirednumofhead = integer_input();
-    // set assert values - do arithmetic
-    NodeUtility::setassertvalues(head, desirednumofhead);
-    // create and write into file
-    //  create docstring
-    write::docstring::module(output);
-    output << std::endl;
-    // create variable declarations
-    write::tree_declaration(output, head);
-    output << "reversearithmetic(" << format::formatstring(head->ingredient, format::instance_declaration) << ", " << desirednumofhead << ")" << std::endl;
-    output << std::endl
-           << std::endl;
-    // create test class
-    write::createclass(output, head);
-    // create test methods
-    write::tree_method(output, head);
-    // clean up allocated memory from tree
-    // terminate process
-    massdelete(head);
-    output.close();
-    return 0;
+    }
+    return isnotuniquestring;
 }
