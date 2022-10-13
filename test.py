@@ -54,7 +54,7 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
                     break
         self.assertTrue(iscalledpixels)
 
-    def test_temptest(self, myendpoints: dict = None):
+    def test_temptest(self):
         """test to see if the total sum of the endpoint node's % compostion correctly
            rounds towards 1 (100%)
            example output:
@@ -62,7 +62,7 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
         """
         # condense endpoints dictionary, each Node should have a unique ingredient name
         # sum the total amount on hand of the item and divide the local amount on hands by the summed total
-            # make sure you store these quotients somewhere and iterate through them when outputting the final resuls  
+        # make sure you store these quotients and their parent ingredient names somewhere and iterate through them when outputting the final resuls
         self.assertEqual(len(myendpoints), 1)
 
 
