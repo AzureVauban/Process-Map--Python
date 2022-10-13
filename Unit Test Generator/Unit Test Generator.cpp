@@ -125,13 +125,11 @@ void populate(NodeUtility::Node *object)
 }
 bool verifyuniqueness(const std::string A, const NodeUtility::Node *objectNode)
 {
-    static bool isnotuniquestring = A != objectNode->ingredient;
-    if (isnotuniquestring)
+    bool isnotunique = A == objectNode->ingredient;
+    
+    while (objectNode->parent and not isnotunique)
     {
-        for (const auto child : objectNode->children)
-        {
-            verifyuniqueness(A, child);
-        }
+
     }
-    return isnotuniquestring;
+    return isnotunique;
 }
