@@ -4,7 +4,7 @@
 
 std::ofstream output("auto_generated_unittest.py");
 void populate(NodeUtility::Node *object);
-bool verifyuniqueness(const std::string A, const NodeUtility::Node *objectNode);
+bool verifyuniqueness(const std::string A, NodeUtility::Node *objectNode);
 int main()
 {
     using namespace NodeUtility;
@@ -63,7 +63,7 @@ void populate(NodeUtility::Node *object)
     {
         // check for duplicates
         std::getline(std::cin, userinput);
-        bool isalreadytyped = false, notunique = verifyuniqueness(userinput, headnode);
+        bool isalreadytyped = false, notunique = verifyuniqueness(userinput, object);
         for (const auto &myinput : userinputs)
         {
             isalreadytyped = userinput == myinput;
@@ -123,13 +123,13 @@ void populate(NodeUtility::Node *object)
         populate(childnode);
     }
 }
-bool verifyuniqueness(const std::string A, const NodeUtility::Node *objectNode)
+bool verifyuniqueness(const std::string A, NodeUtility::Node *objectNode)
 {
-    bool isnotunique = A == objectNode->ingredient;
+    bool isnotunique = A != objectNode->ingredient;
     
     while (objectNode->parent and not isnotunique)
     {
-
+        objectNode = objectNode->parent;
     }
     return isnotunique;
 }
