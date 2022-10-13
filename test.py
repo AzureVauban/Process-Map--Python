@@ -4,6 +4,8 @@
 import random
 import unittest
 
+from numpy import roots
+
 from main import Node, findlocalendpoints, reversearithmetic
 
 
@@ -51,39 +53,15 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
                 if not iscalledpixels:
                     break
         self.assertTrue(iscalledpixels)
-
-    def test_temptest(self):
+    def test_temptest(self,tree_endpoints = None):
         """test to see if the total sum of the endpoint node's % compostion correctly
            rounds towards 1 (100%)
         """
-        blue: list = []
-        red : dict = {} #? {itemname,list [amountonhand of each endpoint]}
-        # set the secondary dict
-        for crimson in self.roots.items():
-            isstringpresent : bool = False
-        # set the return dictionary to be a list and have no keys
-        for nodeinstance in self.roots.items():
-            blue.append(nodeinstance[1])
-        # todo make return dictionary/list have unique nodes
-        for firuzeh in blue:
-            indexpos: int = 0
-            if not isinstance(firuzeh, Node):
-                raise TypeError('firuzeh is not an instance of', Node)
-            for azure in blue:
-                if not isinstance(azure, Node):
-                    raise TypeError('azure is not an instance of', Node)
-                if azure.instancekey != firuzeh.instancekey and azure.ingredient == firuzeh.ingredient:
-                    firuzeh.amountonhand += azure.amountonhand
-                    blue.pop(indexpos)
-                    #check to see if the dictionary has the item inputted, if it is, update the list witin the dictionary
-                    isstored: bool = False
-                    for tentative in red.items():
-                        if not isinstance(tentative[1],list):
-                            raise TypeError('the dictionary is supposed to store an instance of',list,'not an instance of',type(tentative[1]))
-            indexpos += 1
-        # make sure only one ingredient type is there, in this test class it should be pixels
-        # desired output Pixels : 147312x (2.99 % used in Lead, 17.92 % used in Irradium Ore, 24.19 % used in Trianglium Ore, 54.9 % used in Prism Shard)
-        self.assertEqual(len(blue), 1)
+        if not isinstance(tree_endpoints,dict) and tree_endpoints is None:
+            tree_endpoints : dict = self.roots
+        # condense the endpoints, Copper Ore : 31108x (14.29% used in item B, 14.29% used in item C, 71.43% used in item D)
+        for name, value in 
+        self.assertEqual(len(tree_endpoints),1)
 
 
 class Issue12_multiple_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
