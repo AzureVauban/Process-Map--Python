@@ -59,11 +59,12 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
         """
         if not isinstance(tree_endpoints,dict) and tree_endpoints is None:
             tree_endpoints : dict = self.roots
+            
         # condense the endpoints, Copper Ore : 31108x (14.29% used in item B, 14.29% used in item C, 71.43% used in item D)
         for index_positon, instance_key in enumerate(tree_endpoints):
-            tempvalue = tree_endpoints[index_positon][1]
-            if not isinstance(tempvalue,Node):
-                raise TypeError('not correct type')
+            tempvalue = index_positon
+            #if not isinstance(tempvalue,Node):
+            #    raise TypeError('not correct type is an instance of',type(tempvalue))
         self.assertEqual(len(tree_endpoints),1)
 
 
