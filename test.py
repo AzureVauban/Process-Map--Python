@@ -53,19 +53,17 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
                 if not iscalledpixels:
                     break
         self.assertTrue(iscalledpixels)
-    def test_temptest(self,tree_endpoints = None):
+
+    def test_temptest(self, myendpoints: dict = None):
         """test to see if the total sum of the endpoint node's % compostion correctly
            rounds towards 1 (100%)
+           example output:
+           Copper Ore : 31108x (14.29% used in item B, 14.29% used in item C, 71.43% used in item D)
         """
-        if not isinstance(tree_endpoints,dict) and tree_endpoints is None:
-            tree_endpoints : list = list(self.roots.items())
-            #! tree_endpoints_list : list = list(self.roots.items())
-        # condense the endpoints, Copper Ore : 31108x (14.29% used in item B, 14.29% used in item C, 71.43% used in item D)
-        for index_positon, instance_key in enumerate(tree_endpoints):
-            tempvalue = index_positon
-            #if not isinstance(tempvalue,Node):
-            #    raise TypeError('not correct type is an instance of',type(tempvalue))
-        self.assertEqual(len(tree_endpoints),1)
+        # condense endpoints dictionary, each Node should have a unique ingredient name
+        # sum the total amount on hand of the item and divide the local amount on hands by the summed total
+            # make sure you store these quotients somewhere and iterate through them when outputting the final resuls  
+        self.assertEqual(len(myendpoints), 1)
 
 
 class Issue12_multiple_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
