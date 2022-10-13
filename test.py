@@ -58,7 +58,7 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
            rounds towards 1 (100%)
         """
         if not isinstance(tree_endpoints,dict) and tree_endpoints is None:
-            tree_endpoints : dict = self.roots
+            tree_endpoints : list = list(self.roots.items())
             #! tree_endpoints_list : list = list(self.roots.items())
         # condense the endpoints, Copper Ore : 31108x (14.29% used in item B, 14.29% used in item C, 71.43% used in item D)
         for index_positon, instance_key in enumerate(tree_endpoints):
