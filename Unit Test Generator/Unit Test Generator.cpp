@@ -76,6 +76,10 @@ void populate(NodeUtility::Node *object)
         {
             break;
         }
+        else if (not notunique) // ingredient cannot be typed in already, EACH ingredient input must be unique
+        {
+            std::cout << "This ingredient name is not unique, please type something on the end of its name to make it unique" << std::endl;
+        }
         else if (userinput == object->ingredient) // ingredient cannot be the same as the augment node
         {
             std::cout << "You cannot type that in!" << std::endl;
@@ -91,10 +95,6 @@ void populate(NodeUtility::Node *object)
         else if (isdigit_check(userinput)) // ingredient cannot be only numbers because it will give variable name errors in the resulted unit test module
         {
             std::cout << "Please type in some letters, an ingredient name with only numbers is not allowed!" << std::endl;
-        }
-        else if (not notunique) // ingredient cannot be typed in already, EACH ingredient input must be unique
-        {
-            std::cout << "This ingredient name is not unique, please type something on the end of its name to make it unique" << std::endl;
         }
         else // if ingredient is valid use it to create a child node with it
         {
@@ -126,7 +126,7 @@ void populate(NodeUtility::Node *object)
 bool verifyuniqueness(const std::string A, NodeUtility::Node *objectNode)
 {
     bool isnotunique = A != objectNode->ingredient;
-    
+
     while (objectNode->parent and not isnotunique)
     {
         objectNode = objectNode->parent;
