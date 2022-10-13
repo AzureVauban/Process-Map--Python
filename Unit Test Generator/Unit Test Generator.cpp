@@ -59,40 +59,9 @@ void populate(NodeUtility::Node *object)
         headnode = headnode->parent;
     }
     // prompt inputs
-    do
-    {
-        std::getline(std::cin, userinput);
-        while (userinput.size() > 0 and userinput.back() == ' ')
-        {
-            userinput.pop_back();
-            userinput.shrink_to_fit();
-        }
-        bool isalreadypresent = false;
-        for (const auto &mystring : userinputs)
-        {
-            isalreadypresent = mystring == userinput;
-            if (isalreadypresent)
-            {
-                break;
-            }
-        }
-        if (not userinput.empty())
-        {
-            userinputs.emplace_back(userinput);
-        }
-        else if (isalreadypresent)
-        {
-            std::cout << "You already typed that in!" << std::endl;
-        }
-        else if (userinput == object->ingredient)
-        {
-            std::cout << "You cannot type that in..." << std::endl;
-        }
-        else if (not verifyuniqueness(userinput, headnode))
-        {
-            std::cout << "Please type in the same thing with a unique notation, example: " << userinput << "_2a" << std::endl;
-        }
-    } while (!userinput.empty());
+    while (true){
+        std:
+    }
     // create child node instances
     bool promptbool = true;
     int amountmadepercraft = 0;
