@@ -60,7 +60,15 @@ void populate(NodeUtility::Node *object)
     }
     // prompt inputs
     while (true){
-        std:
+        //check for duplicates
+        std::getline(std::cin, userinput);
+        if (userinput.empty()){
+            break;
+        } else if(userinput == object->ingredient){
+            std::cout << "You cannot type that in!" << std::endl;
+        } else {
+            userinputs.emplace_back(userinput);
+        }
     }
     // create child node instances
     bool promptbool = true;
