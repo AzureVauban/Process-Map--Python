@@ -280,8 +280,7 @@ def populate(cur: Node):
     # create new child instances
     tempbool: bool = True
     for newnodename in inputqueue.items():
-        newchild: Node = Node(  # pylint:disable=W0612
-            newnodename[1], cur, 0, 1, 1, tempbool)  # pylint:disable=W0612
+        Node(newnodename[1], cur, 0, 1, 1, tempbool)
         tempbool = False
     # continue method runtime
     for child in cur.children.items():
@@ -300,7 +299,8 @@ def printprompt():
     print('Mode B - You are trying to figure out how much base materials you need to create a certain amount of your desired item, (Type in B)')  # pylint:disable=C0301
     print("Type in 'H' if you need a reminder of the prompt\n")
 
-def tentative_formatoutput(endpoints : dict) -> dict:
+
+def tentative_formatoutput(endpoints: dict) -> dict:
     """_summary_
 
     Args:
@@ -314,13 +314,16 @@ def tentative_formatoutput(endpoints : dict) -> dict:
     """
     # check if the dictionary is not empty
     if len(endpoints) == 0:
-        raise ValueError('Argument dictionary is empty, needs at least one value to run')
+        raise ValueError(
+            'Argument dictionary is empty, needs at least one value to run')
     else:
-        foundendpoints : dict = endpoints
-    # insert elements into dict   
+        foundendpoints: dict = endpoints
+    # insert elements into dict
     # bubble check for duplicate node names, make a copy of a dict as a list
     # if a node has the same name, remove the b node and amount resulted/amount on hand (dependent on mode) to the a node
     return foundendpoints
+
+
 if __name__ == '__main__':
     print('Welcome to Process Map (Python) v1.1!\n')
     while True:
@@ -375,7 +378,7 @@ if __name__ == '__main__':
                 # get the second to last node
                 if len(head.children) > 1:
                     tempnode: Node = itemnode[1]
-                    while tempnode.parent.parent is not None: # type: ignore
+                    while tempnode.parent.parent is not None:  # type: ignore
                         tempnode = tempnode.parent  # type: ignore
                     temporarystring: str = tempnode.ingredient
                     print(itemnode[1].ingredient, ':',
