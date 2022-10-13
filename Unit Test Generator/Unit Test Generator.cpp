@@ -59,14 +59,44 @@ void populate(NodeUtility::Node *object)
         headnode = headnode->parent;
     }
     // prompt inputs
-    while (true){
-        //check for duplicates
+    while (true)
+    {
+        // check for duplicates
         std::getline(std::cin, userinput);
-        if (userinput.empty()){
+        bool isalreadytyped = false;
+        for (const auto &myinput : userinputs)
+        {
+            isalreadytyped = userinput == myinput;
+            if (isalreadytyped)
+            {
+                break;
+            }
+        }
+        if (userinput.empty())
+        {
             break;
-        } else if(userinput == object->ingredient){
+        }
+        else if (userinput == object->ingredient) //ingredient cannot be the same as the augment node
+        {
             std::cout << "You cannot type that in!" << std::endl;
-        } else {
+        }
+        else if (isalreadytyped) //ingredient cannot be repeated
+        {
+            std::cout << "You already typed that in!" << std::endl;
+        }
+        else if (userinput == headnode->ingredient and headnode != object) //ingredient cannot be the same ingredient as the head node
+        {
+            std::cout << "You cannot type that in, we are trying to make that item!" << std::endl;
+        }
+        else if (isdigit_check(userinput)) //ingredient cannot be only numbers because it will give variable name errors in the resulted unit test module
+        {
+            std::cout << "Please type in some letters, an ingredient name with only numbers is not allowed!" << std::endl;
+        } else if (not verifyuniqueness(userinput,headnode)) //ingredient cannot be typed in already, EACH ingredient input must be unique
+        {
+            std::cout << "This ingredient name is not unique, please type something on the end of its name to make it unique" << std::endl;
+        }
+        else //if ingredient is valid use it to create a child node with it
+        {
             userinputs.emplace_back(userinput);
         }
     }
