@@ -61,6 +61,7 @@ void populate(NodeUtility::Node *object)
         populate(childnode);
     }
 }
+bool isnotunique(const std::string)
 int main()
 {
     using namespace NodeUtility;
