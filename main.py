@@ -301,16 +301,16 @@ def printprompt():
 
 
 def tentative_formatoutput(endpoints: dict) -> dict:
-    """_summary_
+    """reformats output
 
     Args:
-        endpoints (dict): _description_
+        endpoints (dict): endpoints of a particular ingredient tree
 
     Raises:
-        ValueError: _description_
+        ValueError: dictionary is empty
 
     Returns:
-        dict: _description_
+        dict: a restructured dictionary
     """
     # check if the dictionary is not empty
     if len(endpoints) == 0:
