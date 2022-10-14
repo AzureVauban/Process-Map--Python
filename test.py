@@ -60,7 +60,7 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
            example output:
            Copper Ore : 31108x (14.29% used in item B, 14.29% used in item C, 71.43% used in item D)
         """
-        endpoints : dict = self.roots
+        endpoints: dict = self.roots
         # condense endpoints dictionary, each Node should have a unique ingredient name
         # sum the total amount on hand of the item and divide the local amount on hands by the summed total
         # make sure you store these quotients and their parent ingredient names somewhere and iterate through them when outputting the final resuls
