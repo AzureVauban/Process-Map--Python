@@ -4,8 +4,6 @@
 import random
 import unittest
 
-from numpy import roots
-
 from main import Node, findlocalendpoints, reversearithmetic
 
 
