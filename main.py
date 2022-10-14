@@ -300,6 +300,23 @@ def printprompt():
     print("Type in 'H' if you need a reminder of the prompt\n")
 
 
+def isappended(cur: Node, mylist: list) -> bool:
+    """
+    checks if the current instance is already in the list
+
+    Args:
+        cur (Node): current instance
+        mylist (list): list of instances
+
+    Returns:
+        bool: returns True if the current instance is in the list, False otherwise
+    """
+    for myinstance in mylist:
+        if myinstance == cur:
+            return True
+    return False
+
+
 def tentative_formatoutput(endpoints: dict) -> dict:
     """reformats output
 
@@ -314,17 +331,23 @@ def tentative_formatoutput(endpoints: dict) -> dict:
     """
     # check if the dictionary is not empty
     if len(endpoints) == 0:
-        raise ValueError('Argument dictionary is empty, needs at least one value to run')
-    listofendpoints : list = []
-    listofunique : list = []
-    #create a new list with only the nodes
+        raise ValueError(
+            'Argument dictionary is empty, needs at least one value to run')
+    listofendpoints: list = []
+    listofuniqueendpoints: list = []
+    # create a new list with only the nodes
     for node in endpoints.items():
         listofendpoints.append(node[1])
-    # bubble check for duplicate node names, make a copy of a dict as a list
+    # create a new list with only the unique nodes
     for index, node in enumerate(listofendpoints):
-        for index2, node2 in enumerate(listofendpoints):
-            if index != index2 and node.ingredient == node2.ingredient::
-                    listofendpoints[index2] = node
+        if not isappended(node, listofuniqueendpoints[index]):
+            listofuniqueendpoints.append({node, [node.amountonhand]})
+        else:
+            # sum up the amount on hand
+            listofendpoints[index] += node.amountonhand
+            # append the current amount on hand to the list member of the tuple in the list
+            listofendpoints[index][1].append(node.amountonhand)
+    # bubble check for duplicate node names, make a copy of a dict as a list
     # if a node has the same name, remove the b node and amount resulted/amount on hand (dependent on mode) to the a node
     return endpoints
 
