@@ -16,8 +16,16 @@ Mode B is another mode the user has the option of utilizing in the program. The 
 
 To improve the quality of the arithmetic methods utilized in the solution, Unit Tests using the Unit Test framework were used. To make this work both of the recursive methods had to be modified to return an interger, which is the amount resulted for Mode A's method and the amount on hand for Mode B's method.
 
-## Planned Features of Process Map (Python v2.0)
+## Planned Features/Updates
 
 ### Being able to search and copy Nodes you already typed in
 
-In this current iteration of the Process Map, the user must type in one ingredient one by one at a time. There are many ingredient trees in which the end user will input the same ingredient more than once. Process Map v2.0 will improve upon this by giving the user the option to copy and paste a node they already typed out
+In this current iteration of the Process Map, the user must type in one ingredient one by one at a time. There are many ingredient trees in which the end user will input the same ingredient more than once. Process Map v2.0 will improve upon this by giving the user the option to copy and paste a node they already typed out.
+
+### Basic Mathematical Operatiors will be accepted in input
+
+When the user is prompted to input a number into the program, it currently checks to see if all the characters are only digits, meaning no decimals or even negative numbers. This will be changed in a future iterateration of the program to accept basic arithmetic operators which consist of the following: '/' for division, '//' for long division, +' for addition, '-' for substraction, '*' for multiplication.
+
+### Inputted ingredients with the ability to have multiple parents
+
+Currently ingredients can only have one parent, this will be changed so that ingredients can be more interconnected on the backend side of the program. This is more of a backend change and will not be visible to the you, the end user.
