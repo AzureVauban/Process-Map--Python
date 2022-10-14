@@ -320,7 +320,11 @@ def tentative_formatoutput(endpoints: dict) -> dict:
     for node in endpoints.items():
         listofendpoints.append(node[1])
     # bubble check for duplicate node names, make a copy of a dict as a list
-    
+    for index, node in enumerate(listofendpoints):
+        for index2, node2 in enumerate(listofendpoints):
+            if index != index2:
+                if node.ingredient == node2.ingredient:
+                    listofendpoints[index2] = node
     # if a node has the same name, remove the b node and amount resulted/amount on hand (dependent on mode) to the a node
     return endpoints
 
