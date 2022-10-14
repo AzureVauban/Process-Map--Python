@@ -314,14 +314,11 @@ def tentative_formatoutput(endpoints: dict) -> dict:
     """
     # check if the dictionary is not empty
     if len(endpoints) == 0:
-        raise ValueError(
-            'Argument dictionary is empty, needs at least one value to run')
-    else:
-        foundendpoints: dict = endpoints
-    # insert elements into dict
+        raise ValueError('Argument dictionary is empty, needs at least one value to run')
+    templist : list = list(endpoints.items())
     # bubble check for duplicate node names, make a copy of a dict as a list
     # if a node has the same name, remove the b node and amount resulted/amount on hand (dependent on mode) to the a node
-    return foundendpoints
+    return endpoints
 
 
 if __name__ == '__main__':
