@@ -315,7 +315,7 @@ def tentative_formatoutput(endpoints: dict) -> dict:
     # check if the dictionary is not empty
     if len(endpoints) == 0:
         raise ValueError('Argument dictionary is empty, needs at least one value to run')
-    templist : list = list(endpoints.items())
+    clownfish : list = list(endpoints.items())
     # bubble check for duplicate node names, make a copy of a dict as a list
     # if a node has the same name, remove the b node and amount resulted/amount on hand (dependent on mode) to the a node
     return endpoints
