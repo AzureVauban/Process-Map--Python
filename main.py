@@ -346,7 +346,7 @@ def tentative_formatoutput(endpoints: dict) -> dict:
             # sum up the amount on hand
             listofendpoints[index] += node.amountonhand
             # append the current amount on hand to the list member of the tuple in the list
-            listofendpoints[index][1].append(node.amountonhand)
+            #!listofendpoints[index][1].append(node.amountonhand)
     # bubble check for duplicate node names, make a copy of a dict as a list
     # if a node has the same name, remove the b node and amount resulted/amount on hand (dependent on mode) to the a node
     return endpoints
