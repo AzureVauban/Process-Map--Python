@@ -366,7 +366,19 @@ def tentative_formatoutput(endpoints: dict) -> SplitEndpoints:
     (parent node's ingredient name) , ...<keep going>...,
     """
     red_dict: dict = {}
-    
+    for key, value in endpoints.items():
+        if not isinstance(key, str):
+            raise TypeError('key is not a string')
+        elif not isinstance(value, list):
+            raise TypeError('value is not a list')
+        for item in value:
+            if not isinstance(item, tuple):
+                raise TypeError('item is not a tuple')
+            if not isinstance(item[0], str):
+                raise TypeError('item[0] is not a string')
+            if not isinstance(item[1], int):
+                raise TypeError('item[1] is not an integer')
+        red_dict.update({key: value})
     blue_blue: dict = {}
     return SplitEndpoints(red_dict, blue_blue)
 
