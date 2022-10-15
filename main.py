@@ -355,10 +355,10 @@ def tentative_formatoutput(endpoints: dict)-> dict:
     blue_dict : dict = {}
     for key,value in endpoints:
         if key not in red_dict:
-            ingredient :str = 'None'
-            if isinstance(value.parent,Node):
-                ingredient = value.parent.ingredient
-            red_dict.update({value[1].ingredient:[(ingredient,value[1].amountonhand)]})
+            yellow_str :str = 'None'
+            if isinstance(value.parent,Node) and value.parent is not None:
+                yellow_str = value.parent.ingredient
+            red_dict.update({value.ingredient:[(yellow_str,value.amountonhand)]})
         else:
             pass
     return red_dict
