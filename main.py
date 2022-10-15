@@ -322,39 +322,20 @@ def appendamounts(amountonhand : int, listofamountonhands : list)-> list:
     listofamountonhands.append(amountonhand)
     return listofamountonhands
 def tentative_formatoutput(endpoints: dict) -> dict:
-    """reformats output
+    """
+    formats the output of the dictionary to be more readable
 
     Args:
-        endpoints (dict): endpoints of a particular ingredient tree
-
-    Raises:
-        ValueError: dictionary is empty
+        endpoints (dict): dictionary to format
 
     Returns:
-        dict: a restructured dictionary
+        dict: formatted dictionary
     """
-    # check if the dictionary is not empty
-    if len(endpoints) == 0:
-        raise ValueError('Argument dictionary is empty, needs at least one value to run')
-    listofendpoints: list = []
-    # create a new list with only the nodes
-    listofuniqueendpoints: list = []
-    amountsingredients: dict = {} # key : ingredient, value : tuple of amounts
-    for node in endpoints.items():
-        listofendpoints.append(node[1])
-    # create a new list with only the unique nodes
-    for index, node in enumerate(listofendpoints):
-        if not isappended(node.ingredient, listofuniqueendpoints):
-            listofuniqueendpoints.append({node.ingredient: [node.amountonhand]})
-        else:
-            listofuniqueendpoints[index][node].append(node.amountonhand)
-    # bubble check for duplicate node names, make a copy of a dict as a list
-    #create new dictionary
-    outputdict: dict = {}
-    for item in listofuniqueendpoints:
-        outputdict.update({item.ingredient: item})
-    # if a node has the same name, remove the b node and amount resulted/amount on hand (dependent on mode) to the a node
-    return outputdict
+    # format the output
+    for key in endpoints:
+        endpoints[key] = endpoints[key][0]
+    print(endpoints)
+    return endpoints
 
 
 if __name__ == '__main__':
