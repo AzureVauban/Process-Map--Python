@@ -338,10 +338,11 @@ def tentative_formatoutput(endpoints: dict) -> dict:
     * the class SplitEndpoints will have two attributes, red_dict and blue_dict, which are the same
     as the two dictionaries from this method, this class must have an init method with these two
     dictionaries
-    
+
     take the red_dict and blue_dict from the instance of SplitEndpoints and print output by
-    iterating through the red_dict's. print the key, then iterate through the list of tuples, which will be referred to as yellow,
-    
+    iterating through the red_dict's. print the key, then iterate through the list of tuples, which
+    will be referred to as purple, iterate through the purple list by printing the product of
+    amountonhand divided by the value of the same key in blue_dict multipled by 100 and the parent node's ingredient name output will look like this: (ingredient name) (percentage of amount on hand composed in the total amount on hand in the entire tree)% used in (parent node's ingredient name) , ...<keep going>...,
     """
     return endpoints
 
