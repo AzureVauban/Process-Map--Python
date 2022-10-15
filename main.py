@@ -342,7 +342,8 @@ class SplitEndpoints:
 
 
 def tentative_formatoutput(endpoints: dict) -> SplitEndpoints:
-    """peusdocode for reformatting the output
+    """
+    peusdocode for reformatting the output
     split endpoints into two dictionaries called red_dict and blue_dict
     * red_dict will have the key as the ingredient name, and the value as a list of tuples which
     consists of the parent node's ingredient name and the amount on hand
