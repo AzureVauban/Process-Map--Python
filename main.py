@@ -301,7 +301,7 @@ def printprompt():
 
 
 class SplitEndpoints:
-    """subclass of Node, used to store dictionaries that split the endpoints of the tree
+    """complementary class of Node, used to store dictionaries that split the endpoints of the tree
     """
     red_dict: dict = {}
     blue_dict: dict = {}
@@ -329,9 +329,14 @@ class SplitEndpoints:
             if not isinstance(value, int):
                 raise TypeError('value is not an integer')
         self.blue_dict = blue
+    def tentativeassert(self):
+        if len(self.red_dict) == 1 and len(self.blue_dict) == 1:
+            return True
+        else:
+            return False
 
 
-def tentative_formatoutput(endpoints: dict) -> dict:
+def tentative_formatoutput(endpoints: dict) -> SplitEndpoints:
     """peusdocode for reformatting the output
     split endpoints into two dictionaries called red_dict and blue_dict
     * red_dict will have the key as the ingredient name, and the value as a list of tuples which
@@ -354,18 +359,8 @@ def tentative_formatoutput(endpoints: dict) -> dict:
     (parent node's ingredient name) , ...<keep going>...,
     """
     red_dict: dict = {}
-    for value in endpoints.items():
-        if value[1].ingredient not in red_dict.keys():
-            yellow_str: str = 'None'
-            if isinstance(value[1].parent, Node) and value[1].parent is not None:
-                yellow_str = value[1].parent.ingredient
-            print(yellow_str, value[1].amountonhand)
-            red_dict.update({value[1].ingredient: [(yellow_str, value[1].amountonhand)]})          
-            print(red_dict)
-        else:
-            overwritetuplelist : list = []
-            print(overwritetuplelist)
-    return red_dict
+    blue_blue: dict = {}
+    return SplitEndpoints(red_dict, blue_blue)
 
 
 if __name__ == '__main__':

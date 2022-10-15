@@ -4,7 +4,7 @@
 import random
 import unittest
 
-from main import Node, findlocalendpoints, reversearithmetic
+from main import Node, SplitEndpoints, findlocalendpoints, reversearithmetic
 from main import tentative_formatoutput as testmethod
 
 
@@ -52,19 +52,22 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
                 if not iscalledpixels:
                     break
         self.assertTrue(iscalledpixels)
-
+    def test_outputmath(self):
+        """make sure that the sum of the percentages of the endpoints items is 100%
+        """
+        pass
     def test_temptest(self):
         """test to see if the total sum of the endpoint node's % compostion correctly
            rounds towards 1 (100%)
            example output:
            Copper Ore : 31108x (14.29% used in item B, 14.29% used in item C, 71.43% used in item D)
         """
-        endpoints : dict = testmethod(self.roots)
+        endpoints : SplitEndpoints = testmethod(self.roots)
         # condense endpoints dictionary, each Node should have a unique ingredient name
         # sum the total amount on hand of the item and divide the local amount on hands by the summed total
         # make sure you store these quotients and their parent ingredient names somewhere and iterate through them
         # when outputting the final results
-        self.assertEqual(len(endpoints), 1)
+        self.assertTrue(endpoints.tentativeassert(),'dictionary size is empty')
 
 
 class Issue12_multiple_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
