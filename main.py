@@ -366,7 +366,7 @@ def tentative_formatoutput(endpoints: dict) -> SplitEndpoints:
     (parent node's ingredient name) , ...<keep going>...,
     """
     red_dict: dict = {}
-    for key, value in endpoints.items():
+    for node in endpoints.items():
         
     blue_blue: dict = {}
     return SplitEndpoints(red_dict, blue_blue)
