@@ -301,7 +301,7 @@ def printprompt():
 
 
 # methods for creating a dictionary with unique node instances
-def isappended(ingredient : str, mylist : list) -> bool:
+def isappended(ingredient: str, mylist: list) -> bool:
     """
     checks if the ingredient is already in the list
 
@@ -316,22 +316,29 @@ def isappended(ingredient : str, mylist : list) -> bool:
         if node.ingredient == ingredient:
             return True
     return False
-def appendamounts(amountonhand : int, listofamountonhands : list)-> list:
+
+
+def appendamounts(amountonhand: int, listofamountonhands: list) -> list:
     # for secondarydict, the key is the ingredient name, the value is a list the amount on hand from nodes with the same ingredient name
     # this method will append the amount on hand to the list
     listofamountonhands.append(amountonhand)
     return listofamountonhands
+
+
 def tentative_formatoutput(endpoints: dict) -> dict:
-    """
-    formats the output of the dictionary to be more readable
+    """peusdocode for reformatting the output
+    split endpoints into two dictionaries called red_dict and blue_dict
+    * red_dict will have the key as the ingredient name, and the value as a list of tuples which
+    consists of the parent node's ingredient name and the amount on hand
 
-    Args:
-        endpoints (dict): dictionary to format
+    * blue_dict will have the key as the ingredient name, and the value as the sum of the amount on
+    hand from nodes with the same ingredient name
+    return the two dictionaries as an instance of the class DictionaryPair
 
-    Returns:
-        dict: formatted dictionary
+    * the class DictionaryPair will have two attributes, red_dict and blue_dict, which are the same
+    as the two dictionaries from this method, this class must have an init method with these two
+    dictionaries
     """
-    # format the output
     return endpoints
 
 
