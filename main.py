@@ -329,6 +329,7 @@ class SplitEndpoints:
             if not isinstance(value, int):
                 raise TypeError('value is not an integer')
         self.blue_dict = blue
+
     def tentativeassert(self):
         """_summary_
 
@@ -365,6 +366,7 @@ def tentative_formatoutput(endpoints: dict) -> SplitEndpoints:
     (parent node's ingredient name) , ...<keep going>...,
     """
     red_dict: dict = {}
+    
     blue_blue: dict = {}
     return SplitEndpoints(red_dict, blue_blue)
 
