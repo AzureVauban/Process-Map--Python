@@ -356,8 +356,9 @@ def tentative_formatoutput(endpoints: dict)-> dict:
     for key,value in endpoints:
         if key not in red_dict:
             ingredient :str = 'None'
-            
-            red_dict.update({value[1].ingredient:[(value[0].ingredient,value[0].amountonhand)]})
+            if isinstance(value.parent,Node):
+                ingredient = value.parent.ingredient
+            red_dict.update({value[1].ingredient:[(ingredient,value[0].amountonhand)]})
     return red_dict
 
 
