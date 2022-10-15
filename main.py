@@ -330,6 +330,11 @@ class SplitEndpoints:
                 raise TypeError('value is not an integer')
         self.blue_dict = blue
     def tentativeassert(self):
+        """_summary_
+
+        Returns:
+            _type_: _description_
+        """
         if len(self.red_dict) == 1 and len(self.blue_dict) == 1:
             return True
         else:
