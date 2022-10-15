@@ -345,7 +345,7 @@ def tentative_formatoutput(endpoints: dict) -> dict:
     # create a new list with only the unique nodes
     for index, node in enumerate(listofendpoints):
         if not isappended(node.ingredient, listofuniqueendpoints):
-            listofuniqueendpoints.append({node: [node.amountonhand]})
+            listofuniqueendpoints.append({node.ingredient: [node.amountonhand]})
         else:
             listofuniqueendpoints[index][node].append(node.amountonhand)
     # bubble check for duplicate node names, make a copy of a dict as a list
