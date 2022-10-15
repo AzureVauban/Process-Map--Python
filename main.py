@@ -332,9 +332,6 @@ def tentative_formatoutput(endpoints: dict) -> dict:
         dict: formatted dictionary
     """
     # format the output
-    for key in endpoints:
-        endpoints[key] = endpoints[key][0]
-    print(endpoints)
     return endpoints
 
 
