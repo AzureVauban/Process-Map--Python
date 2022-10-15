@@ -358,7 +358,7 @@ def tentative_formatoutput(endpoints: dict)-> dict:
             yellow_str :str = 'None'
             if isinstance(value.parent,Node) and value.parent is not None:
                 yellow_str = value.parent.ingredient
-            red_dict.update({value.ingredient:[(yellow_str,value.amountonhand)]})
+            red_dict.update({value.ingredient:[(yellow_str:value[1].amountonhand)]})
         else:
             pass
     return red_dict
