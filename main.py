@@ -353,6 +353,9 @@ def tentative_formatoutput(endpoints: dict)-> dict:
     """
     red_dict : dict = {}
     blue_dict : dict = {}
+    for key,value in endpoints:
+        if key not in red_dict:
+
     return red_dict
 
 
