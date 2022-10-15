@@ -300,9 +300,27 @@ def printprompt():
     print("Type in 'H' if you need a reminder of the prompt\n")
 
 
+# methods for creating a dictionary with unique node instances
+def isappended(ingredient : str, mylist : list) -> bool:
+    """
+    checks if the ingredient is already in the list
 
+    Args:
+        ingredient (str): ingredient to check
+        mylist (list): list to check
 
-
+    Returns:
+        bool: True if the ingredient is in the list, False otherwise
+    """
+    for node in mylist:
+        if node.ingredient == ingredient:
+            return True
+    return False
+def appendamounts(amountonhand : int, listofamountonhands : list)-> list:
+    # for secondarydict, the key is the ingredient name, the value is a list the amount on hand from nodes with the same ingredient name
+    # this method will append the amount on hand to the list
+    listofamountonhands.append(amountonhand)
+    return listofamountonhands
 def tentative_formatoutput(endpoints: dict) -> dict:
     """reformats output
 
@@ -317,16 +335,19 @@ def tentative_formatoutput(endpoints: dict) -> dict:
     """
     # check if the dictionary is not empty
     if len(endpoints) == 0:
-        raise ValueError(
-            'Argument dictionary is empty, needs at least one value to run')
+        raise ValueError('Argument dictionary is empty, needs at least one value to run')
     listofendpoints: list = []
-    listofuniqueendpoints: list = []
     # create a new list with only the nodes
+    listofuniqueendpoints: list = []
+    amountsingredients: dict = {} # key : ingredient, value : tuple of amounts
     for node in endpoints.items():
         listofendpoints.append(node[1])
     # create a new list with only the unique nodes
     for index, node in enumerate(listofendpoints):
-        print(node.ingredient)
+        if not isappended(node.ingredient, listofuniqueendpoints):
+            listofuniqueendpoints.append({node: [node.amountonhand]})
+        else:
+            listofuniqueendpoints[index][node].append(node.amountonhand)
     # bubble check for duplicate node names, make a copy of a dict as a list
     #create new dictionary
     outputdict: dict = {}
