@@ -333,11 +333,15 @@ def tentative_formatoutput(endpoints: dict) -> dict:
 
     * blue_dict will have the key as the ingredient name, and the value as the sum of the amount on
     hand from nodes with the same ingredient name
-    return the two dictionaries as an instance of the class DictionaryPair
+    return the two dictionaries as an instance of the class SplitEndpoints
 
-    * the class DictionaryPair will have two attributes, red_dict and blue_dict, which are the same
+    * the class SplitEndpoints will have two attributes, red_dict and blue_dict, which are the same
     as the two dictionaries from this method, this class must have an init method with these two
     dictionaries
+    
+    take the red_dict and blue_dict from the instance of SplitEndpoints and print output by
+    iterating through the red_dict's. print the key, then iterate through the list of tuples, which will be referred to as yellow,
+    
     """
     return endpoints
 
