@@ -300,36 +300,38 @@ def printprompt():
     print("Type in 'H' if you need a reminder of the prompt\n")
 
 
-
 class SplitEndpoints:
     """subclass of Node, used to store dictionaries that split the endpoints of the tree
     """
-    red_dict : dict = {}
-    blue_dict : dict = {}
-    def __init__(self, red : dict, blue : dict) -> None:
+    red_dict: dict = {}
+    blue_dict: dict = {}
+
+    def __init__(self, red: dict, blue: dict) -> None:
         # type check for the parameter of red and blue
         # red must be a dictionary with string keys and a list of tuple of str and integer values
         for key, value in red.items():
-            if not isinstance(key,str):
+            if not isinstance(key, str):
                 raise TypeError('key is not a string')
-            elif not isinstance(value,list):
+            elif not isinstance(value, list):
                 raise TypeError('value is not a list')
             for item in value:
-                if not isinstance(item,tuple):
+                if not isinstance(item, tuple):
                     raise TypeError('item is not a tuple')
-                if not isinstance(item[0],str):
+                if not isinstance(item[0], str):
                     raise TypeError('item[0] is not a string')
-                if not isinstance(item[1],int):
+                if not isinstance(item[1], int):
                     raise TypeError('item[1] is not an integer')
         self.red_dict = red
         # blue must be a dictionary with string keys and an integer value
-        for key,value in blue.items():
-            if not isinstance(key,str):
+        for key, value in blue.items():
+            if not isinstance(key, str):
                 raise TypeError('key is not a string')
-            if not isinstance(value,int):
+            if not isinstance(value, int):
                 raise TypeError('value is not an integer')
         self.blue_dict = blue
-def tentative_formatoutput(endpoints: dict)-> dict:
+
+
+def tentative_formatoutput(endpoints: dict) -> dict:
     """peusdocode for reformatting the output
     split endpoints into two dictionaries called red_dict and blue_dict
     * red_dict will have the key as the ingredient name, and the value as a list of tuples which
@@ -351,13 +353,14 @@ def tentative_formatoutput(endpoints: dict)-> dict:
     hand composed in the total amount on hand in the entire tree)% used in
     (parent node's ingredient name) , ...<keep going>...,
     """
-    red_dict : dict = {}
-    for key,value in endpoints.items():
+    red_dict: dict = {}
+    for key, value in endpoints.items():
         if key not in red_dict:
-            yellow_str :str = 'None'
-            if isinstance(value.parent,Node) and value.parent is not None:
+            yellow_str: str = 'None'
+            if isinstance(value.parent, Node) and value.parent is not None:
                 yellow_str = value.parent.ingredient
-            red_dict.update({value.ingredient:[(yellow_str,value.amountonhand)]})
+            print(yellow_str, value.amountonhand)
+            red_dict.update({value.ingredient: [(yellow_str, value.amountonhand)]})          
         else:
             pass
     return red_dict
