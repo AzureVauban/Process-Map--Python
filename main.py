@@ -300,21 +300,7 @@ def printprompt():
     print("Type in 'H' if you need a reminder of the prompt\n")
 
 
-def isappended(cur: Node, mylist: list) -> bool:
-    """
-    checks if the current instance is already in the list
 
-    Args:
-        cur (Node): current instance
-        mylist (list): list of instances
-
-    Returns:
-        bool: returns True if the current instance is in the list, False otherwise
-    """
-    for myinstance in mylist:
-        if myinstance == cur:
-            return True
-    return False
 
 
 def tentative_formatoutput(endpoints: dict) -> dict:
@@ -340,16 +326,14 @@ def tentative_formatoutput(endpoints: dict) -> dict:
         listofendpoints.append(node[1])
     # create a new list with only the unique nodes
     for index, node in enumerate(listofendpoints):
-        if not isappended(node, listofuniqueendpoints[index]):
-            listofuniqueendpoints.append({node, [node.amountonhand]})
-        else:
-            # sum up the amount on hand
-            listofendpoints[index] += node.amountonhand
-            # append the current amount on hand to the list member of the tuple in the list
-            #!listofendpoints[index][1].append(node.amountonhand)
+        print(node.ingredient)
     # bubble check for duplicate node names, make a copy of a dict as a list
+    #create new dictionary
+    outputdict: dict = {}
+    for item in listofuniqueendpoints:
+        outputdict.update({item.ingredient: item})
     # if a node has the same name, remove the b node and amount resulted/amount on hand (dependent on mode) to the a node
-    return endpoints
+    return outputdict
 
 
 if __name__ == '__main__':
