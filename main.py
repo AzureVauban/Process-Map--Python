@@ -354,15 +354,16 @@ def tentative_formatoutput(endpoints: dict) -> dict:
     (parent node's ingredient name) , ...<keep going>...,
     """
     red_dict: dict = {}
-    for key, value in endpoints.items():
-        if key not in red_dict:
+    for value in endpoints.items():
+        if value[1].ingredient not in red_dict.keys():
             yellow_str: str = 'None'
-            if isinstance(value.parent, Node) and value.parent is not None:
-                yellow_str = value.parent.ingredient
-            print(yellow_str, value.amountonhand)
-            red_dict.update({value.ingredient: [(yellow_str, value.amountonhand)]})          
+            if isinstance(value[1].parent, Node) and value[1].parent is not None:
+                yellow_str = value[1].parent.ingredient
+            print(yellow_str, value[1].amountonhand)
+            red_dict.update({value[1].ingredient: [(yellow_str, value[1].amountonhand)]})          
+            print(red_dict)
         else:
-            overwritetuplelist : list = red_dict.items().get(value.ingredient)
+            overwritetuplelist : list = []
             print(overwritetuplelist)
     return red_dict
 
