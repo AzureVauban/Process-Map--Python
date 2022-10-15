@@ -371,14 +371,14 @@ def tentative_formatoutput(endpoints: dict) -> SplitEndpoints:
             red_dict.update({node[1].ingredient: [(node[1].parent.ingredient, node[1].amountonhand)]})
         else:
             red_dict[node[1].ingredient].append((node[1].parent.ingredient, node[1].amountonhand))
-    blue_blue: dict = {}
+    blue_dict: dict = {}
     for node in endpoints.items():
-        if node[1].ingredient not in red_dict:
+        if node[1].ingredient not in blue_dict:
             blue_dict.update({node[1].ingredient: node[1].amountonhand})
         else:
             blue_dict[node[1].ingredient] += node[1].amountonhand
         
-    return SplitEndpoints(red_dict, blue_blue)
+    return SplitEndpoints(red_dict, blue_dict)
 
 
 if __name__ == '__main__':
