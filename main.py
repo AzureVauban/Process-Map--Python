@@ -300,32 +300,36 @@ def printprompt():
     print("Type in 'H' if you need a reminder of the prompt\n")
 
 
-# methods for creating a dictionary with unique node instances
-def isappended(ingredient: str, mylist: list) -> bool:
+
+class SplitEndpoints:
+    """subclass of Node, used to store dictionaries that split the endpoints of the tree
     """
-    checks if the ingredient is already in the list
-
-    Args:
-        ingredient (str): ingredient to check
-        mylist (list): list to check
-
-    Returns:
-        bool: True if the ingredient is in the list, False otherwise
-    """
-    for node in mylist:
-        if node.ingredient == ingredient:
-            return True
-    return False
-
-
-def appendamounts(amountonhand: int, listofamountonhands: list) -> list:
-    # for secondarydict, the key is the ingredient name, the value is a list the amount on hand from nodes with the same ingredient name
-    # this method will append the amount on hand to the list
-    listofamountonhands.append(amountonhand)
-    return listofamountonhands
-
-
-def tentative_formatoutput(endpoints: dict) -> dict:
+    red_dict : dict = {}
+    blue_dict : dict = {}
+    def __init__(self, red : dict, blue : dict) -> None:
+        # type check for the parameter of red and blue
+        # red must be a dictionary with string keys and a list of tuple of str and integer values
+        for key, value in red.items():
+            if not isinstance(key,str):
+                raise TypeError('key is not a string')
+            elif not isinstance(value,list):
+                raise TypeError('value is not a list')
+            for item in value:
+                if not isinstance(item,tuple):
+                    raise TypeError('item is not a tuple')
+                if not isinstance(item[0],str):
+                    raise TypeError('item[0] is not a string')
+                if not isinstance(item[1],int):
+                    raise TypeError('item[1] is not an integer')
+        self.red_dict = red
+        # blue must be a dictionary with string keys and an integer value
+        for key,value in blue.items():
+            if not isinstance(key,str):
+                raise TypeError('key is not a string')
+            if not isinstance(value,int):
+                raise TypeError('value is not an integer')
+        self.blue_dict = blue
+def tentative_formatoutput(endpoints: dict)-> SplitEndpoints:
     """peusdocode for reformatting the output
     split endpoints into two dictionaries called red_dict and blue_dict
     * red_dict will have the key as the ingredient name, and the value as a list of tuples which
@@ -347,7 +351,9 @@ def tentative_formatoutput(endpoints: dict) -> dict:
     hand composed in the total amount on hand in the entire tree)% used in
     (parent node's ingredient name) , ...<keep going>...,
     """
-    return endpoints
+    red_dict : dict = {}
+    blue_dict : dict = {}
+    return SplitEndpoints(red_dict,blue_dict)
 
 
 if __name__ == '__main__':
