@@ -362,7 +362,8 @@ def tentative_formatoutput(endpoints: dict) -> dict:
             print(yellow_str, value.amountonhand)
             red_dict.update({value.ingredient: [(yellow_str, value.amountonhand)]})          
         else:
-            pass
+            overwritetuplelist : list = red_dict.items().get(value.ingredient)
+            print(overwritetuplelist)
     return red_dict
 
 
