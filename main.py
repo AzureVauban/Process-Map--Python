@@ -329,7 +329,7 @@ class SplitEndpoints:
             if not isinstance(value,int):
                 raise TypeError('value is not an integer')
         self.blue_dict = blue
-def tentative_formatoutput(endpoints: dict)-> SplitEndpoints:
+def tentative_formatoutput(endpoints: dict)-> dict:
     """peusdocode for reformatting the output
     split endpoints into two dictionaries called red_dict and blue_dict
     * red_dict will have the key as the ingredient name, and the value as a list of tuples which
@@ -353,7 +353,7 @@ def tentative_formatoutput(endpoints: dict)-> SplitEndpoints:
     """
     red_dict : dict = {}
     blue_dict : dict = {}
-    return SplitEndpoints(red_dict,blue_dict)
+    return red_dict
 
 
 if __name__ == '__main__':
