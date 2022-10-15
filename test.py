@@ -68,7 +68,14 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
         # make sure you store these quotients and their parent ingredient names somewhere and iterate through them
         # when outputting the final results
         self.assertTrue(endpoints.tentativeassert(),'dictionary size is empty')
-
+    def test_sum(self):
+        """test to see if the sum of the amount on hand of each tuple element within the value of the red dictionary is correct
+        and the same as the value of the blue dictionary
+        """
+        reorganized_endpoints : SplitEndpoints = testmethod(self.roots)
+        testvalue : int = 0
+        
+        
 
 class Issue12_multiple_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
     """test new formatting and endpoint search methods from main.py module wih only one endpoint
