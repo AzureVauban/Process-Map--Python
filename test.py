@@ -106,7 +106,7 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
             for index,orangetuple in enumerate(item[1]):  # turn the numbers into percentages
                 if item[0] not in outputdictionary:
                     #outputdictionary.update({item:[str(round((orangetuple[1]/orangeinteger)*100, 2))+'%','used in',orangetuple[0]]})
-                    pass
+                    outputdictionary.update({item[0]:[str(round())]}) #? add breakpoint here
                 if index == len(orangetuple):
                     print('\x1B[34m'+str(round((orangetuple[1]/orangeinteger)*100, 2))+'%','used in',orangetuple[0]+', ',end=' ')
                 else:
