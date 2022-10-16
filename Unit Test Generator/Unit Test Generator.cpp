@@ -1,8 +1,8 @@
 // Unit Test Generator.cpp : This file contains the 'main' function. Program execution begins and ends there.
 #include "NodeUtility.h"
 std::ofstream output("auto_generated_unittest.py");
-void populate(NodeUtility::Node *object);
-bool verifyuniqueness(NodeUtility::Node *object, const std::string &name);
+void populate(NodeUtility::Node *cur);
+bool verifyuniqueness(NodeUtility::Node *cur, const std::string &name);
 int main()
 {
     using namespace NodeUtility;
@@ -46,12 +46,12 @@ int main()
     output.close();
     return 0;
 }
-void populate(NodeUtility::Node *object)
+void populate(NodeUtility::Node *cur)
 {
-    std::cout << "What do you need to create " << object->ingredient << ":" << std::endl;
+    std::cout << "What do you need to create " << cur->ingredient << ":" << std::endl;
     std::string userinput = "";
     std::vector<std::string> userinputs = {};
-    auto headnode = object;
+    auto headnode = cur;
     while (headnode->parent)
     {
         headnode = headnode->parent;
@@ -79,7 +79,7 @@ void populate(NodeUtility::Node *object)
         {
             std::cout << "This ingredient name is not unique, please type something on the end of its name to make it unique" << std::endl;
         }
-        else if (userinput == object->ingredient) // ingredient cannot be the same as the augment node
+        else if (userinput == cur->ingredient) // ingredient cannot be the same as the augment node
         {
             std::cout << "You cannot type that in!" << std::endl;
         }
@@ -87,7 +87,7 @@ void populate(NodeUtility::Node *object)
         {
             std::cout << "You already typed that in!" << std::endl;
         }
-        else if (userinput == headnode->ingredient and headnode != object) // ingredient cannot be the same ingredient as the head node
+        else if (userinput == headnode->ingredient and headnode != cur) // ingredient cannot be the same ingredient as the head node
         {
             std::cout << "You cannot type that in, we are trying to make that item!" << std::endl;
         }
@@ -107,28 +107,28 @@ void populate(NodeUtility::Node *object)
     {
         if (promptbool)
         {
-            auto childinstance = new NodeUtility::Node(childname, object, 0, 1, 1, promptbool);
+            auto childinstance = new NodeUtility::Node(childname, cur, 0, 1, 1, promptbool);
             promptbool = false;
             amountmadepercraft = childinstance->amountmadepercraft;
         }
         else
         {
-            auto childinstance = new NodeUtility::Node(childname, object, 0, amountmadepercraft, 1);
+            auto childinstance = new NodeUtility::Node(childname, cur, 0, amountmadepercraft, 1);
         }
     }
     // recursive runtime
-    for (auto childnode : object->children)
+    for (auto childnode : cur->children)
     {
         populate(childnode);
     }
 }
-bool verifyuniqueness(NodeUtility::Node *object, const std::string &name)
+bool verifyuniqueness(NodeUtility::Node *cur, const std::string &name)
 {
     // just traverse the tree and check if the name is the same as any of the ingredient names
-    bool isunique = object->ingredient != name;
+    bool isunique = cur->ingredient != name;
     if (isunique)
     {
-        for (const auto child : object->children)
+        for (const auto child : cur->children)
         {
             isunique = verifyuniqueness(child, name);
             if (not isunique)
