@@ -138,7 +138,6 @@ def findlocalendpoints(cur: Node, foundendpoints: dict) -> dict:
         myendpoints: dict = {}
     else:
         myendpoints: dict = foundendpoints
-    # ! unit testing failing
     if len(cur.children) > 0:
         for child in cur.children.items():
             if isinstance(child[1], Node):
@@ -154,14 +153,14 @@ def promptint() -> int:
     prompt the user to input a returnable integer
 
     Returns:
-        int: an interger that is used to set the amountneeded, amount on hand, and
+        int: an integer that is used to set the amountneeded, amount on hand, and
         the amount made per craft for a Node instance
     """
     mynum: int = 0
     while True:
         myinput = input('')
         if not myinput.isdigit():
-            print('you can only type in a postive interger')
+            print('you can only type in a positive integer')
         else:
             mynum = int(myinput)
             break
@@ -177,15 +176,15 @@ def recursivearithmetic(cur: Node) -> int:
         int: returns the amount resulted of augment Node instance
     """
     # check and set minimum resulted if queue is not empty
-    tentativeinterger: int = sys.maxsize
+    tentativeinteger: int = sys.maxsize
     if len(cur.queueamountresulted) == 0:
-        tentativeinterger = 0
+        tentativeinteger = 0
     else:
-        for myinterger in cur.queueamountresulted.items():
-            if myinterger[1] < tentativeinterger:
-                tentativeinterger = myinterger[1]
+        for myinteger in cur.queueamountresulted.items():
+            if myinteger[1] < tentativeinteger:
+                tentativeinteger = myinteger[1]
     red = (cur.amountmadepercraft / cur.amountneeded)
-    blue = (red*cur.amountonhand) + (red*tentativeinterger)
+    blue = (red*cur.amountonhand) + (red*tentativeinteger)
     blue = round(math.floor(blue))
     cur.amountresulted = blue
     # recursively call the method
@@ -261,7 +260,7 @@ def populate(cur: Node):
     while True:
         myinput = input('')
         myinput = myinput.strip()
-        #! input checking
+        # input validation
         duplicated: bool = False
         if len(inputqueue) > 0:
             for word in inputqueue.items():
@@ -281,8 +280,7 @@ def populate(cur: Node):
     # create new child instances
     tempbool: bool = True
     for newnodename in inputqueue.items():
-        newchild: Node = Node(  # pylint:disable=W0612
-            newnodename[1], cur, 0, 1, 1, tempbool)  # pylint:disable=W0612
+        Node(newnodename[1], cur, 0, 1, 1, tempbool)
         tempbool = False
     # continue method runtime
     for child in cur.children.items():
@@ -300,6 +298,47 @@ def printprompt():
     print('Mode A - You are trying to figure out how much of your desired item you can make with the current supply of materials (Type in A)')  # pylint:disable=C0301
     print('Mode B - You are trying to figure out how much base materials you need to create a certain amount of your desired item, (Type in B)')  # pylint:disable=C0301
     print("Type in 'H' if you need a reminder of the prompt\n")
+
+
+def reformat_output(endpoints: dict):
+    """reformat the output to be more readable
+
+    Args:
+        endpoints (dict): dictionary of all the endpoints from a given Node instance tree
+    """
+    # set the new dictionary to be empty
+    red_dict: dict = {}
+    # set the new dictionary to have unique ingredients as keys and a list of tuples of the parent
+    # of said endpoint instance and the amount on hand as values
+    for node in endpoints.items():
+        if node[1].ingredient not in red_dict:
+            red_dict.update(
+                {node[1].ingredient: [(node[1].parent.ingredient, node[1].amountonhand)]})
+        else:
+            red_dict[node[1].ingredient].append(
+                (node[1].parent.ingredient, node[1].amountonhand))
+
+    output_dictionary: dict = {}
+    for item in red_dict.items():
+        orangeinteger: int = 0  # sum of the amount on hand of each tuple element
+        for orangenumber in item[1]:
+            orangeinteger += orangenumber[1]
+        for orangetuple in item[1]:
+            if item[0] not in output_dictionary:
+                output_dictionary.update({item[0]: [str(round(
+                    (orangetuple[1]/orangeinteger)*100, 2))+'% ('+str(orangetuple[1])+'x) used in '+orangetuple[0]]})  # pylint:disable=C0301
+            else:  # if item is in the outputdictionary, append the string to the list
+                output_dictionary[item[0]].append(
+                    str(round((orangetuple[1]/orangeinteger)*100, 2))+'% ('+str(orangetuple[1])+'x) used in '+orangetuple[0])  # pylint:disable=C0301
+    # output the dictionary keys and values
+    for item in output_dictionary.items():
+        print(item[0], end=' (')
+        for index, string in enumerate(item[1]):
+            if index == len(item[1])-1:
+                print(string, end='')
+            else:
+                print(string, end=', ')
+        print(')')
 
 
 if __name__ == '__main__':
@@ -349,22 +388,7 @@ if __name__ == '__main__':
                   head.ingredient, 'you need the following:')
             results: dict = findlocalendpoints(head, {})
             # iterate through the dictionary and output the amounts on hand
-            for itemnode in results.items():
-                if not isinstance(itemnode[1], Node):
-                    raise TypeError('child is not an instance of', Node)
-                # only do this if there 2 or more children for the head node,
-                # get the second to last node
-                if len(head.children) > 1:
-                    tempnode: Node = itemnode[1]
-                    while tempnode.parent.parent is not None: # type: ignore
-                        tempnode = tempnode.parent  # type: ignore
-                    temporarystring: str = tempnode.ingredient
-                    print(itemnode[1].ingredient, ':',
-                          itemnode[1].amountonhand, end='x')
-                    print(' ->', temporarystring)
-                else:
-                    print(itemnode[1].ingredient, ':',
-                          itemnode[1].amountonhand, end='x\n')
+            reformat_output(results)
         # prompt the user to see if they want to input another tree
         print("\nDo you want to run the program again with another item tree? (Y/N)")
         print("type in 'H' if you need to be reminded of the prompt")
