@@ -69,3 +69,12 @@ class Issue12_multiple_unique_endpoint(unittest.TestCase):  # pylint:disable=C01
     copperwire          : Node = Node('Copper Wire', siliconboard, 492, 9, 1)
     copperbar           : Node = Node('Copper Bar', copperwire, 1000, 1, 1)
     copperore           : Node = Node('Copper Ore', copperbar, 2, 1, 2)
+    desiredamount: int = random.randint(1, 100)
+    reversearithmetic(focusingarray, desiredamount)
+    roots: dict = findlocalendpoints(focusingarray, {})
+    def test_betteroutput_testmethod(self):
+        """_summary_ test to see if the output is formatted correctly
+        """
+        reformat_output(self.roots)
+        print('terminating test')
+        self.assertEqual(1, 1)

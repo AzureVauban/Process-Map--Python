@@ -299,6 +299,7 @@ def printprompt():
     print('Mode B - You are trying to figure out how much base materials you need to create a certain amount of your desired item, (Type in B)')  # pylint:disable=C0301
     print("Type in 'H' if you need a reminder of the prompt\n")
 
+
 def reformat_output(endpoints: dict):
     """
     peusdocode for reformatting the output
@@ -332,15 +333,7 @@ def reformat_output(endpoints: dict):
         else:
             red_dict[node[1].ingredient].append(
                 (node[1].parent.ingredient, node[1].amountonhand))
-#!    bluedictionary: dict = {}
-#!    for node in endpoints.items():
-#!        if node[1].ingredient not in bluedictionary:
-#!            bluedictionary.update({node[1].ingredient: node[1].amountonhand})
-#!        else:
-#!            bluedictionary[node[1].ingredient] += node[1].amountonhand
-#!    return SplitEndpoints(red, blue)
-# ?    totalamountofitems: int = 0
-    # create
+        
     output_dictionary: dict = {}
     for item in red_dict.items():
         orangeinteger: int = 0  # sum of the amount on hand of each tuple element
@@ -349,10 +342,10 @@ def reformat_output(endpoints: dict):
         for orangetuple in item[1]:
             if item[0] not in output_dictionary:
                 output_dictionary.update({item[0]: [str(round(
-                    (orangetuple[1]/orangeinteger)*100, 2))+'% used in '+orangetuple[0]]})  # ? add breakpoint here
+                    (orangetuple[1]/orangeinteger)*100, 2))+'%'+' used in '+orangetuple[0]]})  # ? add breakpoint here
             else:  # if item is in the outputdictionary, append the string to the list
                 output_dictionary[item[0]].append(
-                    str(round((orangetuple[1]/orangeinteger)*100, 2))+'% used in '+orangetuple[0])
+                    str(round((orangetuple[1]/orangeinteger)*100, 2))+'%'+'used in '+orangetuple[0])
     # output the dictionary keys and values
     for item in output_dictionary.items():
         print(item[0], end=' (')
