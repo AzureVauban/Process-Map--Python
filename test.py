@@ -93,7 +93,7 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
     def test_outputmath(self):
         """make sure that the sum of the percentages of the endpoints items is 100%
         """
-        pass
+        pyorange : SplitEndpoints = testmethod(self.roots)
 
 
 class Issue12_multiple_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
