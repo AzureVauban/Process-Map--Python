@@ -153,7 +153,7 @@ namespace format
         return returnstring;
     }
     // function for appending numbers to ingredient names to make ingredient names unique
-    
+
 }
 namespace write
 {
