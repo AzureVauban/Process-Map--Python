@@ -260,7 +260,7 @@ def populate(cur: Node):
     while True:
         myinput = input('')
         myinput = myinput.strip()
-        #! input checking
+        # input validation
         duplicated: bool = False
         if len(inputqueue) > 0:
             for word in inputqueue.items():
