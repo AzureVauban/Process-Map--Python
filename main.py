@@ -333,7 +333,7 @@ class SplitEndpoints:
         # blue must be a dictionary with string keys and an integer value
 
 
-def tentative_formatoutput(endpoints: dict) -> SplitEndpoints:
+def tentative_formatoutput(endpoints: dict):
     """
     peusdocode for reformatting the output
     split endpoints into two dictionaries called red_dict and blue_dict
@@ -356,23 +356,35 @@ def tentative_formatoutput(endpoints: dict) -> SplitEndpoints:
     hand composed in the total amount on hand in the entire tree)% used in
     (parent node's ingredient name) , ...<keep going>...,
     """
-    red: dict = {}
+    # set the new dictionary to be empty
+    red_dict: dict = {}
+    # set the new dictionary to have unique ingredients as keys and a list of tuples of the parent of said endpoint instance and the amount on hand as values
     for node in endpoints.items():
-        if node[1].ingredient not in red:
-            red.update(
+        if node[1].ingredient not in red_dict:
+            red_dict.update(
                 {node[1].ingredient: [(node[1].parent.ingredient, node[1].amountonhand)]})
         else:
-            red[node[1].ingredient].append(
+            red_dict[node[1].ingredient].append(
                 (node[1].parent.ingredient, node[1].amountonhand))
-    blue: dict = {}
-    for node in endpoints.items():
-        if node[1].ingredient not in blue:
-            blue.update({node[1].ingredient: node[1].amountonhand})
-        else:
-            blue[node[1].ingredient] += node[1].amountonhand
-    return SplitEndpoints(red, blue)
-
-
+#!    bluedictionary: dict = {}
+#!    for node in endpoints.items():
+#!        if node[1].ingredient not in bluedictionary:
+#!            bluedictionary.update({node[1].ingredient: node[1].amountonhand})
+#!        else:
+#!            bluedictionary[node[1].ingredient] += node[1].amountonhand
+#!    return SplitEndpoints(red, blue)
+#?    totalamountofitems: int = 0
+    # create 
+    output_dictionary: dict = {}
+    for item in red_dict.items():
+        orangeinteger: int = 0  # sum of the amount on hand of each tuple element
+        for orangenumber in item[1]:
+            orangeinteger += orangenumber[1]
+        for orangetuple in item[1]:
+            if item[0] not in output_dictionary:
+                output_dictionary.update({item[0]: [str(round((orangetuple[1]/orangeinteger)*100, 2))+'% used in '+orangetuple[0]]})  # ? add breakpoint here
+            else:  # if item is in the outputdictionary, append the string to the list
+                output_dictionary[item[0]].append(str(round((orangetuple[1]/orangeinteger)*100, 2))+'% used in '+orangetuple[0])
 if __name__ == '__main__':
     print('Welcome to Process Map (Python) v1.1!\n')
     while True:
