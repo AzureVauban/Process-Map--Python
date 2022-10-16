@@ -1,9 +1,8 @@
 // Unit Test Generator.cpp : This file contains the 'main' function. Program execution begins and ends there.
-// merge changes into Bug Fixing Branch when this is completed
 #include "NodeUtility.h"
 std::ofstream output("auto_generated_unittest.py");
 void populate(NodeUtility::Node *object);
-bool verifyuniqueness(NodeUtility::Node *object, const std::string &name); // have somebody test this
+bool verifyuniqueness(NodeUtility::Node *object, const std::string &name);
 int main()
 {
     using namespace NodeUtility;

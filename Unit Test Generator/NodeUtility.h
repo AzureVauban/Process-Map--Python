@@ -242,6 +242,5 @@ namespace write
                << "(unittest.TestCase): # pylint:disable=C0103" << std::endl;
         docstring::classdoc(module);
         module << std::endl;
-        // call docstring function for class
     }
 }
