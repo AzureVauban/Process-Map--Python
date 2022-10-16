@@ -77,6 +77,7 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
         #iterate through the value of the red dictionary, which should be the value element of the tuple 
         for item in reorganized_endpoints.red_dict.items():
             # red dict, key : str, value: list of tuples of str and ints
+            print(type(item[1]))
             if not isinstance(item[1], list):
                 raise TypeError('value is not a list')
         self.assertEqual(testvalue, 10200+61200+82620+187476)   
