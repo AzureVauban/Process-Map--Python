@@ -311,6 +311,7 @@ class SplitEndpoints:
         # red must be a dictionary with string keys and a list of tuple of str and integer values
         self.red_dict = {}
         self.blue_dict = {}
+        """
         for key, value in red.items():
             if not isinstance(key, str):
                 raise TypeError('key is not a string')
@@ -323,14 +324,17 @@ class SplitEndpoints:
                     raise TypeError('item[0] is not a string')
                 if not isinstance(item[1], int):
                     raise TypeError('item[1] is not an integer')
-        self.red_dict = red
-        self.blue_dict = blue
-        # blue must be a dictionary with string keys and an integer value
+        """
+        """
         for key, value in blue.items():
             if not isinstance(key, str):
                 raise TypeError('key is not a string')
             if not isinstance(value, int):
                 raise TypeError('value is not an integer')
+        """
+        self.red_dict = red
+        self.blue_dict = blue
+        # blue must be a dictionary with string keys and an integer value
 
 
 def tentative_formatoutput(endpoints: dict) -> SplitEndpoints:
