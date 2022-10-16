@@ -52,38 +52,48 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
                 if not iscalledpixels:
                     break
         self.assertTrue(iscalledpixels)
+
     def test_outputmath(self):
         """make sure that the sum of the percentages of the endpoints items is 100%
         """
         pass
+
     def test_temptest(self):
         """test to see if the total sum of the endpoint node's % compostion correctly
            rounds towards 1 (100%)
            example output:
            Copper Ore : 31108x (14.29% used in item B, 14.29% used in item C, 71.43% used in item D)
         """
-        endpoints : SplitEndpoints = testmethod(self.roots)
+        endpoints: SplitEndpoints = testmethod(self.roots)
         # condense endpoints dictionary, each Node should have a unique ingredient name
         # sum the total amount on hand of the item and divide the local amount on hands by the summed total
         # make sure you store these quotients and their parent ingredient names somewhere and iterate through them
         # when outputting the final results
-        self.assertTrue(endpoints.tentativeassert(),'dictionary size is empty')
+        self.assertTrue(len(self.red_dict) == 1 and len(self.blue_dict) == 1)
+
     def test_sum(self):
         """test to see if the sum of the amount on hand of each tuple element within the value of the red dictionary is correct
         and the same as the value of the blue dictionary
         doing the math by hand results in the same number, which means that if the unit test code is correct, the test WILL pass sucessfully
         17000+102000+137700+312460
+        '569,160 == 17000+102000+137700+312460'
         """
-        green : SplitEndpoints = testmethod(self.roots)
+        green: SplitEndpoints = testmethod(self.roots)
         # iterate through red of green and sum the amount on hand of each tuple element
-        bluenumber : int = 0 # the sum of the item values (type should be int) in the blue dictionary
-        yellownumber : int = 0 # sum of the amount on hand of each tuple element within the value of the red dictionary 
+        # the sum of the item values (type should be int) in the blue dictionary
+        bluenumber: int = 0
+        # sum of the amount on hand of each tuple element within the value of the red dictionary
+        yellownumber: int = 0
         for integer in green.blue_dict.items():
             bluenumber += integer[1]
         for yellowtuple in green.red_dict.items():
             for integer in yellowtuple[1]:
                 yellownumber += integer[1]
-        self.assertTrue(bluenumber== 569_160 and yellownumber== 569_160,'569,160 == 17000+102000+137700+312460')
+        print('yellow number:', yellownumber)
+        print('blue number:', bluenumber)
+        self.assertEqual(bluenumber,569160)
+        self.assertEqual(yellownumber,569160)
+
 
 class Issue12_multiple_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
     """test new formatting and endpoint search methods from main.py module wih only one endpoint

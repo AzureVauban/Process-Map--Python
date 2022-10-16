@@ -303,12 +303,14 @@ def printprompt():
 class SplitEndpoints:
     """complementary class of Node, used to store dictionaries that split the endpoints of the tree
     """
-    red_dict: dict = {}
-    blue_dict: dict = {}
+    red_dict: dict
+    blue_dict: dict
 
     def __init__(self, red: dict, blue: dict) -> None:
         # type check for the parameter of red and blue
         # red must be a dictionary with string keys and a list of tuple of str and integer values
+        red_dict: dict = {}
+        blue_dict: dict = {}
         for key, value in red.items():
             if not isinstance(key, str):
                 raise TypeError('key is not a string')
@@ -368,9 +370,11 @@ def tentative_formatoutput(endpoints: dict) -> SplitEndpoints:
     red_dict: dict = {}
     for node in endpoints.items():
         if node[1].ingredient not in red_dict:
-            red_dict.update({node[1].ingredient: [(node[1].parent.ingredient, node[1].amountonhand)]})
+            red_dict.update(
+                {node[1].ingredient: [(node[1].parent.ingredient, node[1].amountonhand)]})
         else:
-            red_dict[node[1].ingredient].append((node[1].parent.ingredient, node[1].amountonhand))
+            red_dict[node[1].ingredient].append(
+                (node[1].parent.ingredient, node[1].amountonhand))
     blue_dict: dict = {}
     for node in endpoints.items():
         if node[1].ingredient not in blue_dict:
