@@ -71,11 +71,13 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
     def test_sum(self):
         """test to see if the sum of the amount on hand of each tuple element within the value of the red dictionary is correct
         and the same as the value of the blue dictionary
+        10200+61200+82620+187476)
         """
-        reorganized_endpoints : SplitEndpoints = testmethod(self.roots)
-        testvalue : int = 0
-        #iterate through the value of the red dictionary, which should be the value element of the tuple 
-        self.assertEqual(reorganized_endpoints., 10200+61200+82620+187476)
+        green : SplitEndpoints = testmethod(self.roots)
+        # iterate through red of green and sum the amount on hand of each tuple element
+        print(type(green))
+        pass
+           
  
 
 class Issue12_multiple_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
