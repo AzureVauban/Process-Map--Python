@@ -95,9 +95,8 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
                 yellownumber += integer[1]
         print('yellow number:', yellownumber)
         print('blue number:', bluenumber)
-        self.assertEqual(bluenumber, 569_160, 'blue is not the correct number')
-        self.assertEqual(yellownumber, 569_160,
-                         'yellow is not the correct number')
+        self.assertEqual(bluenumber, 569_160,'blue is not the correct number')
+        self.assertEqual(yellownumber, 569_160,'yellow is not the correct number')
 
 
 class Issue12_multiple_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
