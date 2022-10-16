@@ -71,14 +71,19 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
     def test_sum(self):
         """test to see if the sum of the amount on hand of each tuple element within the value of the red dictionary is correct
         and the same as the value of the blue dictionary
-        10200+61200+82620+187476)
+        doing the math by hand results in the same number, which means that if the unit test code is correct, the test WILL pass sucessfully
+        17000+102000+137700+312460
         """
         green : SplitEndpoints = testmethod(self.roots)
         # iterate through red of green and sum the amount on hand of each tuple element
-        print(type(green))
-        pass
-           
- 
+        bluenumber : int = 0 # the sum of the item values (type should be int) in the blue dictionary
+        yellownumber : int = 0 # sum of the amount on hand of each tuple element within the value of the red dictionary 
+        for integer in green.blue_dict.items():
+            bluenumber += integer[1]
+        for yellowtuple in green.red_dict.items():
+            for integer in yellowtuple[1]:
+                yellownumber += integer[1]
+        self.assertTrue(bluenumber== 569_160 and yellownumber== 569_160,'569,160 == 17000+102000+137700+312460')
 
 class Issue12_multiple_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
     """test new formatting and endpoint search methods from main.py module wih only one endpoint
