@@ -71,7 +71,8 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
         # sum the total amount on hand of the item and divide the local amount on hands by the summed total
         # make sure you store these quotients and their parent ingredient names somewhere and iterate through them
         # when outputting the final results
-        self.assertTrue(len(endpoints.red_dict) == 1 and len(endpoints.blue_dict) == 1,True)
+        self.assertTrue(len(endpoints.red_dict) ==
+                        1 and len(endpoints.blue_dict) == 1, True)
 
     def test_sum(self):
         """
@@ -94,8 +95,9 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
                 yellownumber += integer[1]
         print('yellow number:', yellownumber)
         print('blue number:', bluenumber)
-        self.assertEqual(bluenumber,569160)
-        self.assertEqual(yellownumber,569160)
+        self.assertEqual(bluenumber, 569_160, 'blue is not the correct number')
+        self.assertEqual(yellownumber, 569_160,
+                         'yellow is not the correct number')
 
 
 class Issue12_multiple_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
