@@ -95,10 +95,7 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
         """
         pyorange : SplitEndpoints = testmethod(self.roots)
         # iterate through the red dictionary and sum the percentages of each tuple element
-        percentages : dict = {}
-        for item in pyorange.red_dict.items():
-            percentages.update({item[0]: })
-
+        percentages : dict = {} #pyorange is a dictionary with the ingredient as its key and a value of a list of tuples consisting of the name of the parent ingredient
 
 class Issue12_multiple_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
     """test new formatting and endpoint search methods from main.py module wih only one endpoint
