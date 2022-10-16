@@ -98,8 +98,10 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
             orangeinteger: int = 0 # sum of the amount on hand of each tuple element
             for orangenumber in item[1]:
                 orangeinteger+=orangenumber[1]
-            for orangetuple in item[1]:
-                print('item:', round(orangetuple[1]/orangeinteger,2))
+            for orangetuple in item[1]: # convert the amount on hand of each tuple element to a float
+                orangetuple = (orangetuple[0], float(orangetuple[1]))
+            for orangetuple in item[1]: # turn the numbers into percentages
+                print('item:', round((orangetuple[1]/orangeinteger)*100,2))
         self.assertEqual(True, True)
 
 
