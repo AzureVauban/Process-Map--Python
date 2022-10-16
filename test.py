@@ -55,11 +55,6 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
                     break
         self.assertTrue(iscalledpixels)
 
-    def test_outputmath(self):
-        """make sure that the sum of the percentages of the endpoints items is 100%
-        """
-        pass
-
     def test_temptest(self):
         """test to see if the total sum of the endpoint node's % compostion correctly
            rounds towards 1 (100%)
@@ -79,8 +74,6 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
         test to see if the sum of the amount on hand of each tuple element within the value of the red dictionary is correct
         and the same as the value of the blue dictionary
         doing the math by hand results in the same number, which means that if the unit test code is correct, the test WILL pass sucessfully
-        17000+102000+137700+312460
-        '569,160 == 17000+102000+137700+312460'
         """
         green: SplitEndpoints = testmethod(self.roots)
         # iterate through red of green and sum the amount on hand of each tuple element
@@ -95,7 +88,12 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
                 yellownumber += integer[1]
         print('yellow number:', yellownumber)
         print('blue number:', bluenumber)
-        self.assertEqual(bluenumber,yellownumber)
+        self.assertEqual(bluenumber, yellownumber)
+
+    def test_outputmath(self):
+        """make sure that the sum of the percentages of the endpoints items is 100%
+        """
+        pass
 
 
 class Issue12_multiple_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
