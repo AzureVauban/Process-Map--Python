@@ -95,8 +95,11 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
         # iterate through the red dictionary and sum the percentages of each tuple element
         percentages: dict = {}
         for index, value in pyorange.red_dict.items():
-            print('pyorange:', index,'--',value)
-        percentages = 
+            #print('pyorange:', index,'--',value)
+            pass
+        percentages = pyorange.red_dict
+        for item in percentages.items():
+            print(item)           
         self.assertEqual(True, True)
 
 
