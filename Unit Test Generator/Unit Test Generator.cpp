@@ -3,7 +3,7 @@
 #include "NodeUtility.h"
 std::ofstream output("auto_generated_unittest.py");
 void populate(NodeUtility::Node *object);
-bool verifyuniqueness(NodeUtility::Node *object, const std::string &name, bool isheadnode = false); //have somebody test this out
+bool verifyuniqueness(NodeUtility::Node *object, const std::string &name, bool isheadnode = false); //have somebody test this
 int main()
 {
     using namespace NodeUtility;
