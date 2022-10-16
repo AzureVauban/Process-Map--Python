@@ -3,7 +3,7 @@
 #include "NodeUtility.h"
 std::ofstream output("auto_generated_unittest.py");
 void populate(NodeUtility::Node *object);
-bool verifyuniqueness(NodeUtility::Node *object, const std::string &name, bool isheadnode = false); //have somebody test this
+bool verifyuniqueness(NodeUtility::Node *object, const std::string &name); //have somebody test this
 int main()
 {
     using namespace NodeUtility;
@@ -124,34 +124,19 @@ void populate(NodeUtility::Node *object)
         populate(childnode);
     }
 }
-bool verifyuniqueness(NodeUtility::Node *object, const std::string &name, bool isheadnode)
+bool verifyuniqueness(NodeUtility::Node *object, const std::string &name)
 {
-    bool returnvalue = true;
-    // check to make sure that this boolean is right
-    if (not isheadnode)
-    {
-        while (object->parent)
+    //just traverse the tree and check if the name is the same as any of the ingredient names
+    bool isunique = object->ingredient != name;
+    if (isunique){
+        for (const auto child : object->children)
         {
-            object = object->parent;
-        }
-    }
-    // check to see if the object's ingredient attribute matches the name parameter, if not traverse downwards to keep checking
-    if (object->ingredient != name)
-    {
-        for (auto child : object->children)
-        {
-            if (child->ingredient == name)
+            isunique = verifyuniqueness(child, name);
+            if (not isunique)
             {
-                returnvalue = false;
-            }
-            else
-            {
-                verifyuniqueness(child, name, true);
+                break;
             }
         }
     }
-    else
-    {
-        returnvalue = false;
-    }
+    return isunique;
 }
