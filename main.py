@@ -153,14 +153,14 @@ def promptint() -> int:
     prompt the user to input a returnable integer
 
     Returns:
-        int: an interger that is used to set the amountneeded, amount on hand, and
+        int: an integer that is used to set the amountneeded, amount on hand, and
         the amount made per craft for a Node instance
     """
     mynum: int = 0
     while True:
         myinput = input('')
         if not myinput.isdigit():
-            print('you can only type in a postive interger')
+            print('you can only type in a positive integer')
         else:
             mynum = int(myinput)
             break
@@ -176,15 +176,15 @@ def recursivearithmetic(cur: Node) -> int:
         int: returns the amount resulted of augment Node instance
     """
     # check and set minimum resulted if queue is not empty
-    tentativeinterger: int = sys.maxsize
+    tentativeinteger: int = sys.maxsize
     if len(cur.queueamountresulted) == 0:
-        tentativeinterger = 0
+        tentativeinteger = 0
     else:
-        for myinterger in cur.queueamountresulted.items():
-            if myinterger[1] < tentativeinterger:
-                tentativeinterger = myinterger[1]
+        for myinteger in cur.queueamountresulted.items():
+            if myinteger[1] < tentativeinteger:
+                tentativeinteger = myinteger[1]
     red = (cur.amountmadepercraft / cur.amountneeded)
-    blue = (red*cur.amountonhand) + (red*tentativeinterger)
+    blue = (red*cur.amountonhand) + (red*tentativeinteger)
     blue = round(math.floor(blue))
     cur.amountresulted = blue
     # recursively call the method
