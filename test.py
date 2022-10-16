@@ -75,8 +75,11 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
         reorganized_endpoints : SplitEndpoints = testmethod(self.roots)
         testvalue : int = 0
         #iterate through the value of the red dictionary, which should be the value element of the tuple 
-        for node in reorganized_endpoints.red_dict.items():
-            
+        for item in reorganized_endpoints.red_dict.items():
+            # red dict, key : str, value: list of tuples of str and ints
+            if not isinstance(item[1], list):
+                raise TypeError('value is not a list')
+        self.assertEqual(testvalue, 10200+61200+82620+187476)   
 
 class Issue12_multiple_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
     """test new formatting and endpoint search methods from main.py module wih only one endpoint
