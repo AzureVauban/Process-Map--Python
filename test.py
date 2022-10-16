@@ -4,6 +4,8 @@
 import random
 import unittest
 
+from numpy import true_divide
+
 from main import Node, SplitEndpoints, findlocalendpoints, reversearithmetic
 from main import tentative_formatoutput as testmethod
 
@@ -69,10 +71,11 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
         # sum the total amount on hand of the item and divide the local amount on hands by the summed total
         # make sure you store these quotients and their parent ingredient names somewhere and iterate through them
         # when outputting the final results
-        self.assertTrue(len(self.red_dict) == 1 and len(self.blue_dict) == 1)
+        self.assertTrue(len(endpoints.red_dict) == 1 and len(endpoints.blue_dict) == 1,True)
 
     def test_sum(self):
-        """test to see if the sum of the amount on hand of each tuple element within the value of the red dictionary is correct
+        """
+        test to see if the sum of the amount on hand of each tuple element within the value of the red dictionary is correct
         and the same as the value of the blue dictionary
         doing the math by hand results in the same number, which means that if the unit test code is correct, the test WILL pass sucessfully
         17000+102000+137700+312460

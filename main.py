@@ -309,8 +309,6 @@ class SplitEndpoints:
     def __init__(self, red: dict, blue: dict) -> None:
         # type check for the parameter of red and blue
         # red must be a dictionary with string keys and a list of tuple of str and integer values
-        red_dict: dict = {}
-        blue_dict: dict = {}
         for key, value in red.items():
             if not isinstance(key, str):
                 raise TypeError('key is not a string')
@@ -331,19 +329,6 @@ class SplitEndpoints:
             if not isinstance(value, int):
                 raise TypeError('value is not an integer')
         self.blue_dict = blue
-
-    def tentativeassert(self):
-        """_summary_
-
-        Returns:
-            _type_: _description_
-        """
-        if len(self.red_dict) == 1 and len(self.blue_dict) == 1:
-            return True
-        else:
-            return False
-
-
 def tentative_formatoutput(endpoints: dict) -> SplitEndpoints:
     """
     peusdocode for reformatting the output
