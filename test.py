@@ -96,7 +96,8 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
         percentages: dict = {}
         for index, value in pyorange.red_dict.items():
             print('pyorange:', index,'--',value)
-            self.assertEqual(True, True)
+        percentages = 
+        self.assertEqual(True, True)
 
 
 class Issue12_multiple_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
