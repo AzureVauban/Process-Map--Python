@@ -299,41 +299,7 @@ def printprompt():
     print('Mode B - You are trying to figure out how much base materials you need to create a certain amount of your desired item, (Type in B)')  # pylint:disable=C0301
     print("Type in 'H' if you need a reminder of the prompt\n")
 
-
-class SplitEndpoints:
-    """complementary class of Node, used to store dictionaries that split the endpoints of the tree
-    """
-    red_dict: dict
-    blue_dict: dict
-
-    def __init__(self, red: dict, blue: dict) -> None:
-        # type check for the parameter of red and blue
-        # red must be a dictionary with string keys and a list of tuple of str and integer values
-        self.red_dict = {}
-        self.blue_dict = {}
-        for key, value in red.items():
-            if not isinstance(key, str):
-                raise TypeError('key is not a string')
-            elif not isinstance(value, list):
-                raise TypeError('value is not a list')
-            for item in value:
-                if not isinstance(item, tuple):
-                    raise TypeError('item is not a tuple')
-                if not isinstance(item[0], str):
-                    raise TypeError('item[0] is not a string')
-                if not isinstance(item[1], int):
-                    raise TypeError('item[1] is not an integer')
-        for key, value in blue.items():
-            if not isinstance(key, str):
-                raise TypeError('key is not a string')
-            if not isinstance(value, int):
-                raise TypeError('value is not an integer')
-        self.red_dict = red
-        self.blue_dict = blue
-        # blue must be a dictionary with string keys and an integer value
-
-
-def tentative_formatoutput(endpoints: dict):
+def reformat_output(endpoints: dict):
     """
     peusdocode for reformatting the output
     split endpoints into two dictionaries called red_dict and blue_dict
