@@ -86,20 +86,18 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
         for yellowtuple in green.red_dict.items():
             for integer in yellowtuple[1]:
                 yellownumber += integer[1]
-        print('yellow number:', yellownumber)
-        print('blue number:', bluenumber)
         self.assertEqual(bluenumber, yellownumber)
 
     def test_outputmath(self):
         """make sure that the sum of the percentages of the endpoints items is 100%
         """
-        pyorange : SplitEndpoints = testmethod(self.roots)
+        pyorange: SplitEndpoints = testmethod(self.roots)
         # iterate through the red dictionary and sum the percentages of each tuple element
-        percentages : dict = {}
+        percentages: dict = {}
         for index, value in pyorange.red_dict.items():
-            print(index,value)
-        self.assertEqual(True, True)
-            
+            print('pyorange:', index, value)
+            self.assertEqual(True, True)
+
 
 class Issue12_multiple_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
     """test new formatting and endpoint search methods from main.py module wih only one endpoint

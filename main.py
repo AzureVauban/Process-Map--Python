@@ -370,7 +370,6 @@ def tentative_formatoutput(endpoints: dict) -> SplitEndpoints:
             blue.update({node[1].ingredient: node[1].amountonhand})
         else:
             blue[node[1].ingredient] += node[1].amountonhand
-        print('adding', node[1].amountonhand)
     return SplitEndpoints(red, blue)
 
 
