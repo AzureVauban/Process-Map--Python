@@ -93,13 +93,17 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
         """
         pyorange: SplitEndpoints = testmethod(self.roots)
         # iterate through the red dictionary and sum the percentages of each tuple element
-        percentages: dict = {}
+#!      percentages: dict = {}
         for index, value in pyorange.red_dict.items():
             #print('pyorange:', index,'--',value)
             pass
-        percentages = pyorange.red_dict
-        for item in percentages.items():
-            print(item)           
+#!      percentages = pyorange.red_dict
+        for index, item in enumerate(pyorange.red_dict.items()):
+            orangeinteger: int = 0
+            for orangenumber in item[1]:
+                orangeinteger+=orangenumber[1]
+            for orangetuple in item[1]:
+                print('item:', orangetuple[1])
         self.assertEqual(True, True)
 
 
