@@ -126,7 +126,7 @@ void populate(NodeUtility::Node *object)
 }
 bool verifyuniqueness(NodeUtility::Node *object, const std::string &name, bool isheadnode)
 {
-
+    bool returnvalue = true;
     // check to make sure that this boolean is right
     if (not isheadnode)
     {
@@ -142,16 +142,16 @@ bool verifyuniqueness(NodeUtility::Node *object, const std::string &name, bool i
         {
             if (child->ingredient == name)
             {
-                return false;
+                returnvalue = false;
             }
             else
             {
-                return verifyuniqueness(child, name, true);
+                verifyuniqueness(child, name, true);
             }
         }
     }
     else
     {
-        return false;
+        returnvalue = false;
     }
 }
