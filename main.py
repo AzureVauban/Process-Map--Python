@@ -340,6 +340,7 @@ def reformat_output(endpoints: dict):
                 print(string, end=', ')
         print(')')
 
+
 if __name__ == '__main__':
     print('Welcome to Process Map (Python) v1.1!\n')
     while True:
