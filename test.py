@@ -4,7 +4,8 @@
 import random
 import unittest
 
-from main import Node, findlocalendpoints, reversearithmetic
+from main import reversearithmetic  # pylint: disable
+from main import Node, findlocalendpoints, reformat_output  # pylint: disable
 
 
 class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
@@ -33,60 +34,48 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
     roots: dict = findlocalendpoints(tritaniumbar, {})
     # should 4 endpoints, but 1 (all the endpoints are pixels) item in its endpoint output
 
-    def test_endpointsdict(self):
-        """test to see if the length of the endpoints dictionary
-        is 4 elements
+    def test_betteroutput_testmethod(self):
+        """_summary_ test to see if the output is formatted correctly
         """
-        self.assertEqual(len(self.roots), 4)
-
-    def test_endpoints(self):
-        """test to see if the item name of each endpoint is Pixels
-        """
-        iscalledpixels: bool = True
-        for instance in self.roots.items():
-            if not isinstance(instance[1], Node):
-                raise TypeError('endpoint is not an instance of', Node)
-            else:
-                iscalledpixels = instance[1].ingredient == 'Pixels'
-                if not iscalledpixels:
-                    break
-        self.assertTrue(iscalledpixels)
-
-    def test_temptest(self):
-        """test to see if the total sum of the endpoint node's % compostion correctly
-           rounds towards 1 (100%)
-        """
-        blue: list = []
-        red : dict = {} #? {itemname,list [amountonhand of each endpoint]}
-        # set the secondary dict
-        for crimson in self.roots.items():
-            isstringpresent : bool = False
-        # set the return dictionary to be a list and have no keys
-        for nodeinstance in self.roots.items():
-            blue.append(nodeinstance[1])
-        # todo make return dictionary/list have unique nodes
-        for firuzeh in blue:
-            indexpos: int = 0
-            if not isinstance(firuzeh, Node):
-                raise TypeError('firuzeh is not an instance of', Node)
-            for azure in blue:
-                if not isinstance(azure, Node):
-                    raise TypeError('azure is not an instance of', Node)
-                if azure.instancekey != firuzeh.instancekey and azure.ingredient == firuzeh.ingredient:
-                    firuzeh.amountonhand += azure.amountonhand
-                    blue.pop(indexpos)
-                    #check to see if the dictionary has the item inputted, if it is, update the list witin the dictionary
-                    isstored: bool = False
-                    for tentative in red.items():
-                        if not isinstance(tentative[1],list):
-                            raise TypeError('the dictionary is supposed to store an instance of',list,'not an instance of',type(tentative[1]))
-            indexpos += 1
-        # make sure only one ingredient type is there, in this test class it should be pixels
-        # desired output Pixels : 147312x (2.99 % used in Lead, 17.92 % used in Irradium Ore, 24.19 % used in Trianglium Ore, 54.9 % used in Prism Shard)
-        self.assertEqual(len(blue), 1)
+        reformat_output(self.roots)
+        print('terminating test')
+        self.assertEqual(1, 1)
 
 
 class Issue12_multiple_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
     """test new formatting and endpoint search methods from main.py module wih only one endpoint
     """
-    pass
+    focusingarray: Node = Node('Focusing Array', None, 1, 1, 1)
+    advancedalloy: Node = Node('Advanced Alloy', focusingarray, 8, 1, 2)
+    crystal: Node = Node('Crystal', focusingarray, 640, 1, 2)
+    plasmiccrystal: Node = Node('Plasmic Crystal', focusingarray, 41, 2, 2)
+    quantumprocessor: Node = Node('Quantum Processor', focusingarray, 20, 2, 1)
+    zerchesiumbar: Node = Node('Zerchesium Bar', advancedalloy, 548, 1, 1)
+    zerchesiumore: Node = Node('Zerchesium Ore', zerchesiumbar, 2, 1, 2)
+    protocitebar: Node = Node('Protocite Bar', advancedalloy, 277, 1, 1)
+    protociteore: Node = Node('Protocite Ore', protocitebar, 2, 1, 2)
+    penumbriteshard: Node = Node('Penumbrite Shard', advancedalloy, 86, 1, 1)
+    penumbriteore: Node = Node('Penumbrite Ore', penumbriteshard, 2, 1, 2)
+    lead: Node = Node('Lead', advancedalloy, 251, 1, 1)
+    crystalplantseed: Node = Node('Crystal Plant Seed', crystal, 100, 1, 1)
+    bloodrock: Node = Node('Blood Rock', plasmiccrystal, 1000, 1, 50)
+    blood: Node = Node('Blood', bloodrock, 23, 1, 1)
+    lava: Node = Node('Lava', bloodrock, 404, 1, 1)
+    protocitebarb: Node = Node('Protocite Bar', quantumprocessor, 277, 1, 2)
+    protociteoreb: Node = Node('Protocite Ore', protocitebarb, 2, 1, 2)
+    siliconboard: Node = Node('Silicon Board', quantumprocessor, 310, 1, 4)
+    silicon: Node = Node('Silicon', siliconboard, 1000, 1, 1)
+    sand: Node = Node('Sand', silicon, 901, 1, 50)
+    copperwire: Node = Node('Copper Wire', siliconboard, 492, 9, 1)
+    copperbar: Node = Node('Copper Bar', copperwire, 1000, 1, 1)
+    copperore: Node = Node('Copper Ore', copperbar, 2, 1, 2)
+    desiredamount: int = random.randint(1, 100)
+    reversearithmetic(focusingarray, desiredamount)
+    roots: dict = findlocalendpoints(focusingarray, {})
+
+    def test_betteroutput_testmethod(self):
+        """_summary_ test to see if the output is formatted correctly
+        """
+        reformat_output(self.roots)
+        print('terminating test')
+        self.assertEqual(1, 1)
