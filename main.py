@@ -345,7 +345,7 @@ def reformat_output(endpoints: dict):
                     (orangetuple[1]/orangeinteger)*100, 2))+'%'+' used in '+orangetuple[0]]})  # ? add breakpoint here
             else:  # if item is in the outputdictionary, append the string to the list
                 output_dictionary[item[0]].append(
-                    str(round((orangetuple[1]/orangeinteger)*100, 2))+'%'+'used in '+orangetuple[0])
+                    str(round((orangetuple[1]/orangeinteger)*100, 2))+'%'+' used in '+orangetuple[0])
     # output the dictionary keys and values
     for item in output_dictionary.items():
         print(item[0], end=' (')
