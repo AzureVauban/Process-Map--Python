@@ -75,14 +75,7 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
         reorganized_endpoints : SplitEndpoints = testmethod(self.roots)
         testvalue : int = 0
         #iterate through the value of the red dictionary, which should be the value element of the tuple 
-        for item in reorganized_endpoints.red_dict.items():
-            # red dict, key : str, value: list of tuples of str and ints
-            for subitem in item[1]:
-                if isinstance(subitem, tuple):
-                    testvalue += subitem[1]
-                else:
-                    raise TypeError('subitem is not a tuple it is an instance of',type(subitem))
-        self.assertEqual(testvalue, 10200+61200+82620+187476)
+        self.assertEqual(reorganized_endpoints., 10200+61200+82620+187476)
  
 
 class Issue12_multiple_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
