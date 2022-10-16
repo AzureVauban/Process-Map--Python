@@ -1,10 +1,9 @@
 // Unit Test Generator.cpp : This file contains the 'main' function. Program execution begins and ends there.
 // merge changes into Bug Fixing Branch when this is completed
 #include "NodeUtility.h"
-
 std::ofstream output("auto_generated_unittest.py");
 void populate(NodeUtility::Node *object);
-bool verifyuniqueness(const std::string A, NodeUtility::Node *objectNode);
+bool verifyuniqueness(NodeUtility::Node *object, const std::string &name, bool isheadnode = false); //have somebody test this out
 int main()
 {
     using namespace NodeUtility;
@@ -63,11 +62,13 @@ void populate(NodeUtility::Node *object)
     {
         // check for duplicates
         std::getline(std::cin, userinput);
-        bool isalreadytyped = false, notunique = verifyuniqueness(userinput, object);
+
+        bool repeated_local_input = false;                   // input is repeated from the user inputs vector
+        bool isunique = verifyuniqueness(object, userinput); // input is repeated from the tree and is not unique
         for (const auto &myinput : userinputs)
         {
-            isalreadytyped = userinput == myinput;
-            if (isalreadytyped)
+            repeated_local_input = userinput == myinput;
+            if (repeated_local_input)
             {
                 break;
             }
@@ -76,7 +77,7 @@ void populate(NodeUtility::Node *object)
         {
             break;
         }
-        else if (not notunique) // ingredient cannot be typed in already, EACH ingredient input must be unique
+        else if (not isunique) // ingredient cannot be typed in already, EACH ingredient input must be unique
         {
             std::cout << "This ingredient name is not unique, please type something on the end of its name to make it unique" << std::endl;
         }
@@ -84,7 +85,7 @@ void populate(NodeUtility::Node *object)
         {
             std::cout << "You cannot type that in!" << std::endl;
         }
-        else if (isalreadytyped) // ingredient cannot be repeated
+        else if (repeated_local_input) // ingredient cannot be repeated
         {
             std::cout << "You already typed that in!" << std::endl;
         }
@@ -123,13 +124,34 @@ void populate(NodeUtility::Node *object)
         populate(childnode);
     }
 }
-bool verifyuniqueness(const std::string A, NodeUtility::Node *objectNode)
+bool verifyuniqueness(NodeUtility::Node *object, const std::string &name, bool isheadnode)
 {
-    bool isnotunique = A != objectNode->ingredient;
 
-    while (objectNode->parent and not isnotunique)
+    // check to make sure that this boolean is right
+    if (not isheadnode)
     {
-        objectNode = objectNode->parent;
+        while (object->parent)
+        {
+            object = object->parent;
+        }
     }
-    return isnotunique;
+    // check to see if the object's ingredient attribute matches the name parameter, if not traverse downwards to keep checking
+    if (object->ingredient != name)
+    {
+        for (auto child : object->children)
+        {
+            if (child->ingredient == name)
+            {
+                return false;
+            }
+            else
+            {
+                return verifyuniqueness(child, name, true);
+            }
+        }
+    }
+    else
+    {
+        return false;
+    }
 }
