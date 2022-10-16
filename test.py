@@ -95,15 +95,24 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
         # iterate through the red dictionary and sum the percentages of each tuple element
 #!      percentages: dict = {}
 #!      percentages = pyorange.red_dict
+        outputdictionary: dict = {} #key: ingredient name, value: list of string of percentages
         for item in pyorange.red_dict.items():
             orangeinteger: int = 0  # sum of the amount on hand of each tuple element
             for orangenumber in item[1]:
                 orangeinteger += orangenumber[1]
 #!          for orangetuple in item[1]: # convert the amount on hand of each tuple element to a float
 #!              orangetuple = (orangetuple[0], float(orangetuple[1]))
-            for orangetuple in item[1]:  # turn the numbers into percentages
-                
-                print(str(round((orangetuple[1]/orangeinteger)*100, 2))+'%','used in',orangetuple[0])
+            print(item[0],end=' (')
+            for index,orangetuple in enumerate(item[1]):  # turn the numbers into percentages
+                if item[0] not in outputdictionary:
+                    #outputdictionary.update({item:[str(round((orangetuple[1]/orangeinteger)*100, 2))+'%','used in',orangetuple[0]]})
+                    pass
+                if index == len(orangetuple):
+                    print('\x1B[34m'+str(round((orangetuple[1]/orangeinteger)*100, 2))+'%','used in',orangetuple[0]+', ',end=' ')
+                else:
+                    print('\x1B[36m'+str(round((orangetuple[1]/orangeinteger)*100, 2))+'%','used in',orangetuple[0]+', ',end='')
+            print(')')
+        print('outputdictionary:',outputdictionary)
         self.assertEqual(True, True)
 
 
