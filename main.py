@@ -301,31 +301,15 @@ def printprompt():
 
 
 def reformat_output(endpoints: dict):
-    """
-    peusdocode for reformatting the output
-    split endpoints into two dictionaries called red_dict and blue_dict
-    * red_dict will have the key as the ingredient name, and the value as a list of tuples which
-    consists of the parent node's ingredient name and the amount on hand
+    """reformat the output to be more readable
 
-    * blue_dict will have the key as the ingredient name, and the value as the sum of the amount on
-    hand from nodes with the same ingredient name
-    return the two dictionaries as an instance of the class SplitEndpoints
-
-    * the class SplitEndpoints will have two attributes, red_dict and blue_dict, which are the same
-    as the two dictionaries from this method, this class must have an init method with these two
-    dictionaries
-
-    take the red_dict and blue_dict from the instance of SplitEndpoints and print output by
-    iterating through the red_dict's. print the key, then iterate through the list of tuples, which
-    will be referred to as purple, iterate through the purple list by printing the product of
-    amountonhand divided by the value of the same key in blue_dict multipled by 100 and the parent
-    node's ingredient name output will look like this: (ingredient name) (percentage of amount on
-    hand composed in the total amount on hand in the entire tree)% used in
-    (parent node's ingredient name) , ...<keep going>...,
+    Args:
+        endpoints (dict): dictionary of all the endpoints from a given Node instance tree
     """
     # set the new dictionary to be empty
     red_dict: dict = {}
-    # set the new dictionary to have unique ingredients as keys and a list of tuples of the parent of said endpoint instance and the amount on hand as values
+    # set the new dictionary to have unique ingredients as keys and a list of tuples of the parent
+    # of said endpoint instance and the amount on hand as values
     for node in endpoints.items():
         if node[1].ingredient not in red_dict:
             red_dict.update(
@@ -333,7 +317,7 @@ def reformat_output(endpoints: dict):
         else:
             red_dict[node[1].ingredient].append(
                 (node[1].parent.ingredient, node[1].amountonhand))
-        
+
     output_dictionary: dict = {}
     for item in red_dict.items():
         orangeinteger: int = 0  # sum of the amount on hand of each tuple element
@@ -342,10 +326,10 @@ def reformat_output(endpoints: dict):
         for orangetuple in item[1]:
             if item[0] not in output_dictionary:
                 output_dictionary.update({item[0]: [str(round(
-                    (orangetuple[1]/orangeinteger)*100, 2))+'%'+' used in '+orangetuple[0]]})  # ? add breakpoint here
+                    (orangetuple[1]/orangeinteger)*100, 2))+'% ('+str(orangetuple[1])+'x) used in '+orangetuple[0]]})  # pylint:disable=C0301
             else:  # if item is in the outputdictionary, append the string to the list
                 output_dictionary[item[0]].append(
-                    str(round((orangetuple[1]/orangeinteger)*100, 2))+'%'+' used in '+orangetuple[0])
+                    str(round((orangetuple[1]/orangeinteger)*100, 2))+'% ('+str(orangetuple[1])+'x) used in '+orangetuple[0])  # pylint:disable=C0301
     # output the dictionary keys and values
     for item in output_dictionary.items():
         print(item[0], end=' (')
@@ -404,22 +388,7 @@ if __name__ == '__main__':
                   head.ingredient, 'you need the following:')
             results: dict = findlocalendpoints(head, {})
             # iterate through the dictionary and output the amounts on hand
-            for itemnode in results.items():
-                if not isinstance(itemnode[1], Node):
-                    raise TypeError('child is not an instance of', Node)
-                # only do this if there 2 or more children for the head node,
-                # get the second to last node
-                if len(head.children) > 1:
-                    tempnode: Node = itemnode[1]
-                    while tempnode.parent.parent is not None:  # type: ignore
-                        tempnode = tempnode.parent  # type: ignore
-                    temporarystring: str = tempnode.ingredient
-                    print(itemnode[1].ingredient, ':',
-                          itemnode[1].amountonhand, end='x')
-                    print(' ->', temporarystring)
-                else:
-                    print(itemnode[1].ingredient, ':',
-                          itemnode[1].amountonhand, end='x\n')
+            reformat_output(results)
         # prompt the user to see if they want to input another tree
         print("\nDo you want to run the program again with another item tree? (Y/N)")
         print("type in 'H' if you need to be reminded of the prompt")
