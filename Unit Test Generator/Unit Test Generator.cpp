@@ -3,7 +3,7 @@
 #include "NodeUtility.h"
 std::ofstream output("auto_generated_unittest.py");
 void populate(NodeUtility::Node *object);
-bool verifyuniqueness(NodeUtility::Node *object, const std::string &name); //have somebody test this
+bool verifyuniqueness(NodeUtility::Node *object, const std::string &name); // have somebody test this
 int main()
 {
     using namespace NodeUtility;
@@ -62,8 +62,7 @@ void populate(NodeUtility::Node *object)
     {
         // check for duplicates
         std::getline(std::cin, userinput);
-
-        bool repeated_local_input = false;                   // input is repeated from the user inputs vector
+        bool repeated_local_input = false;                     // input is repeated from the user inputs vector
         bool isunique = verifyuniqueness(headnode, userinput); // input is repeated from the tree and is not unique
         for (const auto &myinput : userinputs)
         {
@@ -126,9 +125,10 @@ void populate(NodeUtility::Node *object)
 }
 bool verifyuniqueness(NodeUtility::Node *object, const std::string &name)
 {
-    //just traverse the tree and check if the name is the same as any of the ingredient names
+    // just traverse the tree and check if the name is the same as any of the ingredient names
     bool isunique = object->ingredient != name;
-    if (isunique){
+    if (isunique)
+    {
         for (const auto child : object->children)
         {
             isunique = verifyuniqueness(child, name);
