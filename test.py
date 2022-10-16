@@ -88,32 +88,52 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
                 yellownumber += integer[1]
         self.assertEqual(bluenumber, yellownumber)
 
-    def test_outputmath(self):
+    def test_betteroutput(self):
         """make sure that the sum of the percentages of the endpoints items is 100%
+        #! comments notated in red '!' are to be removed when the test passes,including this one
         """
+        testsumfloat: float = 0.00
         pyorange: SplitEndpoints = testmethod(self.roots)
         # iterate through the red dictionary and sum the percentages of each tuple element
 #!      percentages: dict = {}
 #!      percentages = pyorange.red_dict
-        outputdictionary: dict = {} #key: ingredient name, value: list of string of percentages
+        # key: ingredient name, value: list of string of percentages
+        output_dictionary: dict = {}
         for item in pyorange.red_dict.items():
             orangeinteger: int = 0  # sum of the amount on hand of each tuple element
             for orangenumber in item[1]:
                 orangeinteger += orangenumber[1]
 #!          for orangetuple in item[1]: # convert the amount on hand of each tuple element to a float
 #!              orangetuple = (orangetuple[0], float(orangetuple[1]))
-            print(item[0],end=' (')
-            for index,orangetuple in enumerate(item[1]):  # turn the numbers into percentages
-                if item[0] not in outputdictionary:
+#!            print(item[0],end=' (')
+            # create a new dictionary with the key being the ingredient name of the endpoint node and the values being a formatted string of the output that will be printed to the console
+            for orangetuple in item[1]:
+                if item[0] not in output_dictionary:
                     #outputdictionary.update({item:[str(round((orangetuple[1]/orangeinteger)*100, 2))+'%','used in',orangetuple[0]]})
-                    outputdictionary.update({item[0]:[str(round())]}) #? add breakpoint here
-                if index == len(orangetuple):
-                    print('\x1B[34m'+str(round((orangetuple[1]/orangeinteger)*100, 2))+'%','used in',orangetuple[0]+', ',end=' ')
+                    output_dictionary.update({item[0]: [str(round(
+                        (orangetuple[1]/orangeinteger)*100, 2))+'% used in '+orangetuple[0]]})  # ? add breakpoint here
+                else:  # if item is in the outputdictionary, append the string to the list
+                    output_dictionary[item[0]].append(
+                        str(round((orangetuple[1]/orangeinteger)*100, 2))+'% used in '+orangetuple[0])
+                testsumfloat += round(
+                    (orangetuple[1]/orangeinteger)*100, 2)
+#!                if index == len(orangetuple):
+#!                    print('\x1B[34m'+str(round((orangetuple[1]/orangeinteger)*100, 2))+'% used in',orangetuple[0]+', ',end=' ')
+#!                else:
+#!                    print('\x1B[36m'+str(round((orangetuple[1]/orangeinteger)*100, 2))+'% used in',orangetuple[0]+', ',end='')
+#!            print(')')
+        # iterate through the outputdictionary, output the key then iterate through the list of strings and output each string, then output a newline at the last element of the list
+        for item in output_dictionary.items():
+            print(item[0], end=' (')
+            for index, string in enumerate(item[1]):
+                if index == len(item[1])-1:
+                    print(string, end='')
                 else:
-                    print('\x1B[36m'+str(round((orangetuple[1]/orangeinteger)*100, 2))+'%','used in',orangetuple[0]+', ',end='')
+                    print(string, end=', ')
             print(')')
-        print('outputdictionary:',outputdictionary)
-        self.assertEqual(True, True)
+        # print the outputdictionary
+        print('outputdictionary:', output_dictionary)
+        self.assertEqual(testsumfloat, 100.00)
 
 
 class Issue12_multiple_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
