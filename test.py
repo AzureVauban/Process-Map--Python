@@ -66,7 +66,8 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
         # sum the total amount on hand of the item and divide the local amount on hands by the summed total
         # make sure you store these quotients and their parent ingredient names somewhere and iterate through them
         # when outputting the final results
-        self.assertTrue(len(endpoints.red_dict) == 1 and len(endpoints.blue_dict) == 1, True)
+        self.assertTrue(len(endpoints.red_dict) ==
+                        1 and len(endpoints.blue_dict) == 1, True)
 
     def test_sum(self):
         """
@@ -95,13 +96,14 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
 #!      percentages: dict = {}
 #!      percentages = pyorange.red_dict
         for item in pyorange.red_dict.items():
-            orangeinteger: int = 0 # sum of the amount on hand of each tuple element
+            orangeinteger: int = 0  # sum of the amount on hand of each tuple element
             for orangenumber in item[1]:
-                orangeinteger+=orangenumber[1]
-            for orangetuple in item[1]: # convert the amount on hand of each tuple element to a float
-                orangetuple = (orangetuple[0], float(orangetuple[1]))
-            for orangetuple in item[1]: # turn the numbers into percentages
-                print('item:', round((orangetuple[1]/orangeinteger)*100,2))
+                orangeinteger += orangenumber[1]
+#!          for orangetuple in item[1]: # convert the amount on hand of each tuple element to a float
+#!              orangetuple = (orangetuple[0], float(orangetuple[1]))
+            for orangetuple in item[1]:  # turn the numbers into percentages
+                
+                print(str(round((orangetuple[1]/orangeinteger)*100, 2))+'%','used in',orangetuple[0])
         self.assertEqual(True, True)
 
 
