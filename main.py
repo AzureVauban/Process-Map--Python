@@ -373,8 +373,8 @@ def tentative_formatoutput(endpoints: dict):
 #!        else:
 #!            bluedictionary[node[1].ingredient] += node[1].amountonhand
 #!    return SplitEndpoints(red, blue)
-#?    totalamountofitems: int = 0
-    # create 
+# ?    totalamountofitems: int = 0
+    # create
     output_dictionary: dict = {}
     for item in red_dict.items():
         orangeinteger: int = 0  # sum of the amount on hand of each tuple element
@@ -382,9 +382,22 @@ def tentative_formatoutput(endpoints: dict):
             orangeinteger += orangenumber[1]
         for orangetuple in item[1]:
             if item[0] not in output_dictionary:
-                output_dictionary.update({item[0]: [str(round((orangetuple[1]/orangeinteger)*100, 2))+'% used in '+orangetuple[0]]})  # ? add breakpoint here
+                output_dictionary.update({item[0]: [str(round(
+                    (orangetuple[1]/orangeinteger)*100, 2))+'% used in '+orangetuple[0]]})  # ? add breakpoint here
             else:  # if item is in the outputdictionary, append the string to the list
-                output_dictionary[item[0]].append(str(round((orangetuple[1]/orangeinteger)*100, 2))+'% used in '+orangetuple[0])
+                output_dictionary[item[0]].append(
+                    str(round((orangetuple[1]/orangeinteger)*100, 2))+'% used in '+orangetuple[0])
+    # output the dictionary keys and values
+    for item in output_dictionary.items():
+        print(item[0], end=' (')
+        for index, string in enumerate(item[1]):
+            if index == len(item[1])-1:
+                print(string, end='')
+            else:
+                print(string, end=', ')
+        print(')')
+
+
 if __name__ == '__main__':
     print('Welcome to Process Map (Python) v1.1!\n')
     while True:

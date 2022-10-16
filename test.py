@@ -4,10 +4,8 @@
 import random
 import unittest
 
-from numpy import true_divide
-
 from main import Node, SplitEndpoints, findlocalendpoints, reversearithmetic
-from main import tentative_formatoutput as testmethod
+from main import tentative_formatoutput
 
 
 class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
@@ -55,19 +53,6 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
                     break
         self.assertTrue(iscalledpixels)
 
-    def test_temptest(self):
-        """test to see if the total sum of the endpoint node's % compostion correctly
-           rounds towards 1 (100%)
-           example output:
-           Copper Ore : 31108x (14.29% used in item B, 14.29% used in item C, 71.43% used in item D)
-        """
-        endpoints: SplitEndpoints = testmethod(self.roots)
-        # condense endpoints dictionary, each Node should have a unique ingredient name
-        # sum the total amount on hand of the item and divide the local amount on hands by the summed total
-        # make sure you store these quotients and their parent ingredient names somewhere and iterate through them
-        # when outputting the final results
-        self.assertTrue(len(endpoints.red_dict) ==
-                        1 and len(endpoints.blue_dict) == 1, True)
 
     def test_sum(self):
         """
@@ -93,7 +78,7 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
         #! comments notated in red '!' are to be removed when the test passes,including this one
         """
         testsumfloat: float = 0.00
-        pyorange: SplitEndpoints = testmethod(self.roots)
+        pyorange: SplitEndpoints = tentative_formatoutput(self.roots)
         # iterate through the red dictionary and sum the percentages of each tuple element
 #!      percentages: dict = {}
 #!      percentages = pyorange.red_dict
@@ -134,7 +119,10 @@ class Issue12_single_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
         # print the outputdictionary
         print('outputdictionary:', output_dictionary)
         self.assertEqual(testsumfloat, 100.00)
-
+    def test_betteroutput_testmethod(self):
+        tentative_formatoutput(self.roots)
+        print('terminating test')
+        self.assertEqual(1,1)
 
 class Issue12_multiple_unique_endpoint(unittest.TestCase):  # pylint:disable=C0103
     """test new formatting and endpoint search methods from main.py module wih only one endpoint
