@@ -64,7 +64,7 @@ void populate(NodeUtility::Node *object)
         std::getline(std::cin, userinput);
 
         bool repeated_local_input = false;                   // input is repeated from the user inputs vector
-        bool isunique = verifyuniqueness(object, userinput); // input is repeated from the tree and is not unique
+        bool isunique = verifyuniqueness(headnode, userinput); // input is repeated from the tree and is not unique
         for (const auto &myinput : userinputs)
         {
             repeated_local_input = userinput == myinput;
