@@ -261,8 +261,9 @@ namespace write_CSV_file
         {
             parentingredient = format::formatstring(node->parent->ingredient, format::docstring);
         }
+        CSVfile << "Ingredient;ParentIngredient;AmountonHand;AmountMadePerCraft;AmountNeeded;Generation" << std::endl;
         CSVfile << format::formatstring(node->ingredient, format::docstring) << ";" << parentingredient << ";";
-        CSVfile << node->amountonhand << ";" << node->amountneeded << ";" << node->amountmadepercraft << ";" << node->generation;
+        CSVfile << node->amountonhand << ";" << node->amountneeded << ";" << node->amountmadepercraft << ";" << node->generation << std::endl;
         for (const auto childnode : node->children)
         {
             writedata(childnode, CSVfile);
