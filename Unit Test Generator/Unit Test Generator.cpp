@@ -42,6 +42,11 @@ int main()
     write_unittest_module::tree_method(output, head);
     // clean up allocated memory from tree
     //create CSV file
+    std::string csvfilename = head->ingredient;
+    csvfilename = format::formatstring(csvfilename,format::docstring);
+    csvfilename.append(".csv");
+    std::ofstream CSVfile(csvfilename);
+    write_CSV_file::writedata(head,CSVfile);
     // terminate process
     massdelete(head);
     output.close();

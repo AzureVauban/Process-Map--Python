@@ -250,8 +250,8 @@ namespace write_unittest_module
 namespace write_CSV_file
 {
     using namespace NodeUtility;
-    //functions for writing to a CSV file
-    void writedata(const Node* node,std::ostream& CSVfile)
+    // functions for writing to a CSV file
+    void writedata(const Node *node, std::ostream &CSVfile)
     {
         /* write contents in this format
         ingredient,parent_ingredient,amount_on_hand,amount_made_per_craft,amount_needed,generation
@@ -259,10 +259,13 @@ namespace write_CSV_file
         std::string parentingredient = "None";
         if (node->parent)
         {
-            parentingredient = node->parent->ingredient;
+            parentingredient = format::formatstring(node->parent->ingredient, format::docstring);
         }
-        CSVfile << node->ingredient << ";"<< parentingredient << ";";
-        CSVfile << node->amountonhand << ";" << node->amountneeded << ";" << node->amountmadepercraft << ";" <<node->generation;
-    
+        CSVfile << format::formatstring(node->ingredient, format::docstring) << ";" << parentingredient << ";";
+        CSVfile << node->amountonhand << ";" << node->amountneeded << ";" << node->amountmadepercraft << ";" << node->generation;
+        for (const auto childnode : node->children)
+        {
+            writedata(childnode, CSVfile);
+        }
     }
 }
