@@ -263,7 +263,7 @@ namespace write_CSV_file
         }
         if (not node->parent)
         {
-        CSVfile << "Ingredient;ParentIngredient;AmountonHand;AmountMadePerCraft;AmountNeeded;Generation" << std::endl;
+            CSVfile << "Ingredient;ParentIngredient;AmountonHand;AmountMadePerCraft;AmountNeeded;Generation" << std::endl;
         }
         CSVfile << format::formatstring(node->ingredient, format::docstring) << ";" << parentingredient << ";";
         CSVfile << node->amountonhand << ";" << node->amountneeded << ";" << node->amountmadepercraft << ";" << node->generation << std::endl;

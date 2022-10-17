@@ -1,0 +1,11 @@
+Ingredient               ;ParentIngredient       ;AmountonHand ;AmountMadePerCraft ;AmountNeeded ;Generation
+Scorched_Core            ;None                   ;        9999 ;                 1 ;           1 ;         0
+Thanatite_Crystal        ;Scorched_Core          ;       99990 ;                10 ;           1 ;         1
+Thanatite_Crystal_Seed_2 ;Thanatite_Crystal      ;      299970 ;                 3 ;           1 ;         2
+Thanatite_Crystal_Seed   ;Scorched_Core          ;       49995 ;                 5 ;           1 ;         1
+Crystal                  ;Thanatite_Crystal_Seed ;       19998 ;                 2 ;           5 ;         2
+Pixels                   ;Crystal                ;     2439756 ;               122 ;           1 ;         3
+Iron_Ore                 ;Thanatite_Crystal_Seed ;        9999 ;                 1 ;           5 ;         2
+Pixels_2                 ;Iron_Ore               ;     1749825 ;               175 ;           1 ;         3
+Core_Fragment            ;Thanatite_Crystal_Seed ;       19998 ;                 2 ;           5 ;         2
+Pixels_3                 ;Core_Fragment          ;     4999500 ;               250 ;           1 ;         3
