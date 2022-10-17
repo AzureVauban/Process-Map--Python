@@ -7,6 +7,7 @@ B,C,D...
 import math
 import sys
 import time
+import csv
 
 PROGRAMMODETYPE: int = 0
 
@@ -53,6 +54,7 @@ class Node(NodeB):
     instances: int = 0
     instancekey: int = 0
     askmadepercraftquestion: bool = False
+    treekey: str = '' #this is unique identifer for an ingredient tree when its outputted into a csv file
 
     def __init__(self, name: str = '', par=None, red: int = 0, blue: int = 1, yellow: int = 1, green: bool = False) -> None:  # pylint:disable=C0301
         """
@@ -127,7 +129,10 @@ class Node(NodeB):
                 if not isinstance(child[1], Node):
                     raise TypeError('Child is not an instance of', Node)
                 child[1].clearamountresulted()
-
+    def createCSV(self):
+        """outputs contents of a node onto a CSV file if the user desires it
+            ingredient,ingredient_of_parent_instance,amountonhand,amountmadepercraft,amountneeded,generation,treekey
+        """
 
 def findlocalendpoints(cur: Node, foundendpoints: dict) -> dict:
     """
