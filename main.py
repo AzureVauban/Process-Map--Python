@@ -7,7 +7,6 @@ B,C,D...
 import math
 import sys
 import time
-import csv
 
 PROGRAMMODETYPE: int = 0
 
