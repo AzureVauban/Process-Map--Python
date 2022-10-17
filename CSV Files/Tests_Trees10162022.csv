@@ -1,4 +1,4 @@
-Ingredient               ,ParentIngredient       ,AmountonHand ,AmountMadePerCraft ,AmountNeeded ,Generation ,TreeKey          
+Ingredient               ,Parent_Ingredient       ,Amount_on_Hand ,Amount_Made_Per_Craft ,Amount_Needed ,Generation ,Tree_Key          
 Focusing_Array           ,None                   ,           1 ,                 1 ,           1 ,         0 ,UoPydLI98vet9sUb 
 Advanced_Alloy           ,Focusing_Array         ,           2 ,                 2 ,           1 ,         1 ,UoPydLI98vet9sUb 
 Zerchesium_Bar           ,Advanced_Alloy         ,           2 ,                 1 ,           1 ,         2 ,UoPydLI98vet9sUb 
