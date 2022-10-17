@@ -45,7 +45,8 @@ int main()
     std::string csvfilename = head->ingredient;
     csvfilename = format::formatstring(csvfilename,format::docstring);
     csvfilename.append(".csv");
-    std::ofstream CSVfile(csvfilename);
+    //std::ofstream CSVfile(csvfilename);
+    std::ofstream CSVfile("test.csv");
     write_CSV_file::writedata(head,CSVfile);
     // terminate process
     massdelete(head);

@@ -4,31 +4,24 @@ import unittest
 
 from main import Node, reversearithmetic
 
-Gold_Bar: Node = Node('Gold Bar', None, 0, 1, 1)
-Gold_Ore_: Node = Node('Gold Ore ', Gold_Bar, 0, 1, 2)
-Pixels: Node = Node('Pixels', Gold_Ore_, 0, 1, 200)
-reversearithmetic(Gold_Bar, 1)
+Block_of_Diamond: Node = Node('Block of Diamond', None, 0, 1, 1)
+Diamond: Node = Node('Diamond', Block_of_Diamond, 0, 1, 9)
+reversearithmetic(Block_of_Diamond, 64)
 
 
-class GOLDBARR_unittest(unittest.TestCase): # pylint:disable=C0103
+class BLOCKOFDIAMONDND_unittest(unittest.TestCase): # pylint:disable=C0103
 	"""tentative test class, add additional comments here:
 	"""
 
-	def test_Gold_Bar(self): # pylint:disable=C0103
-		"""assert that Gold Bar is equal to 1
+	def test_Block_of_Diamond(self): # pylint:disable=C0103
+		"""assert that Block of Diamond is equal to 64
 		"""
 
-		self.assertEqual(Gold_Bar.amountonhand,1)
+		self.assertEqual(Block_of_Diamond.amountonhand,64)
 
-	def test_Gold_Ore_(self): # pylint:disable=C0103
-		"""assert that Gold Ore  is equal to 2
+	def test_Diamond(self): # pylint:disable=C0103
+		"""assert that Diamond is equal to 576
 		"""
 
-		self.assertEqual(Gold_Ore_.amountonhand,2)
-
-	def test_Pixels(self): # pylint:disable=C0103
-		"""assert that Pixels is equal to 400
-		"""
-
-		self.assertEqual(Pixels.amountonhand,400)
+		self.assertEqual(Diamond.amountonhand,576)
 
