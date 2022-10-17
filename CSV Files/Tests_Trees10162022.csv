@@ -58,3 +58,6 @@ Emerald;Block_of_Emerald;9;9;1;1
 Stick;Emerald;288;32;1;2
 Oak_Planks;Stick;144;2;4;3
 Oak_Wood;Oak_Planks;36;1;4;4
+Gold_Bar;None;1;1;1;0
+Gold_Ore_;Gold_Bar;2;2;1;1
+Pixels;Gold_Ore_;400;200;1;2

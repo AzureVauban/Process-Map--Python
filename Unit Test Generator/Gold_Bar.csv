@@ -1,0 +1,4 @@
+Ingredient;ParentIngredient;AmountonHand;AmountMadePerCraft;AmountNeeded;Generation
+Gold_Bar;None;1;1;1;0
+Gold_Ore_;Gold_Bar;2;2;1;1
+Pixels;Gold_Ore_;400;200;1;2
