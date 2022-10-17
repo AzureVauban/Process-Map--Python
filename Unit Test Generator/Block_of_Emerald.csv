@@ -1,0 +1,6 @@
+Ingredient;ParentIngredient;AmountonHand;AmountMadePerCraft;AmountNeeded;Generation
+Block_of_Emerald;None;1;1;1;0
+Emerald;Block_of_Emerald;9;9;1;1
+Stick;Emerald;288;32;1;2
+Oak_Planks;Stick;144;2;4;3
+Oak_Wood;Oak_Planks;36;1;4;4
