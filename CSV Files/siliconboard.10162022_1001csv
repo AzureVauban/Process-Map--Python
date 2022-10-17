@@ -1,0 +1,7 @@
+Ingredient,ParentIngredient,AmountonHand,AmountNeeded,AmountMadePerCraft,Generation
+Silicon_Board,None,0,1,1,0
+Copper_Wire,Silicon_Board,0,1,1,1
+Copper_Bar,Copper_Wire,0,1,9,2
+Copper_Ore,Copper_Bar,0,2,1,3
+Silicon,Silicon_Board,0,1,1,1
+Sand,Silicon,0,50,1,2
