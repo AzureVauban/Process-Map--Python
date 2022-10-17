@@ -47,15 +47,18 @@ namespace NodeUtility
         int amountonhand = 0,
             amountneeded = 0,
             amountmadepercraft = 0,
-            amountresulted = 0;
+            amountresulted = 0,
+            generation = 0;
         Node *parent;
         std::vector<Node *> children;
         Node(std::string name = "", Node *par = nullptr, int amount_on_hand = 0, int amount_parent_madepercraft = 1, int amount_needed = 1, const bool promptdiffers = false)
         {
+            generation = 0;
             ingredient = name;
             parent = par;
             if (parent)
             {
+                generation = parent->generation + 1;
                 parent->children.emplace_back(this);
             }
             amountonhand = amount_on_hand;
@@ -155,7 +158,7 @@ namespace format
     // function for appending numbers to ingredient names to make ingredient names unique
 
 }
-namespace write
+namespace write_unittest_module
 {
     using namespace NodeUtility;
     const std::string docstringprefix = "\"\"\"";
@@ -172,8 +175,8 @@ namespace write
 
         void module(std::ofstream &module)
         {
-            module << write::docstringprefix << "AUTO GENERATED UNIT TEST" << std::endl
-                   << write::docstringprefix << std::endl;
+            module << write_unittest_module::docstringprefix << "AUTO GENERATED UNIT TEST" << std::endl
+                   << write_unittest_module::docstringprefix << std::endl;
 
             module << "import unittest" << std::endl
                    << std::endl;
@@ -210,13 +213,13 @@ namespace write
     {
         tabbing(module, 1);
         module << "def test_" << format::formatstring(object->ingredient, format::method) << "(self): # pylint:disable=C0103" << std::endl;
-        write::docstring::method(module, object);
+        write_unittest_module::docstring::method(module, object);
         tabbing(module, 2);
         module << "self.assertEqual(" << format::formatstring(object->ingredient, format::instance_declaration) << ".amountonhand," << object->amountonhand << ")" << std::endl;
     }
     void tree_declaration(std::ofstream &module, const Node *object)
     {
-        write::declaration(module, object);
+        write_unittest_module::declaration(module, object);
         for (auto miniobject : object->children)
         {
             tree_declaration(module, miniobject);
@@ -224,7 +227,7 @@ namespace write
     }
     void tree_method(std::ofstream &module, const Node *object)
     {
-        write::method(module, object);
+        write_unittest_module::method(module, object);
         module << std::endl;
         for (const auto miniobject : object->children)
         {
@@ -242,5 +245,24 @@ namespace write
                << "(unittest.TestCase): # pylint:disable=C0103" << std::endl;
         docstring::classdoc(module);
         module << std::endl;
+    }
+}
+namespace write_CSV_file
+{
+    using namespace NodeUtility;
+    //functions for writing to a CSV file
+    void writedata(const Node* node,std::ostream& CSVfile)
+    {
+        /* write contents in this format
+        ingredient,parent_ingredient,amount_on_hand,amount_made_per_craft,amount_needed,generation
+        */
+        std::string parentingredient = "None";
+        if (node->parent)
+        {
+            parentingredient = node->parent->ingredient;
+        }
+        CSVfile << node->ingredient << ";"<< parentingredient << ";";
+        CSVfile << node->amountonhand << ";" << node->amountneeded << ";" << node->amountmadepercraft << ";" <<node->generation;
+    
     }
 }
