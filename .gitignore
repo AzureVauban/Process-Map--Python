@@ -1,2 +1,4 @@
 .vscode
 /Tests
+Unit Test Generator/Unit Test Generator.cpp
+.gitignore
