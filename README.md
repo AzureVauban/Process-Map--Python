@@ -1,31 +1,62 @@
-# Process Map (Python v1.1f)
+# What is the purpose of this program?
 
-This is an item process map console application, type in the name of the items that you want to use to create an even more important item and caculate how much of that item you can make with your current amount on hand, amount needed to create desirable item, and amount of item made per craft. The purpose of this is to see how my python programming styles and habits differs from my c++ programming styles and habits. Another goal of this project is to make teach my self problem solving through the use of recursion (making a function call itself until a certain condition is met, in which case the function would complete its runtime)
+Tentative Description: This program is a simple game of rock, paper, scissors. The user will be prompted to enter either rock, paper, or scissors. The computer will then randomly select either rock, paper, or scissors. The program will then determine the winner of the game and display the results.
 
-## Changes
+## How to use Application
 
-### Reworked Old Arithmetic Method
+tentative description of how to utilize project
 
-In this new verison of the Process Map, the arithmetic method has been reworked. The arithmetic method is supposed to figure out how much of an item a user can create given the amount of ingredients they have for it, during the program's runtime it is referred to as Mode A.
+## How does it work
 
-### Created New Arithmetic Method and New Program Mode
+The program will prompt the user to type in the name of an item they want to create, or if there is a CSV file with valid ingredient trees, will prompt the user to choose one of those or create a new tree entirely.
 
-Mode B is another mode the user has the option of utilizing in the program. The purpose of Mode B is to figure out how much of the base materials you will need to get a particular about of an item you want. In normal situations this one can consider these base materials to be raw ingredients of manufactured items. How amount needed is determined is through multiplying the quotient of the amount of the parent made per craft and the amount needed to create the parent once, by the amount on hand currently. If these product is less than the desired amount, it will look again and increase the amount on hand until so.
+## Changes in this version
 
-### Finally used Unit Testing for parts of the code
+### name of change A
 
-To improve the quality of the arithmetic methods utilized in the solution, Unit Tests using the Unit Test framework were used. To make this work both of the recursive methods had to be modified to return an interger, which is the amount resulted for Mode A's method and the amount on hand for Mode B's method.
+tentative description of change A
 
-## Planned Features/Updates
+### name of change B
 
-### Being able to search and copy Nodes you already typed in
+tentative description of change B
 
-In this current iteration of the Process Map, the user must type in one ingredient one by one at a time. There are many ingredient trees in which the end user will input the same ingredient more than once. Process Map v2.0 will improve upon this by giving the user the option to copy and paste a node they already typed out.
+### name of change C
 
-### Basic Mathematical Operatiors will be accepted in input
+tentative description of change C
 
-When the user is prompted to input a number into the program, it currently checks to see if all the characters are only digits, meaning no decimals or even negative numbers. This will be changed in a future iterateration of the program to accept basic arithmetic operators which consist of the following: '/' for division, '//' for long division, +' for addition, '-' for substraction, '*' for multiplication.
+### name of change D
 
-### Inputted ingredients with the ability to have multiple parents
+tentative description of change D
 
-Currently ingredients can only have one parent, this will be changed so that ingredients can be more interconnected on the backend side of the program. This is more of a backend change and will not be visible to the you, the end user.
+if ingredient tree was cloned from the csv file, when the user populates the ingredient tree and is prompted an amount,
+if the user leaves their input blank, make sure that the value defaults to the one from the csv file
+
+```py
+# ingredient tree for Industrial Battery
+industrial_battery: Node = Node('industrial battery')
+protocite_bar: Node = Node('protocite bar', industrial_battery, 0, 1, 5)
+protocite: Node = Node('protocite', protocite_bar, 0, 1, 2)
+battery: Node = Node('battery', industrial_battery, 0, 1, 2)
+pixels: Node = Node('pixels', battery, 0, 1, 2500)
+quantum_processor: Node = Node('quantum processor', industrial_battery)
+silicon_board: Node = Node('silicon board', quantum_processor, 0, 1, 4)
+protocite_bar2: Node = Node('protocite bar', quantum_processor, 0, 1, 2)
+protocite2: Node = Node('protocite', protocite_bar2, 0, 1, 2)
+thorium_rod: Node = Node('thorium rod', industrial_battery, 0, 1, 5)
+thorium_ore: Node = Node('thorium ore', thorium_rod, 0, 1, 2)
+```
+
+```csv
+# ingredient tree for in csv
+4xtdymjfuc,industrial battery,industrial_battery,None,0,1,1,0
+4xtdymjfuc,protocite bar,protocite_bar,industrial battery,0,1,5,1
+4xtdymjfuc,protocite,protocite,protocite bar,0,1,2,2
+4xtdymjfuc,battery,battery,industrial battery,0,1,2,1
+4xtdymjfuc,pixels,pixels,battery,0,1,2500,2
+4xtdymjfuc,quantum processor,quantum_processor,industrial battery,0,1,1,1
+4xtdymjfuc,silicon board,silicon_board,quantum processor,0,1,4,2
+4xtdymjfuc,protocite bar,protocite_bar,quantum processor,0,1,2,2
+4xtdymjfuc,protocite,protocite,protocite bar,0,1,2,3
+4xtdymjfuc,thorium rod,thorium_rod,industrial battery,0,1,5,1
+4xtdymjfuc,thorium ore,thorium_ore,thorium rod,0,1,2,2
+```
