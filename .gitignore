@@ -1,3 +1,4 @@
 /.vscode
 /Tests
+/__pycache__
 .gitignore
