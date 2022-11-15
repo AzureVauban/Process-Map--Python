@@ -1,4 +1,7 @@
-.vscode
-/Tests
+/.vscode
+/.Tests
 Unit Test Generator/Unit Test Generator.cpp
 .gitignore
+Tests/Unit Test Generator.cpp
+.gitignore
+Tests/NodeUtility.h
