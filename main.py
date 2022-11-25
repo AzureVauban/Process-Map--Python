@@ -356,8 +356,8 @@ class Node(NodeB):  # pylint: disable=R0913 #pylint: disable=R0902
                 if item_a[0] not in output_dictionary:
                     output_dictionary.update({item_a[0]: [str(round(
                         (orangetuple[1] / orangeinteger) * 100, 2)) +
-                                                          '% (' + str(orangetuple[1]) + 'x) used in ' +
-                                                          orangetuple[0]]})
+                        '% (' + str(orangetuple[1]) + 'x) used in ' +
+                        orangetuple[0]]})
                 else:  # if item is in the dict, append the string to list
                     output_dictionary[item_a[0]].append(
                         str(round((orangetuple[1] / orangeinteger) * 100, 2)) +
