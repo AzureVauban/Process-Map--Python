@@ -2,3 +2,5 @@
 /Tests
 /__pycache__
 .gitignore
+/.idea
+

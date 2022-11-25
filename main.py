@@ -217,7 +217,7 @@ class Node(NodeB):  # pylint: disable=R0913 #pylint: disable=R0902
                 if myinteger[1] < tentativeinteger:
                     tentativeinteger = myinteger[1]
         red = (self.amountparentmadepercraft / self.amountneeded)
-        blue = (red*self.amountonhand) + (red*tentativeinteger)
+        blue = (red * self.amountonhand) + (red * tentativeinteger)
         blue = round(math.floor(blue))
         self.amountresulted = blue
         # recursively call the method
@@ -232,8 +232,8 @@ class Node(NodeB):  # pylint: disable=R0913 #pylint: disable=R0902
         tentative docstring description
         """
         self.amountresulted = desiredamount
-        red: float = ((self.amountparentmadepercraft/self.amountneeded)
-                      ** -1)*self.amountresulted
+        red: float = ((self.amountparentmadepercraft / self.amountneeded)
+                      ** -1) * self.amountresulted
         green: float = round(math.ceil(red))
         self.amountonhand = int(max(red, green))
         traceback: bool = green > red
@@ -355,19 +355,19 @@ class Node(NodeB):  # pylint: disable=R0913 #pylint: disable=R0902
             for orangetuple in item_a[1]:
                 if item_a[0] not in output_dictionary:
                     output_dictionary.update({item_a[0]: [str(round(
-                        (orangetuple[1]/orangeinteger)*100, 2)) +
-                        '% ('+str(orangetuple[1])+'x) used in ' +
-                        orangetuple[0]]})
+                        (orangetuple[1] / orangeinteger) * 100, 2)) +
+                                                          '% (' + str(orangetuple[1]) + 'x) used in ' +
+                                                          orangetuple[0]]})
                 else:  # if item is in the dict, append the string to list
                     output_dictionary[item_a[0]].append(
-                        str(round((orangetuple[1]/orangeinteger)*100, 2)) +
-                        '% ('+str(orangetuple[1])+'x) used in ' +
+                        str(round((orangetuple[1] / orangeinteger) * 100, 2)) +
+                        '% (' + str(orangetuple[1]) + 'x) used in ' +
                         orangetuple[0])
         # output the dictionary keys and values
         for item_a in output_dictionary.items():
             print(item_a[0], end=' (')
             for index, string in enumerate(item_a[1]):
-                if index == len(item_a[1])-1:
+                if index == len(item_a[1]) - 1:
                     print(string, end='')
                 else:
                     print(string, end=', ')
@@ -457,7 +457,8 @@ def promptheadname() -> str:
         str: the name of the head node
     """
     while True:
-        myinput: str = input('What is the name of the item you are trying to make: ').strip()  # noqa: E501 #pylint: disable=line-too-long
+        myinput: str = input(
+            'What is the name of the item you are trying to make: ').strip()  # noqa: E501 #pylint: disable=line-too-long
         if len(myinput) == 0:
             print('Your input cannot be empty!')
         else:
@@ -509,7 +510,7 @@ def outputingredients(node: Node):
     print('+ These ingredients are already in the tree:\n')
     # output the ingredients
     for index, ingredient in enumerate(subingredients):
-        print(f'{index+1}. {ingredient}')
+        print(f'{index + 1}. {ingredient}')
     print('')
 
 
@@ -532,11 +533,11 @@ def parsecsv() -> dict:
         green: list = list(purple[1].values())
         if green[3] == 'None' and green[5] == 1 and green[6] == 1 and green[7] == 0:
             headnodes.update({green[0]: Node(ingredient=green[1],
-                                            parent=None,
-                                            promptamountparentmade=False,  # noqa: E501 #pylint: disable=line-too-long
-                                            treekey=green[0],
-                                            isfromcsvfile=True,
-                                            promptamountsOn=False)})
+                                             parent=None,
+                                             promptamountparentmade=False,  # noqa: E501 #pylint: disable=line-too-long
+                                             treekey=green[0],
+                                             isfromcsvfile=True,
+                                             promptamountsOn=False)})
     if len(headnodes) == 0:
         return {-1: None}
     return headnodes
@@ -563,7 +564,8 @@ def createtree(node: Node, pandasrow: list) -> bool:
     # remove any underscores from the parent of the ingredient
     pandasrow[3] = pandasrow[3].replace('_', ' ')
     foundemplacelocation: bool = node.treekey == pandasrow[0] and pandasrow[
-        3] != 'None' and pandasrow[3] == node.ingredient and pandasrow[7] > 0 and node is not None and pandasrow[7] == node.generation + 1  # noqa: E501 #pylint: disable=line-too-long
+        3] != 'None' and pandasrow[3] == node.ingredient and pandasrow[7] > 0 and node is not None and pandasrow[
+                                     7] == node.generation + 1  # noqa: E501 #pylint: disable=line-too-long
     if foundemplacelocation:
         Node(pandasrow[1],
              parent=node,
@@ -574,7 +576,7 @@ def createtree(node: Node, pandasrow: list) -> bool:
              # isfromcsvfile=True,
              promptamountsOn=False)
         red: str = '\x1B[31m' + node.ingredient + \
-            '\x1B[0m'  # parent ingredient name
+                   '\x1B[0m'  # parent ingredient name
         blue: str = '\x1B[36m' + pandasrow[1] + '\x1B[0m'  # ingredient name
         print('emplaced node', red + ' | ' + blue)
         return True
@@ -699,7 +701,8 @@ def clone(node: Node, clonechildren: bool = True) -> Node:
 
     # create a copy of the parameter node
     if not clonechildren:
-        if node.parent is not None and node.parent.parent is not None and isinstance(node.parent.parent, Node):  # pylint:disable = line-too-long
+        if node.parent is not None and node.parent.parent is not None and isinstance(node.parent.parent,
+                                                                                     Node):  # pylint:disable = line-too-long
             bluenode: Node = Node(ingredient=node.ingredient,
                                   parent=node.parent.parent,
                                   amountonhand=node.amountonhand,
@@ -721,13 +724,13 @@ def clone(node: Node, clonechildren: bool = True) -> Node:
     # create a copy of all the children of the parameter node
     for subnode in node.children.items():
         Node(ingredient=subnode[1].ingredient,
-                parent=subnode,
-                amountonhand=subnode[1].amountonhand,
-                amountneeded=subnode[1].amountneeded,
-                amountparentmadepercraft=subnode[1].amountparentmadepercraft,  # noqa: E501 #pylint: disable=line-too-long
-                promptamountparentmade=False,
-                isfromcsvfile=subnode[1].isfromcsvfile,
-                promptamountsOn=False)
+             parent=subnode,
+             amountonhand=subnode[1].amountonhand,
+             amountneeded=subnode[1].amountneeded,
+             amountparentmadepercraft=subnode[1].amountparentmadepercraft,  # noqa: E501 #pylint: disable=line-too-long
+             promptamountparentmade=False,
+             isfromcsvfile=subnode[1].isfromcsvfile,
+             promptamountsOn=False)
     return rednode
 
 
@@ -762,15 +765,15 @@ def subpopulate(node: Node, ingredient: str) -> Node:
 
         # output the choices of subnodes:
         # parent ingredient, amountneeded, amountmadepereachcraft
-        print(index+1, end=str('. ' + subnode.parent.ingredient
-                               + ' | + ' + str(subnode.amountonhand)
-                               + ' | ++ ' + str(subnode.amountneeded)
-                               + ' | +++ ' + str(subnode.amountparentmadepercraft)+'\n'))
+        print(index + 1, end=str('. ' + subnode.parent.ingredient
+                                 + ' | + ' + str(subnode.amountonhand)
+                                 + ' | ++ ' + str(subnode.amountneeded)
+                                 + ' | +++ ' + str(subnode.amountparentmadepercraft) + '\n'))
     # todo make sure program doesn't crash when user's input is blank
     print('Choose which verison of', ingredient, 'to clone:')
     userchoice: int = promptint() - 1
     # if the user chooses to create a new node, return a clone subnode
-    if userchoice < 0 or userchoice > len(parseresults)-1:
+    if userchoice < 0 or userchoice > len(parseresults) - 1:
         # if the user did not input a valid index
         # if not return the defaultly created new node
         return Node(ingredient, node)
@@ -872,8 +875,8 @@ def superpopulate() -> Node:
     for node in foundheadnodes.items():
         userchoices.append(node[1])
     # sort the list of nodes by the amount of children
-    for blue in range(0, len(userchoices)-1):
-        for red in range(0, len(userchoices)-1):
+    for blue in range(0, len(userchoices) - 1):
+        for red in range(0, len(userchoices) - 1):
             if not isinstance(userchoices[red], Node):
                 raise TypeError('item in the list is not an instance of', Node)
             if head(userchoices[blue]).instancekey > head(userchoices[red]).instancekey:
@@ -883,12 +886,12 @@ def superpopulate() -> Node:
     # output the choices
     print('Do you want to choose from one of the following trees as a preset?')
     for index, node in enumerate(userchoices, start=1):
-        print(index, end=str('. ' + node.ingredient)+'\n')
+        print(index, end=str('. ' + node.ingredient) + '\n')
     # prompt the user to make select a head node to modify
     print('Please choose a head node to modify, select a number out of range to create a new tree')
-    userchoice: int = promptint()-1
+    userchoice: int = promptint() - 1
     # if the user chosesn an index out or range, return a new tree
-    if userchoice < 0 or userchoice > len(userchoices)-1:
+    if userchoice < 0 or userchoice > len(userchoices) - 1:
         nodetree: Node = head(populate(Node(promptheadname())))
         nodetree.modifytreekey(nodetree.gen_treekey())
         return nodetree
